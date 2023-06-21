@@ -3,48 +3,40 @@ import json
 import signal
 import sys
 import select
-
+import argparse
 import time
+
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 
-# Specify the directory and file to monitor
-directory = "scripts"
-Filename = "global.lua"
-host = "localhost"
-port = 39998
-
 
 class MyHandler(FileSystemEventHandler):
+    def __init__(self, args):
+        self.args = args
+
     def on_modified(self, event):
         print("File modified:", event.src_path)
-        send_scripts()
+        send_scripts(self.args)
 
 
-def send_scripts():
+def send_scripts(args):
     send_obj(
-        host,
-        39999,
+        args,
         {
             "messageID": 1,
             "scriptStates": [
                 {
-                    "name": "Global",
-                    "guid": "-1",
-                    "script": read_file_contents("scripts/global.lua"),
+                    "name": "OPR-TTS-FTW",
+                    "guid": args.guid,
+                    "script": read_file_contents("scripts/core.lua"),
                 },
             ],
         },
     )
 
 
-# Create an observer and attach the event handler
-observer = Observer()
-observer.schedule(MyHandler(), path=directory, recursive=False)
-
-
 def handle_client(client_socket):
-    # Handle client connection
+    # TODO: Handle all data
     data = client_socket.recv(1024)
     try:
         print(f"Data from client: {json.loads(data)}")
@@ -55,14 +47,14 @@ def handle_client(client_socket):
     client_socket.close()
 
 
-def send_obj(host, port, obj):
+def send_obj(args, obj):
     try:
         client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        client_socket.connect((host, port))
+        client_socket.connect((args.host, args.port))
 
         client_socket.sendall(json.dumps(obj).encode())
 
-        # Receive the response (optional)
+        # TODO: Handle all data
         response = client_socket.recv(1024).decode()
         print("Response received:", response)
 
@@ -83,9 +75,9 @@ def read_file_contents(file_path):
         return None
 
 
-def run_server(host, port):
+def run_server(args):
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    server_socket.bind((host, port))
+    server_socket.bind((args.host, args.listen))
 
     # Register a signal handler for Ctrl+C
     def signal_handler(sig, frame):
@@ -97,7 +89,7 @@ def run_server(host, port):
 
     server_socket.setblocking(0)
     server_socket.listen(1)
-    print(f"Server listening on {host}:{port}")
+    print(f"Server listening on {args.host}:{args.listen}")
 
     inputs = [server_socket]
     outputs = []
@@ -116,6 +108,7 @@ def run_server(host, port):
                 print(f"New connection from {client_address[0]}:{client_address[1]}")
                 inputs.append(client_socket)
                 outputs.append(client_socket)
+
             else:
                 handle_client(sock)
                 inputs.remove(sock)
@@ -123,7 +116,22 @@ def run_server(host, port):
                 sock.close()
 
 
+def run():
+    parser = argparse.ArgumentParser(description="")
+    parser.add_argument("-r", "--host", default="localhost")
+    parser.add_argument("-p", "--port", default=39999)
+    parser.add_argument("-l", "--listen", default=39998)
+    parser.add_argument("guid")
+    args = parser.parse_args()
+
+    observer = Observer()
+    observer.schedule(MyHandler(args), path="scripts", recursive=False)
+
+    send_scripts(args)
+    observer.start()
+    run_server(args)
+    observer.join()
+
+
 ################
-observer.start()
-run_server(host, port)
-observer.join()
+run()

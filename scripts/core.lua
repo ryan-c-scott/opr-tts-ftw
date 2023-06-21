@@ -315,19 +315,27 @@ function destroyTagged(tag)
    end
 end
 
-function _spawnTest()
-   spawnList(processList("A", _testData), {
-           x = -20,
-           y = 0,
-           z = 0,
-   })
+function spawnProcess()
+   local args = _spawnArgs
+   spawnList(args.data, args.pos)
 
    return 1
 end
+
+_spawnArgs = nil
 
 function onLoad()
    print("And here we are, hacking /the/ Gibson!!!")
 
    destroyTagged("TESTING")
-   startLuaCoroutine(Global, "_spawnTest")
+
+   local pos = self.getPosition()
+   pos.z = pos.z + 3
+
+   _spawnArgs = {
+      data = processList("A", _testData),
+      pos = pos,
+   }
+
+   startLuaCoroutine(self, "spawnProcess")
 end
