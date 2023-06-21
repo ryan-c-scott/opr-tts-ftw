@@ -1,3 +1,5 @@
+(defvar tts-guid "")
+
 (defun tts-connect ()
   (open-network-stream "tcp-connection" nil "localhost" 39999))
 
@@ -12,21 +14,25 @@
   (while (process-live-p conn)
     (accept-process-output conn)))
 
-(defun tts-upload-global (conn path)
+(defun tts-upload-scripts (conn path)
   (tts-send-obj
    conn
    `((messageID . 1)
      (scriptStates
       .
       [
-       ((name . "Global")
-        (guid . "-1")
+       ((name . "OPR-TTS-FTW")
+        (guid . ,tts-guid)
         (script . ,(tts-file-to-string path)))
        ]))))
 
+(defun tts-set-guid (guid)
+  (interactive "sGUID: ")
+  (setq tts-guid guid))
+
 (defun tts-do-upload ()
   (interactive)
-  (tts-upload-global (tts-connect) "global.lua"))
+  (tts-upload-scripts (tts-connect) "core.lua"))
 
 ;;
 (provide 'tts)
