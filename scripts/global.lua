@@ -1,4 +1,6 @@
-local _unitMapping = {
+local _unitMapping = {}
+
+_unitMapping["Alien Hives"] = {
    ["Hive Lord"] = {
       mesh = "http://cloud-3.steamusercontent.com/ugc/786374678936128171/F0C0FC65F81A2AFDEC91CA2F92421FC1E8A3CA70/",
       diffuse = "http://cloud-3.steamusercontent.com/ugc/786374678936167479/A2B103E6B11ECA6E4E1439E185BE72197EF2596A/",
@@ -65,7 +67,9 @@ local _unitMapping = {
       collider = "http://cloud-3.steamusercontent.com/ugc/786374678936109828/2C84DE4EB0D1401E132818075B29FD130E2A1F4F/",
    },
 
-   _default = { assetbundle = "http://cloud-3.steamusercontent.com/ugc/946222093771739578/CBC341707C193AA6E6F1EAACB700A615889EC227/" },
+   _default = {
+      assetbundle = "http://cloud-3.steamusercontent.com/ugc/946222093771739578/CBC341707C193AA6E6F1EAACB700A615889EC227/"
+   },
 }
 
 local _testData = [[++ Alien Hives [GF 1985pts] ++
@@ -129,18 +133,18 @@ end
 local T = {}
 
 function T.clone(tbl)
-  local out = {}
+   local out = {}
 
-  for key, value in pairs(tbl) do
-    if type(value) == "table" then
-      out[key] = T.clone(value)
+   for key, value in pairs(tbl) do
+      if type(value) == "table" then
+         out[key] = T.clone(value)
 
-    else
-      out[key] = value
-    end
-  end
+      else
+         out[key] = value
+      end
+   end
 
-  return out
+   return out
 end
 
 function T.merge(a, b)
@@ -154,7 +158,9 @@ function T.merge(a, b)
 end
 
 function processList(player, list)
-   local entries = {}
+   local data = {
+      units = {},
+   }
 
    local currentEntry
    local unit = 1
@@ -166,7 +172,7 @@ function processList(player, list)
             for i = 2, currentEntry.duplicates do
                local clone = T.clone(currentEntry)
                clone.unit = string.format("%s_%s", clone.unit, i)
-               table.insert(entries, clone)
+               table.insert(data.units, clone)
             end
          end
 
@@ -174,6 +180,14 @@ function processList(player, list)
 
       elseif string.sub(str, 1, 2) == "++" then
          print(string.format("PROCESSING: Player %s - %s", player, str))
+         local heading = { string.match(str, "%+%+ (.*) %[(.*) (%d+)pts%] %+%+") }
+
+         data.books = {}
+         for armyBook in string.gmatch(heading[1], "([^,]*)") do
+            if armyBook ~= "" then
+               table.insert(data.books, armyBook)
+            end
+         end
 
       else
          if currentEntry then
@@ -182,7 +196,7 @@ function processList(player, list)
 
          else
             currentEntry = processUnit(str)
-            table.insert(entries, currentEntry)
+            table.insert(data.units, currentEntry)
 
             currentEntry.unit = string.format("%s%s", player, unit)
             unit = unit + 1
@@ -190,7 +204,7 @@ function processList(player, list)
       end
    end
 
-   return entries
+   return data
 end
 
 function copyPos(pos)
@@ -201,14 +215,33 @@ function copyPos(pos)
    }
 end
 
-function spawnUnit(data, pos)
+function matchUnit(mapping, books, unitData)
+   local matches = {}
+
+   for _, book in ipairs(books) do
+      local map = mapping[book]
+
+      if map then
+         local model = map[unitData.name] or map._default
+         table.insert(matches, model)
+      end
+   end
+
+   return matches
+end
+
+function spawnUnit(books, data, pos)
    local maxX = pos.x
    local cursor = copyPos(pos)
    local maxSize = Vector()
 
    for i = 1, data.count do
       local scale = 0.5
-      local model = _unitMapping[data.name] or _unitMapping._default
+      local modelVariants = matchUnit(_unitMapping, books, data)
+      local model = modelVariants[1]
+
+      -- TODO: Refactor so all variants can be context menu items
+
       local modelType
       if model.assetbundle then
          modelType = "Custom_Assetbundle"
@@ -269,8 +302,8 @@ function spawnUnit(data, pos)
 end
 
 function spawnList(data, pos)
-   for _, unit in ipairs(data) do
-      local obj, pos = spawnUnit(unit, pos)
+   for _, unit in ipairs(data.units) do
+      local obj, pos = spawnUnit(data.books, unit, pos)
    end
 end
 
