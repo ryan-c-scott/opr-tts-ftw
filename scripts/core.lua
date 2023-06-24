@@ -72,34 +72,6 @@ _unitMapping["Alien Hives"] = {
    },
 }
 
-local _testData = [[++ Alien Hives [GF 1985pts] ++
-
-Hive Lord [1] Q3+ D2+ | 390pts | Fear, Fearless, Hero, Tough(12), 1x Brood Leader(Pheromones)
-4x Razor Claws (A3, AP(1)), Stomp (A4, AP(1))
-
-Prime Warrior [1] Q4+ D4+ | 165pts | Fearless, Hero, Tough(6), 1x Hive Protector(Psy-Barrier)
-2x Razor Claws (A4, AP(1))
-
-Winged Grunts [10] Q5+ D5+ | 160pts | Ambush, Flying
-10x Bio-Borers (12", A2), 10x Razor Claws (A1)
-
-Hive Warriors [6] Q4+ D4+ | 290pts | Fearless, Tough(3)
-12x Razor Claws (A3)
-
-Hive Swarm [3] Q6+ D6+ | 70pts | Fearless, Strider, Tough(3)
-3x Swarm Attacks (A3, Poison)
-
-Venom Floaters [3] Q4+ D4+ | 225pts | Shrouding Mist, Stealth, Tough(3)
-3x Whip Limbs (A3, Poison)
-
-Invasion Carrier Spore [1] Q4+ D2+ | 190pts | Ambush, Fear, Fearless, Tough(6), Transport(11)
-Razor Tendrils (A6, AP(1))
-
-2x Invasion Artillery Spore [1] Q4+ D2+ | 225pts | Ambush, Fear, Fearless, Slow, Tough(6)
-Razor Tendrils (A6, AP(1)), Spore Gun (24", A1, Blast(9), Indirect, Spores)
-
-Spores [3] Q6+ D6+ | 45pts | Explode(1)]]
-
 local _unitSpacing = 2
 local _modelsPerRow = 3
 
@@ -123,6 +95,7 @@ function processUnit(entry)
       points = data[5],
       keywords = data[6],
       duplicates = duplicates,
+      attacks = "",
    }
 end
 
@@ -324,18 +297,34 @@ end
 
 _spawnArgs = nil
 
-function onLoad()
-   print("And here we are, hacking /the/ Gibson!!!")
-
+function handleButton(obj, color, altClick)
    destroyTagged("TESTING")
 
-   local pos = self.getPosition()
+   local pos = obj.getPosition()
    pos.z = pos.z + 3
 
    _spawnArgs = {
-      data = processList("A", _testData),
+      data = processList("A", obj.getDescription():gsub("\r", "")),
       pos = pos,
    }
 
-   startLuaCoroutine(self, "spawnProcess")
+   startLuaCoroutine(obj, "spawnProcess")
+end
+
+function onLoad()
+   print("And here we are, hacking /the/ Gibson!!!")
+
+   self.createButton({
+         click_function = "handleButton",
+         function_owner = self,
+         label          = "Click to generate from description",
+         position       = {0, 1, 0},
+         rotation       = {0, 180, 0},
+         width          = 800,
+         height         = 400,
+         font_size      = 340,
+         color          = {0.5, 0.5, 0.5},
+         font_color     = {1, 1, 1},
+         tooltip        = "Paste your list in this object's description",
+   })
 end
