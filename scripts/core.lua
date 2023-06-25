@@ -302,7 +302,14 @@ _spawnArgs = nil
 
 function downloadList(url, callback)
    local urlData = { url:match("(https://.*)/share(%?.*)") }
+
+   if #urlData < 2 then
+      print("[ff0000]Bad or missing sharing URL in description[-]")
+      return
+   end
+
    local ttsUrl = string.format("%s/api/tts%s", urlData[1], urlData[2])
+
    WebRequest.get(ttsUrl, function(req)
            if req.is_error then
               log(request.error)
@@ -315,19 +322,18 @@ function downloadList(url, callback)
 end
 
 function handleButton(obj, color, altClick)
-   destroyTagged("TESTING")
-
-   local pos = obj.getPosition()
-   pos.z = pos.z + 3
-
    local listUrl = obj.getDescription()
 
    downloadList(listUrl, function(data)
+           local pos = obj.getPosition()
+           pos.z = pos.z + 3
+
            _spawnArgs = {
               data = data,
               pos = pos,
            }
 
+           destroyTagged("TESTING")
            startLuaCoroutine(obj, "spawnProcess")
    end)
 end
