@@ -99,10 +99,6 @@ function processUnit(entry)
    }
 end
 
-function processAttacks(data)
-   return data
-end
-
 local T = {}
 
 function T.clone(tbl)
@@ -130,56 +126,6 @@ function T.merge(a, b)
    return out
 end
 
-function processList(player, list)
-   local data = {
-      units = {},
-   }
-
-   local currentEntry
-   local unit = 1
-
-   for str in string.gmatch(list, "([^\n]*)\n") do
-      if str == "" then
-         if currentEntry and currentEntry.duplicates then
-            -- Create the appropriate number of duplicates for this unit
-            for i = 2, currentEntry.duplicates do
-               local clone = T.clone(currentEntry)
-               clone.unit = string.format("%s_%s", clone.unit, i)
-               table.insert(data.units, clone)
-            end
-         end
-
-         currentEntry = nil
-
-      elseif string.sub(str, 1, 2) == "++" then
-         print(string.format("PROCESSING: Player %s - %s", player, str))
-         local heading = { string.match(str, "%+%+ (.*) %[(.*) (%d+)pts%] %+%+") }
-
-         data.books = {}
-         for armyBook in string.gmatch(heading[1], "([^,]*)") do
-            if armyBook ~= "" then
-               table.insert(data.books, armyBook)
-            end
-         end
-
-      else
-         if currentEntry then
-            -- Add to current entry
-            currentEntry.attacks = processAttacks(str)
-
-         else
-            currentEntry = processUnit(str)
-            table.insert(data.units, currentEntry)
-
-            currentEntry.unit = string.format("%s%s", player, unit)
-            unit = unit + 1
-         end
-      end
-   end
-
-   return data
-end
-
 function copyPos(pos)
    return {
       x = pos.x,
@@ -203,12 +149,61 @@ function matchUnit(mapping, books, unitData)
    return matches
 end
 
+function specialRulesToString(rules, first)
+   local out = ""
+
+   local sep = first and "" or ", "
+
+   for _, data in ipairs(rules) do
+      local rating = data.rating
+
+      out = string.format("%s%s%s%s",
+              out,
+              sep,
+              data.name,
+              rating ~= "" and string.format("(%s)", rating) or "")
+
+      sep = ", "
+   end
+
+   return out
+end
+
+-- TODO: Clean up this function design. It doesn't need to take in the output table.
+function processUnitLoadout(unit, out)
+   out.attacks = out.attacks or ""
+   out.rules = (out.rules or "") .. specialRulesToString(unit.specialRules, true)
+
+   local multiples = unit.combined and 2 or 1
+
+   for _, entry in ipairs(unit.loadout) do
+      if entry.type == "ArmyBookWeapon" then
+         local count = entry.count * multiples
+         local countLabel = count > 2 and string.format("%sx", count) or ""
+         local rules = specialRulesToString(entry.specialRules, true)
+         local range = entry.range and string.format("%s\" ", entry.range) or ""
+
+         out.attacks = out.attacks .. string.format("%s %s (%sA%s %s)\n",
+                 countLabel,
+                 entry.label,
+                 range,
+                 entry.attacks,
+                 rules)
+
+      elseif entry.type == "ArmyBookItem" then
+         out.rules = out.rules .. specialRulesToString(entry.content, out.rules == "")
+      end
+   end
+end
+
 function spawnUnit(books, data, pos)
    local maxX = pos.x
    local cursor = copyPos(pos)
    local maxSize = Vector()
 
-   for i = 1, data.count do
+   local modelCount = data.size * (data.combined and 2 or 1)
+
+   for i = 1, modelCount do
       local scale = 0.5
       local modelVariants = matchUnit(_unitMapping, books, data)
       local model = modelVariants[1]
@@ -246,7 +241,7 @@ function spawnUnit(books, data, pos)
 
       obj.setName(string.format(
               "%s -- %s [b][00eeee]Q%s[-] [Ffc125]D%s[-][/b]",
-              data.unit,
+              data.id,
               data.name,
               data.quality,
               data.defense))
@@ -258,9 +253,11 @@ function spawnUnit(books, data, pos)
       obj.measure_movement = true
       obj.tooltip = true
 
+      local unitLoadout = {}
+      processUnitLoadout(data, unitLoadout)
       obj.setDescription(string.format("%s\n\n%s",
-              data.keywords,
-              data.attacks))
+              unitLoadout.rules,
+              unitLoadout.attacks))
 
       while obj.loading_custom do
          coroutine.yield(0)
@@ -275,8 +272,14 @@ function spawnUnit(books, data, pos)
 end
 
 function spawnList(data, pos)
+   local seen = {}
+
    for _, unit in ipairs(data.units) do
-      local obj, pos = spawnUnit(data.books, unit, pos)
+      if not seen[unit.id] then
+         -- TODO: Handle multiple books
+         local obj, pos = spawnUnit({data.name}, unit, pos)
+         seen[unit.id] = true
+      end
    end
 end
 
@@ -297,18 +300,36 @@ end
 
 _spawnArgs = nil
 
+function downloadList(url, callback)
+   local urlData = { url:match("(https://.*)/share(%?.*)") }
+   local ttsUrl = string.format("%s/api/tts%s", urlData[1], urlData[2])
+   WebRequest.get(ttsUrl, function(req)
+           if req.is_error then
+              log(request.error)
+
+           else
+              local data = JSON.decode(req.text)
+              callback(data)
+           end
+   end)
+end
+
 function handleButton(obj, color, altClick)
    destroyTagged("TESTING")
 
    local pos = obj.getPosition()
    pos.z = pos.z + 3
 
-   _spawnArgs = {
-      data = processList("A", obj.getDescription():gsub("\r", "")),
-      pos = pos,
-   }
+   local listUrl = obj.getDescription()
 
-   startLuaCoroutine(obj, "spawnProcess")
+   downloadList(listUrl, function(data)
+           _spawnArgs = {
+              data = data,
+              pos = pos,
+           }
+
+           startLuaCoroutine(obj, "spawnProcess")
+   end)
 end
 
 function onLoad()
