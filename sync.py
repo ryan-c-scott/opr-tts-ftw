@@ -5,6 +5,7 @@ import sys
 import select
 import argparse
 import time
+import os
 
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
@@ -19,7 +20,35 @@ class MyHandler(FileSystemEventHandler):
         send_scripts(self.args)
 
 
+def load_mappings(path):
+    mapping = {}
+
+    try:
+        for (dirpath, dirnames, filenames) in os.walk(path):
+            for f in filenames:
+                filepath = os.path.join(dirpath, f)
+                print(f"\tLoading: {filepath}")
+
+                raw = read_file_contents(filepath)
+                data = json.loads(raw)
+                mapping |= data
+
+            return mapping
+
+    except Exception as e:
+        print("An error occurred:", str(e))
+
+
 def send_scripts(args):
+    core = read_file_contents("scripts/core.lua")
+    data = load_mappings("mapping")
+
+    if not data:
+        print("Error loading data")
+        return
+
+    dataStr = json.dumps(data)
+
     send_obj(
         args,
         {
@@ -28,7 +57,7 @@ def send_scripts(args):
                 {
                     "name": "OPR-TTS-FTW",
                     "guid": args.guid,
-                    "script": read_file_contents("scripts/core.lua"),
+                    "script": f"{core}\n_unitMapping = JSON.decode([[{dataStr}]])\n",
                 },
             ],
         },
