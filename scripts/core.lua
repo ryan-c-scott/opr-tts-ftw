@@ -89,10 +89,11 @@ function specialRulesToString(rules, first)
    return out
 end
 
--- TODO: Clean up this function design. It doesn't need to take in the output table.
-function processUnitLoadout(unit, out)
-   out.attacks = out.attacks or ""
-   out.rules = (out.rules or "") .. specialRulesToString(unit.specialRules, true)
+function processUnitLoadout(unit)
+   local out = {
+      attacks = "",
+      rules = specialRulesToString(unit.specialRules, true),
+   }
 
    local multiples = unit.combined and 2 or 1
 
@@ -114,6 +115,8 @@ function processUnitLoadout(unit, out)
          out.rules = out.rules .. specialRulesToString(entry.content, out.rules == "")
       end
    end
+
+   return out
 end
 
 function spawnUnit(data, pos)
@@ -194,8 +197,7 @@ function spawnUnit(data, pos)
       obj.measure_movement = true
       obj.tooltip = true
 
-      local unitLoadout = {}
-      processUnitLoadout(data, unitLoadout)
+      local unitLoadout = processUnitLoadout(data)
       obj.setDescription(string.format("%s\n\n%s",
               unitLoadout.rules,
               unitLoadout.attacks))
