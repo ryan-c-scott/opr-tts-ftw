@@ -5,6 +5,37 @@ _unitMapping = {}
 local _unitSpacing = 2
 local _modelsPerRow = 3
 
+------------------------------------------------------------
+local Fibers = {
+   _queue = {}
+}
+
+function Fibers.queue(f)
+   local co = coroutine.create(f)
+
+   coroutine.resume(co)
+   table.insert(Fibers._queue, co)
+
+   return co
+end
+
+function Fibers.process()
+   local _dead = {}
+
+   for i, fiber in ipairs(Fibers._queue) do
+      local running, error = coroutine.resume(fiber)
+      if not running then
+         print(error)
+         table.insert(_dead, i)
+      end
+   end
+
+   for i = #_dead, 0, -1 do
+      Fibers._queue[i] = nil
+   end
+end
+------------------------------------------------------------
+
 function processUnit(entry)
    local pattern = "(.*) %[(%d+)] Q(%d)%+ D(%d)%+ | (%d+)pts | (.*)"
    local data = { string.match(entry, pattern) }
