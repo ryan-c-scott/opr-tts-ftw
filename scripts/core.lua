@@ -1,4 +1,5 @@
 local _unitMapping = {}
+local _unitMappingOverride = {}
 
 _unitMapping = {}
 
@@ -97,6 +98,12 @@ end
 
 function matchUnit(mapping, unitData)
    local matches = mapping[unitData.name] or mapping._default
+   local overrides = _unitMappingOverride[unitData.name]
+
+   if overrides then
+      matches = T.merge(matches, overrides)
+   end
+
    return matches
 end
 
