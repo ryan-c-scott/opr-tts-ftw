@@ -271,16 +271,31 @@ function destroyTagged(tag)
    end
 end
 
-function spawnProcess()
-   local args = _spawnArgs
-   spawnList(args.data, args.pos)
+function yieldForDownload(req)
+   while not req.is_done do
+      coroutine.yield()
+   end
 
-   return 1
+   return req
 end
 
-_spawnArgs = nil
+function yieldForDownloadJson(req)
+   yieldForDownload(req)
 
-function downloadList(url, callback)
+   if req.is_error then
+      log(request.error)
+
+   else
+      local data = JSON.decode(req.text)
+      return data
+   end
+end
+
+function downloadJson(url)
+   return yieldForDownloadJson(WebRequest.get(url))
+end
+
+function downloadList(url)
    local urlData = { url:match("(https://.*)/share(%?.*)") }
 
    if #urlData < 2 then
@@ -290,32 +305,61 @@ function downloadList(url, callback)
 
    local ttsUrl = string.format("%s/api/tts%s", urlData[1], urlData[2])
 
-   WebRequest.get(ttsUrl, function(req)
-           if req.is_error then
-              log(request.error)
-
-           else
-              local data = JSON.decode(req.text)
-              callback(data)
-           end
-   end)
+   return downloadJson(ttsUrl)
 end
 
 function handleButton(obj, color, altClick)
    local listUrl = obj.getDescription()
 
-   downloadList(listUrl, function(data)
-           local pos = obj.getPosition()
-           pos.z = pos.z + 3
+   Fibers.queue(function()
+         local data = downloadList(listUrl)
+         overrideMappings("OPR_OVERRIDE")
+         destroyTagged("TESTING")
 
-           _spawnArgs = {
-              data = data,
-              pos = pos,
-           }
+         local pos = obj.getPosition()
+         pos.z = pos.z + 3
 
-           destroyTagged("TESTING")
-           startLuaCoroutine(obj, "spawnProcess")
+         spawnList(data, pos)
    end)
+end
+
+function overrideMappings()
+   local out = {}
+
+   local hasErrors
+
+   for _, obj in ipairs(getObjectsWithTag("OPR_OVERRIDE")) do
+      local raw = obj.getDescription()
+
+      for url in raw:gmatch("(http[s]*://[^%s]+)") do
+
+         if url ~= "" then
+            print("LOADING OVERRIDE: ", url)
+            local override = downloadJson(url)
+            if override then
+               out = T.merge(out, override)
+            else
+               print(string.format("Failed to process JSON from %s", obj.getName()))
+               break
+            end
+         end
+      end
+   end
+
+   if not hasErrors then
+      _unitMappingOverride = out
+   end
+end
+
+function contextCollectMappings()
+   print("Collecting mapping overrides")
+   Fibers.queue(function()
+         overrideMappings()
+   end)
+end
+
+function contextGenerateMappings(color, pos, obj)
+   print("Generating override mappings")
 end
 
 function onLoad()
@@ -334,4 +378,12 @@ function onLoad()
          font_color     = {1, 1, 1},
          tooltip        = "Paste your list in this object's description",
    })
+
+   -- Context menu items
+   self.addContextMenuItem("Collect Mappings", contextCollectMappings)
+   self.addContextMenuItem("Generate Mappings", contextGenerateMappings)
+end
+
+function onUpdate()
+   Fibers.process()
 end
