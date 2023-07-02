@@ -202,6 +202,7 @@ function spawnUnit(data, pos)
       local objData = {
          position = spawnPos,
          scale = Vector(scale, scale, scale),
+         rotation = Vector(0, 180, 0),
       }
 
       if model.assetbundle then
@@ -227,7 +228,6 @@ function spawnUnit(data, pos)
       elseif model.face then
          objData = T.merge(objData, {
                  type = "CardCustom",
-                 rotation = Vector(0, 180, 0),
          })
 
          model = T.merge(model, {
@@ -245,9 +245,6 @@ function spawnUnit(data, pos)
               data.quality,
               data.defense,
               data.id))
-
-      local grey = 16 / 255
-      obj.setColorTint(Color(grey, grey, grey))
 
       obj.addTag("TESTING")
       obj.measure_movement = true
