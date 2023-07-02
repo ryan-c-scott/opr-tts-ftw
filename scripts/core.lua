@@ -7,6 +7,24 @@ local _unitSpacing = 2
 local _modelsPerRow = 3
 
 ------------------------------------------------------------
+local Cached = {
+   _cache = {}
+}
+
+function Cached.getJson(url)
+   local existing = Cached._cache[url]
+   if existing then
+      return existing
+   end
+
+   local data = downloadJson(url)
+   Cached._cache[url] = data
+
+   return data
+end
+------------------------------------------------------------
+
+------------------------------------------------------------
 local Fibers = {
    _queue = {}
 }
