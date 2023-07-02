@@ -1,0 +1,443 @@
+{
+  "Aggro Squad": [ {
+    "cast_shadows": true,
+    "collider": "http://pastebin.com/raw.php?i=qS125UrP",
+    "convex": true,
+    "diffuse": "http://i.imgur.com/Nz9nctT.jpg",
+    "fresnel_strength": 0,
+    "material": 3,
+    "mesh": "http://cloud-3.steamusercontent.com/ugc/80340029171150091/5D9CECBB157F9470E6F496E23D5C390D037E9720/",
+    "normal": "",
+    "scale": 1,
+    "specular_color": {
+      "a": 1,
+      "b": 1,
+      "g": 1,
+      "r": 1
+    },
+    "specular_intensity": 0,
+    "specular_sharpness": 1.99999976158142,
+    "type": 0
+  } ],
+  "Blood Anti-Grav APC": [ {
+    "cast_shadows": true,
+    "collider": "http://pastebin.com/raw.php?i=v8PueMN4",
+    "convex": true,
+    "diffuse": "http://i.imgur.com/tmLSkli.jpg",
+    "fresnel_strength": 0,
+    "material": 3,
+    "mesh": "http://cloud-3.steamusercontent.com/ugc/80340029170894414/C44EDE55EE827DA1D98DAB11E32A97A922D67488/",
+    "normal": "",
+    "scale": 1,
+    "specular_color": {
+      "a": 1,
+      "b": 1,
+      "g": 1,
+      "r": 1
+    },
+    "specular_intensity": 0,
+    "specular_sharpness": 1.99999976158142,
+    "type": 0
+  } ],
+  "Blood Anti-Grav Tank": [ {
+    "assetbundle": "http://cloud-3.steamusercontent.com/ugc/1000305987941577465/B7F049A459C1DF2E1D4BC9F60297C78212B96FF7/",
+    "assetbundle_secondary": "",
+    "material": 1,
+    "scale": 1.49999940395355,
+    "type": 0
+  } ],
+  "Blood Assault Squad": [ {
+    "assetbundle": "http://cloud-3.steamusercontent.com/ugc/868491143102764622/914A1D491F58F39D3CD2AB5C3A8349B8C2F0C46C/",
+    "assetbundle_secondary": "http://cloud-3.steamusercontent.com/ugc/868491143102751299/C360C2CB6147DD3C65C912B8EBDD9D5E8C4E8128/",
+    "material": 0,
+    "scale": 0.425000488758087,
+    "type": 1
+  }, {
+    "assetbundle": "http://cloud-3.steamusercontent.com/ugc/868491143102760245/E2831CECF9376D89672D34BFA474DBBD5C7C9BBD/",
+    "assetbundle_secondary": "http://cloud-3.steamusercontent.com/ugc/868491143102751299/C360C2CB6147DD3C65C912B8EBDD9D5E8C4E8128/",
+    "material": 0,
+    "scale": 0.425000488758087,
+    "type": 1
+  } ],
+  "Blood Attack Speeder": [ {
+    "cast_shadows": true,
+    "collider": "http://pastebin.com/raw.php?i=7e2HKDbN",
+    "convex": true,
+    "diffuse": "http://i.imgur.com/Xe938YO.jpg",
+    "fresnel_strength": 0,
+    "material": 3,
+    "mesh": "http://cloud-3.steamusercontent.com/ugc/80340029171109580/81152FB9F40AE4A155B91553F7693AD2DD2E3309/",
+    "normal": "",
+    "scale": 1.14999985694885,
+    "specular_color": {
+      "a": 1,
+      "b": 1,
+      "g": 1,
+      "r": 1
+    },
+    "specular_intensity": 0,
+    "specular_sharpness": 1.99999976158142,
+    "type": 0
+  } ],
+  "Blood Attack Walker": [ {
+    "cast_shadows": true,
+    "collider": "http://pastebin.com/raw.php?i=7e2HKDbN",
+    "convex": true,
+    "diffuse": "http://i.imgur.com/StaKPo5.jpg",
+    "fresnel_strength": 0,
+    "material": 3,
+    "mesh": "http://cloud-3.steamusercontent.com/ugc/80340029170892856/BAB304AA1BA268C70C2D57C686B95DE5160420E4/",
+    "normal": "",
+    "scale": 1.09999990463257,
+    "specular_color": {
+      "a": 1,
+      "b": 1,
+      "g": 1,
+      "r": 1
+    },
+    "specular_intensity": 0,
+    "specular_sharpness": 1.99999976158142,
+    "type": 0
+  } ],
+  "Blood Blaster Squad": [ {
+    "cast_shadows": true,
+    "collider": "http://pastebin.com/raw.php?i=KAeNs1LY",
+    "convex": true,
+    "diffuse": "http://i.imgur.com/lULo0fM.jpg",
+    "fresnel_strength": 0,
+    "material": 3,
+    "mesh": "http://cloud-3.steamusercontent.com/ugc/80340029171193914/7AEEF190B04EFD7F1743ED9E932254C5A3763D26/",
+    "normal": "",
+    "scale": 1,
+    "specular_color": {
+      "a": 1,
+      "b": 1,
+      "g": 1,
+      "r": 1
+    },
+    "specular_intensity": 0,
+    "specular_sharpness": 1.99999976158142,
+    "type": 0
+  } ],
+  "Blood Desolator Squad": [ {
+    "cast_shadows": true,
+    "collider": "http://cloud-3.steamusercontent.com/ugc/941712836151336593/112C554678C18C469A76278CA7410868DA651554/",
+    "convex": true,
+    "diffuse": "http://cloud-3.steamusercontent.com/ugc/775100663942791345/A604CE83D3E1EE07C3FE9527F85840231B94F45E/",
+    "fresnel_strength": 0,
+    "material": 0,
+    "mesh": "http://cloud-3.steamusercontent.com/ugc/775100663942794987/5363F2380B9231758713F5C41B863BAF2EEBD2DB/",
+    "normal": "",
+    "scale": 0.5,
+    "specular_color": {
+      "a": 1,
+      "b": 1,
+      "g": 1,
+      "r": 1
+    },
+    "specular_intensity": 0,
+    "specular_sharpness": 2,
+    "type": 1
+  } ],
+  "Blood Elimination Squad": [ {
+    "cast_shadows": true,
+    "collider": "http://cloud-3.steamusercontent.com/ugc/264960339433473925/1E9CF6FE4E64D5897E8DE51758FCA477CA2CDA84/",
+    "convex": true,
+    "diffuse": "http://cloud-3.steamusercontent.com/ugc/264960339433805519/471D5FE9D290A88E29687C70D08687B6415DFF5A/",
+    "fresnel_strength": 0.100000001490116,
+    "material": 1,
+    "mesh": "http://cloud-3.steamusercontent.com/ugc/264960339433474337/BC2D8AFFC134A24803D9422023F1A9EF7AE7D52E/",
+    "normal": "",
+    "scale": 0.875,
+    "specular_color": {
+      "a": 1,
+      "b": 0.745098054409027,
+      "g": 0.811764717102051,
+      "r": 0.874509811401367
+    },
+    "specular_intensity": 0,
+    "specular_sharpness": 3,
+    "type": 1
+  } ],
+  "Blood Elite Raider": [ {
+    "cast_shadows": true,
+    "collider": "http://pastebin.com/raw.php?i=KAeNs1LY",
+    "convex": true,
+    "diffuse": "http://i.imgur.com/O1rF9zd.jpg",
+    "fresnel_strength": 0,
+    "material": 3,
+    "mesh": "http://cloud-3.steamusercontent.com/ugc/80340029170890773/B8962F7FDE64D37E4ED7E37A8280EF66B05F6195/",
+    "normal": "",
+    "scale": 1,
+    "specular_color": {
+      "a": 1,
+      "b": 1,
+      "g": 1,
+      "r": 1
+    },
+    "specular_intensity": 0,
+    "specular_sharpness": 1.99999976158142,
+    "type": 0
+  } ],
+  "Blood Eradication Squad": [ {
+    "cast_shadows": true,
+    "collider": "http://cloud-3.steamusercontent.com/ugc/769481154129224734/FD9B5B517EC312815DE05C75E360C4E90D0B3A9A/",
+    "convex": true,
+    "diffuse": "http://cloud-3.steamusercontent.com/ugc/1749066801653303846/CFD7A1C2AC09F37B981A78298D8DD3C0EC0FF626/",
+    "fresnel_strength": 0,
+    "material": 3,
+    "mesh": "http://cloud-3.steamusercontent.com/ugc/1749066801656220768/422D790EF861B324112DF099098B3FB28D1A67EA/",
+    "normal": "",
+    "scale": 1,
+    "specular_color": {
+      "a": 1,
+      "b": 1,
+      "g": 1,
+      "r": 1
+    },
+    "specular_intensity": 0,
+    "specular_sharpness": 2,
+    "type": 1
+  } ],
+  "Blood Guard Squad": [ {
+    "cast_shadows": true,
+    "collider": "http://cloud-3.steamusercontent.com/ugc/1043093675414910691/A38AFE0E8955841404269A62127443886ED1BD53/",
+    "convex": true,
+    "diffuse": "",
+    "fresnel_strength": 0.107142858207226,
+    "material": 1,
+    "mesh": "http://cloud-3.steamusercontent.com/ugc/1043093675415147438/6B86F444AF4815CE6F0BBB1AEA644476B505AEEF/",
+    "normal": "",
+    "scale": 1,
+    "specular_color": {
+      "a": 1,
+      "b": 0.746323525905609,
+      "g": 0.812880337238312,
+      "r": 0.875
+    },
+    "specular_intensity": 0.0500000007450581,
+    "specular_sharpness": 2,
+    "type": 1
+  } ],
+  "Blood Heavy Anti-Grav Destroyer Tank": [ {
+    "cast_shadows": true,
+    "collider": "http://pastebin.com/raw.php?i=v8PueMN4",
+    "convex": true,
+    "diffuse": "http://i.imgur.com/LAPAnPa.jpg",
+    "fresnel_strength": 0,
+    "material": 3,
+    "mesh": "http://cloud-3.steamusercontent.com/ugc/80340029171093282/56989B3DE1F979DCA3AFD7231CC65EA4F1696DAE/",
+    "normal": "",
+    "scale": 1,
+    "specular_color": {
+      "a": 1,
+      "b": 1,
+      "g": 1,
+      "r": 1
+    },
+    "specular_intensity": 0,
+    "specular_sharpness": 1.99999976158142,
+    "type": 0
+  } ],
+  "Blood Heavy Anti-Grav Transport Tank": [ {
+    "cast_shadows": true,
+    "collider": "http://pastebin.com/raw.php?i=v8PueMN4",
+    "convex": true,
+    "diffuse": "http://i.imgur.com/sTGyMIr.jpg",
+    "fresnel_strength": 0,
+    "material": 3,
+    "mesh": "http://cloud-3.steamusercontent.com/ugc/80340029171088059/A13F2E8A5FF9941568C9FD9F07F726A1FC3FE9BF/",
+    "normal": "",
+    "scale": 1,
+    "specular_color": {
+      "a": 1,
+      "b": 1,
+      "g": 1,
+      "r": 1
+    },
+    "specular_intensity": 0,
+    "specular_sharpness": 1.99999976158142,
+    "type": 0
+  } ],
+  "Blood Heavy Prime Brothers": [ {
+    "cast_shadows": true,
+    "collider": "http://cloud-3.steamusercontent.com/ugc/1043093675414910691/A38AFE0E8955841404269A62127443886ED1BD53/",
+    "convex": true,
+    "diffuse": "https://i.imgur.com/JQehNWQ.jpghttps://i.imgur.com/JQehNWQ.jpg",
+    "fresnel_strength": 0,
+    "material": 3,
+    "mesh": "http://cloud-3.steamusercontent.com/ugc/1774952891096929688/1C92626BCD619A74863DB9F01B69E6C276C5041D/",
+    "normal": "",
+    "scale": 1,
+    "specular_color": {
+      "a": 1,
+      "b": 1,
+      "g": 1,
+      "r": 1
+    },
+    "specular_intensity": 0,
+    "specular_sharpness": 2,
+    "type": 1
+  } ],
+  "Blood Hover Squad": [ {
+    "cast_shadows": true,
+    "collider": "http://cloud-3.steamusercontent.com/ugc/1043093675414910691/A38AFE0E8955841404269A62127443886ED1BD53/",
+    "convex": true,
+    "diffuse": "",
+    "fresnel_strength": 0.107142858207226,
+    "material": 1,
+    "mesh": "http://cloud-3.steamusercontent.com/ugc/1043093675415147438/6B86F444AF4815CE6F0BBB1AEA644476B505AEEF/",
+    "normal": "",
+    "scale": 1,
+    "specular_color": {
+      "a": 1,
+      "b": 0.746323525905609,
+      "g": 0.812880337238312,
+      "r": 0.875
+    },
+    "specular_intensity": 0.0500000007450581,
+    "specular_sharpness": 2,
+    "type": 1
+  } ],
+  "Blood Infiltration Squad": [ {
+    "cast_shadows": true,
+    "collider": "http://cloud-3.steamusercontent.com/ugc/264960339433473925/1E9CF6FE4E64D5897E8DE51758FCA477CA2CDA84/",
+    "convex": true,
+    "diffuse": "http://cloud-3.steamusercontent.com/ugc/264960339433805519/471D5FE9D290A88E29687C70D08687B6415DFF5A/",
+    "fresnel_strength": 0.100000001490116,
+    "material": 1,
+    "mesh": "http://cloud-3.steamusercontent.com/ugc/264960339433476913/67E94534BF2B1E4BCC3860FAD5992DF50F725C4E/",
+    "normal": "",
+    "scale": 0.875,
+    "specular_color": {
+      "a": 1,
+      "b": 0.745098054409027,
+      "g": 0.811764717102051,
+      "r": 0.874509811401367
+    },
+    "specular_intensity": 0,
+    "specular_sharpness": 3,
+    "type": 1
+  } ],
+  "Blood Jetpack Squad": [ {
+    "cast_shadows": true,
+    "collider": "http://pastebin.com/raw.php?i=KAeNs1LY",
+    "convex": true,
+    "diffuse": "http://i.imgur.com/jtMBr0f.jpg",
+    "fresnel_strength": 0,
+    "material": 3,
+    "mesh": "http://cloud-3.steamusercontent.com/ugc/80340029171207772/9BC4D0C18C5463AEED1C254F8E95F6D1FD4C32E3/",
+    "normal": "",
+    "scale": 1,
+    "specular_color": {
+      "a": 1,
+      "b": 1,
+      "g": 1,
+      "r": 1
+    },
+    "specular_intensity": 0,
+    "specular_sharpness": 1.99999976158142,
+    "type": 0
+  } ],
+  "Blood Light Walker": [ {
+    "assetbundle": "http://cloud-3.steamusercontent.com/ugc/258218890817948993/CCF83F91532951B7776FA67E055315EC3DE619DE/",
+    "assetbundle_secondary": "",
+    "material": 2,
+    "scale": 0.325000435113907,
+    "type": 1
+  } ],
+  "Blood Prime ATV": [ {
+    "cast_shadows": true,
+    "collider": "http://pastebin.com/raw.php?i=7e2HKDbN",
+    "convex": true,
+    "diffuse": "http://i.imgur.com/NokN06y.jpg",
+    "fresnel_strength": 0,
+    "material": 3,
+    "mesh": "http://cloud-3.steamusercontent.com/ugc/80340029171144508/32AC63B25D92EF71705250B6CA61A0341114D040/",
+    "normal": "",
+    "scale": 1,
+    "specular_color": {
+      "a": 1,
+      "b": 1,
+      "g": 1,
+      "r": 1
+    },
+    "specular_intensity": 0,
+    "specular_sharpness": 1.99999976158142,
+    "type": 0
+  } ],
+  "Blood Prime Bikers": [ {
+    "cast_shadows": true,
+    "collider": "http://pastebin.com/raw.php?i=sTj2pGur",
+    "convex": true,
+    "diffuse": "http://i.imgur.com/NokN06y.jpg",
+    "fresnel_strength": 0.107142858207226,
+    "material": 1,
+    "mesh": "http://cloud-3.steamusercontent.com/ugc/80340029171143666/60CD0F4EF221524998A954CD866EEB85E0458648/",
+    "normal": "",
+    "scale": 1,
+    "specular_color": {
+      "a": 1,
+      "b": 0.746323525905609,
+      "g": 0.812880337238312,
+      "r": 0.875
+    },
+    "specular_intensity": 0.0500000007450581,
+    "specular_sharpness": 4,
+    "type": 0
+  } ],
+  "Blood Prime Brothers": [ {
+    "assetbundle": "http://cloud-3.steamusercontent.com/ugc/868491143102753248/E8472CE6A8B2AA2697802F59137F8CADF3185E14/",
+    "assetbundle_secondary": "http://cloud-3.steamusercontent.com/ugc/868491143102751299/C360C2CB6147DD3C65C912B8EBDD9D5E8C4E8128/",
+    "material": 0,
+    "scale": 0.425000488758087,
+    "type": 1
+  } ],
+  "Blood Prime Master": [ {
+    "assetbundle": "http://cloud-3.steamusercontent.com/ugc/929304161391653722/EA02BE5E8149147A2482A0AE14F6FAB2A5E29BBE/",
+    "assetbundle_secondary": "",
+    "material": 3,
+    "scale": 1.94999945163727,
+    "type": 1
+  } ],
+  "Blood Raider Squad": [ {
+    "cast_shadows": true,
+    "collider": "http://cloud-3.steamusercontent.com/ugc/1702909747395795965/33A14199A563CF63E2CE4662FEF982BCED64D719/",
+    "convex": true,
+    "diffuse": "http://cloud-3.steamusercontent.com/ugc/1702910069256163777/90AF5BAC85E8AB6CBFD63556176A64A829FD141C/",
+    "fresnel_strength": 0.400000005960464,
+    "material": 0,
+    "mesh": "http://cloud-3.steamusercontent.com/ugc/1702910069256210758/01A0862EC07459513EC64989AC2775D1B4340F66/",
+    "normal": "",
+    "scale": 1.09999990463257,
+    "specular_color": {
+      "a": 1,
+      "b": 1,
+      "g": 1,
+      "r": 1
+    },
+    "specular_intensity": 0,
+    "specular_sharpness": 7,
+    "type": 1
+  } ],
+  "Blood Support Turret": [ {
+    "cast_shadows": true,
+    "collider": "http://cloud-3.steamusercontent.com/ugc/264960339434024396/A9CAA3191A7C6908C9FDE75D74707E9769F0CAA3/",
+    "convex": true,
+    "diffuse": "http://cloud-3.steamusercontent.com/ugc/264960339434029638/DE0115F87B50E7860F984DFB7200D4C3905640C2/",
+    "fresnel_strength": 0,
+    "material": 3,
+    "mesh": "http://cloud-3.steamusercontent.com/ugc/264960339434023770/3ED29EA5F4B3FFAD5566A75A2C53D944553BFF67/",
+    "normal": "",
+    "scale": 1,
+    "specular_color": {
+      "a": 1,
+      "b": 1,
+      "g": 1,
+      "r": 1
+    },
+    "specular_intensity": 0,
+    "specular_sharpness": 1.99999976158142,
+    "type": 1
+  } ]
+}
