@@ -114,9 +114,9 @@ function copyPos(pos)
    }
 end
 
-function matchUnit(mapping, unitData)
+function matchUnit(mapping, overrideMappings, unitData)
    local matches = mapping[unitData.name] or mapping._default
-   local overrides = _unitMappingOverride[unitData.name]
+   local overrides = overrideMappings and overrideMappings[unitData.name]
 
    if overrides then
       matches = T.merge(matches, overrides)
@@ -183,7 +183,7 @@ function spawnUnit(data, pos)
    local modelCount = data.size * (data.combined and 2 or 1)
 
    for i = 1, modelCount do
-      local modelVariants = matchUnit(_unitMapping, data)
+      local modelVariants = matchUnit(_unitMapping, _unitMappingOverride, data)
       local model = modelVariants[1]
       local scale = model.scale or 0.5
 
@@ -314,7 +314,7 @@ function downloadList(url)
    local urlData = { url:match("(https://.*)/share(%?.*)") }
 
    if #urlData < 2 then
-      print("[ff0000]Bad or missing sharing URL in description[-]")
+      print("[ff0000]Bad or missing sharing URL in user's private notebook tab[-]")
       return
    end
 
@@ -324,7 +324,8 @@ function downloadList(url)
 end
 
 function handleButton(obj, color, altClick)
-   local listUrl = obj.getDescription()
+   local _, userBook = getNotebookTab(color, color)
+   local listUrl = userBook.body
 
    Fibers.queue(function()
          local data = downloadList(listUrl)
@@ -361,20 +362,126 @@ function overrideMappings()
       end
    end
 
+   local _, book = getNotebookTab("MAPPING")
+   if book then
+      print("Loading notebook 'MAPPING' as override")
+      local data = JSON.decode(book.body)
+      if data then
+         out = T.merge(out, data)
+      end
+   end
+
    if not hasErrors then
       _unitMappingOverride = out
    end
 end
 
+function getNotebookTab(title, color)
+   for i, book in ipairs(Notes.getNotebookTabs()) do
+      if (not title or book.title == title) and (not color or book.color == color) then
+         return i - 1, book
+      end
+   end
+end
+
+function getOrCreateNotebookTab(title, color)
+   local tab, book = getNotebookTab(title, color)
+
+   if not tab then
+      book = {
+            title = title,
+            color = color,
+            body = "",
+      }
+
+      tab = Notes.addNotebookTab(book) - 1
+   end
+
+   return tab, book
+end
+
+function generateMappings()
+   local out = {}
+
+   for _, obj in ipairs(getObjectsWithTag("OPR_MAP")) do
+      local data = obj.getCustomObject()
+      local name = obj.getName()
+
+      local entry = out[name] or {}
+      out[name] = entry
+
+      data.scale = obj.getScale().x
+
+      table.insert(entry, data)
+   end
+
+   -- Write to notebook
+   local tab = getOrCreateNotebookTab("MAPPING")
+
+   Notes.editNotebookTab({
+         index = tab,
+         body = JSON.encode_pretty(out),
+   })
+
+   validateMappings(out)
+end
+
+function validateMappings(mappings)
+   local _, userBook = getOrCreateNotebookTab("ARMY")
+   local armyName = userBook.body
+
+   if armyName == "" then
+      print("[ffff00]No army name listed under 'ARMY' notebook tab for validation[-]")
+      return
+   end
+
+   print("Validating mapping")
+
+   print(string.format("Downloading army book for '%s'", armyName))
+   local armyInfo = Cached.getJson(string.format("https://army-forge-studio.onepagerules.com/api/army-books?filters=official&gameSystemSlug=grimdark-future&searchText=%s", armyName))
+
+   -- Warn on multiple matches
+   if #armyInfo > 1 then
+      print(string.format("[ffff00]WARN: Search for '%s' yielded %s results; using first match[-]",
+              armyName,
+              #armyInfo))
+   end
+
+   -- TODO: Multiple game systems
+   local gameSystem = 2
+   local armyList = Cached.getJson(string.format("https://army-forge.onepagerules.com/api/afs/book/%s?gameSystem=%s",
+           armyInfo[1].uid,
+           gameSystem))
+
+
+   local report = ""
+   for _, unit in pairs(armyList.units) do
+      local name = unit.name
+
+      if not mappings[name] then
+         print(string.format("[00ffff]%s unmapped[-]", name))
+         report = string.format("%s%s\n", report, name )
+      end
+   end
+
+   if report ~= "" then
+      local tab = getOrCreateNotebookTab("UNMAPPED")
+      print("SETTING REPORT TO ", tab, report)
+      Notes.editNotebookTab({
+            index = tab,
+            body = report,
+      })
+   end
+end
+
 function contextCollectMappings()
    print("Collecting mapping overrides")
-   Fibers.queue(function()
-         overrideMappings()
-   end)
+   Fibers.queue(overrideMappings)
 end
 
 function contextGenerateMappings(color, pos, obj)
    print("Generating override mappings")
+   Fibers.queue(generateMappings)
 end
 
 function onLoad()
@@ -383,7 +490,7 @@ function onLoad()
    self.createButton({
          click_function = "handleButton",
          function_owner = self,
-         label          = "Click to generate from description",
+         label          = "Generate",
          position       = {0, 1, 0},
          rotation       = {0, 180, 0},
          width          = 800,
@@ -391,7 +498,7 @@ function onLoad()
          font_size      = 340,
          color          = {0.5, 0.5, 0.5},
          font_color     = {1, 1, 1},
-         tooltip        = "Paste your list in this object's description",
+         tooltip        = "Paste the share link from Army Forge into your private notebook tab",
    })
 
    -- Context menu items
