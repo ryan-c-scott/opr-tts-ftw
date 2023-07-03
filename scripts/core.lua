@@ -184,8 +184,7 @@ function spawnUnit(data, pos)
 
    for i = 1, modelCount do
       local modelVariants = matchUnit(_unitMapping, _unitMappingOverride, data)
-      local model = modelVariants[1]
-      local scale = model.scale or 0.5
+      local model = T.clone(modelVariants[1])
 
       -- TODO: Refactor so all variants can be context menu items
       local col = math.floor((i - 1) % _modelsPerRow)
@@ -198,62 +197,31 @@ function spawnUnit(data, pos)
 
       maxX = math.max(spawnPos.x, maxX)
 
-      local modelType
-      local objData = {
-         position = spawnPos,
-         scale = Vector(scale, scale, scale),
-         rotation = Vector(0, 180, 0),
-      }
-
-      if model.assetbundle then
-         objData = T.merge(objData, {
-                 type = "Custom_Assetbundle",
-         })
-
-         model = T.merge(model, {
-                 type = 1,
-                 material = 3,
-         })
-
-      elseif model.mesh then
-         objData = T.merge(objData, {
-                 type = "Custom_Model",
-         })
-
-         model = T.merge(model, {
-                 type = 1,
-                 material = 3,
-         })
-
-      elseif model.face then
-         objData = T.merge(objData, {
-                 type = "CardCustom",
-         })
-
-         model = T.merge(model, {
-                 type = 4,
-                 back = "https://uploads-ssl.webflow.com/63615fdab9c39472c7fcfe4f/6361616586af540d18a28344_onepagerules_round_2.png",
-         })
-      end
-
-      local obj = spawnObject(objData)
-      obj.setCustomObject(model)
-
-      obj.setName(string.format(
+      local objName = string.format(
               "%s [b][00eeee]Q%s[-] [Ffc125]D%s[-][/b] \[%s\]",
               data.name,
               data.quality,
               data.defense,
-              data.id))
+              data.joinToUnit or data.selectionId)
+
+      local unitLoadout = processUnitLoadout(data)
+      local objDescription = string.format("%s\n\n%s",
+              unitLoadout.rules,
+              unitLoadout.attacks)
+
+      forAllStates(model, function(state, depth)
+              state.Description = state.Description and objDescription
+              state.Nickname = state.Nickname and objName
+      end)
+
+      local obj = spawnObjectData({
+         data = model,
+         position = spawnPos,
+      })
 
       obj.addTag("TESTING")
       obj.measure_movement = true
       obj.tooltip = true
-
-      local unitLoadout = processUnitLoadout(data)
-      obj.setDescription(string.format("%s\n\n%s",
-              unitLoadout.rules,
-              unitLoadout.attacks))
 
       while obj.loading_custom do
          coroutine.yield(0)
@@ -400,17 +368,39 @@ function getOrCreateNotebookTab(title, color)
    return tab, book
 end
 
+function forAllStates(data, func)
+   if not data then
+      return
+   end
+
+   func(data)
+
+   if not data.States then
+      return
+   end
+
+   for _, state in pairs(data.States) do
+      forAllStates(state, func)
+   end
+end
+
 function generateMappings()
    local out = {}
 
    for _, obj in ipairs(getObjectsWithTag("OPR_MAP")) do
-      local data = obj.getCustomObject()
+      local data = obj.getData()
       local name = obj.getName()
 
       local entry = out[name] or {}
       out[name] = entry
 
-      data.scale = obj.getScale().x
+      forAllStates(data, function(stateData)
+              -- Clear out some data
+              stateData.Description = stateData.Description and ""
+              stateData.LuaScript = nil
+              stateData.LuaScriptState = nil
+              stateData.XmlUI = nil
+      end)
 
       table.insert(entry, data)
    end
@@ -464,14 +454,11 @@ function validateMappings(mappings)
       end
    end
 
-   if report ~= "" then
-      local tab = getOrCreateNotebookTab("UNMAPPED")
-      print("SETTING REPORT TO ", tab, report)
-      Notes.editNotebookTab({
-            index = tab,
-            body = report,
-      })
-   end
+   local tab = getOrCreateNotebookTab("UNMAPPED")
+   Notes.editNotebookTab({
+         index = tab,
+         body = report,
+   })
 end
 
 function contextCollectMappings()
