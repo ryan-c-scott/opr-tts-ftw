@@ -1,4 +1,4 @@
-local _unitMapping = {}
+local _unitMapping
 local _unitMappingOverride = {}
 
 local _unitSpacing = 2
@@ -130,13 +130,8 @@ function copyPos(pos)
    }
 end
 
-function matchUnit(mapping, overrideMappings, unitData)
+function matchUnit(mapping, unitData)
    local matches = mapping[unitData.name] or mapping._default
-   local overrides = overrideMappings and overrideMappings[unitData.name]
-
-   if overrides then
-      matches = T.merge(matches, overrides)
-   end
 
    return matches
 end
@@ -200,8 +195,8 @@ function spawnUnit(data, color, spawnerObj, pos)
    local modelCount = data.size * (data.combined and 2 or 1)
 
    for i = 1, modelCount do
-      local modelVariants = matchUnit(_unitMapping, _unitMappingOverride, data)
-      local model = T.clone(modelVariants[1])
+      local modelVariants = matchUnit(_unitMapping, data)
+      local model = T.clone(modelVariants[#modelVariants])
 
       -- TODO: Refactor so all variants can be context menu items
       local col = math.floor((i - 1) % _modelsPerRow)
@@ -285,7 +280,10 @@ function yieldForDownloadJson(req)
    yieldForDownload(req)
 
    if req.is_error then
-      log(request.error)
+      print(string.format("[ff0000]%s[-]", req.error))
+
+   elseif req.response_code ~= 200 then
+      print(string.format("[ff0000]Bad response: %s[-]", req.response_code))
 
    else
       local data = JSON.decode(req.text)
@@ -316,48 +314,17 @@ function handleButton(obj, color, altClick)
 
    Fibers.queue(function()
          local data = downloadList(listUrl)
-         -- overrideMappings("OPR_OVERRIDE")
+         loadMappings()
+
+         if not _unitMapping then
+            print("[ff0000]Failed to load unit mapping data[-]")
+            return
+         end
+
          destroyTagged(color)
 
          spawnList(data, color, obj)
    end)
-end
-
-function overrideMappings()
-   local out = {}
-
-   local hasErrors
-
-   for _, obj in ipairs(getObjectsWithTag("OPR_OVERRIDE")) do
-      local raw = obj.getDescription()
-
-      for url in raw:gmatch("(http[s]*://[^%s]+)") do
-
-         if url ~= "" then
-            print("LOADING OVERRIDE: ", url)
-            local override = downloadJson(url)
-            if override then
-               out = T.merge(out, override)
-            else
-               print(string.format("Failed to process JSON from %s", obj.getName()))
-               break
-            end
-         end
-      end
-   end
-
-   local _, book = getNotebookTab("MAPPING")
-   if book then
-      print("Loading notebook 'MAPPING' as override")
-      local data = JSON.decode(book.body)
-      if data then
-         out = T.merge(out, data)
-      end
-   end
-
-   if not hasErrors then
-      _unitMappingOverride = out
-   end
 end
 
 function getNotebookTab(title, color)
@@ -422,7 +389,7 @@ function generateMappings()
    end
 
    -- Write to notebook
-   local tab = getOrCreateNotebookTab("MAPPING")
+   local tab = getOrCreateNotebookTab("OPR_MAP")
 
    Notes.editNotebookTab({
          index = tab,
@@ -477,9 +444,55 @@ function validateMappings(mappings)
    })
 end
 
+function loadMappings()
+   local out = {}
+   local hasErrors
+
+   print("Downloading unit mapping data")
+
+   local urls = {
+      "https://raw.githubusercontent.com/ryan-c-scott/opr-tts-ftw/master/build/master.json",
+   }
+
+   -- List of urls from tab
+   local _, urlBook = getNotebookTab("MAP_URL")
+   if urlBook then
+      for url in urlBook.body:gmatch("(http[s]*://[^%s]+)") do
+         if url ~= "" then
+            table.insert(urls, url)
+         end
+      end
+   end
+
+   for _, url in ipairs(urls) do
+      print("LOADING MAPPING: ", url)
+      local override = Cached.getJson(url)
+      if override then
+         out = T.merge(out, override)
+
+      else
+         print(string.format("Failed to process JSON from %s", url))
+         break
+      end
+   end
+
+   -- OPR_MAP tab as override
+   local _, mapBook = getNotebookTab("OPR_MAP")
+   if mapBook then
+      print("Loading notebook 'OPR_MAP'")
+      local data = JSON.decode(mapBook.body)
+      if data then
+         out = T.merge(out, data)
+      end
+   end
+
+   -- TODO: Should errors stop all mapping?
+
+   _unitMapping = out
+end
+
 function contextCollectMappings()
-   print("Collecting mapping overrides")
-   Fibers.queue(overrideMappings)
+   Fibers.queue(loadMappings)
 end
 
 function contextGenerateMappings(color, pos, obj)
