@@ -1,8 +1,6 @@
 local _unitMapping = {}
 local _unitMappingOverride = {}
 
-_unitMapping = {}
-
 local _unitSpacing = 2
 local _modelsPerRow = 3
 
@@ -175,10 +173,11 @@ function processUnitLoadout(unit)
    return out
 end
 
-function spawnUnit(data, color, pos)
+function spawnUnit(data, color, spawnerObj, pos)
    local maxX = pos.x
    local cursor = copyPos(pos)
    local maxSize = Vector()
+   local spawnerRotationY = spawnerObj.getRotation().y
 
    local modelCount = data.size * (data.combined and 2 or 1)
 
@@ -216,9 +215,10 @@ function spawnUnit(data, color, pos)
 
       local obj = spawnObjectData({
          data = model,
-         position = spawnPos,
+         position = spawnerObj.positionToWorld(spawnPos),
       })
 
+      obj.setRotation(Vector(0, spawnerRotationY, 0) + obj.getRotation())
       obj.addTag(color)
       obj.measure_movement = true
       obj.tooltip = true
@@ -235,12 +235,13 @@ function spawnUnit(data, color, pos)
    return obj, pos
 end
 
-function spawnList(data, color, pos)
+function spawnList(data, color, obj)
    local seen = {}
+   local pos = Vector(0, 0, 3)
 
    for _, unit in ipairs(data.units) do
       if not seen[unit.id] then
-         local obj, pos = spawnUnit(unit, color, pos)
+         local obj, pos = spawnUnit(unit, color, obj, pos)
          seen[unit.id] = true
       end
    end
@@ -297,13 +298,10 @@ function handleButton(obj, color, altClick)
 
    Fibers.queue(function()
          local data = downloadList(listUrl)
-         overrideMappings("OPR_OVERRIDE")
+         -- overrideMappings("OPR_OVERRIDE")
          destroyTagged(color)
 
-         local pos = obj.getPosition()
-         pos.z = pos.z + 3
-
-         spawnList(data, color, pos)
+         spawnList(data, color, obj)
    end)
 end
 
