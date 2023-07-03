@@ -175,7 +175,7 @@ function processUnitLoadout(unit)
    return out
 end
 
-function spawnUnit(data, pos)
+function spawnUnit(data, color, pos)
    local maxX = pos.x
    local cursor = copyPos(pos)
    local maxSize = Vector()
@@ -219,7 +219,7 @@ function spawnUnit(data, pos)
          position = spawnPos,
       })
 
-      obj.addTag("TESTING")
+      obj.addTag(color)
       obj.measure_movement = true
       obj.tooltip = true
 
@@ -235,12 +235,12 @@ function spawnUnit(data, pos)
    return obj, pos
 end
 
-function spawnList(data, pos)
+function spawnList(data, color, pos)
    local seen = {}
 
    for _, unit in ipairs(data.units) do
       if not seen[unit.id] then
-         local obj, pos = spawnUnit(unit, pos)
+         local obj, pos = spawnUnit(unit, color, pos)
          seen[unit.id] = true
       end
    end
@@ -298,12 +298,12 @@ function handleButton(obj, color, altClick)
    Fibers.queue(function()
          local data = downloadList(listUrl)
          overrideMappings("OPR_OVERRIDE")
-         destroyTagged("TESTING")
+         destroyTagged(color)
 
          local pos = obj.getPosition()
          pos.z = pos.z + 3
 
-         spawnList(data, pos)
+         spawnList(data, color, pos)
    end)
 end
 
