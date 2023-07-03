@@ -1,165 +1,3411 @@
 {
-  "Hive Lord": [
-    {
-    "mesh": "http://cloud-3.steamusercontent.com/ugc/786374678936128171/F0C0FC65F81A2AFDEC91CA2F92421FC1E8A3CA70/",
-    "diffuse": "http://cloud-3.steamusercontent.com/ugc/786374678936167479/A2B103E6B11ECA6E4E1439E185BE72197EF2596A/",
-    "collider": "http://cloud-3.steamusercontent.com/ugc/786374678936102283/3E6999C8480E54A2E682797D4A7303765EFE03B3/"
-  }
-  ],
-
-  "Snatcher Lord": [
-    {
-    "scale": 0.75,
-    "face": "https://cdn.shopify.com/s/files/1/0299/7711/6804/products/2f9b89c8d13d00af0de475c97b2cbdea_large.png?v=1670973865"
-  }
-  ],
-
-  "Prime Warrior": [
-    {
-    "face": "https://cdn.shopify.com/s/files/1/0299/7711/6804/products/e97537cd1ee08475d9d10ab333e1fa1b_large.png?v=1670973865"}
-  ],
-
-  "Assault Grunts": [
-    {
-    "mesh": "http://cloud-3.steamusercontent.com/ugc/786374678936144008/430E198932D29C4F903B81B9C9DB752FF10E83EC/",
-    "diffuse": "http://cloud-3.steamusercontent.com/ugc/786374678936168997/2867D4E21E85873BCB6B097B2CB7A5DF23669213/",
-    "collider": "http://cloud-3.steamusercontent.com/ugc/786374678936133623/E1B8842A5BB217612EE3E386C71A65032236C2D0/"}
-  ],
-
-  "Shooter Grunts": [
-    {
-    "mesh": "http://cloud-3.steamusercontent.com/ugc/786374678936130483/5D77BF55DFE7DEDEC8C01369D1D6536805431F34/",
-    "diffuse": "http://cloud-3.steamusercontent.com/ugc/786374678936154303/106ACFA61BBF93A16FFE5ECAEEB618A9AEFB4D60/",
-    "collider": "http://cloud-3.steamusercontent.com/ugc/786374678936109828/2C84DE4EB0D1401E132818075B29FD130E2A1F4F/"}
-  ],
-
-  "Winged Grunts": [
-    {
-    "mesh": "http://cloud-3.steamusercontent.com/ugc/786374678936133373/DCA1475D91F3F0D74ACD66F9B4C7F3F0256AEF9D/",
-    "diffuse": "http://cloud-3.steamusercontent.com/ugc/786374678936164777/AB76388A4C08353DB7D7F842F956E445B45AC725/",
-    "collider": "http://cloud-3.steamusercontent.com/ugc/786374678936133623/E1B8842A5BB217612EE3E386C71A65032236C2D0/"}
-  ],
-
-  "Soul-Snatchers": [
-    {
-    "mesh": "http://cloud-3.steamusercontent.com/ugc/786374678936145595/0EE2ABB7760DCBE1B2196DDE94983A1BA3538766/",
-    "diffuse": "http://cloud-3.steamusercontent.com/ugc/786374678936179018/3DB22B484906E5F91ADE4F48A3BCE97A60A1CA28/",
-    "collider": "http://cloud-3.steamusercontent.com/ugc/786374678936133623/E1B8842A5BB217612EE3E386C71A65032236C2D0/"}
-  ],
-
-  "Hive Warriors": [
-    {
-    "mesh": "http://cloud-3.steamusercontent.com/ugc/786374678936118486/6FF029D2AD24A2361C49B09CE5EEAC7B4AB7DD68/",
-    "diffuse": "http://cloud-3.steamusercontent.com/ugc/786374678936172187/3ADA7DFBD90E06CB211FEB828CAFAE234435A391/",
-    "collider": "http://cloud-3.steamusercontent.com/ugc/786374678936109828/2C84DE4EB0D1401E132818075B29FD130E2A1F4F/"}
-  ],
-
-  "Hive Guardians": [
-    {
-    "mesh": "http://cloud-3.steamusercontent.com/ugc/786374678936143619/A2BF7B4252960C1231132DFFE709D702D852CEAB/",
-    "diffuse": "http://cloud-3.steamusercontent.com/ugc/786374678936169523/6A2AC8C7C968BFF0B0DB90B6EF8584C1DAA1BA49/",
-    "collider": "http://cloud-3.steamusercontent.com/ugc/786374678936133623/E1B8842A5BB217612EE3E386C71A65032236C2D0/"}
-  ],
-
-  "Hive Swarm": [
-    {
-    "mesh": "http://cloud-3.steamusercontent.com/ugc/786374678936178055/5D9FA2057E4AAA73EE580279BB4309E72B9055A4/",
-    "diffuse": "http://cloud-3.steamusercontent.com/ugc/786374678936178227/B9337A11A1C82458BF1CF6539F20833480ABF87F/",
-    "collider": "http://cloud-3.steamusercontent.com/ugc/786374678936109828/2C84DE4EB0D1401E132818075B29FD130E2A1F4F/"}
-  ],
-
-  "Ravenous Beasts": [
-    {
-    "face": "https://cdn.shopify.com/s/files/1/0299/7711/6804/products/5b2172b733cb6fbdc677692fab2398a6_large.png?v=1670973865"}
-  ],
-
-  "Synapse Floaters": [
-    {
-    "mesh": "http://cloud-3.steamusercontent.com/ugc/786374678936135162/38B5548773B28B2034956ED29396A885104A369B/",
-    "diffuse": "http://cloud-3.steamusercontent.com/ugc/786374678936166902/A896D2CC400DEDF14A5A858FDAC806F9194D8233/",
-    "collider": "http://cloud-3.steamusercontent.com/ugc/786374678936109828/2C84DE4EB0D1401E132818075B29FD130E2A1F4F/"}
-  ],
-
-  "Venom Floaters": [
-    {
-    "mesh": "http://cloud-3.steamusercontent.com/ugc/786374678936135162/38B5548773B28B2034956ED29396A885104A369B/",
-    "diffuse": "http://cloud-3.steamusercontent.com/ugc/786374678936166902/A896D2CC400DEDF14A5A858FDAC806F9194D8233/",
-    "collider": "http://cloud-3.steamusercontent.com/ugc/786374678936109828/2C84DE4EB0D1401E132818075B29FD130E2A1F4F/"}
-  ],
-
-  "Shadow Hunter": [
-    {
-    "face": "https://cdn.shopify.com/s/files/1/0299/7711/6804/products/215fe8fbc73ef0ac36030525ecdcf556_large.png?v=1646176995"}
-  ],
-
-  "Carnivo-Rex": [
-    {
-    "mesh": "http://cloud-3.steamusercontent.com/ugc/1705161081448427031/81C2712F7382E611B13DC6C4B3A12924B7211515/",
-    "diffuse": "http://cloud-3.steamusercontent.com/ugc/786374678936162764/E89895BB42911D7156207FE08CBC035618CDBEF8/",
-    "collider": "http://cloud-3.steamusercontent.com/ugc/786374678936102283/3E6999C8480E54A2E682797D4A7303765EFE03B3/"}
-  ],
-
-  "Toxico-Rex": [
-    {
-    "mesh": "http://cloud-3.steamusercontent.com/ugc/786374678936131510/E7D9B23FEDB551AEA6120875BE5551F94F5D22FB/",
-    "diffuse": "http://cloud-3.steamusercontent.com/ugc/786374678936156320/983CA4773DAFF4661E54E6BBB21558EC12D0BFEA/",
-    "collider": "http://cloud-3.steamusercontent.com/ugc/786374678936129447/1700E6D93E93DE440EDC437B09DB027C863296D4/"}
-  ],
-
-  "Psycho-Rex": [
-    {
-    "mesh": "http://cloud-3.steamusercontent.com/ugc/786374678936131510/E7D9B23FEDB551AEA6120875BE5551F94F5D22FB/",
-    "diffuse": "http://cloud-3.steamusercontent.com/ugc/786374678936156320/983CA4773DAFF4661E54E6BBB21558EC12D0BFEA/",
-    "collider": "http://cloud-3.steamusercontent.com/ugc/786374678936129447/1700E6D93E93DE440EDC437B09DB027C863296D4/"}
-  ],
-
-  "Burrower": [
-    {
-    "face": "https://cdn.shopify.com/s/files/1/0299/7711/6804/products/82fe16813b9a865b18f4a14b91fc5164_large.png?v=1670973870"}
-  ],
-
-  "Flamer Beast": [
-    {
-    "face": "https://cdn.shopify.com/s/files/1/0299/7711/6804/products/bd530bec408200ce86c314330b3ace81_large.png?v=1670973870"}
-  ],
-
-  "Mortar Beast": [
-    {
-    "face": "https://cdn.shopify.com/s/files/1/0299/7711/6804/products/c6f5da6dfbbb8aa11fb6ec53f55882eb_large.png?v=1670973870"}
-  ],
-
-  "Invasion Carrier Spore": [
-    {
-    "mesh": "http://cloud-3.steamusercontent.com/ugc/786374678936141793/B831F82C5D20F70C475C1B6660595433D62CF46F/",
-    "diffuse": "http://cloud-3.steamusercontent.com/ugc/786374678936171405/FC3D654B4FA52CCCED29F1081E33EDF86A421318/",
-    "collider": "http://cloud-3.steamusercontent.com/ugc/786374678936139764/3A10398982B240DBE6215E83F172C863EDC1938C/"}
-  ],
-
-  "Invasion Artillery Spore": [
-    {
-    "mesh": "http://cloud-3.steamusercontent.com/ugc/786374678936128756/9D94FC33977DDA058776D1B62038197DCFF03828/",
-    "diffuse": "http://cloud-3.steamusercontent.com/ugc/786374678936167096/BF68FB70471EA8085C9B7E357A24B0E2893E48C2/",
-    "collider": "http://cloud-3.steamusercontent.com/ugc/786374678936102283/3E6999C8480E54A2E682797D4A7303765EFE03B3/"}
-  ],
-
-  "Hive Titan": [
-    {
-    "face": "https://cdn.shopify.com/s/files/1/0299/7711/6804/products/56b750a7fca790becb11b844c4e31807_large.png?v=1670973871"
-  }
-  ],
-
-  "Spores": [
-    {
-    "mesh": "http://cloud-3.steamusercontent.com/ugc/786374678936135718/4424E3EAB0BEECA054DD3CF0686688912F4EDE11/",
-    "diffuse": "http://cloud-3.steamusercontent.com/ugc/786374678936157066/40AA0E956876077F440D5004C28DB0847E7B8E74/",
-    "collider": "http://cloud-3.steamusercontent.com/ugc/786374678936133623/E1B8842A5BB217612EE3E386C71A65032236C2D0/"
-  }
-  ],
-
-  "Massive Spore": [
-    {
-    "scale": 1.0,
-    "face": "https://cdn.shopify.com/s/files/1/0299/7711/6804/products/2b5b2c39b4cfde443745f33eb7365569_large.png?v=1670973870"
-  }
-  ]
+  "Artillery Beast": [ {
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "Autoraise": true,
+    "ColorDiffuse": {
+      "a": 1,
+      "b": 1,
+      "g": 0.992181241512299,
+      "r": 1
+    },
+    "CustomMesh": {
+      "CastShadows": true,
+      "ColliderURL": "https://paste.ee/p/UYygs",
+      "Convex": true,
+      "CustomShader": {
+        "FresnelStrength": 0,
+        "SpecularColor": {
+          "a": 1,
+          "b": 1,
+          "g": 1,
+          "r": 1
+        },
+        "SpecularIntensity": 0,
+        "SpecularSharpness": 2
+      },
+      "DiffuseURL": "https://i.imgur.com/LOEVnq1.jpg",
+      "MaterialIndex": 3,
+      "MeshURL": "https://paste.ee/p/yFEwS",
+      "NormalURL": "",
+      "TypeIndex": 1
+    },
+    "Description": "",
+    "DragSelectable": true,
+    "GMNotes": "",
+    "Grid": true,
+    "GridProjection": false,
+    "GUID": "c8e105",
+    "Hands": false,
+    "HideWhenFaceDown": false,
+    "IgnoreFoW": false,
+    "LayoutGroupSortIndex": 0,
+    "Locked": false,
+    "MeasureMovement": false,
+    "Name": "Custom_Model",
+    "Nickname": "Artillery Beast",
+    "Snap": true,
+    "Sticky": true,
+    "Tags": [ "OPR_MAP" ],
+    "Tooltip": true,
+    "Transform": {
+      "posX": -9.1934289932251,
+      "posY": 0.959999918937683,
+      "posZ": 8.24628067016602,
+      "rotX": -7.4626774448916E-07,
+      "rotY": 180.000305175781,
+      "rotZ": 8.1880648394872E-07,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+    },
+    "Value": 0
+  } ],
+  "Assault Grunts": [ {
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "Autoraise": true,
+    "ColorDiffuse": {
+      "a": 1,
+      "b": 1,
+      "g": 1,
+      "r": 1
+    },
+    "CustomMesh": {
+      "CastShadows": true,
+      "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1043093675414904296/F32B51596FCB671911B5C036B7BD54A6EBC9329B/",
+      "Convex": true,
+      "CustomShader": {
+        "FresnelStrength": 0,
+        "SpecularColor": {
+          "a": 1,
+          "b": 1,
+          "g": 1,
+          "r": 1
+        },
+        "SpecularIntensity": 0,
+        "SpecularSharpness": 2
+      },
+      "DiffuseURL": "https://i.imgur.com/lgjXA8l.png",
+      "MaterialIndex": 3,
+      "MeshURL": "https://paste.ee/p/PUwbU",
+      "NormalURL": "",
+      "TypeIndex": 1
+    },
+    "Description": "",
+    "DragSelectable": true,
+    "GMNotes": "",
+    "Grid": false,
+    "GridProjection": false,
+    "GUID": "e1545c",
+    "Hands": false,
+    "HideWhenFaceDown": false,
+    "IgnoreFoW": false,
+    "LayoutGroupSortIndex": 0,
+    "Locked": false,
+    "MeasureMovement": false,
+    "Name": "Custom_Model",
+    "Nickname": "Assault Grunts",
+    "Snap": true,
+    "Sticky": true,
+    "Tags": [ "OPR_MAP" ],
+    "Tooltip": true,
+    "Transform": {
+      "posX": -18.4800987243652,
+      "posY": 0.960000038146973,
+      "posZ": 12.3616437911987,
+      "rotX": -9.3932965228305E-07,
+      "rotY": 344.992004394531,
+      "rotZ": -9.23784114092996E-07,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+    },
+    "Value": 0
+  } ],
+  "Burrower": [ {
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "Autoraise": true,
+    "ColorDiffuse": {
+      "a": 1,
+      "b": 1,
+      "g": 0.992180287837982,
+      "r": 1
+    },
+    "CustomMesh": {
+      "CastShadows": true,
+      "ColliderURL": "https://paste.ee/p/UYygs",
+      "Convex": true,
+      "CustomShader": {
+        "FresnelStrength": 0,
+        "SpecularColor": {
+          "a": 1,
+          "b": 1,
+          "g": 1,
+          "r": 1
+        },
+        "SpecularIntensity": 0,
+        "SpecularSharpness": 2
+      },
+      "DiffuseURL": "https://i.imgur.com/ixPxt7R.jpg",
+      "MaterialIndex": 3,
+      "MeshURL": "https://paste.ee/p/1FaKS",
+      "NormalURL": "",
+      "TypeIndex": 1
+    },
+    "Description": "",
+    "DragSelectable": true,
+    "GMNotes": "",
+    "Grid": true,
+    "GridProjection": false,
+    "GUID": "3d0f9a",
+    "Hands": false,
+    "HideWhenFaceDown": false,
+    "IgnoreFoW": false,
+    "LayoutGroupSortIndex": 0,
+    "Locked": false,
+    "MeasureMovement": false,
+    "Name": "Custom_Model",
+    "Nickname": "Burrower",
+    "Snap": true,
+    "States": [ null, {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 1,
+        "g": 0.992179095745087,
+        "r": 1
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "https://paste.ee/p/UYygs",
+        "Convex": true,
+        "CustomShader": {
+          "FresnelStrength": 0,
+          "SpecularColor": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "SpecularIntensity": 0,
+          "SpecularSharpness": 2
+        },
+        "DiffuseURL": "https://i.imgur.com/ixPxt7R.jpg",
+        "MaterialIndex": 3,
+        "MeshURL": "https://paste.ee/p/nVeJA",
+        "NormalURL": "",
+        "TypeIndex": 1
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": true,
+      "GridProjection": false,
+      "GUID": "4fc1b1",
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": false,
+      "Name": "Custom_Model",
+      "Nickname": "Mawloc",
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": -26.0626850128174,
+        "posY": 0.960000276565552,
+        "posZ": -6.77992582321167,
+        "rotX": -4.41927795691299E-06,
+        "rotY": 179.995971679688,
+        "rotZ": -6.2356201624425E-07,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0
+    }, {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 1,
+        "g": 0.992178857326508,
+        "r": 1
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "https://paste.ee/p/UYygs",
+        "Convex": true,
+        "CustomShader": {
+          "FresnelStrength": 0,
+          "SpecularColor": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "SpecularIntensity": 0,
+          "SpecularSharpness": 2
+        },
+        "DiffuseURL": "https://i.imgur.com/ixPxt7R.jpg",
+        "MaterialIndex": 3,
+        "MeshURL": "https://paste.ee/p/FQJau",
+        "NormalURL": "",
+        "TypeIndex": 1
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": true,
+      "GridProjection": false,
+      "GUID": "5ccfe7",
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": false,
+      "Name": "Custom_Model",
+      "Nickname": "Trygon",
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": -30.4501075744629,
+        "posY": 0.960000574588776,
+        "posZ": -6.72163248062134,
+        "rotX": -1.30062278458354E-06,
+        "rotY": 179.992706298828,
+        "rotZ": 7.59574220410286E-07,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0
+    } ],
+    "Sticky": true,
+    "Tags": [ "OPR_MAP" ],
+    "Tooltip": true,
+    "Transform": {
+      "posX": -1.26173973083496,
+      "posY": 0.959999918937683,
+      "posZ": 7.7799711227417,
+      "rotX": 2.79582309303805E-07,
+      "rotY": 180.011505126953,
+      "rotZ": -4.26598774083686E-07,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+    },
+    "Value": 0
+  } ],
+  "Carnivo-Rex": [ {
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "Autoraise": true,
+    "ColorDiffuse": {
+      "a": 1,
+      "b": 0.999999821186066,
+      "g": 0.992181718349457,
+      "r": 0.999999821186066
+    },
+    "CustomMesh": {
+      "CastShadows": true,
+      "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1043093675414910691/A38AFE0E8955841404269A62127443886ED1BD53/",
+      "Convex": true,
+      "CustomShader": {
+        "FresnelStrength": 0,
+        "SpecularColor": {
+          "a": 1,
+          "b": 1,
+          "g": 1,
+          "r": 1
+        },
+        "SpecularIntensity": 0,
+        "SpecularSharpness": 2
+      },
+      "DiffuseURL": "https://i.imgur.com/ZAVeuGz.jpg",
+      "MaterialIndex": 3,
+      "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1495711913283195925/EA07EA736FA5D426190F3218AC693FEB9D5F2D93/",
+      "NormalURL": "",
+      "TypeIndex": 1
+    },
+    "Description": "",
+    "DragSelectable": true,
+    "GMNotes": "",
+    "Grid": true,
+    "GridProjection": false,
+    "GUID": "a0b050",
+    "Hands": false,
+    "HideWhenFaceDown": false,
+    "IgnoreFoW": false,
+    "LayoutGroupSortIndex": 0,
+    "Locked": false,
+    "MeasureMovement": false,
+    "Name": "Custom_Model",
+    "Nickname": "Carnivo-Rex",
+    "Snap": true,
+    "Sticky": true,
+    "Tags": [ "OPR_MAP" ],
+    "Tooltip": true,
+    "Transform": {
+      "posX": 5.80731964111328,
+      "posY": 0.959999918937683,
+      "posZ": 11.8087739944458,
+      "rotX": 1.70500902640924E-06,
+      "rotY": 179.996353149414,
+      "rotZ": -3.88715818644414E-07,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+    },
+    "Value": 0
+  } ],
+  "Devourer Beast": [ {
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "Autoraise": true,
+    "ColorDiffuse": {
+      "a": 1,
+      "b": 0.996079623699188,
+      "g": 1,
+      "r": 1
+    },
+    "CustomMesh": {
+      "CastShadows": true,
+      "ColliderURL": "https://paste.ee/p/UYygs",
+      "Convex": true,
+      "CustomShader": {
+        "FresnelStrength": 0,
+        "SpecularColor": {
+          "a": 1,
+          "b": 1,
+          "g": 1,
+          "r": 1
+        },
+        "SpecularIntensity": 0,
+        "SpecularSharpness": 2
+      },
+      "DiffuseURL": "https://i.imgur.com/LOEVnq1.jpg",
+      "MaterialIndex": 3,
+      "MeshURL": "https://paste.ee/p/97tm4",
+      "NormalURL": "",
+      "TypeIndex": 1
+    },
+    "Description": "",
+    "DragSelectable": true,
+    "GMNotes": "",
+    "Grid": true,
+    "GridProjection": false,
+    "GUID": "7f6c40",
+    "Hands": false,
+    "HideWhenFaceDown": false,
+    "IgnoreFoW": false,
+    "LayoutGroupSortIndex": 0,
+    "Locked": false,
+    "MeasureMovement": false,
+    "Name": "Custom_Model",
+    "Nickname": "Devourer Beast",
+    "Snap": true,
+    "Sticky": true,
+    "Tags": [ "OPR_MAP" ],
+    "Tooltip": true,
+    "Transform": {
+      "posX": -19.0595226287842,
+      "posY": 0.959999859333038,
+      "posZ": 8.6505241394043,
+      "rotX": 2.58627579796666E-07,
+      "rotY": 179.999496459961,
+      "rotZ": 8.42217843910475E-07,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+    },
+    "Value": 0
+  } ],
+  "Flamer Beast": [ {
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "Autoraise": true,
+    "ColorDiffuse": {
+      "a": 1,
+      "b": 1,
+      "g": 1,
+      "r": 1
+    },
+    "CustomMesh": {
+      "CastShadows": true,
+      "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1043093675414910691/A38AFE0E8955841404269A62127443886ED1BD53/",
+      "Convex": true,
+      "CustomShader": {
+        "FresnelStrength": 0,
+        "SpecularColor": {
+          "a": 1,
+          "b": 0.25,
+          "g": 0.25,
+          "r": 0.25
+        },
+        "SpecularIntensity": 0.0500000007450581,
+        "SpecularSharpness": 2
+      },
+      "DiffuseURL": "https://i.imgur.com/Vk2hskT.jpg",
+      "MaterialIndex": 1,
+      "MeshURL": "http://cloud-3.steamusercontent.com/ugc/861732532548050446/BE236D879EFE46BB4C1A4D1628B71AD56CD9D11F/",
+      "NormalURL": "",
+      "TypeIndex": 0
+    },
+    "Description": "",
+    "DragSelectable": true,
+    "GMNotes": "",
+    "Grid": true,
+    "GridProjection": false,
+    "GUID": "b5d16c",
+    "Hands": false,
+    "HideWhenFaceDown": false,
+    "IgnoreFoW": false,
+    "LayoutGroupSortIndex": 0,
+    "Locked": false,
+    "MeasureMovement": false,
+    "Name": "Custom_Model",
+    "Nickname": "Flamer Beast",
+    "Snap": true,
+    "Sticky": true,
+    "Tags": [ "OPR_MAP" ],
+    "Tooltip": true,
+    "Transform": {
+      "posX": 18.8450107574463,
+      "posY": 0.959999799728394,
+      "posZ": 11.2355670928955,
+      "rotX": -1.45864430578513E-06,
+      "rotY": 180.036911010742,
+      "rotZ": 3.31696924149583E-06,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+    },
+    "Value": 0
+  } ],
+  "Hive Guardians": [ {
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "Autoraise": true,
+    "ColorDiffuse": {
+      "a": 1,
+      "b": 0.999999821186066,
+      "g": 0.992181718349457,
+      "r": 0.999999821186066
+    },
+    "CustomMesh": {
+      "CastShadows": true,
+      "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1043093675414910691/A38AFE0E8955841404269A62127443886ED1BD53/",
+      "Convex": true,
+      "CustomShader": {
+        "FresnelStrength": 0,
+        "SpecularColor": {
+          "a": 1,
+          "b": 1,
+          "g": 1,
+          "r": 1
+        },
+        "SpecularIntensity": 0,
+        "SpecularSharpness": 2
+      },
+      "DiffuseURL": "https://i.imgur.com/mfKCvEr.jpg",
+      "MaterialIndex": 3,
+      "MeshURL": "https://paste.ee/p/vIGSV",
+      "NormalURL": "",
+      "TypeIndex": 1
+    },
+    "Description": "",
+    "DragSelectable": true,
+    "GMNotes": "",
+    "Grid": true,
+    "GridProjection": false,
+    "GUID": "4171a2",
+    "Hands": false,
+    "HideWhenFaceDown": false,
+    "IgnoreFoW": false,
+    "LayoutGroupSortIndex": 0,
+    "Locked": false,
+    "MeasureMovement": false,
+    "Name": "Custom_Model",
+    "Nickname": "Hive Guardians",
+    "Snap": true,
+    "States": [ null, {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 0.999999821186066,
+        "g": 0.99218076467514,
+        "r": 0.999999821186066
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1043093675414910691/A38AFE0E8955841404269A62127443886ED1BD53/",
+        "Convex": true,
+        "CustomShader": {
+          "FresnelStrength": 0,
+          "SpecularColor": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "SpecularIntensity": 0,
+          "SpecularSharpness": 2
+        },
+        "DiffuseURL": "https://i.imgur.com/Gu8qi4Q.jpg",
+        "MaterialIndex": 3,
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/860604658691752007/D1D1C9DC849D4567E676FA0287450838D6304003/",
+        "NormalURL": "",
+        "TypeIndex": 1
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": true,
+      "GridProjection": false,
+      "GUID": "3489bf",
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": false,
+      "Name": "Custom_Model",
+      "Nickname": "Hive Guard",
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": -10.9143552780151,
+        "posY": 0.959999918937683,
+        "posZ": -3.45517230033875,
+        "rotX": -8.91254842372291E-07,
+        "rotY": 0.00131139624863863,
+        "rotZ": -1.28066034221774E-07,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0
+    }, {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 0.999999821186066,
+        "g": 0.99218088388443,
+        "r": 0.999999821186066
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1043093675414910691/A38AFE0E8955841404269A62127443886ED1BD53/",
+        "Convex": true,
+        "CustomShader": {
+          "FresnelStrength": 0,
+          "SpecularColor": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "SpecularIntensity": 0,
+          "SpecularSharpness": 2
+        },
+        "DiffuseURL": "https://i.imgur.com/grnMz1I.jpg",
+        "MaterialIndex": 3,
+        "MeshURL": "https://paste.ee/p/4kMS5",
+        "NormalURL": "",
+        "TypeIndex": 1
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": true,
+      "GridProjection": false,
+      "GUID": "284638",
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": false,
+      "Name": "Custom_Model",
+      "Nickname": "Tyrant Guard",
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": -10.9143552780151,
+        "posY": 0.959999918937683,
+        "posZ": -3.45517230033875,
+        "rotX": 1.54320684941922E-06,
+        "rotY": 0.00133359420578927,
+        "rotZ": 1.29154420847044E-06,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0
+    }, {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 0.999999821186066,
+        "g": 0.99218076467514,
+        "r": 0.999999821186066
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1043093675414910691/A38AFE0E8955841404269A62127443886ED1BD53/",
+        "Convex": true,
+        "CustomShader": {
+          "FresnelStrength": 0,
+          "SpecularColor": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "SpecularIntensity": 0,
+          "SpecularSharpness": 2
+        },
+        "DiffuseURL": "https://i.imgur.com/Gu8qi4Q.jpg",
+        "MaterialIndex": 3,
+        "MeshURL": "https://paste.ee/p/6dWzv",
+        "NormalURL": "",
+        "TypeIndex": 1
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": true,
+      "GridProjection": false,
+      "GUID": "5ad109",
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": false,
+      "Name": "Custom_Model",
+      "Nickname": "Hive Guard",
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": -10.9143552780151,
+        "posY": 0.959999918937683,
+        "posZ": -3.45517230033875,
+        "rotX": -7.92880030076049E-07,
+        "rotY": 0.00135749985929579,
+        "rotZ": -2.60223714576568E-06,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0
+    }, {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 0.999999821186066,
+        "g": 0.992181718349457,
+        "r": 0.999999821186066
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1043093675414910691/A38AFE0E8955841404269A62127443886ED1BD53/",
+        "Convex": true,
+        "CustomShader": {
+          "FresnelStrength": 0,
+          "SpecularColor": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "SpecularIntensity": 0,
+          "SpecularSharpness": 2
+        },
+        "DiffuseURL": "https://i.imgur.com/mfKCvEr.jpg",
+        "MaterialIndex": 3,
+        "MeshURL": "https://paste.ee/p/YXO7P",
+        "NormalURL": "",
+        "TypeIndex": 1
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": true,
+      "GridProjection": false,
+      "GUID": "dde8bc",
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": false,
+      "Name": "Custom_Model",
+      "Nickname": "Tyrant Guard",
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": -10.9143552780151,
+        "posY": 0.959999918937683,
+        "posZ": -3.45517230033875,
+        "rotX": 3.84936265618308E-06,
+        "rotY": 0.0013814055128023,
+        "rotZ": 1.36146729801112E-06,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0
+    } ],
+    "Sticky": true,
+    "Tags": [ "OPR_MAP" ],
+    "Tooltip": true,
+    "Transform": {
+      "posX": -7.98342132568359,
+      "posY": 0.959999918937683,
+      "posZ": 12.0854978561401,
+      "rotX": -1.59045029590743E-07,
+      "rotY": 0.00139335833955556,
+      "rotZ": 8.96523374649405E-07,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+    },
+    "Value": 0
+  } ],
+  "Hive Lord": [ {
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "Autoraise": true,
+    "ColorDiffuse": {
+      "a": 1,
+      "b": 0.999999821186066,
+      "g": 0.992184221744537,
+      "r": 0.999999821186066
+    },
+    "CustomMesh": {
+      "CastShadows": false,
+      "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1043093675414912909/2453A883C68E3D8221CF26563E22F095A941E4EA/",
+      "Convex": false,
+      "CustomShader": {
+        "FresnelStrength": 0,
+        "SpecularColor": {
+          "a": 1,
+          "b": 1,
+          "g": 1,
+          "r": 1
+        },
+        "SpecularIntensity": 0,
+        "SpecularSharpness": 2
+      },
+      "DiffuseURL": "https://i.imgur.com/VGKQJu5.jpg",
+      "MaterialIndex": 3,
+      "MeshURL": "https://paste.ee/p/Ik2Xi",
+      "NormalURL": "",
+      "TypeIndex": 0
+    },
+    "Description": "",
+    "DragSelectable": true,
+    "GMNotes": "",
+    "Grid": true,
+    "GridProjection": false,
+    "GUID": "9746c9",
+    "Hands": false,
+    "HideWhenFaceDown": false,
+    "IgnoreFoW": false,
+    "LayoutGroupSortIndex": 0,
+    "Locked": false,
+    "MeasureMovement": false,
+    "Name": "Custom_Model",
+    "Nickname": "Hive Lord",
+    "Snap": true,
+    "States": [ {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 0.999999821186066,
+        "g": 0.992184221744537,
+        "r": 0.999999821186066
+      },
+      "CustomMesh": {
+        "CastShadows": false,
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1043093675414912909/2453A883C68E3D8221CF26563E22F095A941E4EA/",
+        "Convex": false,
+        "CustomShader": {
+          "FresnelStrength": 0,
+          "SpecularColor": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "SpecularIntensity": 0,
+          "SpecularSharpness": 2
+        },
+        "DiffuseURL": "https://i.imgur.com/VGKQJu5.jpg",
+        "MaterialIndex": 3,
+        "MeshURL": "https://paste.ee/p/Eo1q2",
+        "NormalURL": "",
+        "TypeIndex": 0
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": true,
+      "GridProjection": false,
+      "GUID": "ee84be",
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": false,
+      "Name": "Custom_Model",
+      "Nickname": "Hive Lord",
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": -26.3265514373779,
+        "posY": 0.959999918937683,
+        "posZ": 13.6930732727051,
+        "rotX": -3.73885420401621E-08,
+        "rotY": 0.00604300992563367,
+        "rotZ": 1.29114755509363E-06,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0
+    } ],
+    "Sticky": true,
+    "Tags": [ "OPR_MAP" ],
+    "Tooltip": true,
+    "Transform": {
+      "posX": -26.3265514373779,
+      "posY": 0.960000038146973,
+      "posZ": 13.6930732727051,
+      "rotX": -1.61045920776814E-06,
+      "rotY": 0.00604642508551478,
+      "rotZ": 4.50577232413707E-07,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+    },
+    "Value": 0
+  } ],
+  "Hive Swarm": [ {
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "Autoraise": true,
+    "ColorDiffuse": {
+      "a": 1,
+      "b": 0.996088087558746,
+      "g": 0.998615682125092,
+      "r": 1
+    },
+    "CustomMesh": {
+      "CastShadows": true,
+      "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1043093675414910691/A38AFE0E8955841404269A62127443886ED1BD53/",
+      "Convex": true,
+      "CustomShader": {
+        "FresnelStrength": 0,
+        "SpecularColor": {
+          "a": 1,
+          "b": 1,
+          "g": 1,
+          "r": 1
+        },
+        "SpecularIntensity": 0,
+        "SpecularSharpness": 2
+      },
+      "DiffuseURL": "https://i.imgur.com/vddPxNh.png",
+      "MaterialIndex": 3,
+      "MeshURL": "https://paste.ee/p/sFffn",
+      "NormalURL": "",
+      "TypeIndex": 1
+    },
+    "Description": "",
+    "DragSelectable": true,
+    "GMNotes": "",
+    "Grid": true,
+    "GridProjection": false,
+    "GUID": "ca7845",
+    "Hands": false,
+    "HideWhenFaceDown": false,
+    "IgnoreFoW": false,
+    "LayoutGroupSortIndex": 0,
+    "Locked": false,
+    "MeasureMovement": false,
+    "Name": "Custom_Model",
+    "Nickname": "Hive Swarm",
+    "Snap": true,
+    "Sticky": true,
+    "Tags": [ "OPR_MAP" ],
+    "Tooltip": true,
+    "Transform": {
+      "posX": -5.98798370361328,
+      "posY": 0.959999918937683,
+      "posZ": 12.1803951263428,
+      "rotX": -2.76803461929376E-06,
+      "rotY": 179.987518310547,
+      "rotZ": -2.0273262180126E-06,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+    },
+    "Value": 0
+  } ],
+  "Hive Titan": [ {
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "Autoraise": true,
+    "ColorDiffuse": {
+      "a": 1,
+      "b": 0.999999821186066,
+      "g": 0.992171585559845,
+      "r": 0.999999821186066
+    },
+    "CustomMesh": {
+      "CastShadows": true,
+      "ColliderURL": "https://paste.ee/p/Ww7pH",
+      "Convex": true,
+      "CustomShader": {
+        "FresnelStrength": 0,
+        "SpecularColor": {
+          "a": 1,
+          "b": 1,
+          "g": 1,
+          "r": 1
+        },
+        "SpecularIntensity": 0,
+        "SpecularSharpness": 2
+      },
+      "DiffuseURL": "https://i.imgur.com/vgith2m.png",
+      "MaterialIndex": 3,
+      "MeshURL": "https://paste.ee/p/RjrXG",
+      "NormalURL": "",
+      "TypeIndex": 1
+    },
+    "Description": "",
+    "DragSelectable": true,
+    "GMNotes": "",
+    "Grid": true,
+    "GridProjection": false,
+    "GUID": "783034",
+    "Hands": false,
+    "HideWhenFaceDown": false,
+    "IgnoreFoW": false,
+    "LayoutGroupSortIndex": 0,
+    "Locked": false,
+    "MeasureMovement": false,
+    "Name": "Custom_Model",
+    "Nickname": "Hive Titan",
+    "Snap": true,
+    "Sticky": true,
+    "Tags": [ "OPR_MAP" ],
+    "Tooltip": true,
+    "Transform": {
+      "posX": 5.39494276046753,
+      "posY": 0.959999799728394,
+      "posZ": 3.51357126235962,
+      "rotX": 1.0432365371571E-07,
+      "rotY": 0.0185670107603073,
+      "rotZ": 2.74458614057949E-07,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+    },
+    "Value": 0
+  } ],
+  "Hive Warriors": [ {
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "Autoraise": true,
+    "ColorDiffuse": {
+      "a": 1,
+      "b": 1,
+      "g": 0.992178380489349,
+      "r": 1
+    },
+    "CustomMesh": {
+      "CastShadows": true,
+      "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1043093675414910691/A38AFE0E8955841404269A62127443886ED1BD53/",
+      "Convex": true,
+      "CustomShader": {
+        "FresnelStrength": 0,
+        "SpecularColor": {
+          "a": 1,
+          "b": 1,
+          "g": 1,
+          "r": 1
+        },
+        "SpecularIntensity": 0,
+        "SpecularSharpness": 2
+      },
+      "DiffuseURL": "https://i.imgur.com/YrVDxjw.jpg",
+      "MaterialIndex": 3,
+      "MeshURL": "https://paste.ee/p/QxYnC",
+      "NormalURL": "",
+      "TypeIndex": 1
+    },
+    "Description": "",
+    "DragSelectable": true,
+    "GMNotes": "",
+    "Grid": true,
+    "GridProjection": false,
+    "GUID": "a5839e",
+    "Hands": false,
+    "HideWhenFaceDown": false,
+    "IgnoreFoW": false,
+    "LayoutGroupSortIndex": 0,
+    "Locked": false,
+    "MeasureMovement": false,
+    "Name": "Custom_Model",
+    "Nickname": "Hive Warriors",
+    "Snap": true,
+    "States": [ null, {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 1,
+        "g": 0.992178380489349,
+        "r": 1
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1043093675414910691/A38AFE0E8955841404269A62127443886ED1BD53/",
+        "Convex": true,
+        "CustomShader": {
+          "FresnelStrength": 0,
+          "SpecularColor": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "SpecularIntensity": 0,
+          "SpecularSharpness": 2
+        },
+        "DiffuseURL": "https://i.imgur.com/YrVDxjw.jpg",
+        "MaterialIndex": 3,
+        "MeshURL": "https://paste.ee/p/ReTye",
+        "NormalURL": "",
+        "TypeIndex": 1
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": true,
+      "GridProjection": false,
+      "GUID": "6ce2d2",
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": false,
+      "Name": "Custom_Model",
+      "Nickname": "Warrior",
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 14.8776426315308,
+        "posY": 0.959999799728394,
+        "posZ": -16.3668785095215,
+        "rotX": 1.3619547644339E-05,
+        "rotY": 14.9847984313965,
+        "rotZ": 1.34302563310484E-05,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0
+    } ],
+    "Sticky": true,
+    "Tags": [ "OPR_MAP" ],
+    "Tooltip": true,
+    "Transform": {
+      "posX": -10.7699604034424,
+      "posY": 0.959999918937683,
+      "posZ": 12.1960935592651,
+      "rotX": 5.76785907924204E-07,
+      "rotY": 14.9848003387451,
+      "rotZ": 7.56459783701757E-08,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+    },
+    "Value": 0
+  } ],
+  "Invasion Artillery Spore": [ {
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "Autoraise": true,
+    "ColorDiffuse": {
+      "a": 1,
+      "b": 0.999999821186066,
+      "g": 0.992168247699738,
+      "r": 0.999999821186066
+    },
+    "CustomMesh": {
+      "CastShadows": true,
+      "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1043093675414915650/865E40BCC8197EEEC9341BE8CF92B1B5B8DDE8A9/",
+      "Convex": true,
+      "CustomShader": {
+        "FresnelStrength": 0,
+        "SpecularColor": {
+          "a": 1,
+          "b": 1,
+          "g": 1,
+          "r": 1
+        },
+        "SpecularIntensity": 0,
+        "SpecularSharpness": 2
+      },
+      "DiffuseURL": "https://i.imgur.com/JZpq9mD.jpg",
+      "MaterialIndex": 3,
+      "MeshURL": "https://paste.ee/p/0CTqL",
+      "NormalURL": "",
+      "TypeIndex": 1
+    },
+    "Description": "",
+    "DragSelectable": true,
+    "GMNotes": "",
+    "Grid": true,
+    "GridProjection": false,
+    "GUID": "f786fa",
+    "Hands": false,
+    "HideWhenFaceDown": false,
+    "IgnoreFoW": false,
+    "LayoutGroupSortIndex": 0,
+    "Locked": false,
+    "MeasureMovement": false,
+    "Name": "Custom_Model",
+    "Nickname": "Invasion Artillery Spore",
+    "Snap": true,
+    "States": [ null, {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 0.999999821186066,
+        "g": 0.992168247699738,
+        "r": 0.999999821186066
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1043093675414915650/865E40BCC8197EEEC9341BE8CF92B1B5B8DDE8A9/",
+        "Convex": true,
+        "CustomShader": {
+          "FresnelStrength": 0,
+          "SpecularColor": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "SpecularIntensity": 0,
+          "SpecularSharpness": 2
+        },
+        "DiffuseURL": "https://i.imgur.com/JZpq9mD.jpg",
+        "MaterialIndex": 3,
+        "MeshURL": "https://paste.ee/p/x6oP2",
+        "NormalURL": "",
+        "TypeIndex": 1
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": true,
+      "GridProjection": false,
+      "GUID": "0e1d86",
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": false,
+      "Name": "Custom_Model",
+      "Nickname": "Sporocyst",
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 22.7573871612549,
+        "posY": 0.960000038146973,
+        "posZ": 5.31275177001953,
+        "rotX": 5.75153421777941E-07,
+        "rotY": 135.024490356445,
+        "rotZ": 7.17309205811034E-07,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0
+    }, {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 0.999999821186066,
+        "g": 0.992168247699738,
+        "r": 0.999999821186066
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1043093675414915650/865E40BCC8197EEEC9341BE8CF92B1B5B8DDE8A9/",
+        "Convex": true,
+        "CustomShader": {
+          "FresnelStrength": 0,
+          "SpecularColor": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "SpecularIntensity": 0,
+          "SpecularSharpness": 2
+        },
+        "DiffuseURL": "https://i.imgur.com/JZpq9mD.jpg",
+        "MaterialIndex": 3,
+        "MeshURL": "https://paste.ee/p/WAuun",
+        "NormalURL": "",
+        "TypeIndex": 1
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": true,
+      "GridProjection": false,
+      "GUID": "e23260",
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": false,
+      "Name": "Custom_Model",
+      "Nickname": "Sporocyst",
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 22.7573871612549,
+        "posY": 0.960000157356262,
+        "posZ": 5.31275177001953,
+        "rotX": 5.06978039993555E-07,
+        "rotY": 135.024490356445,
+        "rotZ": 7.23381276657165E-07,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0
+    } ],
+    "Sticky": true,
+    "Tags": [ "OPR_MAP" ],
+    "Tooltip": true,
+    "Transform": {
+      "posX": 22.7573871612549,
+      "posY": 0.960000276565552,
+      "posZ": 5.31275177001953,
+      "rotX": 1.80694087248412E-07,
+      "rotY": 135.024490356445,
+      "rotZ": -3.6748642173734E-07,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+    },
+    "Value": 0
+  } ],
+  "Invasion Carrier Spore": [ {
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "Autoraise": true,
+    "ColorDiffuse": {
+      "a": 1,
+      "b": 0.999999821186066,
+      "g": 0.992168247699738,
+      "r": 0.999999821186066
+    },
+    "CustomMesh": {
+      "CastShadows": true,
+      "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1043093675414915650/865E40BCC8197EEEC9341BE8CF92B1B5B8DDE8A9/",
+      "Convex": true,
+      "CustomShader": {
+        "FresnelStrength": 0,
+        "SpecularColor": {
+          "a": 1,
+          "b": 1,
+          "g": 1,
+          "r": 1
+        },
+        "SpecularIntensity": 0,
+        "SpecularSharpness": 2
+      },
+      "DiffuseURL": "https://i.imgur.com/JZpq9mD.jpg",
+      "MaterialIndex": 3,
+      "MeshURL": "https://paste.ee/p/q7mry",
+      "NormalURL": "",
+      "TypeIndex": 0
+    },
+    "Description": "",
+    "DragSelectable": true,
+    "GMNotes": "",
+    "Grid": true,
+    "GridProjection": false,
+    "GUID": "0eca71",
+    "Hands": false,
+    "HideWhenFaceDown": false,
+    "IgnoreFoW": false,
+    "LayoutGroupSortIndex": 0,
+    "Locked": false,
+    "MeasureMovement": false,
+    "Name": "Custom_Model",
+    "Nickname": "Invasion Carrier Spore",
+    "Snap": true,
+    "States": [ null, {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 0.999999821186066,
+        "g": 0.992168247699738,
+        "r": 0.999999821186066
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1043093675414915650/865E40BCC8197EEEC9341BE8CF92B1B5B8DDE8A9/",
+        "Convex": true,
+        "CustomShader": {
+          "FresnelStrength": 0,
+          "SpecularColor": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "SpecularIntensity": 0,
+          "SpecularSharpness": 2
+        },
+        "DiffuseURL": "https://i.imgur.com/JZpq9mD.jpg",
+        "MaterialIndex": 3,
+        "MeshURL": "https://paste.ee/p/xxfoO",
+        "NormalURL": "",
+        "TypeIndex": 0
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": true,
+      "GridProjection": false,
+      "GUID": "0510bd",
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": false,
+      "Name": "Custom_Model",
+      "Nickname": "Tyrannocyte",
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": -12.2459173202515,
+        "posY": 0.959999918937683,
+        "posZ": -4.89294862747192,
+        "rotX": 6.82793768191914E-07,
+        "rotY": 59.9904479980469,
+        "rotZ": -5.90186573390383E-07,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0
+    } ],
+    "Sticky": true,
+    "Tags": [ "OPR_MAP" ],
+    "Tooltip": true,
+    "Transform": {
+      "posX": 26.0021800994873,
+      "posY": 0.959999918937683,
+      "posZ": 12.4424638748169,
+      "rotX": 9.82509050118097E-07,
+      "rotY": 59.9904556274414,
+      "rotZ": 6.1065838963259E-07,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+    },
+    "Value": 0
+  } ],
+  "Massive Spore": [ {
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "Autoraise": true,
+    "ColorDiffuse": {
+      "a": 1,
+      "b": 0.999999821186066,
+      "g": 0.992181718349457,
+      "r": 0.999999821186066
+    },
+    "CustomMesh": {
+      "CastShadows": true,
+      "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1043093675414910691/A38AFE0E8955841404269A62127443886ED1BD53/",
+      "Convex": true,
+      "CustomShader": {
+        "FresnelStrength": 0,
+        "SpecularColor": {
+          "a": 1,
+          "b": 1,
+          "g": 1,
+          "r": 1
+        },
+        "SpecularIntensity": 0,
+        "SpecularSharpness": 2
+      },
+      "DiffuseURL": "https://i.imgur.com/rthD1Zp.png",
+      "MaterialIndex": 3,
+      "MeshURL": "http://cloud-3.steamusercontent.com/ugc/929311677227599754/4D25BC54A644C45007591E272FFDFCAE51AAB174/",
+      "NormalURL": "",
+      "TypeIndex": 1
+    },
+    "Description": "",
+    "DragSelectable": true,
+    "GMNotes": "",
+    "Grid": true,
+    "GridProjection": false,
+    "GUID": "29a993",
+    "Hands": false,
+    "HideWhenFaceDown": false,
+    "IgnoreFoW": false,
+    "LayoutGroupSortIndex": 0,
+    "Locked": false,
+    "MeasureMovement": false,
+    "Name": "Custom_Model",
+    "Nickname": "Massive Spore",
+    "Snap": true,
+    "Sticky": true,
+    "Tags": [ "OPR_MAP" ],
+    "Tooltip": true,
+    "Transform": {
+      "posX": -23.2418842315674,
+      "posY": 0.960000038146973,
+      "posZ": 8.67321014404297,
+      "rotX": 2.7949884042755E-06,
+      "rotY": 0.0096271513029933,
+      "rotZ": 1.79488972662512E-06,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+    },
+    "Value": 0
+  } ],
+  "Mortar Beast": [ {
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "Autoraise": true,
+    "ColorDiffuse": {
+      "a": 1,
+      "b": 0.999999821186066,
+      "g": 0.992181718349457,
+      "r": 0.999999821186066
+    },
+    "CustomMesh": {
+      "CastShadows": true,
+      "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1043093675414910691/A38AFE0E8955841404269A62127443886ED1BD53/",
+      "Convex": true,
+      "CustomShader": {
+        "FresnelStrength": 0,
+        "SpecularColor": {
+          "a": 1,
+          "b": 1,
+          "g": 1,
+          "r": 1
+        },
+        "SpecularIntensity": 0,
+        "SpecularSharpness": 2
+      },
+      "DiffuseURL": "https://i.imgur.com/jVukMXl.png",
+      "MaterialIndex": 3,
+      "MeshURL": "http://cloud-3.steamusercontent.com/ugc/952957448631790093/F64DB1A4DEDDF50B578752A1D672DE3317C9BE0F/",
+      "NormalURL": "",
+      "TypeIndex": 1
+    },
+    "Description": "",
+    "DragSelectable": true,
+    "GMNotes": "",
+    "Grid": true,
+    "GridProjection": false,
+    "GUID": "4af854",
+    "Hands": false,
+    "HideWhenFaceDown": false,
+    "IgnoreFoW": false,
+    "LayoutGroupSortIndex": 0,
+    "Locked": false,
+    "MeasureMovement": false,
+    "Name": "Custom_Model",
+    "Nickname": "Mortar Beast",
+    "Snap": true,
+    "Sticky": true,
+    "Tags": [ "OPR_MAP" ],
+    "Tooltip": true,
+    "Transform": {
+      "posX": 22.3887920379639,
+      "posY": 0.959999918937683,
+      "posZ": 11.3487501144409,
+      "rotX": -1.1989327504125E-06,
+      "rotY": 30.0253486633301,
+      "rotZ": 1.40923941671645E-06,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+    },
+    "Value": 0
+  } ],
+  "Prime Warrior": [ {
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "Autoraise": true,
+    "ColorDiffuse": {
+      "a": 1,
+      "b": 1,
+      "g": 0.992179334163666,
+      "r": 1
+    },
+    "CustomMesh": {
+      "CastShadows": true,
+      "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1043093675414910691/A38AFE0E8955841404269A62127443886ED1BD53/",
+      "Convex": true,
+      "CustomShader": {
+        "FresnelStrength": 0,
+        "SpecularColor": {
+          "a": 1,
+          "b": 1,
+          "g": 1,
+          "r": 1
+        },
+        "SpecularIntensity": 0,
+        "SpecularSharpness": 2
+      },
+      "DiffuseURL": "https://i.imgur.com/kHlUJXv.png",
+      "MaterialIndex": 3,
+      "MeshURL": "https://paste.ee/p/yDquk",
+      "NormalURL": "",
+      "TypeIndex": 1
+    },
+    "Description": "",
+    "DragSelectable": true,
+    "GMNotes": "",
+    "Grid": true,
+    "GridProjection": false,
+    "GUID": "0d26c8",
+    "Hands": false,
+    "HideWhenFaceDown": false,
+    "IgnoreFoW": false,
+    "LayoutGroupSortIndex": 0,
+    "Locked": false,
+    "MeasureMovement": false,
+    "Name": "Custom_Model",
+    "Nickname": "Prime Warrior",
+    "Snap": true,
+    "Sticky": true,
+    "Tags": [ "OPR_MAP" ],
+    "Tooltip": true,
+    "Transform": {
+      "posX": -20.7793827056885,
+      "posY": 0.959999918937683,
+      "posZ": 12.7270479202271,
+      "rotX": -1.50689970723761E-06,
+      "rotY": -0.00383173627778888,
+      "rotZ": 1.32472655423044E-06,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+    },
+    "Value": 0
+  } ],
+  "Psycho-Rex": [ {
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "Autoraise": true,
+    "ColorDiffuse": {
+      "a": 1,
+      "b": 0.999999821186066,
+      "g": 0.992165625095367,
+      "r": 0.999999821186066
+    },
+    "CustomMesh": {
+      "CastShadows": true,
+      "ColliderURL": "https://paste.ee/p/UYygs",
+      "Convex": true,
+      "CustomShader": {
+        "FresnelStrength": 0,
+        "SpecularColor": {
+          "a": 1,
+          "b": 1,
+          "g": 1,
+          "r": 1
+        },
+        "SpecularIntensity": 0,
+        "SpecularSharpness": 2
+      },
+      "DiffuseURL": "https://i.imgur.com/lbwuUhP.jpg",
+      "MaterialIndex": 3,
+      "MeshURL": "https://paste.ee/p/tnQ0R",
+      "NormalURL": "",
+      "TypeIndex": 1
+    },
+    "Description": "",
+    "DragSelectable": true,
+    "GMNotes": "",
+    "Grid": true,
+    "GridProjection": false,
+    "GUID": "fd5452",
+    "Hands": false,
+    "HideWhenFaceDown": false,
+    "IgnoreFoW": false,
+    "LayoutGroupSortIndex": 0,
+    "Locked": false,
+    "MeasureMovement": false,
+    "Name": "Custom_Model",
+    "Nickname": "Psycho-Rex",
+    "Snap": true,
+    "Sticky": true,
+    "Tags": [ "OPR_MAP" ],
+    "Tooltip": true,
+    "Transform": {
+      "posX": 15.3854446411133,
+      "posY": 0.959999978542328,
+      "posZ": 12.3186979293823,
+      "rotX": 5.97778182509501E-07,
+      "rotY": 179.975357055664,
+      "rotZ": -1.91049807085619E-07,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+    },
+    "Value": 0
+  } ],
+  "Rapacious Beast": [ {
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "Autoraise": true,
+    "ColorDiffuse": {
+      "a": 1,
+      "b": 0.999999821186066,
+      "g": 0.99218088388443,
+      "r": 0.999999821186066
+    },
+    "CustomMesh": {
+      "CastShadows": true,
+      "ColliderURL": "https://paste.ee/p/UYygs",
+      "Convex": true,
+      "CustomShader": {
+        "FresnelStrength": 0,
+        "SpecularColor": {
+          "a": 1,
+          "b": 1,
+          "g": 1,
+          "r": 1
+        },
+        "SpecularIntensity": 0,
+        "SpecularSharpness": 2
+      },
+      "DiffuseURL": "https://i.imgur.com/SJhNXrU.jpg",
+      "MaterialIndex": 3,
+      "MeshURL": "https://paste.ee/p/M2Fm6",
+      "NormalURL": "",
+      "TypeIndex": 1
+    },
+    "Description": "",
+    "DragSelectable": true,
+    "GMNotes": "",
+    "Grid": true,
+    "GridProjection": false,
+    "GUID": "ab7c93",
+    "Hands": false,
+    "HideWhenFaceDown": false,
+    "IgnoreFoW": false,
+    "LayoutGroupSortIndex": 0,
+    "Locked": false,
+    "MeasureMovement": false,
+    "Name": "Custom_Model",
+    "Nickname": "Rapacious Beast",
+    "Snap": true,
+    "States": [ null, {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 0.999999821186066,
+        "g": 0.992181241512299,
+        "r": 0.999999821186066
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "https://paste.ee/p/UYygs",
+        "Convex": true,
+        "CustomShader": {
+          "FresnelStrength": 0,
+          "SpecularColor": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "SpecularIntensity": 0,
+          "SpecularSharpness": 2
+        },
+        "DiffuseURL": "https://i.imgur.com/SJhNXrU.jpg",
+        "MaterialIndex": 3,
+        "MeshURL": "https://paste.ee/p/lWdHo",
+        "NormalURL": "",
+        "TypeIndex": 1
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": true,
+      "GridProjection": false,
+      "GUID": "5ba921",
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": false,
+      "Name": "Custom_Model",
+      "Nickname": "Harpy",
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": -40.3776893615723,
+        "posY": 0.961216986179352,
+        "posZ": -29.190637588501,
+        "rotX": -1.72641975382248E-07,
+        "rotY": 180,
+        "rotZ": 8.40214340769307E-07,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0
+    }, {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 0.999999821186066,
+        "g": 0.992181241512299,
+        "r": 0.999999821186066
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "https://paste.ee/p/UYygs",
+        "Convex": true,
+        "CustomShader": {
+          "FresnelStrength": 0,
+          "SpecularColor": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "SpecularIntensity": 0,
+          "SpecularSharpness": 2
+        },
+        "DiffuseURL": "https://i.imgur.com/SJhNXrU.jpg",
+        "MaterialIndex": 3,
+        "MeshURL": "https://paste.ee/p/vzyKz",
+        "NormalURL": "",
+        "TypeIndex": 1
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": true,
+      "GridProjection": false,
+      "GUID": "c25d91",
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": false,
+      "Name": "Custom_Model",
+      "Nickname": "Harpy",
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": -31.7409496307373,
+        "posY": 0.961216866970062,
+        "posZ": -28.9018650054932,
+        "rotX": 5.3550201073449E-07,
+        "rotY": 180.023056030273,
+        "rotZ": 9.46199236295797E-07,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0
+    } ],
+    "Sticky": true,
+    "Tags": [ "OPR_MAP" ],
+    "Tooltip": true,
+    "Transform": {
+      "posX": 14.2345705032349,
+      "posY": 0.959999978542328,
+      "posZ": 4.48145198822021,
+      "rotX": 1.17150960932122E-07,
+      "rotY": 179.979614257813,
+      "rotZ": -6.33694128282514E-07,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+    },
+    "Value": 0
+  } ],
+  "Ravenous Beasts": [ {
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "Autoraise": true,
+    "ColorDiffuse": {
+      "a": 1,
+      "b": 1,
+      "g": 1,
+      "r": 1
+    },
+    "CustomMesh": {
+      "CastShadows": true,
+      "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1043093675414910691/A38AFE0E8955841404269A62127443886ED1BD53/",
+      "Convex": true,
+      "CustomShader": {
+        "FresnelStrength": 0,
+        "SpecularColor": {
+          "a": 1,
+          "b": 1,
+          "g": 1,
+          "r": 1
+        },
+        "SpecularIntensity": 0,
+        "SpecularSharpness": 2
+      },
+      "DiffuseURL": "https://i.imgur.com/G4x0Dew.jpg",
+      "MaterialIndex": 3,
+      "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1495711913285706762/59F500191C3FFD0A43F94BE50CD6B04A842E9270/",
+      "NormalURL": "",
+      "TypeIndex": 1
+    },
+    "Description": "",
+    "DragSelectable": true,
+    "GMNotes": "",
+    "Grid": true,
+    "GridProjection": false,
+    "GUID": "d09591",
+    "Hands": false,
+    "HideWhenFaceDown": false,
+    "IgnoreFoW": false,
+    "LayoutGroupSortIndex": 0,
+    "Locked": false,
+    "MeasureMovement": false,
+    "Name": "Custom_Model",
+    "Nickname": "Ravenous Beasts",
+    "Snap": true,
+    "States": [ null, {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 1,
+        "g": 1,
+        "r": 1
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1043093675414910691/A38AFE0E8955841404269A62127443886ED1BD53/",
+        "Convex": true,
+        "CustomShader": {
+          "FresnelStrength": 0,
+          "SpecularColor": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "SpecularIntensity": 0,
+          "SpecularSharpness": 2
+        },
+        "DiffuseURL": "https://i.imgur.com/G4x0Dew.jpg",
+        "MaterialIndex": 3,
+        "MeshURL": "https://paste.ee/p/vxB12",
+        "NormalURL": "",
+        "TypeIndex": 1
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": true,
+      "GridProjection": false,
+      "GUID": "3ac3d7",
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": false,
+      "Name": "Custom_Model",
+      "Nickname": "Ravener",
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 8.87492752075195,
+        "posY": 0.960000038146973,
+        "posZ": -8.56831836700439,
+        "rotX": -6.06399134994717E-06,
+        "rotY": 0.00201832083985209,
+        "rotZ": 9.01804924069438E-06,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0
+    }, {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 1,
+        "g": 1,
+        "r": 1
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1043093675414910691/A38AFE0E8955841404269A62127443886ED1BD53/",
+        "Convex": true,
+        "CustomShader": {
+          "FresnelStrength": 0,
+          "SpecularColor": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "SpecularIntensity": 0,
+          "SpecularSharpness": 2
+        },
+        "DiffuseURL": "https://i.imgur.com/G4x0Dew.jpg",
+        "MaterialIndex": 3,
+        "MeshURL": "https://paste.ee/p/aosGl",
+        "NormalURL": "",
+        "TypeIndex": 1
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": true,
+      "GridProjection": false,
+      "GUID": "64fe50",
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": false,
+      "Name": "Custom_Model",
+      "Nickname": "Ravener",
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 11.1720275878906,
+        "posY": 0.959999799728394,
+        "posZ": -8.74344730377197,
+        "rotX": 6.85974055159022E-06,
+        "rotY": 0.00189196225255728,
+        "rotZ": -2.34498838835862E-06,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0
+    }, {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 1,
+        "g": 1,
+        "r": 1
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1043093675414910691/A38AFE0E8955841404269A62127443886ED1BD53/",
+        "Convex": true,
+        "CustomShader": {
+          "FresnelStrength": 0,
+          "SpecularColor": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "SpecularIntensity": 0,
+          "SpecularSharpness": 2
+        },
+        "DiffuseURL": "https://i.imgur.com/G4x0Dew.jpg",
+        "MaterialIndex": 3,
+        "MeshURL": "https://paste.ee/p/KLNIs",
+        "NormalURL": "",
+        "TypeIndex": 1
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": true,
+      "GridProjection": false,
+      "GUID": "2d3fec",
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": false,
+      "Name": "Custom_Model",
+      "Nickname": "Ravener",
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 13.3122491836548,
+        "posY": 0.960000157356262,
+        "posZ": -8.77024936676025,
+        "rotX": 1.29657237266656E-05,
+        "rotY": 0.0168534927070141,
+        "rotZ": -1.36021731123037E-06,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0
+    }, {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 1,
+        "g": 1,
+        "r": 1
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1043093675414910691/A38AFE0E8955841404269A62127443886ED1BD53/",
+        "Convex": true,
+        "CustomShader": {
+          "FresnelStrength": 0,
+          "SpecularColor": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "SpecularIntensity": 0,
+          "SpecularSharpness": 2
+        },
+        "DiffuseURL": "https://i.imgur.com/G4x0Dew.jpg",
+        "MaterialIndex": 3,
+        "MeshURL": "https://paste.ee/p/2LRt1",
+        "NormalURL": "",
+        "TypeIndex": 1
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": true,
+      "GridProjection": false,
+      "GUID": "32b83f",
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": false,
+      "Name": "Custom_Model",
+      "Nickname": "Ravener",
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 11.0915203094482,
+        "posY": 0.959999561309814,
+        "posZ": -10.798731803894,
+        "rotX": 2.54931319432217E-06,
+        "rotY": 359.980255126953,
+        "rotZ": 1.96850464817544E-06,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0
+    }, {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 1,
+        "g": 1,
+        "r": 1
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1043093675414910691/A38AFE0E8955841404269A62127443886ED1BD53/",
+        "Convex": true,
+        "CustomShader": {
+          "FresnelStrength": 0,
+          "SpecularColor": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "SpecularIntensity": 0,
+          "SpecularSharpness": 2
+        },
+        "DiffuseURL": "https://i.imgur.com/G4x0Dew.jpg",
+        "MaterialIndex": 3,
+        "MeshURL": "https://paste.ee/p/ZCymg",
+        "NormalURL": "",
+        "TypeIndex": 1
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": true,
+      "GridProjection": false,
+      "GUID": "da1968",
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": false,
+      "Name": "Custom_Model",
+      "Nickname": "Ravener",
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 8.79762840270996,
+        "posY": 0.959999799728394,
+        "posZ": -10.8660001754761,
+        "rotX": -1.13631256226654E-06,
+        "rotY": 0.000601056613959372,
+        "rotZ": -2.22256608140015E-06,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0
+    }, {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 1,
+        "g": 1,
+        "r": 1
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1043093675414910691/A38AFE0E8955841404269A62127443886ED1BD53/",
+        "Convex": true,
+        "CustomShader": {
+          "FresnelStrength": 0,
+          "SpecularColor": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "SpecularIntensity": 0,
+          "SpecularSharpness": 2
+        },
+        "DiffuseURL": "https://i.imgur.com/G4x0Dew.jpg",
+        "MaterialIndex": 3,
+        "MeshURL": "https://paste.ee/p/Xuh3j",
+        "NormalURL": "",
+        "TypeIndex": 1
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": true,
+      "GridProjection": false,
+      "GUID": "b91601",
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": false,
+      "Name": "Custom_Model",
+      "Nickname": "Ravener",
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 13.2950782775879,
+        "posY": 0.960000157356262,
+        "posZ": -11.0047731399536,
+        "rotX": -4.07000288760173E-06,
+        "rotY": 0.000679603719618171,
+        "rotZ": 5.77362379772239E-06,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0
+    }, {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 1,
+        "g": 1,
+        "r": 1
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1043093675414910691/A38AFE0E8955841404269A62127443886ED1BD53/",
+        "Convex": true,
+        "CustomShader": {
+          "FresnelStrength": 0,
+          "SpecularColor": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "SpecularIntensity": 0,
+          "SpecularSharpness": 2
+        },
+        "DiffuseURL": "https://i.imgur.com/G4x0Dew.jpg",
+        "MaterialIndex": 3,
+        "MeshURL": "https://paste.ee/p/xR1m0",
+        "NormalURL": "",
+        "TypeIndex": 1
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": true,
+      "GridProjection": false,
+      "GUID": "a06df6",
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": false,
+      "Name": "Custom_Model",
+      "Nickname": "Ravener",
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 15.5206995010376,
+        "posY": 0.960000276565552,
+        "posZ": -10.9699983596802,
+        "rotX": 2.90666071123269E-06,
+        "rotY": 0.00266377348452806,
+        "rotZ": -4.75209617434302E-06,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0
+    } ],
+    "Sticky": true,
+    "Tags": [ "OPR_MAP" ],
+    "Tooltip": true,
+    "Transform": {
+      "posX": -4.0127124786377,
+      "posY": 0.959999918937683,
+      "posZ": 11.7643957138062,
+      "rotX": 3.79040102416184E-07,
+      "rotY": 0.00812109466642141,
+      "rotZ": -4.40715757576982E-06,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+    },
+    "Value": 0
+  } ],
+  "Shadow Hunter": [ {
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "Autoraise": true,
+    "ColorDiffuse": {
+      "a": 1,
+      "b": 0.999999821186066,
+      "g": 0.992179453372955,
+      "r": 0.999999821186066
+    },
+    "CustomMesh": {
+      "CastShadows": true,
+      "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1043093675414910691/A38AFE0E8955841404269A62127443886ED1BD53/",
+      "Convex": true,
+      "CustomShader": {
+        "FresnelStrength": 0,
+        "SpecularColor": {
+          "a": 1,
+          "b": 1,
+          "g": 1,
+          "r": 1
+        },
+        "SpecularIntensity": 0,
+        "SpecularSharpness": 2
+      },
+      "DiffuseURL": "https://i.imgur.com/Ur0Fj7g.png",
+      "MaterialIndex": 3,
+      "MeshURL": "https://paste.ee/p/yerBq",
+      "NormalURL": "",
+      "TypeIndex": 1
+    },
+    "Description": "",
+    "DragSelectable": true,
+    "GMNotes": "",
+    "Grid": true,
+    "GridProjection": false,
+    "GUID": "8dd394",
+    "Hands": false,
+    "HideWhenFaceDown": false,
+    "IgnoreFoW": false,
+    "LayoutGroupSortIndex": 0,
+    "Locked": false,
+    "MeasureMovement": false,
+    "Name": "Custom_Model",
+    "Nickname": "Shadow Hunter",
+    "Snap": true,
+    "Sticky": true,
+    "Tags": [ "OPR_MAP" ],
+    "Tooltip": true,
+    "Transform": {
+      "posX": 3.09136390686035,
+      "posY": 0.959999918937683,
+      "posZ": 11.6964139938354,
+      "rotX": 9.41436937296203E-08,
+      "rotY": 0.013006386347115,
+      "rotZ": 1.12607119717723E-06,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+    },
+    "Value": 0
+  } ],
+  "Shooter Grunts": [ {
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "Autoraise": true,
+    "ColorDiffuse": {
+      "a": 1,
+      "b": 1,
+      "g": 0.998460352420807,
+      "r": 1
+    },
+    "CustomMesh": {
+      "CastShadows": true,
+      "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1043093675414904296/F32B51596FCB671911B5C036B7BD54A6EBC9329B/",
+      "Convex": true,
+      "CustomShader": {
+        "FresnelStrength": 0,
+        "SpecularColor": {
+          "a": 1,
+          "b": 1,
+          "g": 1,
+          "r": 1
+        },
+        "SpecularIntensity": 0,
+        "SpecularSharpness": 2
+      },
+      "DiffuseURL": "https://i.imgur.com/AHDqr71.png",
+      "MaterialIndex": 3,
+      "MeshURL": "https://paste.ee/p/DlVXa",
+      "NormalURL": "",
+      "TypeIndex": 1
+    },
+    "Description": "",
+    "DragSelectable": true,
+    "GMNotes": "",
+    "Grid": true,
+    "GridProjection": false,
+    "GUID": "93bb08",
+    "Hands": false,
+    "HideWhenFaceDown": false,
+    "IgnoreFoW": false,
+    "LayoutGroupSortIndex": 0,
+    "Locked": false,
+    "MeasureMovement": false,
+    "Name": "Custom_Model",
+    "Nickname": "Shooter Grunts",
+    "Snap": true,
+    "Sticky": true,
+    "Tags": [ "OPR_MAP" ],
+    "Tooltip": true,
+    "Transform": {
+      "posX": -16.7959747314453,
+      "posY": 0.959999859333038,
+      "posZ": 12.5729579925537,
+      "rotX": -2.61851778304845E-06,
+      "rotY": 359.989013671875,
+      "rotZ": -5.16268585215585E-07,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+    },
+    "Value": 0
+  } ],
+  "Snatcher Lord": [ {
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "Autoraise": true,
+    "ColorDiffuse": {
+      "a": 1,
+      "b": 0.999999821186066,
+      "g": 0.99218076467514,
+      "r": 0.999999821186066
+    },
+    "CustomMesh": {
+      "CastShadows": true,
+      "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1043093675414910691/A38AFE0E8955841404269A62127443886ED1BD53/",
+      "Convex": true,
+      "CustomShader": {
+        "FresnelStrength": 0,
+        "SpecularColor": {
+          "a": 1,
+          "b": 1,
+          "g": 1,
+          "r": 1
+        },
+        "SpecularIntensity": 0,
+        "SpecularSharpness": 2
+      },
+      "DiffuseURL": "https://i.imgur.com/4zkroTU.png",
+      "MaterialIndex": 3,
+      "MeshURL": "https://paste.ee/p/uiyEE",
+      "NormalURL": "",
+      "TypeIndex": 1
+    },
+    "Description": "",
+    "DragSelectable": true,
+    "GMNotes": "",
+    "Grid": true,
+    "GridProjection": false,
+    "GUID": "19eb35",
+    "Hands": false,
+    "HideWhenFaceDown": false,
+    "IgnoreFoW": false,
+    "LayoutGroupSortIndex": 0,
+    "Locked": false,
+    "MeasureMovement": false,
+    "Name": "Custom_Model",
+    "Nickname": "Snatcher Lord",
+    "Snap": true,
+    "Sticky": true,
+    "Tags": [ "OPR_MAP" ],
+    "Tooltip": true,
+    "Transform": {
+      "posX": -23.1758308410645,
+      "posY": 0.959999918937683,
+      "posZ": 13.128270149231,
+      "rotX": 1.96065525415179E-06,
+      "rotY": -0.00171608489472419,
+      "rotZ": -5.91621926560038E-07,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+    },
+    "Value": 0
+  } ],
+  "Soul-Snatchers": [ {
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "Autoraise": true,
+    "ColorDiffuse": {
+      "a": 1,
+      "b": 1,
+      "g": 1,
+      "r": 1
+    },
+    "CustomMesh": {
+      "CastShadows": true,
+      "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1043093675414904296/F32B51596FCB671911B5C036B7BD54A6EBC9329B/",
+      "Convex": true,
+      "CustomShader": {
+        "FresnelStrength": 0,
+        "SpecularColor": {
+          "a": 1,
+          "b": 1,
+          "g": 1,
+          "r": 1
+        },
+        "SpecularIntensity": 0,
+        "SpecularSharpness": 2
+      },
+      "DiffuseURL": "https://i.imgur.com/woJ05Te.png",
+      "MaterialIndex": 3,
+      "MeshURL": "http://cloud-3.steamusercontent.com/ugc/925930172360710530/CD5627EC37F5D9F0729C940C7BED1804CC7CA98B/",
+      "NormalURL": "",
+      "TypeIndex": 1
+    },
+    "Description": "",
+    "DragSelectable": true,
+    "GMNotes": "",
+    "Grid": true,
+    "GridProjection": false,
+    "GUID": "99d618",
+    "Hands": false,
+    "HideWhenFaceDown": false,
+    "IgnoreFoW": false,
+    "LayoutGroupSortIndex": 0,
+    "Locked": false,
+    "MeasureMovement": false,
+    "Name": "Custom_Model",
+    "Nickname": "Soul-Snatchers",
+    "Snap": true,
+    "Sticky": true,
+    "Tags": [ "OPR_MAP" ],
+    "Tooltip": true,
+    "Transform": {
+      "posX": -12.9581384658813,
+      "posY": 0.959999799728394,
+      "posZ": 12.0257720947266,
+      "rotX": -1.01029024790478E-06,
+      "rotY": 179.983245849609,
+      "rotZ": 1.000926317829E-06,
+      "scaleX": 0.925000071525574,
+      "scaleY": 0.925000071525574,
+      "scaleZ": 0.925000071525574
+    },
+    "Value": 0
+  } ],
+  "Spawning Beast": [ {
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "Autoraise": true,
+    "ColorDiffuse": {
+      "a": 1,
+      "b": 0.999999821186066,
+      "g": 0.992167294025421,
+      "r": 0.999999821186066
+    },
+    "CustomMesh": {
+      "CastShadows": true,
+      "ColliderURL": "https://paste.ee/p/UYygs",
+      "Convex": true,
+      "CustomShader": {
+        "FresnelStrength": 0,
+        "SpecularColor": {
+          "a": 1,
+          "b": 1,
+          "g": 1,
+          "r": 1
+        },
+        "SpecularIntensity": 0,
+        "SpecularSharpness": 2
+      },
+      "DiffuseURL": "https://i.imgur.com/JSzHwcm.jpg",
+      "MaterialIndex": 3,
+      "MeshURL": "https://paste.ee/p/6dESz",
+      "NormalURL": "",
+      "TypeIndex": 1
+    },
+    "Description": "",
+    "DragSelectable": true,
+    "GMNotes": "",
+    "Grid": true,
+    "GridProjection": false,
+    "GUID": "bd2420",
+    "Hands": false,
+    "HideWhenFaceDown": false,
+    "IgnoreFoW": false,
+    "LayoutGroupSortIndex": 0,
+    "Locked": false,
+    "MeasureMovement": false,
+    "Name": "Custom_Model",
+    "Nickname": "Spawning Beast",
+    "Snap": true,
+    "Sticky": true,
+    "Tags": [ "OPR_MAP" ],
+    "Tooltip": true,
+    "Transform": {
+      "posX": -4.88517761230469,
+      "posY": 0.959999859333038,
+      "posZ": 7.51478672027588,
+      "rotX": 2.11173514230723E-07,
+      "rotY": 179.993789672852,
+      "rotZ": -2.83766127040508E-07,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+    },
+    "Value": 0
+  } ],
+  "Spores": [ {
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "Autoraise": true,
+    "ColorDiffuse": {
+      "a": 1,
+      "b": 0.999999821186066,
+      "g": 0.992182314395905,
+      "r": 0.999999821186066
+    },
+    "CustomMesh": {
+      "CastShadows": true,
+      "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1043093675414904296/F32B51596FCB671911B5C036B7BD54A6EBC9329B/",
+      "Convex": true,
+      "CustomShader": {
+        "FresnelStrength": 0,
+        "SpecularColor": {
+          "a": 1,
+          "b": 1,
+          "g": 1,
+          "r": 1
+        },
+        "SpecularIntensity": 0,
+        "SpecularSharpness": 2
+      },
+      "DiffuseURL": "https://i.imgur.com/HEBa4my.png",
+      "MaterialIndex": 3,
+      "MeshURL": "https://paste.ee/p/kXj0g",
+      "NormalURL": "",
+      "TypeIndex": 1
+    },
+    "Description": "",
+    "DragSelectable": true,
+    "GMNotes": "",
+    "Grid": true,
+    "GridProjection": false,
+    "GUID": "6e1d21",
+    "Hands": false,
+    "HideWhenFaceDown": false,
+    "IgnoreFoW": false,
+    "LayoutGroupSortIndex": 0,
+    "Locked": false,
+    "MeasureMovement": false,
+    "Name": "Custom_Model",
+    "Nickname": "Spores",
+    "Snap": true,
+    "States": [ null, {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 0.999999821186066,
+        "g": 0.992182314395905,
+        "r": 0.999999821186066
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1043093675414904296/F32B51596FCB671911B5C036B7BD54A6EBC9329B/",
+        "Convex": true,
+        "CustomShader": {
+          "FresnelStrength": 0,
+          "SpecularColor": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "SpecularIntensity": 0,
+          "SpecularSharpness": 2
+        },
+        "DiffuseURL": "https://i.imgur.com/HEBa4my.png",
+        "MaterialIndex": 3,
+        "MeshURL": "https://paste.ee/p/CWVxV",
+        "NormalURL": "",
+        "TypeIndex": 1
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": true,
+      "GridProjection": false,
+      "GUID": "8976a1",
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": false,
+      "Name": "Custom_Model",
+      "Nickname": "Spore Mine",
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 25.1101398468018,
+        "posY": 0.960000514984131,
+        "posZ": -11.1989459991455,
+        "rotX": 4.74654804349939E-08,
+        "rotY": 75.001220703125,
+        "rotZ": 1.41839836942381E-06,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0
+    } ],
+    "Sticky": true,
+    "Tags": [ "OPR_MAP" ],
+    "Tooltip": true,
+    "Transform": {
+      "posX": -26.1284351348877,
+      "posY": 0.959999918937683,
+      "posZ": 9.05298709869385,
+      "rotX": -3.12195811602578E-06,
+      "rotY": 0.030596686527133,
+      "rotZ": -4.49535082225339E-06,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+    },
+    "Value": 0
+  } ],
+  "Synapse Floaters": [ {
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "Autoraise": true,
+    "ColorDiffuse": {
+      "a": 1,
+      "b": 0.999999821186066,
+      "g": 0.992165863513947,
+      "r": 0.999999821186066
+    },
+    "CustomMesh": {
+      "CastShadows": true,
+      "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1043093675414910691/A38AFE0E8955841404269A62127443886ED1BD53/",
+      "Convex": true,
+      "CustomShader": {
+        "FresnelStrength": 0,
+        "SpecularColor": {
+          "a": 1,
+          "b": 1,
+          "g": 1,
+          "r": 1
+        },
+        "SpecularIntensity": 0,
+        "SpecularSharpness": 2
+      },
+      "DiffuseURL": "https://i.imgur.com/vsVYLyN.png",
+      "MaterialIndex": 3,
+      "MeshURL": "https://paste.ee/p/LcAyU",
+      "NormalURL": "",
+      "TypeIndex": 1
+    },
+    "Description": "",
+    "DragSelectable": true,
+    "GMNotes": "",
+    "Grid": true,
+    "GridProjection": false,
+    "GUID": "102414",
+    "Hands": false,
+    "HideWhenFaceDown": false,
+    "IgnoreFoW": false,
+    "LayoutGroupSortIndex": 0,
+    "Locked": false,
+    "MeasureMovement": false,
+    "Name": "Custom_Model",
+    "Nickname": "Synapse Floaters",
+    "Snap": true,
+    "Sticky": true,
+    "Tags": [ "OPR_MAP" ],
+    "Tooltip": true,
+    "Transform": {
+      "posX": 0.172323256731033,
+      "posY": 0.959999799728394,
+      "posZ": 11.5845174789429,
+      "rotX": 1.11062138330453E-06,
+      "rotY": 179.985458374023,
+      "rotZ": -3.11453663925931E-06,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+    },
+    "Value": 0
+  } ],
+  "Toxico-Rex": [ {
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "Autoraise": true,
+    "ColorDiffuse": {
+      "a": 1,
+      "b": 0.999999821186066,
+      "g": 0.992164552211761,
+      "r": 0.999999821186066
+    },
+    "CustomMesh": {
+      "CastShadows": true,
+      "ColliderURL": "https://paste.ee/p/UYygs",
+      "Convex": true,
+      "CustomShader": {
+        "FresnelStrength": 0,
+        "SpecularColor": {
+          "a": 1,
+          "b": 1,
+          "g": 1,
+          "r": 1
+        },
+        "SpecularIntensity": 0,
+        "SpecularSharpness": 2
+      },
+      "DiffuseURL": "https://i.imgur.com/LI4Zd4U.jpg",
+      "MaterialIndex": 3,
+      "MeshURL": "https://paste.ee/p/7Rj6P",
+      "NormalURL": "",
+      "TypeIndex": 1
+    },
+    "Description": "",
+    "DragSelectable": true,
+    "GMNotes": "",
+    "Grid": true,
+    "GridProjection": false,
+    "GUID": "746f23",
+    "Hands": false,
+    "HideWhenFaceDown": false,
+    "IgnoreFoW": false,
+    "LayoutGroupSortIndex": 0,
+    "Locked": false,
+    "MeasureMovement": false,
+    "Name": "Custom_Model",
+    "Nickname": "Toxico-Rex",
+    "Snap": true,
+    "Sticky": true,
+    "Tags": [ "OPR_MAP" ],
+    "Tooltip": true,
+    "Transform": {
+      "posX": 9.96307754516602,
+      "posY": 0.959999740123749,
+      "posZ": 12.5997648239136,
+      "rotX": 5.71277212202403E-07,
+      "rotY": 180.00065612793,
+      "rotZ": 1.42366184263665E-06,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+    },
+    "Value": 0
+  } ],
+  "Tyrant Beast": [ {
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "Autoraise": true,
+    "ColorDiffuse": {
+      "a": 1,
+      "b": 1,
+      "g": 0.992179095745087,
+      "r": 1
+    },
+    "CustomMesh": {
+      "CastShadows": true,
+      "ColliderURL": "https://paste.ee/p/UYygs",
+      "Convex": true,
+      "CustomShader": {
+        "FresnelStrength": 0,
+        "SpecularColor": {
+          "a": 1,
+          "b": 1,
+          "g": 1,
+          "r": 1
+        },
+        "SpecularIntensity": 0,
+        "SpecularSharpness": 2
+      },
+      "DiffuseURL": "https://i.imgur.com/WVJVXBW.jpg",
+      "MaterialIndex": 3,
+      "MeshURL": "https://paste.ee/p/Wwh6A",
+      "NormalURL": "",
+      "TypeIndex": 1
+    },
+    "Description": "",
+    "DragSelectable": true,
+    "GMNotes": "",
+    "Grid": true,
+    "GridProjection": false,
+    "GUID": "18b00b",
+    "Hands": false,
+    "HideWhenFaceDown": false,
+    "IgnoreFoW": false,
+    "LayoutGroupSortIndex": 0,
+    "Locked": false,
+    "MeasureMovement": false,
+    "Name": "Custom_Model",
+    "Nickname": "Tyrant Beast",
+    "Snap": true,
+    "States": [ null, {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 1,
+        "g": 0.992181122303009,
+        "r": 1
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1043093675414917524/3E0C391D420F846F5EAF5E710C13F9F0632E8E12/",
+        "Convex": true,
+        "CustomShader": {
+          "FresnelStrength": 0,
+          "SpecularColor": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "SpecularIntensity": 0,
+          "SpecularSharpness": 2
+        },
+        "DiffuseURL": "https://i.imgur.com/l6x910e.jpg",
+        "MaterialIndex": 3,
+        "MeshURL": "https://paste.ee/p/c9Bfw",
+        "NormalURL": "",
+        "TypeIndex": 1
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": true,
+      "GridProjection": false,
+      "GUID": "2ee225",
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": false,
+      "Name": "Custom_Model",
+      "Nickname": "Barbed Hierodule",
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": -31.4328651428223,
+        "posY": 0.960000216960907,
+        "posZ": 14.6610355377197,
+        "rotX": -1.61379016816454E-08,
+        "rotY": 180.010986328125,
+        "rotZ": -8.00348658458461E-08,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0
+    }, {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 1,
+        "g": 0.992181122303009,
+        "r": 1
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1043093675414917524/3E0C391D420F846F5EAF5E710C13F9F0632E8E12/",
+        "Convex": true,
+        "CustomShader": {
+          "FresnelStrength": 0,
+          "SpecularColor": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "SpecularIntensity": 0,
+          "SpecularSharpness": 2
+        },
+        "DiffuseURL": "https://i.imgur.com/l6x910e.jpg",
+        "MaterialIndex": 3,
+        "MeshURL": "https://paste.ee/p/vywLA",
+        "NormalURL": "",
+        "TypeIndex": 1
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": true,
+      "GridProjection": false,
+      "GUID": "a11566",
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": false,
+      "Name": "Custom_Model",
+      "Nickname": "Barbed Hierodule",
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": -36.8546600341797,
+        "posY": 0.95999938249588,
+        "posZ": 14.575249671936,
+        "rotX": -2.28263706958387E-06,
+        "rotY": 179.985855102539,
+        "rotZ": -2.05357378035842E-06,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0
+    } ],
+    "Sticky": true,
+    "Tags": [ "OPR_MAP" ],
+    "Tooltip": true,
+    "Transform": {
+      "posX": -14.1266679763794,
+      "posY": 0.959999859333038,
+      "posZ": 8.5047492980957,
+      "rotX": -6.97832660989661E-07,
+      "rotY": 0.00844291411340237,
+      "rotZ": -5.47656895832915E-07,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+    },
+    "Value": 0
+  } ],
+  "Venom Floaters": [ {
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "Autoraise": true,
+    "ColorDiffuse": {
+      "a": 1,
+      "b": 0.999999821186066,
+      "g": 0.992181956768036,
+      "r": 0.999999821186066
+    },
+    "CustomMesh": {
+      "CastShadows": true,
+      "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1043093675414910691/A38AFE0E8955841404269A62127443886ED1BD53/",
+      "Convex": true,
+      "CustomShader": {
+        "FresnelStrength": 0,
+        "SpecularColor": {
+          "a": 1,
+          "b": 1,
+          "g": 1,
+          "r": 1
+        },
+        "SpecularIntensity": 0,
+        "SpecularSharpness": 2
+      },
+      "DiffuseURL": "https://i.imgur.com/rx9KuBN.jpg",
+      "MaterialIndex": 3,
+      "MeshURL": "https://paste.ee/p/aoorm",
+      "NormalURL": "",
+      "TypeIndex": 1
+    },
+    "Description": "",
+    "DragSelectable": true,
+    "GMNotes": "",
+    "Grid": true,
+    "GridProjection": false,
+    "GUID": "609b1a",
+    "Hands": false,
+    "HideWhenFaceDown": false,
+    "IgnoreFoW": false,
+    "LayoutGroupSortIndex": 0,
+    "Locked": false,
+    "MeasureMovement": false,
+    "Name": "Custom_Model",
+    "Nickname": "Venom Floaters",
+    "Snap": true,
+    "Sticky": true,
+    "Tags": [ "OPR_MAP" ],
+    "Tooltip": true,
+    "Transform": {
+      "posX": -1.87606799602509,
+      "posY": 0.959999918937683,
+      "posZ": 11.6476793289185,
+      "rotX": -6.50543256597302E-07,
+      "rotY": 359.992858886719,
+      "rotZ": -3.69319479887054E-07,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+    },
+    "Value": 0
+  } ],
+  "Winged Grunts": [ {
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "Autoraise": true,
+    "ColorDiffuse": {
+      "a": 1,
+      "b": 0.999999821186066,
+      "g": 0.992184698581696,
+      "r": 0.999999821186066
+    },
+    "CustomMesh": {
+      "CastShadows": true,
+      "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1043093675414904296/F32B51596FCB671911B5C036B7BD54A6EBC9329B/",
+      "Convex": true,
+      "CustomShader": {
+        "FresnelStrength": 0,
+        "SpecularColor": {
+          "a": 1,
+          "b": 1,
+          "g": 1,
+          "r": 1
+        },
+        "SpecularIntensity": 0,
+        "SpecularSharpness": 2
+      },
+      "DiffuseURL": "https://i.imgur.com/Y8qUjME.png",
+      "MaterialIndex": 3,
+      "MeshURL": "https://paste.ee/p/aYKWk",
+      "NormalURL": "",
+      "TypeIndex": 1
+    },
+    "Description": "",
+    "DragSelectable": true,
+    "GMNotes": "",
+    "Grid": true,
+    "GridProjection": false,
+    "GUID": "82e91f",
+    "Hands": false,
+    "HideWhenFaceDown": false,
+    "IgnoreFoW": false,
+    "LayoutGroupSortIndex": 0,
+    "Locked": false,
+    "MeasureMovement": false,
+    "Name": "Custom_Model",
+    "Nickname": "Winged Grunts",
+    "Snap": true,
+    "Sticky": true,
+    "Tags": [ "OPR_MAP" ],
+    "Tooltip": true,
+    "Transform": {
+      "posX": -14.8115711212158,
+      "posY": 0.959999918937683,
+      "posZ": 11.9418725967407,
+      "rotX": 4.01289526053006E-06,
+      "rotY": 344.986938476563,
+      "rotZ": 1.27385078485531E-06,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+    },
+    "Value": 0
+  } ]
 }

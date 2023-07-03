@@ -1,0 +1,2260 @@
+{
+  "Battle Suit Elite": [ {
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "Autoraise": true,
+    "ColorDiffuse": {
+      "a": 1,
+      "b": 1,
+      "g": 0.99607914686203,
+      "r": 1
+    },
+    "CustomMesh": {
+      "CastShadows": true,
+      "ColliderURL": "https://drive.google.com/uc?export=download&id=0BwpXdiEgZ5GzazgtU013MWF0Rlk",
+      "Convex": true,
+      "CustomShader": {
+        "FresnelStrength": 0,
+        "SpecularColor": {
+          "a": 1,
+          "b": 0.737254917621613,
+          "g": 0.737254917621613,
+          "r": 0.737254917621613
+        },
+        "SpecularIntensity": 0,
+        "SpecularSharpness": 7
+      },
+      "DiffuseURL": "http://i.imgur.com/Hebr1mT.jpg",
+      "MaterialIndex": 2,
+      "MeshURL": "https://drive.google.com/uc?export=download&id=0BwpXdiEgZ5Gzc1JNNXh4SFhXR2c",
+      "NormalURL": "",
+      "TypeIndex": 1
+    },
+    "Description": "",
+    "DragSelectable": true,
+    "GMNotes": "",
+    "Grid": false,
+    "GridProjection": false,
+    "GUID": "c7f8a2",
+    "Hands": false,
+    "HideWhenFaceDown": false,
+    "IgnoreFoW": false,
+    "LayoutGroupSortIndex": 0,
+    "Locked": false,
+    "MeasureMovement": false,
+    "Name": "Custom_Model",
+    "Nickname": "Battle Suit Elite",
+    "Snap": false,
+    "Sticky": false,
+    "Tags": [ "OPR_MAP" ],
+    "Tooltip": true,
+    "Transform": {
+      "posX": 6.82412338256836,
+      "posY": 0.949668765068054,
+      "posZ": -12.3225126266479,
+      "rotX": 1.44209989230148E-05,
+      "rotY": 270.143829345703,
+      "rotZ": 2.89523868559627E-05,
+      "scaleX": 0.375000029802322,
+      "scaleY": 0.375000029802322,
+      "scaleZ": 0.375000029802322
+    },
+    "Value": 0
+  } ],
+  "Battle Suits": [ {
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "Autoraise": true,
+    "ColorDiffuse": {
+      "a": 1,
+      "b": 0.999999821186066,
+      "g": 0.992160260677338,
+      "r": 0.999999821186066
+    },
+    "CustomMesh": {
+      "CastShadows": true,
+      "ColliderURL": "http://pastebin.com/raw.php?i=qS125UrP",
+      "Convex": true,
+      "DiffuseURL": "http://i.imgur.com/S3QmRkM.jpg",
+      "MaterialIndex": 3,
+      "MeshURL": "https://paste.ee/r/BHDdD",
+      "NormalURL": "",
+      "TypeIndex": 0
+    },
+    "Description": "",
+    "DragSelectable": true,
+    "GMNotes": "",
+    "Grid": false,
+    "GridProjection": false,
+    "GUID": "e9e2a5",
+    "Hands": false,
+    "HideWhenFaceDown": false,
+    "IgnoreFoW": false,
+    "LayoutGroupSortIndex": 0,
+    "Locked": false,
+    "MeasureMovement": false,
+    "Name": "Custom_Model",
+    "Nickname": "Battle Suits",
+    "Snap": false,
+    "States": [ null, {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 0.999999821186066,
+        "g": 0.992160260677338,
+        "r": 0.999999821186066
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://pastebin.com/raw.php?i=qS125UrP",
+        "Convex": true,
+        "DiffuseURL": "http://i.imgur.com/S3QmRkM.jpg",
+        "MaterialIndex": 3,
+        "MeshURL": "https://paste.ee/r/N6fEy",
+        "NormalURL": "",
+        "TypeIndex": 0
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": false,
+      "GridProjection": false,
+      "GUID": "fbf870",
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": false,
+      "Name": "Custom_Model",
+      "Nickname": "3/3 XV8 Crisis Bodyguards",
+      "Snap": false,
+      "Sticky": false,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 41.771053314209,
+        "posY": 3.84581995010376,
+        "posZ": -2.27270793914795,
+        "rotX": 4.60578958154656E-05,
+        "rotY": 180.003295898438,
+        "rotZ": 5.22138088854263E-06,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0
+    }, {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 0.999999821186066,
+        "g": 0.992160260677338,
+        "r": 0.999999821186066
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://pastebin.com/raw.php?i=qS125UrP",
+        "Convex": true,
+        "DiffuseURL": "http://i.imgur.com/S3QmRkM.jpg",
+        "MaterialIndex": 3,
+        "MeshURL": "https://paste.ee/r/7fX04",
+        "NormalURL": "",
+        "TypeIndex": 0
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": false,
+      "GridProjection": false,
+      "GUID": "0a177a",
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": false,
+      "Name": "Custom_Model",
+      "Nickname": "3/3 XV8 Crisis Bodyguards",
+      "Snap": false,
+      "Sticky": false,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 39.0608711242676,
+        "posY": 3.84581971168518,
+        "posZ": -2.31689763069153,
+        "rotX": 5.15941064804792E-05,
+        "rotY": 180.003387451172,
+        "rotZ": -7.93892013462028E-07,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0
+    }, {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 0.999999821186066,
+        "g": 0.992160260677338,
+        "r": 0.999999821186066
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://pastebin.com/raw.php?i=qS125UrP",
+        "Convex": true,
+        "DiffuseURL": "http://i.imgur.com/S3QmRkM.jpg",
+        "MaterialIndex": 3,
+        "MeshURL": "https://paste.ee/r/j5tuE",
+        "NormalURL": "",
+        "TypeIndex": 0
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": false,
+      "GridProjection": false,
+      "GUID": "3b1230",
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": false,
+      "Name": "Custom_Model",
+      "Nickname": "3/3 XV8 Crisis Bodyguards",
+      "Snap": false,
+      "Sticky": false,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 36.4213752746582,
+        "posY": 3.8458194732666,
+        "posZ": -2.30222654342651,
+        "rotX": 5.77757018618286E-05,
+        "rotY": 180.000061035156,
+        "rotZ": 7.96263634583738E-07,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0
+    }, {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 0.999999821186066,
+        "g": 0.992160260677338,
+        "r": 0.999999821186066
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://pastebin.com/raw.php?i=qS125UrP",
+        "Convex": true,
+        "DiffuseURL": "http://i.imgur.com/S3QmRkM.jpg",
+        "MaterialIndex": 3,
+        "MeshURL": "https://paste.ee/r/TJZHw",
+        "NormalURL": "",
+        "TypeIndex": 0
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": false,
+      "GridProjection": false,
+      "GUID": "082eb8",
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": false,
+      "Name": "Custom_Model",
+      "Nickname": "3/3 XV8 Crisis Bodyguards",
+      "Snap": false,
+      "Sticky": false,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 34.0219383239746,
+        "posY": 3.84582090377808,
+        "posZ": -0.356246948242188,
+        "rotX": 4.84204865642823E-05,
+        "rotY": 180.000549316406,
+        "rotZ": -7.00283862897777E-07,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0
+    }, {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 0.999999821186066,
+        "g": 0.992160260677338,
+        "r": 0.999999821186066
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://pastebin.com/raw.php?i=qS125UrP",
+        "Convex": true,
+        "DiffuseURL": "http://i.imgur.com/S3QmRkM.jpg",
+        "MaterialIndex": 3,
+        "MeshURL": "https://paste.ee/r/geOfV",
+        "NormalURL": "",
+        "TypeIndex": 0
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": false,
+      "GridProjection": false,
+      "GUID": "dc686d",
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": false,
+      "Name": "Custom_Model",
+      "Nickname": "3/3 XV8 Crisis Bodyguards",
+      "Snap": false,
+      "Sticky": false,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 36.5299301147461,
+        "posY": 3.84582114219666,
+        "posZ": -0.37890562415123,
+        "rotX": 5.00311616633553E-05,
+        "rotY": 180.003967285156,
+        "rotZ": -4.08316009270493E-06,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0
+    }, {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 0.999999821186066,
+        "g": 0.992160260677338,
+        "r": 0.999999821186066
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://pastebin.com/raw.php?i=qS125UrP",
+        "Convex": true,
+        "DiffuseURL": "http://i.imgur.com/S3QmRkM.jpg",
+        "MaterialIndex": 3,
+        "MeshURL": "https://paste.ee/r/A4eJE",
+        "NormalURL": "",
+        "TypeIndex": 0
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": false,
+      "GridProjection": false,
+      "GUID": "96083a",
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": false,
+      "Name": "Custom_Model",
+      "Nickname": "3/3 XV8 Crisis Bodyguards",
+      "Snap": false,
+      "Sticky": false,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 38.9289512634277,
+        "posY": 3.84582161903381,
+        "posZ": -0.31403636932373,
+        "rotX": 5.36143052158877E-05,
+        "rotY": 180.001174926758,
+        "rotZ": -1.04289412661274E-07,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0
+    }, {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 0.999999821186066,
+        "g": 0.992160260677338,
+        "r": 0.999999821186066
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://pastebin.com/raw.php?i=qS125UrP",
+        "Convex": true,
+        "DiffuseURL": "http://i.imgur.com/S3QmRkM.jpg",
+        "MaterialIndex": 3,
+        "MeshURL": "https://paste.ee/r/hHZeD",
+        "NormalURL": "",
+        "TypeIndex": 0
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": false,
+      "GridProjection": false,
+      "GUID": "3da62c",
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": false,
+      "Name": "Custom_Model",
+      "Nickname": "3/3 XV8 Crisis Bodyguards",
+      "Snap": false,
+      "Sticky": false,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 41.4689140319824,
+        "posY": 3.84582209587097,
+        "posZ": 0.0435539521276951,
+        "rotX": 5.14392049808521E-05,
+        "rotY": 180.005233764648,
+        "rotZ": -6.76176387059968E-06,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0
+    }, {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 0.999999821186066,
+        "g": 0.992160260677338,
+        "r": 0.999999821186066
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://pastebin.com/raw.php?i=qS125UrP",
+        "Convex": true,
+        "DiffuseURL": "http://i.imgur.com/S3QmRkM.jpg",
+        "MaterialIndex": 3,
+        "MeshURL": "https://paste.ee/r/ZgQFf",
+        "NormalURL": "",
+        "TypeIndex": 0
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": false,
+      "GridProjection": false,
+      "GUID": "de1408",
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": false,
+      "Name": "Custom_Model",
+      "Nickname": "3/3 XV8 Crisis Bodyguards",
+      "Snap": false,
+      "Sticky": false,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 32.0259552001953,
+        "posY": 3.84582114219666,
+        "posZ": -0.0259679760783911,
+        "rotX": 5.32218655280303E-05,
+        "rotY": 180.000457763672,
+        "rotZ": -7.95000687503489E-06,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0
+    }, {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 0.999999821186066,
+        "g": 0.992160260677338,
+        "r": 0.999999821186066
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://pastebin.com/raw.php?i=qS125UrP",
+        "Convex": true,
+        "DiffuseURL": "http://i.imgur.com/GccELS4.jpg",
+        "MaterialIndex": 3,
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/80340816064654571/CCFF5432E86218341D6F58DF10B7C48B45228B85/",
+        "NormalURL": "",
+        "TypeIndex": 0
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": false,
+      "GridProjection": false,
+      "GUID": "9129dc",
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": false,
+      "Name": "Custom_Model",
+      "Nickname": "3/3 XV8 Crisis Bodyguards",
+      "Snap": false,
+      "Sticky": false,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 29.2961158752441,
+        "posY": 3.84582042694092,
+        "posZ": -0.384513258934021,
+        "rotX": 4.76519744552206E-05,
+        "rotY": 180.003128051758,
+        "rotZ": -6.94813434165553E-06,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0
+    }, {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 0.999999821186066,
+        "g": 0.992160260677338,
+        "r": 0.999999821186066
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://pastebin.com/raw.php?i=qS125UrP",
+        "Convex": true,
+        "DiffuseURL": "http://i.imgur.com/S3QmRkM.jpg",
+        "MaterialIndex": 3,
+        "MeshURL": "https://paste.ee/r/qqMcf",
+        "NormalURL": "",
+        "TypeIndex": 0
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": false,
+      "GridProjection": false,
+      "GUID": "0e68f4",
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": false,
+      "Name": "Custom_Model",
+      "Nickname": "3/3 XV8 Crisis Bodyguards",
+      "Snap": false,
+      "Sticky": false,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 32.0094261169434,
+        "posY": 3.84581851959229,
+        "posZ": -2.71173691749573,
+        "rotX": 5.14085004397202E-05,
+        "rotY": 180.000122070313,
+        "rotZ": -1.04763539638952E-05,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0
+    }, {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 0.999999821186066,
+        "g": 0.992160260677338,
+        "r": 0.999999821186066
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://pastebin.com/raw.php?i=qS125UrP",
+        "Convex": true,
+        "DiffuseURL": "http://i.imgur.com/GccELS4.jpg",
+        "MaterialIndex": 3,
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/80340816064656337/46CE0FB9C7B6597513FAF359ADD51E942F547759/",
+        "NormalURL": "",
+        "TypeIndex": 0
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": false,
+      "GridProjection": false,
+      "GUID": "3fc324",
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": false,
+      "Name": "Custom_Model",
+      "Nickname": "3/3 XV8 Crisis Bodyguards",
+      "Snap": false,
+      "Sticky": false,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 29.3735046386719,
+        "posY": 3.84581828117371,
+        "posZ": -2.84006452560425,
+        "rotX": 4.84794400108512E-05,
+        "rotY": 180.001480102539,
+        "rotZ": -4.89310787088471E-06,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0
+    } ],
+    "Sticky": false,
+    "Tags": [ "OPR_MAP" ],
+    "Tooltip": true,
+    "Transform": {
+      "posX": 9.84716987609863,
+      "posY": 0.984318196773529,
+      "posZ": -12.1715507507324,
+      "rotX": 1.8998873201781E-05,
+      "rotY": 180.032348632813,
+      "rotZ": 2.80289550573798E-05,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+    },
+    "Value": 0
+  } ],
+  "Grunt Leader": [ {
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "Autoraise": true,
+    "ColorDiffuse": {
+      "a": 1,
+      "b": 1,
+      "g": 1,
+      "r": 0.996078431606293
+    },
+    "CustomMesh": {
+      "CastShadows": true,
+      "ColliderURL": "https://drive.google.com/uc?export=download&id=0BwpXdiEgZ5GzZm54WXNJcDE1U2c",
+      "Convex": true,
+      "CustomShader": {
+        "FresnelStrength": 0,
+        "SpecularColor": {
+          "a": 1,
+          "b": 0.737254917621613,
+          "g": 0.737254917621613,
+          "r": 0.737254917621613
+        },
+        "SpecularIntensity": 0,
+        "SpecularSharpness": 7
+      },
+      "DiffuseURL": "http://i.imgur.com/P9ierTc.jpg",
+      "MaterialIndex": 2,
+      "MeshURL": "https://drive.google.com/uc?export=download&id=0BwpXdiEgZ5GzSWJZRDlDbWJENFU",
+      "NormalURL": "",
+      "TypeIndex": 1
+    },
+    "Description": "",
+    "DragSelectable": true,
+    "GMNotes": "",
+    "Grid": false,
+    "GridProjection": false,
+    "GUID": "e143c2",
+    "Hands": false,
+    "HideWhenFaceDown": false,
+    "IgnoreFoW": false,
+    "LayoutGroupSortIndex": 0,
+    "Locked": false,
+    "MeasureMovement": false,
+    "Name": "Custom_Model",
+    "Nickname": "Grunt Leader",
+    "Snap": false,
+    "Sticky": false,
+    "Tags": [ "OPR_MAP" ],
+    "Tooltip": true,
+    "Transform": {
+      "posX": 6.91197824478149,
+      "posY": 0.946851968765259,
+      "posZ": -16.2127151489258,
+      "rotX": 1.70759903994622E-06,
+      "rotY": 179.99821472168,
+      "rotZ": 3.3210610581591E-06,
+      "scaleX": 0.375,
+      "scaleY": 0.375,
+      "scaleZ": 0.375
+    },
+    "Value": 0
+  } ],
+  "Grunt Squad": [ {
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "Autoraise": true,
+    "ColorDiffuse": {
+      "a": 1,
+      "b": 0.999999821186066,
+      "g": 0.992160260677338,
+      "r": 0.999999821186066
+    },
+    "CustomMesh": {
+      "CastShadows": true,
+      "ColliderURL": "https://drive.google.com/uc?export=download&id=0BwpXdiEgZ5GzZm54WXNJcDE1U2c",
+      "Convex": true,
+      "CustomShader": {
+        "FresnelStrength": 0,
+        "SpecularColor": {
+          "a": 1,
+          "b": 0.737254917621613,
+          "g": 0.737254917621613,
+          "r": 0.737254917621613
+        },
+        "SpecularIntensity": 0,
+        "SpecularSharpness": 2
+      },
+      "DiffuseURL": "http://i.imgur.com/7UPesr6.jpg",
+      "MaterialIndex": 2,
+      "MeshURL": "https://drive.google.com/uc?export=download&id=0BwpXdiEgZ5GzaF9mbUdhaXY0U3c",
+      "NormalURL": "",
+      "TypeIndex": 1
+    },
+    "Description": "",
+    "DragSelectable": true,
+    "GMNotes": "",
+    "Grid": false,
+    "GridProjection": false,
+    "GUID": "b14f1b",
+    "Hands": false,
+    "HideWhenFaceDown": false,
+    "IgnoreFoW": false,
+    "LayoutGroupSortIndex": 0,
+    "Locked": false,
+    "MeasureMovement": false,
+    "Name": "Custom_Model",
+    "Nickname": "Grunt Squad",
+    "Snap": false,
+    "Sticky": false,
+    "Tags": [ "OPR_MAP" ],
+    "Tooltip": true,
+    "Transform": {
+      "posX": 7.70031976699829,
+      "posY": 0.946852147579193,
+      "posZ": -14.5851535797119,
+      "rotX": 3.20169283440919E-06,
+      "rotY": 179.997482299805,
+      "rotZ": 1.88371359399753E-06,
+      "scaleX": 0.374999970197678,
+      "scaleY": 0.374999970197678,
+      "scaleZ": 0.374999970197678
+    },
+    "Value": 0
+  } ],
+  "Gun Drones": [ {
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "Autoraise": true,
+    "ColorDiffuse": {
+      "a": 1,
+      "b": 0.999999821186066,
+      "g": 0.992160260677338,
+      "r": 0.999999821186066
+    },
+    "CustomMesh": {
+      "CastShadows": true,
+      "ColliderURL": "https://drive.google.com/uc?export=download&id=0BwpXdiEgZ5GzZm54WXNJcDE1U2c",
+      "Convex": true,
+      "CustomShader": {
+        "FresnelStrength": 0,
+        "SpecularColor": {
+          "a": 1,
+          "b": 0.737254917621613,
+          "g": 0.737254917621613,
+          "r": 0.737254917621613
+        },
+        "SpecularIntensity": 0,
+        "SpecularSharpness": 2
+      },
+      "DiffuseURL": "http://i.imgur.com/sRAm3Qg.jpg",
+      "MaterialIndex": 2,
+      "MeshURL": "https://drive.google.com/uc?export=download&id=0BwpXdiEgZ5GzaGhnaE9Jc2l2cTg",
+      "NormalURL": "",
+      "TypeIndex": 1
+    },
+    "Description": "",
+    "DragSelectable": true,
+    "GMNotes": "",
+    "Grid": false,
+    "GridProjection": false,
+    "GUID": "88b0c5",
+    "Hands": false,
+    "HideWhenFaceDown": false,
+    "IgnoreFoW": false,
+    "LayoutGroupSortIndex": 0,
+    "Locked": false,
+    "MeasureMovement": false,
+    "Name": "Custom_Model",
+    "Nickname": "Gun Drones",
+    "Snap": false,
+    "Sticky": false,
+    "Tags": [ "OPR_MAP" ],
+    "Tooltip": true,
+    "Transform": {
+      "posX": 11.8752002716064,
+      "posY": 0.942469298839569,
+      "posZ": -16.2439975738525,
+      "rotX": 6.12142866884824E-06,
+      "rotY": 90.0317306518555,
+      "rotZ": 6.89932448949548E-07,
+      "scaleX": 0.50000011920929,
+      "scaleY": 0.50000011920929,
+      "scaleZ": 0.50000011920929
+    },
+    "Value": 0
+  } ],
+  "Heavy Battle Suit": [ {
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "Autoraise": true,
+    "ColorDiffuse": {
+      "a": 1,
+      "b": 1,
+      "g": 1,
+      "r": 0.996078908443451
+    },
+    "CustomMesh": {
+      "CastShadows": true,
+      "ColliderURL": "https://drive.google.com/uc?export=download&id=0BwpXdiEgZ5GzbE5uQzF3NGo4aXM",
+      "Convex": true,
+      "CustomShader": {
+        "FresnelStrength": 0,
+        "SpecularColor": {
+          "a": 1,
+          "b": 0.737254917621613,
+          "g": 0.737254917621613,
+          "r": 0.737254917621613
+        },
+        "SpecularIntensity": 0,
+        "SpecularSharpness": 7
+      },
+      "DiffuseURL": "http://i.imgur.com/XV3tYGW.jpg",
+      "MaterialIndex": 2,
+      "MeshURL": "https://drive.google.com/uc?export=download&id=0BwpXdiEgZ5GzcWc4bXdCOW9JLUk",
+      "NormalURL": "",
+      "TypeIndex": 1
+    },
+    "Description": "",
+    "DragSelectable": true,
+    "GMNotes": "",
+    "Grid": false,
+    "GridProjection": false,
+    "GUID": "fc6c32",
+    "Hands": false,
+    "HideWhenFaceDown": false,
+    "IgnoreFoW": false,
+    "LayoutGroupSortIndex": 0,
+    "Locked": false,
+    "MeasureMovement": false,
+    "Name": "Custom_Model",
+    "Nickname": "Heavy Battle Suit",
+    "Snap": false,
+    "States": [ null, {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 1,
+        "g": 0.99607914686203,
+        "r": 1
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "https://drive.google.com/uc?export=download&id=0BwpXdiEgZ5GzcGdSbkpDRzlwcTg",
+        "Convex": true,
+        "CustomShader": {
+          "FresnelStrength": 0,
+          "SpecularColor": {
+            "a": 1,
+            "b": 0.737254917621613,
+            "g": 0.737254917621613,
+            "r": 0.737254917621613
+          },
+          "SpecularIntensity": 0,
+          "SpecularSharpness": 7
+        },
+        "DiffuseURL": "http://i.imgur.com/ECi4lzR.jpg",
+        "MaterialIndex": 2,
+        "MeshURL": "https://drive.google.com/uc?export=download&id=0BwpXdiEgZ5GzWVBxZ0RheDhQaVU",
+        "NormalURL": "",
+        "TypeIndex": 1
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": false,
+      "GridProjection": false,
+      "GUID": "9b2ff1",
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": false,
+      "Name": "Custom_Model",
+      "Nickname": "6/6 XV88 Broadside Battlesuits Shas'vre",
+      "Snap": false,
+      "Sticky": false,
+      "Tooltip": true,
+      "Transform": {
+        "posX": -23.4676513671875,
+        "posY": 3.80567121505737,
+        "posZ": 10.4257116317749,
+        "rotX": 5.62956665817183E-05,
+        "rotY": 179.99934387207,
+        "rotZ": -5.48631896890583E-06,
+        "scaleX": 0.458333283662796,
+        "scaleY": 0.458333283662796,
+        "scaleZ": 0.458333283662796
+      },
+      "Value": 0
+    } ],
+    "Sticky": false,
+    "Tags": [ "OPR_MAP" ],
+    "Tooltip": true,
+    "Transform": {
+      "posX": 13.3162746429443,
+      "posY": 0.940644204616547,
+      "posZ": -13.4501285552979,
+      "rotX": 1.07820631001232E-06,
+      "rotY": 179.986587524414,
+      "rotZ": 1.05732237898337E-06,
+      "scaleX": 0.550000011920929,
+      "scaleY": 0.550000011920929,
+      "scaleZ": 0.550000011920929
+    },
+    "Value": 0
+  } ],
+  "Heavy Stealth Suit": [ {
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "Autoraise": true,
+    "ColorDiffuse": {
+      "a": 1,
+      "b": 0.999999821186066,
+      "g": 0.992160260677338,
+      "r": 0.999999821186066
+    },
+    "CustomMesh": {
+      "CastShadows": true,
+      "ColliderURL": "https://drive.google.com/uc?export=download&id=0BwpXdiEgZ5GzTTV1SC1GVWs0b28",
+      "Convex": true,
+      "CustomShader": {
+        "FresnelStrength": 0,
+        "SpecularColor": {
+          "a": 1,
+          "b": 0.737254917621613,
+          "g": 0.737254917621613,
+          "r": 0.737254917621613
+        },
+        "SpecularIntensity": 0,
+        "SpecularSharpness": 7
+      },
+      "DiffuseURL": "http://i.imgur.com/xChXjxL.jpg",
+      "MaterialIndex": 2,
+      "MeshURL": "https://drive.google.com/uc?export=download&id=0BwpXdiEgZ5GzakNuSjBiY0VCV1E",
+      "NormalURL": "",
+      "TypeIndex": 1
+    },
+    "Description": "",
+    "DragSelectable": true,
+    "GMNotes": "",
+    "Grid": false,
+    "GridProjection": false,
+    "GUID": "574971",
+    "Hands": false,
+    "HideWhenFaceDown": false,
+    "IgnoreFoW": false,
+    "LayoutGroupSortIndex": 0,
+    "Locked": false,
+    "MeasureMovement": false,
+    "Name": "Custom_Model",
+    "Nickname": "Heavy Stealth Suit",
+    "Snap": false,
+    "Sticky": false,
+    "Tags": [ "OPR_MAP" ],
+    "Tooltip": true,
+    "Transform": {
+      "posX": 9.62983131408691,
+      "posY": 0.961121082305908,
+      "posZ": -8.43631553649902,
+      "rotX": 1.50924194031177E-07,
+      "rotY": 269.997650146484,
+      "rotZ": -1.50930389963833E-07,
+      "scaleX": 0.475000083446503,
+      "scaleY": 0.475000083446503,
+      "scaleZ": 0.475000083446503
+    },
+    "Value": 0
+  } ],
+  "Hover Attack Bike": [ {
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "Autoraise": true,
+    "ColorDiffuse": {
+      "a": 1,
+      "b": 0.999999821186066,
+      "g": 0.992160260677338,
+      "r": 0.999999821186066
+    },
+    "CustomMesh": {
+      "CastShadows": true,
+      "ColliderURL": "http://pastebin.com/raw.php?i=7e2HKDbN",
+      "Convex": true,
+      "DiffuseURL": "http://i.imgur.com/f0OYXlJ.jpg",
+      "MaterialIndex": 3,
+      "MeshURL": "https://paste.ee/r/teJw0",
+      "NormalURL": "",
+      "TypeIndex": 0
+    },
+    "Description": "",
+    "DragSelectable": true,
+    "GMNotes": "",
+    "Grid": false,
+    "GridProjection": false,
+    "GUID": "e355ee",
+    "Hands": false,
+    "HideWhenFaceDown": false,
+    "IgnoreFoW": false,
+    "LayoutGroupSortIndex": 0,
+    "Locked": false,
+    "MeasureMovement": false,
+    "Name": "Custom_Model",
+    "Nickname": "Hover Attack Bike",
+    "Snap": false,
+    "States": [ null, {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 0.999999821186066,
+        "g": 0.992160260677338,
+        "r": 0.999999821186066
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://pastebin.com/raw.php?i=7e2HKDbN",
+        "Convex": true,
+        "DiffuseURL": "http://i.imgur.com/f0OYXlJ.jpg",
+        "MaterialIndex": 3,
+        "MeshURL": "https://paste.ee/r/Wysve",
+        "NormalURL": "",
+        "TypeIndex": 0
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": false,
+      "GridProjection": false,
+      "GUID": "935230",
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": false,
+      "Name": "Custom_Model",
+      "Nickname": "6/6 TX4 Piranha",
+      "Snap": false,
+      "Sticky": false,
+      "Tooltip": true,
+      "Transform": {
+        "posX": -20.1268939971924,
+        "posY": 3.82150340080261,
+        "posZ": 5.86994171142578,
+        "rotX": 5.50433214812074E-05,
+        "rotY": 179.998992919922,
+        "rotZ": -8.15133626019815E-06,
+        "scaleX": 0.975000023841858,
+        "scaleY": 0.975000023841858,
+        "scaleZ": 0.975000023841858
+      },
+      "Value": 0
+    } ],
+    "Sticky": false,
+    "Tags": [ "OPR_MAP" ],
+    "Tooltip": true,
+    "Transform": {
+      "posX": 24.7986526489258,
+      "posY": 0.959999918937683,
+      "posZ": -5.17632579803467,
+      "rotX": 2.79414138049106E-07,
+      "rotY": 180.041580200195,
+      "rotZ": -2.23838796387099E-07,
+      "scaleX": 0.975000023841858,
+      "scaleY": 0.975000023841858,
+      "scaleZ": 0.975000023841858
+    },
+    "Value": 0
+  } ],
+  "Hover Tank": [ {
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "Autoraise": true,
+    "ColorDiffuse": {
+      "a": 1,
+      "b": 0.999999821186066,
+      "g": 0.992160260677338,
+      "r": 0.999999821186066
+    },
+    "CustomMesh": {
+      "CastShadows": true,
+      "ColliderURL": "http://pastebin.com/raw.php?i=7e2HKDbN",
+      "Convex": true,
+      "DiffuseURL": "http://i.imgur.com/bDOal4F.jpg",
+      "MaterialIndex": 3,
+      "MeshURL": "https://paste.ee/r/dqSyF",
+      "NormalURL": "",
+      "TypeIndex": 0
+    },
+    "Description": "",
+    "DragSelectable": true,
+    "GMNotes": "",
+    "Grid": false,
+    "GridProjection": false,
+    "GUID": "1145af",
+    "Hands": false,
+    "HideWhenFaceDown": false,
+    "IgnoreFoW": false,
+    "LayoutGroupSortIndex": 0,
+    "Locked": false,
+    "MeasureMovement": false,
+    "Name": "Custom_Model",
+    "Nickname": "Hover Tank",
+    "Snap": false,
+    "States": [ null, {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": false,
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 0.999999821186066,
+        "g": 0.992160260677338,
+        "r": 0.999999821186066
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://pastebin.com/raw.php?i=7e2HKDbN",
+        "Convex": true,
+        "DiffuseURL": "http://i.imgur.com/bDOal4F.jpg",
+        "MaterialIndex": 3,
+        "MeshURL": "https://paste.ee/r/dqSyF",
+        "NormalURL": "",
+        "TypeIndex": 0
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": false,
+      "GridProjection": false,
+      "GUID": "5bfef5",
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": false,
+      "Name": "Custom_Model",
+      "Nickname": "Railhead 3/3",
+      "Snap": false,
+      "Sticky": false,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 6.85409641265869,
+        "posY": 3.82150149345398,
+        "posZ": 0.775523781776428,
+        "rotX": 5.68504983675666E-05,
+        "rotY": 180.017684936523,
+        "rotZ": -7.46669365980779E-06,
+        "scaleX": 0.950000047683716,
+        "scaleY": 0.950000047683716,
+        "scaleZ": 0.950000047683716
+      },
+      "Value": 0
+    }, {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": false,
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 0.999999821186066,
+        "g": 0.992160260677338,
+        "r": 0.999999821186066
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://pastebin.com/raw.php?i=7e2HKDbN",
+        "Convex": true,
+        "DiffuseURL": "http://i.imgur.com/bDOal4F.jpg",
+        "MaterialIndex": 3,
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/80340220918191881/6FDAA8E37906E55DBF03B7F99107C36A088C6292/",
+        "NormalURL": "",
+        "TypeIndex": 0
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": false,
+      "GridProjection": false,
+      "GUID": "0976ad",
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": false,
+      "Name": "Custom_Model",
+      "Nickname": "Ionhead 3/3",
+      "Snap": false,
+      "Sticky": false,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 11.8000049591064,
+        "posY": 3.82150197029114,
+        "posZ": 0.914863109588623,
+        "rotX": 5.02995899296366E-05,
+        "rotY": 179.999435424805,
+        "rotZ": -6.32964611213538E-06,
+        "scaleX": 0.950000047683716,
+        "scaleY": 0.950000047683716,
+        "scaleZ": 0.950000047683716
+      },
+      "Value": 0
+    }, {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": false,
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 0.999999821186066,
+        "g": 0.992160260677338,
+        "r": 0.999999821186066
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://pastebin.com/raw.php?i=7e2HKDbN",
+        "Convex": true,
+        "DiffuseURL": "http://i.imgur.com/en2McYs.jpg",
+        "MaterialIndex": 3,
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/80340220918191390/D3841C72E329F07097FBEDFEC391C5DC05651C8D/",
+        "NormalURL": "",
+        "TypeIndex": 0
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": false,
+      "GridProjection": false,
+      "GUID": "272247",
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": false,
+      "Name": "Custom_Model",
+      "Nickname": "Fusionhead 3/3",
+      "Snap": false,
+      "Sticky": false,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 17.0210380554199,
+        "posY": 3.8215024471283,
+        "posZ": 0.844569444656372,
+        "rotX": 5.26574876857921E-05,
+        "rotY": 180.020782470703,
+        "rotZ": -8.19711567601189E-06,
+        "scaleX": 0.950000047683716,
+        "scaleY": 0.950000047683716,
+        "scaleZ": 0.950000047683716
+      },
+      "Value": 0
+    }, {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": false,
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 0.999999821186066,
+        "g": 0.992160260677338,
+        "r": 0.999999821186066
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://pastebin.com/raw.php?i=7e2HKDbN",
+        "Convex": true,
+        "DiffuseURL": "http://i.imgur.com/en2McYs.jpg",
+        "MaterialIndex": 3,
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/80340220918192774/B797DA3BDEFCA0F72A1D69F83A19807F01A046DF/",
+        "NormalURL": "",
+        "TypeIndex": 0
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": false,
+      "GridProjection": false,
+      "GUID": "28c543",
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": false,
+      "Name": "Custom_Model",
+      "Nickname": "Plasmahead 3/3",
+      "Snap": false,
+      "Sticky": false,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 2.17036986351013,
+        "posY": 3.8215012550354,
+        "posZ": 1.24046862125397,
+        "rotX": 5.7610322983237E-05,
+        "rotY": 180.020523071289,
+        "rotZ": -4.907649326924E-06,
+        "scaleX": 0.950000047683716,
+        "scaleY": 0.950000047683716,
+        "scaleZ": 0.950000047683716
+      },
+      "Value": 0
+    }, {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": false,
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 0.999999821186066,
+        "g": 0.992160260677338,
+        "r": 0.999999821186066
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://pastebin.com/raw.php?i=7e2HKDbN",
+        "Convex": true,
+        "DiffuseURL": "http://i.imgur.com/en2McYs.jpg",
+        "MaterialIndex": 3,
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/80340220918193249/1632F689823D9F88BF39671A1BB67C3352EDC9C3/",
+        "NormalURL": "",
+        "TypeIndex": 0
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": false,
+      "GridProjection": false,
+      "GUID": "77605a",
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": false,
+      "Name": "Custom_Model",
+      "Nickname": "Bursthead 3/3",
+      "Snap": false,
+      "Sticky": false,
+      "Tooltip": true,
+      "Transform": {
+        "posX": -2.82597374916077,
+        "posY": 3.82150077819824,
+        "posZ": 1.22719657421112,
+        "rotX": 5.6053413572954E-05,
+        "rotY": 180.020889282227,
+        "rotZ": -8.69164796313271E-06,
+        "scaleX": 0.950000047683716,
+        "scaleY": 0.950000047683716,
+        "scaleZ": 0.950000047683716
+      },
+      "Value": 0
+    } ],
+    "Sticky": false,
+    "Tags": [ "OPR_MAP" ],
+    "Tooltip": true,
+    "Transform": {
+      "posX": 0.421129673719406,
+      "posY": 0.959999918937683,
+      "posZ": -8.68229675292969,
+      "rotX": 3.39737812282692E-06,
+      "rotY": 180,
+      "rotZ": 7.05963373093255E-07,
+      "scaleX": 0.950000047683716,
+      "scaleY": 0.950000047683716,
+      "scaleZ": 0.950000047683716
+    },
+    "Value": 0
+  } ],
+  "Hover Transport": [ {
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "Autoraise": true,
+    "ColorDiffuse": {
+      "a": 1,
+      "b": 1,
+      "g": 1,
+      "r": 1
+    },
+    "CustomAssetbundle": {
+      "AssetbundleSecondaryURL": "https://drive.google.com/uc?export=download&id=0BwpXdiEgZ5GzNUZuSkg3UXlaYm8",
+      "AssetbundleURL": "https://drive.google.com/uc?export=download&id=0BwpXdiEgZ5GzWXVRc280VnZFVFk",
+      "LoopingEffectIndex": 0,
+      "MaterialIndex": 0,
+      "TypeIndex": 1
+    },
+    "Description": "",
+    "DragSelectable": true,
+    "GMNotes": "",
+    "Grid": false,
+    "GridProjection": false,
+    "GUID": "736261",
+    "Hands": false,
+    "HideWhenFaceDown": false,
+    "IgnoreFoW": false,
+    "LayoutGroupSortIndex": 0,
+    "Locked": false,
+    "MeasureMovement": false,
+    "Name": "Custom_Assetbundle",
+    "Nickname": "Hover Transport",
+    "Snap": false,
+    "Sticky": false,
+    "Tags": [ "OPR_MAP" ],
+    "Tooltip": true,
+    "Transform": {
+      "posX": 20.1969203948975,
+      "posY": 1.00199997425079,
+      "posZ": -7.91410160064697,
+      "rotX": 5.50175229818706E-08,
+      "rotY": 179.980392456055,
+      "rotZ": -3.4462448894601E-08,
+      "scaleX": 0.4000004529953,
+      "scaleY": 0.4000004529953,
+      "scaleZ": 0.4000004529953
+    },
+    "Value": 0
+  } ],
+  "Razor Fighter": [ {
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "Autoraise": true,
+    "ColorDiffuse": {
+      "a": 1,
+      "b": 0.999999821186066,
+      "g": 0.992160260677338,
+      "r": 0.999999821186066
+    },
+    "CustomMesh": {
+      "CastShadows": true,
+      "ColliderURL": "https://drive.google.com/uc?export=download&id=0BwpXdiEgZ5GzcXdORnpFaDhhZzg",
+      "Convex": false,
+      "CustomShader": {
+        "FresnelStrength": 0,
+        "SpecularColor": {
+          "a": 1,
+          "b": 0.737254917621613,
+          "g": 0.737254917621613,
+          "r": 0.737254917621613
+        },
+        "SpecularIntensity": 0,
+        "SpecularSharpness": 7
+      },
+      "DiffuseURL": "http://i.imgur.com/Zkwf742.jpg",
+      "MaterialIndex": 2,
+      "MeshURL": "https://drive.google.com/uc?export=download&id=0BwpXdiEgZ5GzS3NmRG9zZTZ1bGM",
+      "NormalURL": "",
+      "TypeIndex": 1
+    },
+    "Description": "",
+    "DragSelectable": true,
+    "GMNotes": "",
+    "Grid": false,
+    "GridProjection": false,
+    "GUID": "b71894",
+    "Hands": false,
+    "HideWhenFaceDown": false,
+    "IgnoreFoW": false,
+    "LayoutGroupSortIndex": 0,
+    "Locked": false,
+    "MeasureMovement": false,
+    "Name": "Custom_Model",
+    "Nickname": "Razor Fighter",
+    "Snap": false,
+    "Sticky": false,
+    "Tags": [ "OPR_MAP" ],
+    "Tooltip": true,
+    "Transform": {
+      "posX": -3.36178994178772,
+      "posY": 0.958589792251587,
+      "posZ": -13.1802377700806,
+      "rotX": 1.32470984226529E-06,
+      "rotY": 0.000488663616124541,
+      "rotZ": 3.28129681292921E-05,
+      "scaleX": 0.450000077486038,
+      "scaleY": 0.450000077486038,
+      "scaleZ": 0.450000077486038
+    },
+    "Value": 0
+  } ],
+  "Sniper Drones": [ {
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "Autoraise": true,
+    "ColorDiffuse": {
+      "a": 1,
+      "b": 0.999999821186066,
+      "g": 0.992160260677338,
+      "r": 0.999999821186066
+    },
+    "CustomMesh": {
+      "CastShadows": true,
+      "ColliderURL": "https://drive.google.com/uc?export=download&id=0BwpXdiEgZ5GzZm54WXNJcDE1U2c",
+      "Convex": true,
+      "CustomShader": {
+        "FresnelStrength": 0,
+        "SpecularColor": {
+          "a": 1,
+          "b": 0.737254917621613,
+          "g": 0.737254917621613,
+          "r": 0.737254917621613
+        },
+        "SpecularIntensity": 0,
+        "SpecularSharpness": 2
+      },
+      "DiffuseURL": "http://i.imgur.com/64z7M83.jpg",
+      "MaterialIndex": 2,
+      "MeshURL": "https://drive.google.com/uc?export=download&id=0BwpXdiEgZ5GzWm1LVTBFOVBpVmc",
+      "NormalURL": "",
+      "TypeIndex": 1
+    },
+    "Description": "",
+    "DragSelectable": true,
+    "GMNotes": "",
+    "Grid": false,
+    "GridProjection": false,
+    "GUID": "3bedb6",
+    "Hands": false,
+    "HideWhenFaceDown": false,
+    "IgnoreFoW": false,
+    "LayoutGroupSortIndex": 0,
+    "Locked": false,
+    "MeasureMovement": false,
+    "Name": "Custom_Model",
+    "Nickname": "Sniper Drones",
+    "Snap": false,
+    "Sticky": false,
+    "Tags": [ "OPR_MAP" ],
+    "Tooltip": true,
+    "Transform": {
+      "posX": 22.6557521820068,
+      "posY": 0.942470192909241,
+      "posZ": -10.9011907577515,
+      "rotX": 0.000124207232147455,
+      "rotY": 89.9731826782227,
+      "rotZ": -5.76884121983312E-06,
+      "scaleX": 0.50000011920929,
+      "scaleY": 0.50000011920929,
+      "scaleZ": 0.50000011920929
+    },
+    "Value": 0
+  } ],
+  "Spotter Squad": [ {
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "Autoraise": true,
+    "ColorDiffuse": {
+      "a": 1,
+      "b": 0.999999821186066,
+      "g": 0.992160260677338,
+      "r": 0.999999821186066
+    },
+    "CustomMesh": {
+      "CastShadows": true,
+      "ColliderURL": "http://pastebin.com/raw.php?i=ahfaXzUd",
+      "Convex": true,
+      "DiffuseURL": "http://i.imgur.com/sQhXxJi.jpg",
+      "MaterialIndex": 3,
+      "MeshURL": "http://pastebin.com/raw.php?i=CEwg3fw3",
+      "NormalURL": "",
+      "TypeIndex": 0
+    },
+    "Description": "",
+    "DragSelectable": true,
+    "GMNotes": "",
+    "Grid": false,
+    "GridProjection": false,
+    "GUID": "e137d1",
+    "Hands": false,
+    "HideWhenFaceDown": false,
+    "IgnoreFoW": false,
+    "LayoutGroupSortIndex": 0,
+    "Locked": false,
+    "MeasureMovement": false,
+    "Name": "Custom_Model",
+    "Nickname": "Spotter Squad",
+    "Snap": false,
+    "Sticky": false,
+    "Tags": [ "OPR_MAP" ],
+    "Tooltip": true,
+    "Transform": {
+      "posX": 8.95511627197266,
+      "posY": 0.958167195320129,
+      "posZ": -15.0803117752075,
+      "rotX": 2.75465699814959E-05,
+      "rotY": 179.967910766602,
+      "rotZ": 6.55006006127223E-05,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+    },
+    "Value": 0
+  } ],
+  "Stealth Suits": [ {
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "Autoraise": true,
+    "ColorDiffuse": {
+      "a": 1,
+      "b": 0.999999821186066,
+      "g": 0.992160260677338,
+      "r": 0.999999821186066
+    },
+    "CustomMesh": {
+      "CastShadows": true,
+      "ColliderURL": "http://pastebin.com/raw.php?i=ahfaXzUd",
+      "Convex": true,
+      "DiffuseURL": "http://i.imgur.com/vLyZBPJ.jpg",
+      "MaterialIndex": 3,
+      "MeshURL": "http://cloud-3.steamusercontent.com/ugc/80340220918207593/7BBE57C0A07E7EB5A439224D3D293A2686AB8DDB/",
+      "NormalURL": "",
+      "TypeIndex": 0
+    },
+    "Description": "",
+    "DragSelectable": true,
+    "GMNotes": "",
+    "Grid": false,
+    "GridProjection": false,
+    "GUID": "65c55d",
+    "Hands": false,
+    "HideWhenFaceDown": false,
+    "IgnoreFoW": false,
+    "LayoutGroupSortIndex": 0,
+    "Locked": false,
+    "MeasureMovement": false,
+    "Name": "Custom_Model",
+    "Nickname": "Stealth Suits",
+    "Snap": false,
+    "Sticky": false,
+    "Tags": [ "OPR_MAP" ],
+    "Tooltip": true,
+    "Transform": {
+      "posX": 9.30761909484863,
+      "posY": 0.95816695690155,
+      "posZ": -17.0514907836914,
+      "rotX": -5.67762481296086E-06,
+      "rotY": -5.47793810312669E-08,
+      "rotZ": 4.40010762758902E-06,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+    },
+    "Value": 0
+  } ],
+  "Sun Bomber": [ {
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "Autoraise": true,
+    "ColorDiffuse": {
+      "a": 1,
+      "b": 0.999999821186066,
+      "g": 0.992160260677338,
+      "r": 0.999999821186066
+    },
+    "CustomMesh": {
+      "CastShadows": true,
+      "ColliderURL": "https://drive.google.com/uc?export=download&id=0BwpXdiEgZ5GzcXdORnpFaDhhZzg",
+      "Convex": false,
+      "CustomShader": {
+        "FresnelStrength": 0,
+        "SpecularColor": {
+          "a": 1,
+          "b": 0.737254917621613,
+          "g": 0.737254917621613,
+          "r": 0.737254917621613
+        },
+        "SpecularIntensity": 0,
+        "SpecularSharpness": 7
+      },
+      "DiffuseURL": "http://i.imgur.com/Ujxa0ou.jpg",
+      "MaterialIndex": 2,
+      "MeshURL": "https://drive.google.com/uc?export=download&id=0BwpXdiEgZ5GzWDhCWmU1ZUlGT2c",
+      "NormalURL": "",
+      "TypeIndex": 1
+    },
+    "Description": "",
+    "DragSelectable": true,
+    "GMNotes": "",
+    "Grid": false,
+    "GridProjection": false,
+    "GUID": "20b042",
+    "Hands": false,
+    "HideWhenFaceDown": false,
+    "IgnoreFoW": false,
+    "LayoutGroupSortIndex": 0,
+    "Locked": false,
+    "MeasureMovement": false,
+    "Name": "Custom_Model",
+    "Nickname": "Sun Bomber",
+    "Snap": false,
+    "States": [ null, {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 0.999999821186066,
+        "g": 0.992160260677338,
+        "r": 0.999999821186066
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "https://drive.google.com/uc?export=download&id=0BwpXdiEgZ5GzcXdORnpFaDhhZzg",
+        "Convex": false,
+        "CustomShader": {
+          "FresnelStrength": 0,
+          "SpecularColor": {
+            "a": 1,
+            "b": 0.737254917621613,
+            "g": 0.737254917621613,
+            "r": 0.737254917621613
+          },
+          "SpecularIntensity": 0,
+          "SpecularSharpness": 7
+        },
+        "DiffuseURL": "http://i.imgur.com/Ujxa0ou.jpg",
+        "MaterialIndex": 2,
+        "MeshURL": "https://drive.google.com/uc?export=download&id=0BwpXdiEgZ5Gza25ST2NFc1ZDaHc",
+        "NormalURL": "",
+        "TypeIndex": 1
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": true,
+      "GridProjection": false,
+      "GUID": "cc0382",
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": false,
+      "Name": "Custom_Model",
+      "Nickname": "",
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 34.5890502929688,
+        "posY": 3.82033944129944,
+        "posZ": 18.5185127258301,
+        "rotX": -1.8680511857383E-06,
+        "rotY": 0.0247873347252607,
+        "rotZ": 2.50741959462175E-05,
+        "scaleX": 0.450000077486038,
+        "scaleY": 0.450000077486038,
+        "scaleZ": 0.450000077486038
+      },
+      "Value": 0
+    } ],
+    "Sticky": false,
+    "Tags": [ "OPR_MAP" ],
+    "Tooltip": true,
+    "Transform": {
+      "posX": -10.0383529663086,
+      "posY": 0.958587884902954,
+      "posZ": -14.7274398803711,
+      "rotX": 2.42124906435492E-06,
+      "rotY": -0.000152074222569354,
+      "rotZ": 7.31415525478951E-07,
+      "scaleX": 0.450000077486038,
+      "scaleY": 0.450000077486038,
+      "scaleZ": 0.450000077486038
+    },
+    "Value": 0
+  } ],
+  "Surge Titan": [ {
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "Autoraise": true,
+    "ColorDiffuse": {
+      "a": 1,
+      "b": 0.996078550815582,
+      "g": 1,
+      "r": 1
+    },
+    "CustomMesh": {
+      "CastShadows": true,
+      "ColliderURL": "https://drive.google.com/uc?export=download&id=0BwpXdiEgZ5GzQmt5ZzBNZFZlRWM",
+      "Convex": true,
+      "CustomShader": {
+        "FresnelStrength": 0,
+        "SpecularColor": {
+          "a": 1,
+          "b": 0.737254917621613,
+          "g": 0.737254917621613,
+          "r": 0.737254917621613
+        },
+        "SpecularIntensity": 0,
+        "SpecularSharpness": 7
+      },
+      "DiffuseURL": "http://i.imgur.com/FarFk1x.jpg",
+      "MaterialIndex": 2,
+      "MeshURL": "https://drive.google.com/uc?export=download&id=0BwpXdiEgZ5GzdHpDdnRDRjdidGM",
+      "NormalURL": "",
+      "TypeIndex": 1
+    },
+    "Description": "",
+    "DragSelectable": true,
+    "GMNotes": "",
+    "Grid": false,
+    "GridProjection": false,
+    "GUID": "7223c8",
+    "Hands": false,
+    "HideWhenFaceDown": false,
+    "IgnoreFoW": false,
+    "LayoutGroupSortIndex": 0,
+    "Locked": false,
+    "MeasureMovement": false,
+    "Name": "Custom_Model",
+    "Nickname": "Surge Titan",
+    "Snap": false,
+    "Sticky": false,
+    "Tags": [ "OPR_MAP" ],
+    "Tooltip": true,
+    "Transform": {
+      "posX": 17.8462142944336,
+      "posY": 0.941231727600098,
+      "posZ": -14.7695369720459,
+      "rotX": 1.01386706319317E-06,
+      "rotY": 179.992095947266,
+      "rotZ": 1.60012618266592E-07,
+      "scaleX": 0.375,
+      "scaleY": 0.375,
+      "scaleZ": 0.375
+    },
+    "Value": 0
+  } ],
+  "Tide Titan": [ {
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "Autoraise": false,
+    "ColorDiffuse": {
+      "a": 1,
+      "b": 0.999999821186066,
+      "g": 0.992160260677338,
+      "r": 0.999999821186066
+    },
+    "CustomMesh": {
+      "CastShadows": true,
+      "ColliderURL": "http://pastebin.com/raw.php?i=v8PueMN4",
+      "Convex": true,
+      "DiffuseURL": "http://i.imgur.com/HmMlfCq.jpg",
+      "MaterialIndex": 3,
+      "MeshURL": "https://paste.ee/p/jIVFL",
+      "NormalURL": "",
+      "TypeIndex": 0
+    },
+    "Description": "",
+    "DragSelectable": true,
+    "GMNotes": "",
+    "Grid": false,
+    "GridProjection": false,
+    "GUID": "a89cc0",
+    "Hands": false,
+    "HideWhenFaceDown": false,
+    "IgnoreFoW": false,
+    "LayoutGroupSortIndex": 0,
+    "Locked": false,
+    "MeasureMovement": false,
+    "Name": "Custom_Model",
+    "Nickname": "Tide Titan",
+    "Snap": false,
+    "States": [ null, {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": false,
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 0.999999821186066,
+        "g": 0.992160260677338,
+        "r": 0.999999821186066
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://pastebin.com/raw.php?i=v8PueMN4",
+        "Convex": true,
+        "DiffuseURL": "http://i.imgur.com/HmMlfCq.jpg",
+        "MaterialIndex": 3,
+        "MeshURL": "https://paste.ee/p/fAkpX",
+        "NormalURL": "",
+        "TypeIndex": 0
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": false,
+      "GridProjection": false,
+      "GUID": "caeacb",
+      "Hands": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": false,
+      "Name": "Custom_Model",
+      "Nickname": "Riptide Ion/SMS 5/5",
+      "Snap": false,
+      "Sticky": false,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 24.4893283843994,
+        "posY": 3.82150220870972,
+        "posZ": -0.270927459001541,
+        "rotX": -7.6175679168955E-06,
+        "rotY": 89.9917373657227,
+        "rotZ": -5.45087350474205E-05,
+        "scaleX": 0.875000059604645,
+        "scaleY": 0.875000059604645,
+        "scaleZ": 0.875000059604645
+      },
+      "Value": 0
+    }, {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": false,
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 0.999999821186066,
+        "g": 0.992160260677338,
+        "r": 0.999999821186066
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://pastebin.com/raw.php?i=v8PueMN4",
+        "Convex": true,
+        "DiffuseURL": "http://i.imgur.com/HmMlfCq.jpg",
+        "MaterialIndex": 3,
+        "MeshURL": "https://paste.ee/p/HVES5",
+        "NormalURL": "",
+        "TypeIndex": 0
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": false,
+      "GridProjection": false,
+      "GUID": "fa5faa",
+      "Hands": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": false,
+      "Name": "Custom_Model",
+      "Nickname": "Riptide Burst/Plasma 5/5",
+      "Snap": false,
+      "Sticky": false,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 24.4893283843994,
+        "posY": 3.82150220870972,
+        "posZ": -0.270927369594574,
+        "rotX": -4.40689336755895E-06,
+        "rotY": 89.9917373657227,
+        "rotZ": -5.28694727108814E-05,
+        "scaleX": 0.875000059604645,
+        "scaleY": 0.875000059604645,
+        "scaleZ": 0.875000059604645
+      },
+      "Value": 0
+    }, {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": false,
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 0.999999821186066,
+        "g": 0.992160260677338,
+        "r": 0.999999821186066
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://pastebin.com/raw.php?i=v8PueMN4",
+        "Convex": true,
+        "DiffuseURL": "http://i.imgur.com/HmMlfCq.jpg",
+        "MaterialIndex": 3,
+        "MeshURL": "https://paste.ee/p/3A8X6",
+        "NormalURL": "",
+        "TypeIndex": 0
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": false,
+      "GridProjection": false,
+      "GUID": "561861",
+      "Hands": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": false,
+      "Name": "Custom_Model",
+      "Nickname": "Riptide Ion/plasma 5/5",
+      "Snap": false,
+      "Sticky": false,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 24.4893283843994,
+        "posY": 3.82150220870972,
+        "posZ": -0.270927369594574,
+        "rotX": -8.13358292361954E-06,
+        "rotY": 89.9917373657227,
+        "rotZ": -5.26191288372502E-05,
+        "scaleX": 0.875000059604645,
+        "scaleY": 0.875000059604645,
+        "scaleZ": 0.875000059604645
+      },
+      "Value": 0
+    }, {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": false,
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 0.999999821186066,
+        "g": 0.992160260677338,
+        "r": 0.999999821186066
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://pastebin.com/raw.php?i=v8PueMN4",
+        "Convex": true,
+        "DiffuseURL": "http://i.imgur.com/HmMlfCq.jpg",
+        "MaterialIndex": 3,
+        "MeshURL": "https://paste.ee/p/b05z9",
+        "NormalURL": "",
+        "TypeIndex": 0
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": false,
+      "GridProjection": false,
+      "GUID": "ba5ec0",
+      "Hands": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": false,
+      "Name": "Custom_Model",
+      "Nickname": "Riptide Burst/Fusion 5/5",
+      "Snap": false,
+      "Sticky": false,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 24.4893283843994,
+        "posY": 3.82150220870972,
+        "posZ": -0.270927280187607,
+        "rotX": -5.09779329149751E-06,
+        "rotY": 89.9917373657227,
+        "rotZ": -5.4777403420303E-05,
+        "scaleX": 0.875000059604645,
+        "scaleY": 0.875000059604645,
+        "scaleZ": 0.875000059604645
+      },
+      "Value": 0
+    }, {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": false,
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 0.999999821186066,
+        "g": 0.992160260677338,
+        "r": 0.999999821186066
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://pastebin.com/raw.php?i=v8PueMN4",
+        "Convex": true,
+        "DiffuseURL": "http://i.imgur.com/HmMlfCq.jpg",
+        "MaterialIndex": 3,
+        "MeshURL": "https://paste.ee/p/SmNTP",
+        "NormalURL": "",
+        "TypeIndex": 0
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": false,
+      "GridProjection": false,
+      "GUID": "1aed7f",
+      "Hands": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": false,
+      "Name": "Custom_Model",
+      "Nickname": "Riptide Burst/SMS 5/5",
+      "Snap": false,
+      "Sticky": false,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 24.4893283843994,
+        "posY": 3.82150220870972,
+        "posZ": -0.270927220582962,
+        "rotX": -7.25127392797731E-06,
+        "rotY": 89.9917373657227,
+        "rotZ": -5.25284449395258E-05,
+        "scaleX": 0.875000059604645,
+        "scaleY": 0.875000059604645,
+        "scaleZ": 0.875000059604645
+      },
+      "Value": 0
+    } ],
+    "Sticky": false,
+    "Tags": [ "OPR_MAP" ],
+    "Tooltip": true,
+    "Transform": {
+      "posX": 14.116886138916,
+      "posY": 0.960000157356262,
+      "posZ": -9.05194282531738,
+      "rotX": 5.4242295846052E-06,
+      "rotY": 90.0031433105469,
+      "rotZ": -1.3215899343777E-05,
+      "scaleX": 0.875000059604645,
+      "scaleY": 0.875000059604645,
+      "scaleZ": 0.875000059604645
+    },
+    "Value": 0
+  } ]
+}
