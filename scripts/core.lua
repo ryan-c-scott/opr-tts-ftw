@@ -20,6 +20,19 @@ function Cached.getJson(url)
 
    return data
 end
+
+function Cached.clear(regex)
+   if not regex then
+      Cached._cache = {}
+   end
+
+   local cache = Cached._cache
+   for k, v in pairs(cache) do
+      if cache:match(regex) then
+         cache[k] = nil
+      end
+   end
+end
 ------------------------------------------------------------
 
 ------------------------------------------------------------
@@ -489,6 +502,7 @@ function onLoad()
    -- Context menu items
    self.addContextMenuItem("Collect Mappings", contextCollectMappings)
    self.addContextMenuItem("Generate Mappings", contextGenerateMappings)
+   self.addContextMenuItem("Clear Cache", Cached.clear)
 end
 
 function onUpdate()
