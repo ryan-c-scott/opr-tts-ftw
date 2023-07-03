@@ -53,9 +53,14 @@ function Fibers.process()
    local _dead = {}
 
    for i, fiber in ipairs(Fibers._queue) do
-      local running, error = coroutine.resume(fiber)
+      local status = coroutine.status(fiber)
+      local running, error = status ~= "dead" and coroutine.resume(fiber)
+
       if not running then
-         print(error)
+         if error then
+            print(string.format("[ff0000]%s[-]", error))
+         end
+
          table.insert(_dead, i)
       end
    end
