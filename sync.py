@@ -10,6 +10,23 @@ import os
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 
+import threading
+from http.server import BaseHTTPRequestHandler
+from socketserver import ThreadingTCPServer
+
+
+class MyRequestHandler(BaseHTTPRequestHandler):
+    # Override the do_GET method to handle GET requests
+    def do_GET(self):
+        # Send response headers
+        self.send_response(200)
+        self.send_header('Content-type', 'application/json')
+        self.end_headers()
+
+        # Send the response content
+        data = load_mappings("mapping")
+        self.wfile.write(json.dumps(data).encode('utf-8'))
+
 
 class MyHandler(FileSystemEventHandler):
     def __init__(self, args):
@@ -39,15 +56,14 @@ def load_mappings(path):
         print("An error occurred:", str(e))
 
 
+def generate_master_mappings(path):
+    data = load_mappings("mapping")
+    with open(path, 'w') as f:
+        f.write(json.dumps(data, indent=2))
+
+
 def send_scripts(args):
     core = read_file_contents("scripts/core.lua")
-    data = load_mappings("mapping")
-
-    if not data:
-        print("Error loading data")
-        return
-
-    dataStr = json.dumps(data)
 
     send_obj(
         args,
@@ -57,7 +73,7 @@ def send_scripts(args):
                 {
                     "name": "OPR-TTS-FTW",
                     "guid": args.guid,
-                    "script": f"{core}\n_unitMapping = JSON.decode([[{dataStr}]])\n",
+                    "script": core,
                 },
             ],
         },
@@ -150,8 +166,24 @@ def run():
     parser.add_argument("-r", "--host", default="localhost")
     parser.add_argument("-p", "--port", default=39999)
     parser.add_argument("-l", "--listen", default=39998)
-    parser.add_argument("guid")
+    parser.add_argument("-w", "--webport", default=8000)
+    parser.add_argument("--generate")
+    parser.add_argument("-g", "--guid")
+
     args = parser.parse_args()
+
+    if args.generate:
+        generate_master_mappings(args.generate)
+        return
+
+    if not args.guid:
+        print("\tMust either generate a file or specify a guid")
+        return
+
+    webServer = ThreadingTCPServer(('localhost', args.webport), MyRequestHandler)
+    server_thread = threading.Thread(target=webServer.serve_forever)
+    server_thread.daemon = True
+    server_thread.start()
 
     observer = Observer()
     observer.schedule(MyHandler(args), path="scripts", recursive=False)
