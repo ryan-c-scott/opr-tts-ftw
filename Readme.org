@@ -6,6 +6,27 @@ The goal is to be able to:
   2. Press a button
   3. Play in TTS
 
+* Usage
+  1. Under your private notebook (that is, your player color), paste in your share link from Army Forge.
+  2. Press the =Generate= button on the main object
+
+All unit data, based on the loadout, is placed into the description and name of the spawned objects.
+"States" are supported for multiple visual options.
+
+Other user data is stored in various TTS Notebook tabs:
+  - MAP_URL :: A list of URLs to add to the unit mapping data
+  - ARMY :: Search string for finding the name of the force to use for validation when building a mapping
+  - OPR_MAP :: Json formatted data output by the mapping process (will be used as an override to the data)
+
+Context menu items on the main object are how mapping functionality is accessed:
+  - Collect Mappings :: Downloads all mapping data specified (as well as the default from the repository)
+  - Generate Mappings :: Build mapping data from tagged objects (see below)
+  - Clear Cache :: Clear cached web data
+
+** Creating a Mapping
+Units are matched by their names and the map built from the name of the units accessed via their context menus.
+All objects tagged with "OPR_MAP" will
+
 * Development
 Syncing to TTS is done by:
   1. Create target object in TTS
@@ -15,7 +36,7 @@ Syncing to TTS is done by:
 Get the GUID of the object by right-clicking on it and going to =scripting -> guid= in the context menu.
 
 #+begin_src shell :eval never
-  python sync.pl GUID
+  python sync.pl -g GUID
 #+end_src
 
 =sync.pl= depends on:
@@ -23,9 +44,3 @@ Get the GUID of the object by right-clicking on it and going to =scripting -> gu
   - watchdog
 
 See ~python sync.py --help~ for more options.
-
-** Emacs
-Helper functions for use in Emacs are a in =tts.el=.
-
-  - ~tts-set-guid~
-  - ~tts-do-upload~
