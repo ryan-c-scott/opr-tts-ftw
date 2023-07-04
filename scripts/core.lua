@@ -253,10 +253,16 @@ function spawnList(data, color, obj)
    local seen = {}
    local pos = Vector(0, 0, 3)
 
-   for _, unit in ipairs(data.units) do
-      if not seen[unit.id] then
+   for i, unit in ipairs(data.units) do
+      local combinedId = unit.combined and (unit.joinToUnit or unit.selectionId)
+
+      if not combinedId or not seen[combinedId] then
+         print("SPAWNING ", unit.name)
          local obj, pos = spawnUnit(unit, color, obj, pos)
-         seen[unit.id] = true
+
+         if combinedId then
+            seen[combinedId] = true
+         end
       end
    end
 end
