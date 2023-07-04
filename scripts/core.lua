@@ -6,6 +6,45 @@ local _unitSpacing = 2
 local _modelsPerRow = 3
 
 ------------------------------------------------------------
+local T = {}
+
+function T.clone(tbl)
+   local out = {}
+
+   for key, value in pairs(tbl) do
+      if type(value) == "table" then
+         out[key] = T.clone(value)
+
+      else
+         out[key] = value
+      end
+   end
+
+   return out
+end
+
+function T.merge(a, b)
+   local out = T.clone(a)
+
+   for k, v in pairs(b) do
+      out[k] = v
+   end
+
+   return out
+end
+
+function T.lowerKeys(tbl)
+   local out = {}
+
+   for k, v in pairs(tbl) do
+      out[k:lower()] = v
+   end
+
+   return out
+end
+------------------------------------------------------------
+
+------------------------------------------------------------
 local Cached = {
    _cache = {}
 }
@@ -95,33 +134,6 @@ function processUnit(entry)
       duplicates = duplicates,
       attacks = "",
    }
-end
-
-local T = {}
-
-function T.clone(tbl)
-   local out = {}
-
-   for key, value in pairs(tbl) do
-      if type(value) == "table" then
-         out[key] = T.clone(value)
-
-      else
-         out[key] = value
-      end
-   end
-
-   return out
-end
-
-function T.merge(a, b)
-   local out = T.clone(a)
-
-   for k, v in pairs(b) do
-      out[k] = v
-   end
-
-   return out
 end
 
 function copyPos(pos)
