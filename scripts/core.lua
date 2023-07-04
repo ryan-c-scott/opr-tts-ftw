@@ -149,7 +149,7 @@ function specialRulesToString(rules, first)
               out,
               sep,
               data.name,
-              rating ~= "" and string.format("(%s)", rating) or "")
+              (rating and rating ~= "" and string.format("(%s)", rating)) or "")
 
       sep = ", "
    end
