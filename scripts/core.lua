@@ -203,9 +203,10 @@ function spawnUnit(data, color, spawnerObj, pos)
               data.joinToUnit or data.selectionId)
 
       local unitLoadout = processUnitLoadout(data)
-      local objDescription = string.format("%s\n\n%s",
+      local objDescription = string.format("%s\n\n%s\n%s",
               unitLoadout.rules,
-              unitLoadout.attacks)
+              unitLoadout.attacks,
+              data.notes or "")
 
       forAllStates(model, function(state, depth)
               state.Description = state.Description and objDescription
