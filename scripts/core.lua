@@ -24,11 +24,12 @@ end
 function Cached.clear(regex)
    if not regex then
       Cached._cache = {}
+      return
    end
 
    local cache = Cached._cache
    for k, v in pairs(cache) do
-      if cache:match(regex) then
+      if k:match(regex) then
          cache[k] = nil
       end
    end
