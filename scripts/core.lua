@@ -117,7 +117,7 @@ function copyPos(pos)
 end
 
 function matchUnit(mapping, unitData)
-   local matches = mapping[unitData.name] or mapping._default
+   local matches = mapping[unitData.name:lower()] or mapping._default
 
    return matches
 end
@@ -480,7 +480,7 @@ function loadMappings()
 
    -- TODO: Should errors stop all mapping?
 
-   _unitMapping = out
+   _unitMapping = T.lowerKeys(out)
 end
 
 function contextCollectMappings()
