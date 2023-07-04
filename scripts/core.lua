@@ -112,36 +112,8 @@ function Fibers.process()
 end
 ------------------------------------------------------------
 
-function processUnit(entry)
-   local pattern = "(.*) %[(%d+)] Q(%d)%+ D(%d)%+ | (%d+)pts | (.*)"
-   local data = { string.match(entry, pattern) }
-
-   local name = data[1]
-   local duplicates
-   local nameData = { string.match(name, "(%d+)x (.*)") }
-   if nameData[1] then
-      name = nameData[2]
-      duplicates = tonumber(nameData[1])
-   end
-
-   return {
-      name = name,
-      count = data[2],
-      quality = data[3],
-      defense = data[4],
-      points = data[5],
-      keywords = data[6],
-      duplicates = duplicates,
-      attacks = "",
-   }
-end
-
 function copyPos(pos)
-   return {
-      x = pos.x,
-      y = pos.y,
-      z = pos.z,
-   }
+   return Vector(pos.x, pos.y, pos.z)
 end
 
 function matchUnit(mapping, unitData)
@@ -270,7 +242,7 @@ function spawnList(data, color, obj)
       local combinedId = unit.combined and (unit.joinToUnit or unit.selectionId)
 
       if not combinedId or not seen[combinedId] then
-         print("SPAWNING ", unit.name)
+         print("        SPAWNING ", unit.name)
          local obj, pos = spawnUnit(unit, color, obj, pos)
 
          if combinedId then
