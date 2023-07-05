@@ -28,6 +28,22 @@ class MyRequestHandler(BaseHTTPRequestHandler):
         self.wfile.write(json.dumps(data).encode('utf-8'))
 
 
+    def do_POST(self):
+        dataLength = int(self.headers['Content-Length'])
+        postData = self.rfile.read(dataLength)
+
+        print("Received mapping data")
+        data = json.loads(postData)
+
+        with open(f"mapping/_incoming.json", 'w') as f:
+            f.write(json.dumps(data, indent=2))
+
+        self.send_response(200)
+        self.send_header('Content-type', 'application/json')
+        self.end_headers()
+        self.wfile.write("[\"OK\"".encode('utf-8'))
+
+
 class MyHandler(FileSystemEventHandler):
     def __init__(self, args):
         self.args = args

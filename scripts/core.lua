@@ -288,6 +288,20 @@ function downloadJson(url)
    return yieldForDownloadJson(WebRequest.get(url))
 end
 
+function uploadJson(url, data)
+   return WebRequest.custom(url, "POST", true, JSON.encode(data), {
+           ["Content-Type"] = "application/json",
+           Accept = "application/json",
+   }, function(request)
+           if request.is_error then
+              print("Upload failed: " .. request.error)
+              return
+           end
+
+           print("Completed upload")
+   end)
+end
+
 function downloadList(url)
    local urlData = { url:match("(https://.*)/share(%?.*)") }
 
@@ -381,6 +395,7 @@ function generateMappings()
       table.insert(entry, data)
    end
 
+   -- NOTE: Can't fully rely on notebook for json mapping data as there is a strict size limitation
    -- Write to notebook
    local tab = getOrCreateNotebookTab("OPR_MAP")
 
@@ -388,6 +403,9 @@ function generateMappings()
          index = tab,
          body = JSON.encode_pretty(out),
    })
+
+   print("Uploading mapping JSON")
+   uploadJson("http://localhost:8000/", out)
 
    validateMappings(out)
 end
@@ -469,6 +487,7 @@ function loadMappings()
       end
    end
 
+   -- NOTE: Can't write json to notebook as there is a strict size limitation
    -- OPR_MAP tab as override
    local _, mapBook = getNotebookTab("OPR_MAP")
    if mapBook then
