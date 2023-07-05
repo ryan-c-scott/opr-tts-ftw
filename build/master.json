@@ -8010,6 +8010,4965 @@
       "Value": 0
     }
   ],
+  "Annihilator Lord": [
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 0.999999821186066,
+        "g": 0.992160260677338,
+        "r": 0.999999821186066
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://pastebin.com/raw.php?i=7e2HKDbN",
+        "Convex": true,
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/860603504045203032/E284DDC39F6512C30C68AB47A74D7695D95D42DD/",
+        "MaterialIndex": 3,
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/860603645842363239/3D134D6D821631B8AB7C42A9992162283E7CE1DC/",
+        "NormalURL": "",
+        "TypeIndex": 1
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": true,
+      "GridProjection": false,
+      "GUID": "7b6a1f",
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": false,
+      "Name": "Custom_Model",
+      "Nickname": "Annihilator Lord",
+      "Snap": true,
+      "States": [
+        null,
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://pastebin.com/raw.php?i=7e2HKDbN",
+            "Convex": true,
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/860603504045215448/B111F1BF90F86F7168D49D6C8A2477F4D5ECEBDA/",
+            "MaterialIndex": 3,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/860603504045212680/8539DB3DC7E9EC23480FA7754D9BFEEC2109A170/",
+            "NormalURL": "",
+            "TypeIndex": 1
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "f4f5c8",
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "MeasureMovement": false,
+          "Name": "Custom_Model",
+          "Nickname": "Destroyer Lord - Warscythe",
+          "Snap": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "Transform": {
+            "posX": -6.98149824142456,
+            "posY": 3.53374743461609,
+            "posZ": -41.286563873291,
+            "rotX": 0.00672951014712453,
+            "rotY": -0.00106004090048373,
+            "rotZ": 0.00589012447744608,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Value": 0
+        },
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://pastebin.com/raw.php?i=7e2HKDbN",
+            "Convex": true,
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/860603504045215448/B111F1BF90F86F7168D49D6C8A2477F4D5ECEBDA/",
+            "MaterialIndex": 3,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/860603504045217112/F626B31AC0CEB47381781A2DC31EF7462F170973/",
+            "NormalURL": "",
+            "TypeIndex": 1
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "02de2f",
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "MeasureMovement": false,
+          "Name": "Custom_Model",
+          "Nickname": "Destroyer Lord - Warscythe/Resurrection Orb",
+          "Snap": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "Transform": {
+            "posX": -10.9814939498901,
+            "posY": 3.53333616256714,
+            "posZ": -41.2865562438965,
+            "rotX": 0.00674288440495729,
+            "rotY": 0.00150042760651559,
+            "rotZ": 0.00590120255947113,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Value": 0
+        },
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://pastebin.com/raw.php?i=7e2HKDbN",
+            "Convex": true,
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/860603504045205685/314990F8EFFF9A1E8F3B1A7A27FE6E95BCDBD5DC/",
+            "MaterialIndex": 3,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/860603504045206270/B4991D35128769956BA4A841B38946F245D8180E/",
+            "NormalURL": "",
+            "TypeIndex": 1
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "1e167b",
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "MeasureMovement": false,
+          "Name": "Custom_Model",
+          "Nickname": "Destroyer Lord - Void Blade/Resurrection Orb",
+          "Snap": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "Transform": {
+            "posX": -4.98149919509888,
+            "posY": 3.53348207473755,
+            "posZ": -37.2865600585938,
+            "rotX": 0.00673932209610939,
+            "rotY": -0.00560979964211583,
+            "rotZ": 0.00588971935212612,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Value": 0
+        },
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://pastebin.com/raw.php?i=7e2HKDbN",
+            "Convex": true,
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/860603504045203032/E284DDC39F6512C30C68AB47A74D7695D95D42DD/",
+            "MaterialIndex": 3,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/860603504045202578/9A4E3FDE141D3A10A8431DAFE0E1B7FE21D4BAD3/",
+            "NormalURL": "",
+            "TypeIndex": 1
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "0ffa60",
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "MeasureMovement": false,
+          "Name": "Custom_Model",
+          "Nickname": "Destroyer Lord - Hyperphase Sword/Resurrection Orb",
+          "Snap": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "Transform": {
+            "posX": -12.9814939498901,
+            "posY": 3.53265976905823,
+            "posZ": -37.2865562438965,
+            "rotX": 0.00674023013561964,
+            "rotY": 0.00740768713876605,
+            "rotZ": 0.00589057803153992,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Value": 0
+        },
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://pastebin.com/raw.php?i=7e2HKDbN",
+            "Convex": true,
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/860603504045203032/E284DDC39F6512C30C68AB47A74D7695D95D42DD/",
+            "MaterialIndex": 3,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/860603504045204539/C4047D640B105128938936DD97BE54CD2935AD62/",
+            "NormalURL": "",
+            "TypeIndex": 1
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "249bd3",
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "MeasureMovement": false,
+          "Name": "Custom_Model",
+          "Nickname": "Destroyer Lord - Hyperphase Sword",
+          "Snap": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "Transform": {
+            "posX": -8.98149299621582,
+            "posY": 3.53307127952576,
+            "posZ": -37.2865600585938,
+            "rotX": 0.00673609133809805,
+            "rotY": 359.978179931641,
+            "rotZ": 0.00587566010653973,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Value": 0
+        },
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://pastebin.com/raw.php?i=7e2HKDbN",
+            "Convex": true,
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/860603504045205685/314990F8EFFF9A1E8F3B1A7A27FE6E95BCDBD5DC/",
+            "MaterialIndex": 3,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/860603504045208697/F81671ED120DF2DC1826D1A52F7C81DCB600AD6D/",
+            "NormalURL": "",
+            "TypeIndex": 1
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "68cc68",
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "MeasureMovement": false,
+          "Name": "Custom_Model",
+          "Nickname": "Destroyer Lord - Void Blade",
+          "Snap": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "Transform": {
+            "posX": -14.9814939498901,
+            "posY": 3.53292489051819,
+            "posZ": -41.2865600585938,
+            "rotX": 0.0067400555126369,
+            "rotY": 8.03025614004582e-06,
+            "rotZ": 0.00588752934709191,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Value": 0
+        }
+      ],
+      "Sticky": true,
+      "Tags": [
+        "OPR_MAP"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": -15.0815162658691,
+        "posY": 0.959999918937683,
+        "posZ": 11.8934812545776,
+        "rotX": 5.81801941734739e-07,
+        "rotY": 359.961517333984,
+        "rotZ": -8.42071187889815e-07,
+        "scaleX": 0.950000047683716,
+        "scaleY": 0.950000047683716,
+        "scaleZ": 0.950000047683716
+      },
+      "Value": 0
+    }
+  ],
+  "Annihilators": [
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 0.999999821186066,
+        "g": 0.992160260677338,
+        "r": 0.999999821186066
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://pastebin.com/raw.php?i=7e2HKDbN",
+        "Convex": true,
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/100601335413596056/EA6D9DFC50DBDE3C604622B1C88958F233AC1F79/",
+        "MaterialIndex": 3,
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/100601335413241599/C941C90D89109E733D423DE6F430B899BB1E9F02/",
+        "NormalURL": "",
+        "TypeIndex": 0
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": true,
+      "GridProjection": false,
+      "GUID": "0214d3",
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": false,
+      "Name": "Custom_Model",
+      "Nickname": "Annihilators",
+      "Snap": true,
+      "Sticky": true,
+      "Tags": [
+        "OPR_MAP"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": 3.70468950271606,
+        "posY": 0.960015058517456,
+        "posZ": 11.1679449081421,
+        "rotX": -0.00144688994623721,
+        "rotY": 179.97673034668,
+        "rotZ": 0.00725864293053746,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0
+    }
+  ],
+  "Bot Swarms": [
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ChildObjects": [
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1043093675414910691/A38AFE0E8955841404269A62127443886ED1BD53/",
+            "Convex": true,
+            "CustomShader": {
+              "FresnelStrength": 0,
+              "SpecularColor": {
+                "a": 1,
+                "b": 1,
+                "g": 1,
+                "r": 1
+              },
+              "SpecularIntensity": 0,
+              "SpecularSharpness": 2
+            },
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/1344838468406552044/8016857549AF7CBC9C2E0113AB99AF52D3981425/",
+            "MaterialIndex": 3,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1344838468406553806/50B6295F6AF0A7A7E79A76EC6FF1D0CDA49DDF3F/",
+            "NormalURL": "",
+            "TypeIndex": 1
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "9834ab",
+          "Hands": false,
+          "HideWhenFaceDown": false,
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "MeasureMovement": false,
+          "Name": "Custom_Model",
+          "Nickname": "",
+          "Snap": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "Transform": {
+            "posX": 1.41093266847747e-07,
+            "posY": 0.127400994300842,
+            "posZ": 1.98218140212703e-06,
+            "rotX": -0.000211766717256978,
+            "rotY": 210.018310546875,
+            "rotZ": 0.000123839054140262,
+            "scaleX": 1.00000107288361,
+            "scaleY": 1,
+            "scaleZ": 1.00000107288361
+          },
+          "Value": 0,
+          "XmlUI": ""
+        }
+      ],
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1043093675414910691/A38AFE0E8955841404269A62127443886ED1BD53/",
+        "Convex": true,
+        "CustomShader": {
+          "FresnelStrength": 0,
+          "SpecularColor": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "SpecularIntensity": 0,
+          "SpecularSharpness": 2
+        },
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/1192839234866726249/DE2A5E5A50351E8DBA07C7F5D278E236E670EDDA/",
+        "MaterialIndex": 3,
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1043093675415147438/6B86F444AF4815CE6F0BBB1AEA644476B505AEEF/",
+        "NormalURL": "",
+        "TypeIndex": 1
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": true,
+      "GridProjection": false,
+      "GUID": "7697a3",
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": true,
+      "Name": "Custom_Model",
+      "Nickname": "Bot Swarms",
+      "Snap": true,
+      "Sticky": true,
+      "Tags": [
+        "OPR_MAP"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": -2.06824040412903,
+        "posY": 0.959999918937683,
+        "posZ": 12.1096487045288,
+        "rotX": 8.32720672860887e-07,
+        "rotY": 0.00593201955780387,
+        "rotZ": 4.25429931283361e-07,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0
+    }
+  ],
+  "Death Fortress": [
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 1,
+        "g": 1,
+        "r": 1
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/833574038025785669/F34BDD5E029B36BC1E5BA5FA57290D860C75849B/",
+        "Convex": true,
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/833574038025785105/A90F8BEBE33716F444D0215FE2A2FF24CDC55764/",
+        "MaterialIndex": 3,
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/833574038025780497/8C5C61543EB3A380B7E6E345D881B4D2C754C1AF/",
+        "NormalURL": "",
+        "TypeIndex": 0
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": true,
+      "GridProjection": false,
+      "GUID": "6b2f33",
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": false,
+      "Name": "Custom_Model",
+      "Nickname": "Death Fortress",
+      "Snap": true,
+      "States": [
+        null,
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/833574038025785669/F34BDD5E029B36BC1E5BA5FA57290D860C75849B/",
+            "Convex": true,
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/833574038025785105/A90F8BEBE33716F444D0215FE2A2FF24CDC55764/",
+            "MaterialIndex": 3,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/833574038025780497/8C5C61543EB3A380B7E6E345D881B4D2C754C1AF/",
+            "NormalURL": "",
+            "TypeIndex": 0
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "063d45",
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "MeasureMovement": false,
+          "Name": "Custom_Model",
+          "Nickname": "Damaged Monolith 10/20",
+          "Snap": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "Transform": {
+            "posX": 5.24708938598633,
+            "posY": 0.959999918937683,
+            "posZ": 8.21958541870117,
+            "rotX": 2.08921983357868e-06,
+            "rotY": 210.15771484375,
+            "rotZ": 1.23838503895968e-06,
+            "scaleX": 1.02499997615814,
+            "scaleY": 1.02499997615814,
+            "scaleZ": 1.02499997615814
+          },
+          "Value": 0
+        },
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/833574038025785669/F34BDD5E029B36BC1E5BA5FA57290D860C75849B/",
+            "Convex": true,
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/833574038025785105/A90F8BEBE33716F444D0215FE2A2FF24CDC55764/",
+            "MaterialIndex": 3,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/833574038025780497/8C5C61543EB3A380B7E6E345D881B4D2C754C1AF/",
+            "NormalURL": "",
+            "TypeIndex": 0
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "5504df",
+          "Hands": false,
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "MeasureMovement": false,
+          "Name": "Custom_Model",
+          "Nickname": "Critical Monolith 5/20",
+          "Snap": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "Transform": {
+            "posX": -24.6400508880615,
+            "posY": 10.2294940948486,
+            "posZ": -30.0266857147217,
+            "rotX": 359.989074707031,
+            "rotY": 179.527801513672,
+            "rotZ": -0.00293943285942078,
+            "scaleX": 1.02499997615814,
+            "scaleY": 1.02499997615814,
+            "scaleZ": 1.02499997615814
+          },
+          "Value": 0
+        }
+      ],
+      "Sticky": true,
+      "Tags": [
+        "OPR_MAP"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": -11.4176912307739,
+        "posY": 0.960000038146973,
+        "posZ": -3.45618891716003,
+        "rotX": -6.20182299826411e-06,
+        "rotY": 180.002288818359,
+        "rotZ": -3.05208118334122e-06,
+        "scaleX": 1.02499997615814,
+        "scaleY": 1.02499997615814,
+        "scaleZ": 1.02499997615814
+      },
+      "Value": 0
+    }
+  ],
+  "Destroyer Snakes": [
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 1,
+        "g": 1,
+        "r": 1
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/777280951077770359/79442968CF06D9774DB3F70CE904A26E66C6A342/",
+        "Convex": true,
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/966472716088749809/2E82C7890FB681377FFAB363F30D95A88A830A39/",
+        "MaterialIndex": 1,
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/966472716088509122/355190D0769F8543303BBF42EF8CD3A89121371F/",
+        "NormalURL": "",
+        "TypeIndex": 0
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": true,
+      "GridProjection": false,
+      "GUID": "50cbb7",
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": false,
+      "Name": "Custom_Model",
+      "Nickname": "Destroyer Snakes",
+      "Snap": true,
+      "Sticky": true,
+      "Tags": [
+        "OPR_MAP"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": 18.5975685119629,
+        "posY": 0.951341867446899,
+        "posZ": 10.8111143112183,
+        "rotX": 1.02429805792781e-06,
+        "rotY": 180.023345947266,
+        "rotZ": 2.92881532004685e-06,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0
+    }
+  ],
+  "Doom Fighter": [
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 0.506968021392822,
+        "g": 0.499019682407379,
+        "r": 0.506968021392822
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://pastebin.com/raw.php?i=v8PueMN4",
+        "Convex": true,
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/100601335413292230/306E9BDC3389CD15AEDC8BDF6AE1D9E70F8877C4/",
+        "MaterialIndex": 3,
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/100601335413237433/2065184B9C8F98027086718E4A8472E5AFAD42A1/",
+        "NormalURL": "",
+        "TypeIndex": 0
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": true,
+      "GridProjection": false,
+      "GUID": "1107bd",
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": false,
+      "Name": "Custom_Model",
+      "Nickname": "Doom Fighter",
+      "Snap": true,
+      "States": [
+        null,
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 0.999999821186066,
+            "g": 0.992160260677338,
+            "r": 0.999999821186066
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://pastebin.com/raw.php?i=v8PueMN4",
+            "Convex": true,
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/100601335413292230/306E9BDC3389CD15AEDC8BDF6AE1D9E70F8877C4/",
+            "MaterialIndex": 3,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/100601335413237433/2065184B9C8F98027086718E4A8472E5AFAD42A1/",
+            "NormalURL": "",
+            "TypeIndex": 0
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "1eb4ff",
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "MeasureMovement": false,
+          "Name": "Custom_Model",
+          "Nickname": "Damaged Doom Scythe 6/12",
+          "Snap": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "Transform": {
+            "posX": -10.971284866333,
+            "posY": 0.959999918937683,
+            "posZ": 11.4985408782959,
+            "rotX": -9.45450580047691e-08,
+            "rotY": 180.012710571289,
+            "rotZ": -2.37893587495819e-07,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Value": 0
+        },
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 0.999999821186066,
+            "g": 0.992160260677338,
+            "r": 0.999999821186066
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://pastebin.com/raw.php?i=v8PueMN4",
+            "Convex": true,
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/100601335413292230/306E9BDC3389CD15AEDC8BDF6AE1D9E70F8877C4/",
+            "MaterialIndex": 3,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/100601335413237433/2065184B9C8F98027086718E4A8472E5AFAD42A1/",
+            "NormalURL": "",
+            "TypeIndex": 0
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "5a7277",
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "MeasureMovement": false,
+          "Name": "Custom_Model",
+          "Nickname": "Critical Doom Scythe 3/12",
+          "Snap": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "Transform": {
+            "posX": -10.971284866333,
+            "posY": 0.959999918937683,
+            "posZ": 11.4985408782959,
+            "rotX": -3.25704974102337e-08,
+            "rotY": 180.012725830078,
+            "rotZ": -2.50393156875361e-07,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Value": 0
+        }
+      ],
+      "Sticky": true,
+      "Tags": [
+        "OPR_MAP"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": 2.52012872695923,
+        "posY": 0.959999859333038,
+        "posZ": -2.61840748786926,
+        "rotX": -8.31607778195576e-08,
+        "rotY": 179.99446105957,
+        "rotZ": 3.99804463313558e-07,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0
+    }
+  ],
+  "Doom Tank": [
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 0.999999821186066,
+        "g": 0.992160260677338,
+        "r": 0.999999821186066
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://pastebin.com/raw.php?i=7e2HKDbN",
+        "Convex": true,
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/100601335413217529/19623B2A2D84EF2ECA59BBB96A2A7CBA542F0133/",
+        "MaterialIndex": 3,
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/100601335413246768/4F794B90758AABFFCAF5C212D24219E78D05152B/",
+        "NormalURL": "",
+        "TypeIndex": 0
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": true,
+      "GridProjection": false,
+      "GUID": "fd08dd",
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": false,
+      "Name": "Custom_Model",
+      "Nickname": "Doom Tank",
+      "Snap": true,
+      "States": [
+        null,
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 0.999999821186066,
+            "g": 0.992160260677338,
+            "r": 0.999999821186066
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://pastebin.com/raw.php?i=7e2HKDbN",
+            "Convex": true,
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/100601335413217529/19623B2A2D84EF2ECA59BBB96A2A7CBA542F0133/",
+            "MaterialIndex": 3,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/100601335413246768/4F794B90758AABFFCAF5C212D24219E78D05152B/",
+            "NormalURL": "",
+            "TypeIndex": 0
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "3f8646",
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "MeasureMovement": false,
+          "Name": "Custom_Model",
+          "Nickname": "Damaged Doomsday Ark 7/14",
+          "Snap": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "Transform": {
+            "posX": 22.0166645050049,
+            "posY": 0.959999859333038,
+            "posZ": 13.6674566268921,
+            "rotX": -5.93025163198035e-07,
+            "rotY": 270.008575439453,
+            "rotZ": -5.05461571265187e-07,
+            "scaleX": 1.25,
+            "scaleY": 1.25,
+            "scaleZ": 1.25
+          },
+          "Value": 0
+        },
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 0.999999821186066,
+            "g": 0.992160260677338,
+            "r": 0.999999821186066
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://pastebin.com/raw.php?i=7e2HKDbN",
+            "Convex": true,
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/100601335413217529/19623B2A2D84EF2ECA59BBB96A2A7CBA542F0133/",
+            "MaterialIndex": 3,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/100601335413246768/4F794B90758AABFFCAF5C212D24219E78D05152B/",
+            "NormalURL": "",
+            "TypeIndex": 0
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "fa9fbf",
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "MeasureMovement": false,
+          "Name": "Custom_Model",
+          "Nickname": "Critical Doomsday Ark 3/14",
+          "Snap": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "Transform": {
+            "posX": 22.0166645050049,
+            "posY": 0.959999859333038,
+            "posZ": 13.6674566268921,
+            "rotX": -5.15758756591822e-07,
+            "rotY": 270.008575439453,
+            "rotZ": -3.92118181480328e-07,
+            "scaleX": 1.25,
+            "scaleY": 1.25,
+            "scaleZ": 1.25
+          },
+          "Value": 0
+        }
+      ],
+      "Sticky": true,
+      "Tags": [
+        "OPR_MAP"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": -10.3988075256348,
+        "posY": 0.959999740123749,
+        "posZ": 4.41043329238892,
+        "rotX": 1.32451293666236e-06,
+        "rotY": 179.972885131836,
+        "rotZ": -7.38162384550378e-08,
+        "scaleX": 1.25,
+        "scaleY": 1.25,
+        "scaleZ": 1.25
+      },
+      "Value": 0
+    }
+  ],
+  "Eternals": [
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 1,
+        "g": 1,
+        "r": 1
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/833574038011429949/123A230DA451D67983B32AB4E5B8408EC7C62FC7/",
+        "Convex": true,
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/170413070171839160/7F9A4490DF77765CC0D65CCE8EF27A9FA4D45892/",
+        "MaterialIndex": 3,
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/170413070171836222/3137E820AA2286700A764245F86B3562BBD25ED7/",
+        "NormalURL": "",
+        "TypeIndex": 1
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": true,
+      "GridProjection": false,
+      "GUID": "7a5106",
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": false,
+      "Name": "Custom_Model",
+      "Nickname": "Eternals",
+      "PhysicsMaterial": {
+        "BounceCombine": 0,
+        "Bounciness": 0,
+        "DynamicFriction": 1,
+        "FrictionCombine": 0,
+        "StaticFriction": 1
+      },
+      "Rigidbody": {
+        "AngularDrag": 0.100000001490116,
+        "Drag": 1,
+        "Mass": 1,
+        "UseGravity": true
+      },
+      "Snap": true,
+      "States": [
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 0.999999821186066,
+            "g": 0.992160260677338,
+            "r": 0.999999821186066
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://pastebin.com/raw.php?i=ahfaXzUd",
+            "Convex": true,
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/860601357768195420/79BC78C1E2359A1A1B97D27651F251321B0E8CD0/",
+            "MaterialIndex": 3,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/860601357768194723/1AE85059A4DED045DFD6D306102D21202DBAE81A/",
+            "NormalURL": "",
+            "TypeIndex": 0
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "9b897e",
+          "Hands": false,
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "MeasureMovement": false,
+          "Name": "Custom_Model",
+          "Nickname": "Immortal",
+          "Snap": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "Transform": {
+            "posX": -22.7774085998535,
+            "posY": 1.05816411972046,
+            "posZ": -3.58224105834961,
+            "rotX": 7.20538810128346e-05,
+            "rotY": 359.977508544922,
+            "rotZ": 7.36334914108738e-05,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Value": 0
+        }
+      ],
+      "Sticky": true,
+      "Tags": [
+        "OPR_MAP"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": -5.83578872680664,
+        "posY": 0.975213766098022,
+        "posZ": 12.7153406143188,
+        "rotX": -1.25138853945828e-06,
+        "rotY": 359.980621337891,
+        "rotZ": -9.77374043031887e-07,
+        "scaleX": 0.975000023841858,
+        "scaleY": 0.975000023841858,
+        "scaleZ": 0.975000023841858
+      },
+      "Value": 0
+    }
+  ],
+  "Flesh-Eaters": [
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 1,
+        "g": 1,
+        "r": 1
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://pastebin.com/raw.php?i=KAeNs1LY",
+        "Convex": true,
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/170413070171868554/0EE21D3946668469C02EE9D332CAE94B0F6BCD4C/",
+        "MaterialIndex": 1,
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/170413070171867913/C73F1173F3401225498A8E5A4BBC13B72458097D/",
+        "NormalURL": "",
+        "TypeIndex": 1
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": true,
+      "GridProjection": false,
+      "GUID": "e41b3e",
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": false,
+      "Name": "Custom_Model",
+      "Nickname": "Flesh-Eaters",
+      "PhysicsMaterial": {
+        "BounceCombine": 0,
+        "Bounciness": 0,
+        "DynamicFriction": 1,
+        "FrictionCombine": 0,
+        "StaticFriction": 1
+      },
+      "Rigidbody": {
+        "AngularDrag": 0.100000001490116,
+        "Drag": 0.100000001490116,
+        "Mass": 1,
+        "UseGravity": true
+      },
+      "Snap": true,
+      "Sticky": true,
+      "Tags": [
+        "OPR_MAP"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": -7.87076377868652,
+        "posY": 0.974351942539215,
+        "posZ": 12.2192478179932,
+        "rotX": -2.21358558150087e-08,
+        "rotY": 0.00778044015169144,
+        "rotZ": -6.63759692542953e-07,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0
+    }
+  ],
+  "Forge Spider": [
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 0.999999821186066,
+        "g": 0.992160260677338,
+        "r": 0.999999821186066
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://pastebin.com/raw.php?i=7e2HKDbN",
+        "Convex": true,
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/100601335413236672/46F83741455B9659D932F76C9D3E88A03B48EC9E/",
+        "MaterialIndex": 3,
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/100601335413236283/DF0C4CFFD354B9B48FAD4895AFE5D54E52A0A165/",
+        "NormalURL": "",
+        "TypeIndex": 0
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": true,
+      "GridProjection": false,
+      "GUID": "414476",
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": false,
+      "Name": "Custom_Model",
+      "Nickname": "Forge Spider",
+      "Snap": true,
+      "States": [
+        null,
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 0.999999821186066,
+            "g": 0.992160260677338,
+            "r": 0.999999821186066
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://pastebin.com/raw.php?i=7e2HKDbN",
+            "Convex": true,
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/100601335413236672/46F83741455B9659D932F76C9D3E88A03B48EC9E/",
+            "MaterialIndex": 3,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/100601335413236283/DF0C4CFFD354B9B48FAD4895AFE5D54E52A0A165/",
+            "NormalURL": "",
+            "TypeIndex": 0
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "e5221f",
+          "Hands": false,
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "MeasureMovement": false,
+          "Name": "Custom_Model",
+          "Nickname": "Canoptek Spyder 4/4 /w Particle Beamer",
+          "Snap": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "Transform": {
+            "posX": 25.2597675323486,
+            "posY": 0.959999918937683,
+            "posZ": -1.02429556846619,
+            "rotX": 2.72878025953105e-07,
+            "rotY": 179.934417724609,
+            "rotZ": 4.79704397093883e-07,
+            "scaleX": 1.29999971389771,
+            "scaleY": 1.29999971389771,
+            "scaleZ": 1.29999971389771
+          },
+          "Value": 0
+        },
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 0.999999821186066,
+            "g": 0.992160260677338,
+            "r": 0.999999821186066
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://pastebin.com/raw.php?i=7e2HKDbN",
+            "Convex": true,
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/100601335413236672/46F83741455B9659D932F76C9D3E88A03B48EC9E/",
+            "MaterialIndex": 3,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/100601335413236283/DF0C4CFFD354B9B48FAD4895AFE5D54E52A0A165/",
+            "NormalURL": "",
+            "TypeIndex": 0
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "f2b84e",
+          "Hands": false,
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "MeasureMovement": false,
+          "Name": "Custom_Model",
+          "Nickname": "Canoptek Spyder 4/4 /w fabricator claw array",
+          "Snap": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "Transform": {
+            "posX": 25.2597675323486,
+            "posY": 0.959999918937683,
+            "posZ": -1.02429556846619,
+            "rotX": 2.31998598110295e-07,
+            "rotY": 179.934417724609,
+            "rotZ": 4.17361007976069e-07,
+            "scaleX": 1.29999971389771,
+            "scaleY": 1.29999971389771,
+            "scaleZ": 1.29999971389771
+          },
+          "Value": 0
+        },
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 0.999999821186066,
+            "g": 0.992160260677338,
+            "r": 0.999999821186066
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://pastebin.com/raw.php?i=7e2HKDbN",
+            "Convex": true,
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/100601335413236672/46F83741455B9659D932F76C9D3E88A03B48EC9E/",
+            "MaterialIndex": 3,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/100601335413236283/DF0C4CFFD354B9B48FAD4895AFE5D54E52A0A165/",
+            "NormalURL": "",
+            "TypeIndex": 0
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "c967d3",
+          "Hands": false,
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "MeasureMovement": false,
+          "Name": "Custom_Model",
+          "Nickname": "Canoptek Spyder 4/4 /w Gloom Prism",
+          "Snap": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "Transform": {
+            "posX": 25.2597675323486,
+            "posY": 0.959999918937683,
+            "posZ": -1.02429556846619,
+            "rotX": 1.81040519464659e-07,
+            "rotY": 179.934417724609,
+            "rotZ": 2.99822090710222e-07,
+            "scaleX": 1.29999971389771,
+            "scaleY": 1.29999971389771,
+            "scaleZ": 1.29999971389771
+          },
+          "Value": 0
+        }
+      ],
+      "Sticky": true,
+      "Tags": [
+        "OPR_MAP"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": 9.13879489898682,
+        "posY": 0.959999859333038,
+        "posZ": 11.563570022583,
+        "rotX": -1.36213202495128e-06,
+        "rotY": 179.980178833008,
+        "rotZ": -6.44518024728313e-07,
+        "scaleX": 1.29999971389771,
+        "scaleY": 1.29999971389771,
+        "scaleZ": 1.29999971389771
+      },
+      "Value": 0
+    }
+  ],
+  "Guardians": [
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 0.419853180646896,
+        "g": 0.419853180646896,
+        "r": 0.419853180646896
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://pastebin.com/raw.php?i=KAeNs1LY",
+        "Convex": true,
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/847092187905595643/AD3C3B54AA02E89105B8DF93F7CA959B83A9A7F8/",
+        "MaterialIndex": 3,
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/860603245464957070/90194EEE76AE93A596570E5BF4B6402CC6AF7211/",
+        "NormalURL": "",
+        "TypeIndex": 1
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": true,
+      "GridProjection": false,
+      "GUID": "a76152",
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": false,
+      "Name": "Custom_Model",
+      "Nickname": "Guardians",
+      "Snap": true,
+      "States": [
+        null,
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 0.419856816530228,
+            "g": 0.419856816530228,
+            "r": 0.419856816530228
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://pastebin.com/raw.php?i=KAeNs1LY",
+            "Convex": true,
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/845962463968452028/5AED49E9DC3B0ABDD22EB25E28FD42993B6EEC03/",
+            "MaterialIndex": 3,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/860603245464963459/2093A2B15019FF4734831491AE606F5E5A47760A/",
+            "NormalURL": "",
+            "TypeIndex": 1
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "57914b",
+          "Hands": false,
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "MeasureMovement": false,
+          "Name": "Custom_Model",
+          "Nickname": "Lychguard - Dispersion Shield/ Hyper Phase sword",
+          "Snap": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "Transform": {
+            "posX": -20.8982925415039,
+            "posY": 1.07220733165741,
+            "posZ": 4.86699771881104,
+            "rotX": 6.80654411553405e-05,
+            "rotY": 0.0555656477808952,
+            "rotZ": 0.000202825482119806,
+            "scaleX": 0.770453929901123,
+            "scaleY": 0.850812911987305,
+            "scaleZ": 0.850812911987305
+          },
+          "Value": 0
+        }
+      ],
+      "Sticky": true,
+      "Tags": [
+        "OPR_MAP"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": -9.53806400299072,
+        "posY": 0.972210764884949,
+        "posZ": 12.5272130966187,
+        "rotX": 3.0888418223185e-07,
+        "rotY": 359.963775634766,
+        "rotZ": -1.01135049135337e-06,
+        "scaleX": 0.770453929901123,
+        "scaleY": 0.850812911987305,
+        "scaleZ": 0.850812911987305
+      },
+      "Value": 0
+    }
+  ],
+  "Heavy Annihilator": [
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 0.999999821186066,
+        "g": 0.992160260677338,
+        "r": 0.999999821186066
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://pastebin.com/raw.php?i=7e2HKDbN",
+        "Convex": true,
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/100601335413595391/3869202F674458339C0FF5D5EF3A6048E7FCAE2A/",
+        "MaterialIndex": 3,
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/100601335413240897/166254DD3AB8D8E21D84738C2569E5474D818CE3/",
+        "NormalURL": "",
+        "TypeIndex": 0
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": true,
+      "GridProjection": false,
+      "GUID": "2d2cc7",
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": false,
+      "Name": "Custom_Model",
+      "Nickname": "Heavy Annihilator",
+      "Snap": true,
+      "Sticky": true,
+      "Tags": [
+        "OPR_MAP"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": 12.9573450088501,
+        "posY": 0.959999799728394,
+        "posZ": 11.5236911773682,
+        "rotX": -7.32295234229241e-07,
+        "rotY": 180.021301269531,
+        "rotZ": 1.64703283189738e-06,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0
+    }
+  ],
+  "Hover Bikes": [
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 0.999999821186066,
+        "g": 0.992160260677338,
+        "r": 0.999999821186066
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://pastebin.com/raw.php?i=KAeNs1LY",
+        "Convex": true,
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/860603880166340821/B3B24338C56A9ADE3547352AD7CEE2FA8295ABEB/",
+        "MaterialIndex": 3,
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/860603880167357841/B10A3651FDBF93FE8D9DA3E1BB34B8F2DB06F86F/",
+        "NormalURL": "",
+        "TypeIndex": 1
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": true,
+      "GridProjection": false,
+      "GUID": "cf3d05",
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": false,
+      "Name": "Custom_Model",
+      "Nickname": "Hover Bikes",
+      "Snap": true,
+      "States": [
+        null,
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 0.999999821186066,
+            "g": 0.992160260677338,
+            "r": 0.999999821186066
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://pastebin.com/raw.php?i=KAeNs1LY",
+            "Convex": true,
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/860603880167358351/2055B40C256E1D4A7DE90BDDA4AB76D1A949A6B3/",
+            "MaterialIndex": 3,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/860603880167382672/87FB3B7B01C25AA9710CC4EB6DAEA43976C29C0D/",
+            "NormalURL": "",
+            "TypeIndex": 1
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "358e6d",
+          "Hands": false,
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "MeasureMovement": false,
+          "Name": "Custom_Model",
+          "Nickname": "Tomb Blade - x2 Tesla Carbine",
+          "Snap": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "Transform": {
+            "posX": 12.8377075195313,
+            "posY": 1.07327210903168,
+            "posZ": 11.5095863342285,
+            "rotX": 7.30174506315961e-05,
+            "rotY": 359.972290039063,
+            "rotZ": 1.66857771546347e-05,
+            "scaleX": 0.925000011920929,
+            "scaleY": 0.925000011920929,
+            "scaleZ": 0.925000011920929
+          },
+          "Value": 0
+        },
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 0.999999821186066,
+            "g": 0.992160260677338,
+            "r": 0.999999821186066
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://pastebin.com/raw.php?i=KAeNs1LY",
+            "Convex": true,
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/860603880167358351/2055B40C256E1D4A7DE90BDDA4AB76D1A949A6B3/",
+            "MaterialIndex": 3,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/860603880167385224/C47740BC1C16CF6FB45CF00420A02F1BA7D828EB/",
+            "NormalURL": "",
+            "TypeIndex": 1
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "00094c",
+          "Hands": false,
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "MeasureMovement": false,
+          "Name": "Custom_Model",
+          "Nickname": "Tomb Blade - Particle Beamer",
+          "Snap": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "Transform": {
+            "posX": 12.8377075195313,
+            "posY": 1.07327198982239,
+            "posZ": 11.5095863342285,
+            "rotX": 7.96155945863575e-05,
+            "rotY": 359.972290039063,
+            "rotZ": 3.71983987861313e-05,
+            "scaleX": 0.925000011920929,
+            "scaleY": 0.925000011920929,
+            "scaleZ": 0.925000011920929
+          },
+          "Value": 0
+        },
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 0.999999821186066,
+            "g": 0.992160260677338,
+            "r": 0.999999821186066
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://pastebin.com/raw.php?i=KAeNs1LY",
+            "Convex": true,
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/860603880166340821/B3B24338C56A9ADE3547352AD7CEE2FA8295ABEB/",
+            "MaterialIndex": 3,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/860603880166345514/3A3984352A8ABD87DA0082799BC94A66E93A2537/",
+            "NormalURL": "",
+            "TypeIndex": 1
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "936244",
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "MeasureMovement": false,
+          "Name": "Custom_Model",
+          "Nickname": "Tomb Blade - x2 Tesla Carbine",
+          "Snap": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "Transform": {
+            "posX": 15.5185050964355,
+            "posY": 3.54837703704834,
+            "posZ": -33.1365623474121,
+            "rotX": 0.0067591704428196,
+            "rotY": 0.00289720180444419,
+            "rotZ": 0.00589602021500468,
+            "scaleX": 0.925000011920929,
+            "scaleY": 0.925000011920929,
+            "scaleZ": 0.925000011920929
+          },
+          "Value": 0
+        },
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 0.999999821186066,
+            "g": 0.992160260677338,
+            "r": 0.999999821186066
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://pastebin.com/raw.php?i=KAeNs1LY",
+            "Convex": true,
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/860603880167358351/2055B40C256E1D4A7DE90BDDA4AB76D1A949A6B3/",
+            "MaterialIndex": 3,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/860603880167376548/A24ED72908EF8E004114C5BC9868D6C7DC9EB682/",
+            "NormalURL": "",
+            "TypeIndex": 1
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "bf8ac7",
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "MeasureMovement": false,
+          "Name": "Custom_Model",
+          "Nickname": "Tomb Blade - Particle Beamer",
+          "Snap": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "Transform": {
+            "posX": 18.5184993743896,
+            "posY": 3.54868531227112,
+            "posZ": -33.1365585327148,
+            "rotX": 0.0067488388158381,
+            "rotY": 359.986724853516,
+            "rotZ": 0.00588300405070186,
+            "scaleX": 0.925000011920929,
+            "scaleY": 0.925000011920929,
+            "scaleZ": 0.925000011920929
+          },
+          "Value": 0
+        },
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 0.999999821186066,
+            "g": 0.992160260677338,
+            "r": 0.999999821186066
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://pastebin.com/raw.php?i=KAeNs1LY",
+            "Convex": true,
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/860603880167358351/2055B40C256E1D4A7DE90BDDA4AB76D1A949A6B3/",
+            "MaterialIndex": 3,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/860603880167380612/B2C39FD7C875211224B68F30C21244EFE2D58158/",
+            "NormalURL": "",
+            "TypeIndex": 1
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "bc2e7b",
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "MeasureMovement": false,
+          "Name": "Custom_Model",
+          "Nickname": "Tomb Blade - 2x Gauss Blaster",
+          "Snap": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "Transform": {
+            "posX": 21.5185108184814,
+            "posY": 3.54899430274963,
+            "posZ": -33.1365623474121,
+            "rotX": 0.00670466013252735,
+            "rotY": 359.985900878906,
+            "rotZ": 0.00589952524751425,
+            "scaleX": 0.925000011920929,
+            "scaleY": 0.925000011920929,
+            "scaleZ": 0.925000011920929
+          },
+          "Value": 0
+        },
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 0.999999821186066,
+            "g": 0.992160260677338,
+            "r": 0.999999821186066
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://pastebin.com/raw.php?i=KAeNs1LY",
+            "Convex": true,
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/860603880166340821/B3B24338C56A9ADE3547352AD7CEE2FA8295ABEB/",
+            "MaterialIndex": 3,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/860603880166340401/6E6D1B94DAA96A33E29A4F84A5A176187DE683A7/",
+            "NormalURL": "",
+            "TypeIndex": 1
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "a8180e",
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "MeasureMovement": false,
+          "Name": "Custom_Model",
+          "Nickname": "Tomb Blade - 2x Gauss Blaster",
+          "Snap": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "Transform": {
+            "posX": 12.5185050964355,
+            "posY": 3.54806876182556,
+            "posZ": -33.1365623474121,
+            "rotX": 0.00673046428710222,
+            "rotY": 359.993865966797,
+            "rotZ": 0.0058829290792346,
+            "scaleX": 0.925000011920929,
+            "scaleY": 0.925000011920929,
+            "scaleZ": 0.925000011920929
+          },
+          "Value": 0
+        },
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 0.999999821186066,
+            "g": 0.992160260677338,
+            "r": 0.999999821186066
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://pastebin.com/raw.php?i=KAeNs1LY",
+            "Convex": true,
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/860603880167358351/2055B40C256E1D4A7DE90BDDA4AB76D1A949A6B3/",
+            "MaterialIndex": 3,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/860603880167366391/28700ACF0E6FA9B1FE4A72123DBAD2AC9501AAC8/",
+            "NormalURL": "",
+            "TypeIndex": 1
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "e8dd78",
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "MeasureMovement": false,
+          "Name": "Custom_Model",
+          "Nickname": "Tomb Blade - Particle Beamer",
+          "Snap": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "Transform": {
+            "posX": 9.51850509643555,
+            "posY": 3.5477602481842,
+            "posZ": -33.1365623474121,
+            "rotX": 0.00675234384834766,
+            "rotY": 359.988647460938,
+            "rotZ": 0.00588269252330065,
+            "scaleX": 0.925000011920929,
+            "scaleY": 0.925000011920929,
+            "scaleZ": 0.925000011920929
+          },
+          "Value": 0
+        },
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 0.999999821186066,
+            "g": 0.992160260677338,
+            "r": 0.999999821186066
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://pastebin.com/raw.php?i=KAeNs1LY",
+            "Convex": true,
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/860603880167358351/2055B40C256E1D4A7DE90BDDA4AB76D1A949A6B3/",
+            "MaterialIndex": 3,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/860603880167381703/600E87CC3D1B3E8CA4E2CC6749EC4DA7C771C861/",
+            "NormalURL": "",
+            "TypeIndex": 1
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "83ae1b",
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "MeasureMovement": false,
+          "Name": "Custom_Model",
+          "Nickname": "Tomb Blade - x2 Tesla Carbine",
+          "Snap": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "Transform": {
+            "posX": 24.5184993743896,
+            "posY": 3.54893755912781,
+            "posZ": -30.0365600585938,
+            "rotX": 0.00673175370320678,
+            "rotY": 0.0115954475477338,
+            "rotZ": 0.00589862652122974,
+            "scaleX": 0.925000011920929,
+            "scaleY": 0.925000011920929,
+            "scaleZ": 0.925000011920929
+          },
+          "Value": 0
+        },
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 0.999999821186066,
+            "g": 0.992160260677338,
+            "r": 0.999999821186066
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://pastebin.com/raw.php?i=KAeNs1LY",
+            "Convex": true,
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/860603880167358351/2055B40C256E1D4A7DE90BDDA4AB76D1A949A6B3/",
+            "MaterialIndex": 3,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/860603880167384212/4424DD5AB7961AC255F20C0122288C8D187822E5/",
+            "NormalURL": "",
+            "TypeIndex": 1
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "a927d8",
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "MeasureMovement": false,
+          "Name": "Custom_Model",
+          "Nickname": "Tomb Blade - Particle Beamer",
+          "Snap": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "Transform": {
+            "posX": 27.5185012817383,
+            "posY": 3.54924583435059,
+            "posZ": -30.0365600585938,
+            "rotX": 0.00675387633964419,
+            "rotY": 0.0116065451875329,
+            "rotZ": 0.00589530961588025,
+            "scaleX": 0.925000011920929,
+            "scaleY": 0.925000011920929,
+            "scaleZ": 0.925000011920929
+          },
+          "Value": 0
+        },
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 0.999999821186066,
+            "g": 0.992160260677338,
+            "r": 0.999999821186066
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://pastebin.com/raw.php?i=KAeNs1LY",
+            "Convex": true,
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/860603880167358351/2055B40C256E1D4A7DE90BDDA4AB76D1A949A6B3/",
+            "MaterialIndex": 3,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/860603880167363615/937C516CA896ED857323E7F47DD3FE6EB0CBC8A2/",
+            "NormalURL": "",
+            "TypeIndex": 1
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "0115e1",
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "MeasureMovement": false,
+          "Name": "Custom_Model",
+          "Nickname": "Tomb Blade - x2 Tesla Carbine",
+          "Snap": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "Transform": {
+            "posX": 6.51849985122681,
+            "posY": 3.54745173454285,
+            "posZ": -33.1365623474121,
+            "rotX": 0.00674589164555073,
+            "rotY": 0.00632851663976908,
+            "rotZ": 0.00588502362370491,
+            "scaleX": 0.925000011920929,
+            "scaleY": 0.925000011920929,
+            "scaleZ": 0.925000011920929
+          },
+          "Value": 0
+        },
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 0.999999821186066,
+            "g": 0.992160260677338,
+            "r": 0.999999821186066
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://pastebin.com/raw.php?i=KAeNs1LY",
+            "Convex": true,
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/860603880166340821/B3B24338C56A9ADE3547352AD7CEE2FA8295ABEB/",
+            "MaterialIndex": 3,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/860603880167373210/3889716B880010284C0C3911447DF79FBB6B89EF/",
+            "NormalURL": "",
+            "TypeIndex": 1
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "ac5e81",
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "MeasureMovement": false,
+          "Name": "Custom_Model",
+          "Nickname": "Tomb Blade - x2 Tesla Carbine",
+          "Snap": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "Transform": {
+            "posX": 15.5185031890869,
+            "posY": 3.54801225662231,
+            "posZ": -30.0365581512451,
+            "rotX": 0.00672344816848636,
+            "rotY": 0.00301331328228116,
+            "rotZ": 0.00589641835540533,
+            "scaleX": 0.925000011920929,
+            "scaleY": 0.925000011920929,
+            "scaleZ": 0.925000011920929
+          },
+          "Value": 0
+        },
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 0.999999821186066,
+            "g": 0.992160260677338,
+            "r": 0.999999821186066
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://pastebin.com/raw.php?i=KAeNs1LY",
+            "Convex": true,
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/860603880167358351/2055B40C256E1D4A7DE90BDDA4AB76D1A949A6B3/",
+            "MaterialIndex": 3,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/860603880167375486/1B0BE5FB1FD47ABBECFB5E01513A3356959485C4/",
+            "NormalURL": "",
+            "TypeIndex": 1
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "9485d1",
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "MeasureMovement": false,
+          "Name": "Custom_Model",
+          "Nickname": "Tomb Blade - Particle Beamer",
+          "Snap": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "Transform": {
+            "posX": 18.5185012817383,
+            "posY": 3.54832053184509,
+            "posZ": -30.0365600585938,
+            "rotX": 0.00674982275813818,
+            "rotY": 0.0116304513067007,
+            "rotZ": 0.00589487655088305,
+            "scaleX": 0.925000011920929,
+            "scaleY": 0.925000011920929,
+            "scaleZ": 0.925000011920929
+          },
+          "Value": 0
+        },
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 0.999999821186066,
+            "g": 0.992160260677338,
+            "r": 0.999999821186066
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://pastebin.com/raw.php?i=KAeNs1LY",
+            "Convex": true,
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/860603880167358351/2055B40C256E1D4A7DE90BDDA4AB76D1A949A6B3/",
+            "MaterialIndex": 3,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/860603880167378084/E5D1E295989075AF7C7B9A9F753E703256C4EA6A/",
+            "NormalURL": "",
+            "TypeIndex": 1
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "e6b165",
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "MeasureMovement": false,
+          "Name": "Custom_Model",
+          "Nickname": "Tomb Blade - 2x Gauss Blaster",
+          "Snap": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "Transform": {
+            "posX": 21.5185012817383,
+            "posY": 3.54862904548645,
+            "posZ": -30.0365600585938,
+            "rotX": 0.00672283815219998,
+            "rotY": 0.0115962969139218,
+            "rotZ": 0.00587588828057051,
+            "scaleX": 0.925000011920929,
+            "scaleY": 0.925000011920929,
+            "scaleZ": 0.925000011920929
+          },
+          "Value": 0
+        },
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 0.999999821186066,
+            "g": 0.992160260677338,
+            "r": 0.999999821186066
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://pastebin.com/raw.php?i=KAeNs1LY",
+            "Convex": true,
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/860603880167358351/2055B40C256E1D4A7DE90BDDA4AB76D1A949A6B3/",
+            "MaterialIndex": 3,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/860603880167361019/2DD952EFE48D8A3BD876A60EDCAE52E44027C153/",
+            "NormalURL": "",
+            "TypeIndex": 1
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "f4854b",
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "MeasureMovement": false,
+          "Name": "Custom_Model",
+          "Nickname": "Tomb Blade - x2 Tesla Carbine",
+          "Snap": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "Transform": {
+            "posX": 6.51849985122681,
+            "posY": 3.54708671569824,
+            "posZ": -30.0365600585938,
+            "rotX": 0.00675578229129314,
+            "rotY": 0.0281287729740143,
+            "rotZ": 0.00589974084869027,
+            "scaleX": 0.925000011920929,
+            "scaleY": 0.925000011920929,
+            "scaleZ": 0.925000011920929
+          },
+          "Value": 0
+        },
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 0.999999821186066,
+            "g": 0.992160260677338,
+            "r": 0.999999821186066
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://pastebin.com/raw.php?i=KAeNs1LY",
+            "Convex": true,
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/860603880167358351/2055B40C256E1D4A7DE90BDDA4AB76D1A949A6B3/",
+            "MaterialIndex": 3,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/860603880167364882/62670246865BE7010CA4FE23F4C3E679827A5B69/",
+            "NormalURL": "",
+            "TypeIndex": 1
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "32597d",
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "MeasureMovement": false,
+          "Name": "Custom_Model",
+          "Nickname": "Tomb Blade - Particle Beamer",
+          "Snap": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "Transform": {
+            "posX": 9.51841640472412,
+            "posY": 3.5473952293396,
+            "posZ": -30.0365409851074,
+            "rotX": 0.00675027864053845,
+            "rotY": 0.0125004481524229,
+            "rotZ": 0.00588897755369544,
+            "scaleX": 0.925000011920929,
+            "scaleY": 0.925000011920929,
+            "scaleZ": 0.925000011920929
+          },
+          "Value": 0
+        },
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 0.999999821186066,
+            "g": 0.992160260677338,
+            "r": 0.999999821186066
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://pastebin.com/raw.php?i=KAeNs1LY",
+            "Convex": true,
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/860603880167358351/2055B40C256E1D4A7DE90BDDA4AB76D1A949A6B3/",
+            "MaterialIndex": 3,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/860603880167369955/0946B6CEB8B371C8F0DD369D0157ED5D8E095B2E/",
+            "NormalURL": "",
+            "TypeIndex": 1
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "353886",
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "MeasureMovement": false,
+          "Name": "Custom_Model",
+          "Nickname": "Tomb Blade - 2x Gauss Blaster",
+          "Snap": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "Transform": {
+            "posX": 12.5185050964355,
+            "posY": 3.54770374298096,
+            "posZ": -30.0365600585938,
+            "rotX": 0.0067409947514534,
+            "rotY": 0.0121393008157611,
+            "rotZ": 0.0058993324637413,
+            "scaleX": 0.925000011920929,
+            "scaleY": 0.925000011920929,
+            "scaleZ": 0.925000011920929
+          },
+          "Value": 0
+        },
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 0.999999821186066,
+            "g": 0.992160260677338,
+            "r": 0.999999821186066
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://pastebin.com/raw.php?i=KAeNs1LY",
+            "Convex": true,
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/860603880167358351/2055B40C256E1D4A7DE90BDDA4AB76D1A949A6B3/",
+            "MaterialIndex": 3,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/860603880167359712/7A0C3C73722FA1B34BAB35688300D68A918AD56B/",
+            "NormalURL": "",
+            "TypeIndex": 1
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "70754f",
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "MeasureMovement": false,
+          "Name": "Custom_Model",
+          "Nickname": "Tomb Blade - 2x Gauss Blaster",
+          "Snap": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "Transform": {
+            "posX": 3.51850175857544,
+            "posY": 3.54714322090149,
+            "posZ": -33.1365623474121,
+            "rotX": 0.00673588272184134,
+            "rotY": 359.992645263672,
+            "rotZ": 0.00587504962459207,
+            "scaleX": 0.925000011920929,
+            "scaleY": 0.925000011920929,
+            "scaleZ": 0.925000011920929
+          },
+          "Value": 0
+        }
+      ],
+      "Sticky": true,
+      "Tags": [
+        "OPR_MAP"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": 15.8053073883057,
+        "posY": 0.973275303840637,
+        "posZ": 11.6573572158813,
+        "rotX": 4.56072166343802e-06,
+        "rotY": 0.0158494524657726,
+        "rotZ": 1.39465905490965e-08,
+        "scaleX": 0.925000011920929,
+        "scaleY": 0.925000011920929,
+        "scaleZ": 0.925000011920929
+      },
+      "Value": 0
+    }
+  ],
+  "Night Transport": [
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 0.506968021392822,
+        "g": 0.499019682407379,
+        "r": 0.506968021392822
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://pastebin.com/raw.php?i=v8PueMN4",
+        "Convex": true,
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/100601335413292230/306E9BDC3389CD15AEDC8BDF6AE1D9E70F8877C4/",
+        "MaterialIndex": 3,
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/100601335413668817/23B379B7036BC8A68FED651856AADC1FC720AFE8/",
+        "NormalURL": "",
+        "TypeIndex": 0
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": true,
+      "GridProjection": false,
+      "GUID": "fd7409",
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": false,
+      "Name": "Custom_Model",
+      "Nickname": "Night Transport",
+      "Snap": true,
+      "States": [
+        null,
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 0.999999821186066,
+            "g": 0.992160260677338,
+            "r": 0.999999821186066
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://pastebin.com/raw.php?i=v8PueMN4",
+            "Convex": true,
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/100601335413292230/306E9BDC3389CD15AEDC8BDF6AE1D9E70F8877C4/",
+            "MaterialIndex": 3,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/100601335413668817/23B379B7036BC8A68FED651856AADC1FC720AFE8/",
+            "NormalURL": "",
+            "TypeIndex": 0
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "463198",
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "MeasureMovement": false,
+          "Name": "Custom_Model",
+          "Nickname": "Damaged Night scythe 6/12",
+          "Snap": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "Transform": {
+            "posX": -18.164363861084,
+            "posY": 0.959999918937683,
+            "posZ": 11.3048000335693,
+            "rotX": 1.27571070152044e-06,
+            "rotY": 179.997772216797,
+            "rotZ": -1.06049378700845e-06,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Value": 0
+        },
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 0.999999821186066,
+            "g": 0.992160260677338,
+            "r": 0.999999821186066
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://pastebin.com/raw.php?i=v8PueMN4",
+            "Convex": true,
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/100601335413292230/306E9BDC3389CD15AEDC8BDF6AE1D9E70F8877C4/",
+            "MaterialIndex": 3,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/100601335413668817/23B379B7036BC8A68FED651856AADC1FC720AFE8/",
+            "NormalURL": "",
+            "TypeIndex": 0
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "821d78",
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "MeasureMovement": false,
+          "Name": "Custom_Model",
+          "Nickname": "Critical Night scythe 3/12",
+          "Snap": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "Transform": {
+            "posX": -18.164363861084,
+            "posY": 0.959999918937683,
+            "posZ": 11.3048000335693,
+            "rotX": -2.54722152703835e-07,
+            "rotY": 179.997772216797,
+            "rotZ": 3.10190984009751e-07,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Value": 0
+        }
+      ],
+      "Sticky": true,
+      "Tags": [
+        "OPR_MAP"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": -3.59841012954712,
+        "posY": 0.959999978542328,
+        "posZ": -2.45394372940063,
+        "rotX": 4.30642415949478e-07,
+        "rotY": 179.97200012207,
+        "rotZ": -1.32781261541481e-08,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0
+    }
+  ],
+  "Prison Monolith": [
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 1,
+        "g": 1,
+        "r": 1
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/833574038025785669/F34BDD5E029B36BC1E5BA5FA57290D860C75849B/",
+        "Convex": true,
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/833574038025785105/A90F8BEBE33716F444D0215FE2A2FF24CDC55764/",
+        "MaterialIndex": 3,
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/833574038025780497/8C5C61543EB3A380B7E6E345D881B4D2C754C1AF/",
+        "NormalURL": "",
+        "TypeIndex": 0
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": true,
+      "GridProjection": false,
+      "GUID": "bde2e9",
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": false,
+      "Name": "Custom_Model",
+      "Nickname": "Prison Monolith",
+      "Snap": true,
+      "States": [
+        null,
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/833574038025785669/F34BDD5E029B36BC1E5BA5FA57290D860C75849B/",
+            "Convex": true,
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/833574038025785105/A90F8BEBE33716F444D0215FE2A2FF24CDC55764/",
+            "MaterialIndex": 3,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/833574038025780497/8C5C61543EB3A380B7E6E345D881B4D2C754C1AF/",
+            "NormalURL": "",
+            "TypeIndex": 0
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "063d45",
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "MeasureMovement": false,
+          "Name": "Custom_Model",
+          "Nickname": "Damaged Monolith 10/20",
+          "Snap": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "Transform": {
+            "posX": 5.24708938598633,
+            "posY": 0.959999918937683,
+            "posZ": 8.21958541870117,
+            "rotX": 2.08921983357868e-06,
+            "rotY": 210.15771484375,
+            "rotZ": 1.23838503895968e-06,
+            "scaleX": 1.02499997615814,
+            "scaleY": 1.02499997615814,
+            "scaleZ": 1.02499997615814
+          },
+          "Value": 0
+        },
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/833574038025785669/F34BDD5E029B36BC1E5BA5FA57290D860C75849B/",
+            "Convex": true,
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/833574038025785105/A90F8BEBE33716F444D0215FE2A2FF24CDC55764/",
+            "MaterialIndex": 3,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/833574038025780497/8C5C61543EB3A380B7E6E345D881B4D2C754C1AF/",
+            "NormalURL": "",
+            "TypeIndex": 0
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "5504df",
+          "Hands": false,
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "MeasureMovement": false,
+          "Name": "Custom_Model",
+          "Nickname": "Critical Monolith 5/20",
+          "Snap": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "Transform": {
+            "posX": -24.6400508880615,
+            "posY": 10.2294940948486,
+            "posZ": -30.0266857147217,
+            "rotX": 359.989074707031,
+            "rotY": 179.527801513672,
+            "rotZ": -0.00293943285942078,
+            "scaleX": 1.02499997615814,
+            "scaleY": 1.02499997615814,
+            "scaleZ": 1.02499997615814
+          },
+          "Value": 0
+        }
+      ],
+      "Sticky": true,
+      "Tags": [
+        "OPR_MAP"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": -20.7626838684082,
+        "posY": 0.960000038146973,
+        "posZ": -3.78394150733948,
+        "rotX": -6.60941759633715e-06,
+        "rotY": 180,
+        "rotZ": -3.10003406411852e-06,
+        "scaleX": 1.02499997615814,
+        "scaleY": 1.02499997615814,
+        "scaleZ": 1.02499997615814
+      },
+      "Value": 0
+    }
+  ],
+  "Robot Lord": [
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 1,
+        "g": 1,
+        "r": 1
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://pastebin.com/raw.php?i=KAeNs1LY",
+        "Convex": true,
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/860600315750011444/653E2D334ED79977F61613A59642D4C5AF5282F1/",
+        "MaterialIndex": 3,
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/860603245464971487/11034428A4DFCF6932CC6D57DCA13582B0E70564/",
+        "NormalURL": "",
+        "TypeIndex": 1
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": true,
+      "GridProjection": false,
+      "GUID": "8a7e08",
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": false,
+      "Name": "Custom_Model",
+      "Nickname": "Robot Lord",
+      "Snap": true,
+      "States": [
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/170417720933929738/BD71680A2A1E0430A3C7EE045449FDA26697D8C0/",
+            "Convex": true,
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/822314902723274127/3CD73636E21105A65096D7D0A7939DBDDAF4CCAE/",
+            "MaterialIndex": 0,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/822314902723273182/9541B2A2AD0D9DC7B634AE643E83C71BD0F9C85B/",
+            "NormalURL": "",
+            "TypeIndex": 0
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "0eb751",
+          "Hands": false,
+          "HideWhenFaceDown": false,
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "MeasureMovement": false,
+          "Name": "Custom_Model",
+          "Nickname": "Cryptek",
+          "Snap": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "Transform": {
+            "posX": -25.8601360321045,
+            "posY": 3.52901291847229,
+            "posZ": -26.7906322479248,
+            "rotX": 0.00682723522186279,
+            "rotY": 0.010401020757854,
+            "rotZ": 0.00589131843298674,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Value": 0
+        },
+        null,
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 0.999999821186066,
+            "g": 0.992160260677338,
+            "r": 0.999999821186066
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://pastebin.com/raw.php?i=KAeNs1LY",
+            "Convex": true,
+            "CustomShader": {
+              "FresnelStrength": 0.100000001490116,
+              "SpecularColor": {
+                "a": 1,
+                "b": 0.745098054409027,
+                "g": 0.811764717102051,
+                "r": 0.874509811401367
+              },
+              "SpecularIntensity": 0,
+              "SpecularSharpness": 3
+            },
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/860603645842290986/C59F3D556D74D6CD6F83A3D8E8BAEDD0929D92E1/",
+            "MaterialIndex": 1,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/860603645842290626/FDD36E061735F94E9EE224BA55F61C69B00559B5/",
+            "NormalURL": "",
+            "TypeIndex": 1
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "96b6d4",
+          "Hands": false,
+          "HideWhenFaceDown": false,
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "MeasureMovement": false,
+          "Name": "Custom_Model",
+          "Nickname": "Lord - Staff of light/Resurrection Orb",
+          "Snap": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "Transform": {
+            "posX": -25.8601360321045,
+            "posY": 3.54444551467896,
+            "posZ": -26.7906322479248,
+            "rotX": 0.00675777066498995,
+            "rotY": 0.0103190550580621,
+            "rotZ": 0.005895278416574,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Value": 0
+        }
+      ],
+      "Sticky": true,
+      "Tags": [
+        "OPR_MAP"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": -16.7974395751953,
+        "posY": 0.975069463253021,
+        "posZ": 12.4145250320435,
+        "rotX": 1.69750558143278e-06,
+        "rotY": 30.1026077270508,
+        "rotZ": 5.79765128350118e-07,
+        "scaleX": 1.04999995231628,
+        "scaleY": 1.04999995231628,
+        "scaleZ": 1.04999995231628
+      },
+      "Value": 0
+    }
+  ],
+  "Robot Snakes": [
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 1,
+        "g": 1,
+        "r": 1
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/829071162643793030/C936FD6D06EA1946E27412999CADFA72CE2727D1/",
+        "Convex": true,
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/170415012790998558/B42BDEEA432AD1F105D1FC5B95D81D6436225833/",
+        "MaterialIndex": 0,
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/829071162643813347/F2EADBF4700B54E1D479D0D2B48EF6AF7F3EE256/",
+        "NormalURL": "",
+        "TypeIndex": 0
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": true,
+      "GridProjection": false,
+      "GUID": "6058c3",
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": false,
+      "Name": "Custom_Model",
+      "Nickname": "Robot Snakes",
+      "Snap": true,
+      "Sticky": true,
+      "Tags": [
+        "OPR_MAP"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": 5.89983081817627,
+        "posY": 1.0168354511261,
+        "posZ": 12.5197601318359,
+        "rotX": 2.21839741243457e-06,
+        "rotY": 180.011169433594,
+        "rotZ": 3.97400185647712e-07,
+        "scaleX": 0.775000214576721,
+        "scaleY": 0.775000214576721,
+        "scaleZ": 0.775000214576721
+      },
+      "Value": 0
+    }
+  ],
+  "Snipers": [
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 1,
+        "g": 1,
+        "r": 1
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/170417720933929738/BD71680A2A1E0430A3C7EE045449FDA26697D8C0/",
+        "Convex": true,
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/822314902723276675/49B6147A6F28CED839D60D7CAF33B97231BD117E/",
+        "MaterialIndex": 3,
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/822314902723276308/503216A00CC16432390977ABB714277ED1D24FBE/",
+        "NormalURL": "",
+        "TypeIndex": 0
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": true,
+      "GridProjection": false,
+      "GUID": "8b5ef4",
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": false,
+      "Name": "Custom_Model",
+      "Nickname": "Snipers",
+      "Snap": true,
+      "Sticky": true,
+      "Tags": [
+        "OPR_MAP"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": -3.99860548973084,
+        "posY": 0.958919763565063,
+        "posZ": 12.3854970932007,
+        "rotX": 2.61328818851325e-06,
+        "rotY": 179.971496582031,
+        "rotZ": 2.88787282443081e-06,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0
+    }
+  ],
+  "Spider Walker": [
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ChildObjects": [
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "f3f659",
+          "Hands": false,
+          "HideWhenFaceDown": false,
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "MeasureMovement": false,
+          "Name": "Checker_black",
+          "Nickname": "",
+          "Snap": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "Transform": {
+            "posX": -0.431078493595123,
+            "posY": -0.0216952320188284,
+            "posZ": -0.00283016311004758,
+            "rotX": -4.05938862968469e-06,
+            "rotY": 210.000061035156,
+            "rotZ": 180,
+            "scaleX": 7.01914596557617,
+            "scaleY": 1.42857050895691,
+            "scaleZ": 6.82955837249756
+          },
+          "Value": 0,
+          "XmlUI": ""
+        }
+      ],
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 0.999999821186066,
+        "g": 0.992160260677338,
+        "r": 0.999999821186066
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "https://drive.google.com/uc?export=download&id=0BwpXdiEgZ5GzNXNJWmQ3VDNocVE",
+        "Convex": true,
+        "CustomShader": {
+          "FresnelStrength": 0,
+          "SpecularColor": {
+            "a": 1,
+            "b": 0.737254917621613,
+            "g": 0.737254917621613,
+            "r": 0.737254917621613
+          },
+          "SpecularIntensity": 0,
+          "SpecularSharpness": 7
+        },
+        "DiffuseURL": "http://i.imgur.com/86Z7CWf.jpg",
+        "MaterialIndex": 2,
+        "MeshURL": "https://drive.google.com/uc?export=download&id=0BwpXdiEgZ5GzamdrdDlsOU1GLXM",
+        "NormalURL": "",
+        "TypeIndex": 1
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": true,
+      "GridProjection": false,
+      "GUID": "f138d5",
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": false,
+      "Name": "Custom_Model",
+      "Nickname": "Spider Walker",
+      "Snap": true,
+      "States": [
+        null,
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 0.999999821186066,
+            "g": 0.992160260677338,
+            "r": 0.999999821186066
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "https://drive.google.com/uc?export=download&id=0BwpXdiEgZ5GzNXNJWmQ3VDNocVE",
+            "Convex": true,
+            "CustomShader": {
+              "FresnelStrength": 0,
+              "SpecularColor": {
+                "a": 1,
+                "b": 0.737254917621613,
+                "g": 0.737254917621613,
+                "r": 0.737254917621613
+              },
+              "SpecularIntensity": 0,
+              "SpecularSharpness": 7
+            },
+            "DiffuseURL": "http://i.imgur.com/86Z7CWf.jpg",
+            "MaterialIndex": 2,
+            "MeshURL": "https://drive.google.com/uc?export=download&id=0BwpXdiEgZ5GzamdrdDlsOU1GLXM",
+            "NormalURL": "",
+            "TypeIndex": 1
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "f06dee",
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "MeasureMovement": false,
+          "Name": "Custom_Model",
+          "Nickname": "Damaged Triarch Stalker 5/10 /w Heat Ray",
+          "Snap": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "Transform": {
+            "posX": -18.3306083679199,
+            "posY": 0.975187063217163,
+            "posZ": 0.495695739984512,
+            "rotX": 2.00311916387363e-07,
+            "rotY": 270.000091552734,
+            "rotZ": 6.44213344003219e-07,
+            "scaleX": 0.70000022649765,
+            "scaleY": 0.70000022649765,
+            "scaleZ": 0.70000022649765
+          },
+          "Value": 0
+        },
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 0.999999821186066,
+            "g": 0.992160260677338,
+            "r": 0.999999821186066
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "https://drive.google.com/uc?export=download&id=0BwpXdiEgZ5GzNXNJWmQ3VDNocVE",
+            "Convex": true,
+            "CustomShader": {
+              "FresnelStrength": 0,
+              "SpecularColor": {
+                "a": 1,
+                "b": 0.737254917621613,
+                "g": 0.737254917621613,
+                "r": 0.737254917621613
+              },
+              "SpecularIntensity": 0,
+              "SpecularSharpness": 7
+            },
+            "DiffuseURL": "http://i.imgur.com/86Z7CWf.jpg",
+            "MaterialIndex": 2,
+            "MeshURL": "https://drive.google.com/uc?export=download&id=0BwpXdiEgZ5GzamdrdDlsOU1GLXM",
+            "NormalURL": "",
+            "TypeIndex": 1
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "3fd084",
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "MeasureMovement": false,
+          "Name": "Custom_Model",
+          "Nickname": "Critical Triarch Stalker 2/10 /w Heat Ray",
+          "Snap": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "Transform": {
+            "posX": -18.2989292144775,
+            "posY": 0.975187063217163,
+            "posZ": 0.497166693210602,
+            "rotX": 2.61285822489299e-06,
+            "rotY": 270.000061035156,
+            "rotZ": 2.96039530667258e-07,
+            "scaleX": 0.70000022649765,
+            "scaleY": 0.70000022649765,
+            "scaleZ": 0.70000022649765
+          },
+          "Value": 0
+        }
+      ],
+      "Sticky": true,
+      "Tags": [
+        "OPR_MAP"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": 6.81204795837402,
+        "posY": 1.22567009925842,
+        "posZ": 5.02271461486816,
+        "rotX": -3.07988443637441e-07,
+        "rotY": 285.026000976563,
+        "rotZ": 6.08680693403585e-06,
+        "scaleX": 0.70000022649765,
+        "scaleY": 0.70000022649765,
+        "scaleZ": 0.70000022649765
+      },
+      "Value": 0
+    }
+  ],
+  "Support Platform": [
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 1,
+        "g": 1,
+        "r": 1
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "",
+        "Convex": true,
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/156903125563396461/06159F365C1E097BE2E6661AC095B7C3133310AD/",
+        "MaterialIndex": 3,
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/156903125563396032/CCE1BBB37D6693647C8C823FC2D251518C6F0BD5/",
+        "NormalURL": "",
+        "TypeIndex": 0
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": true,
+      "GridProjection": false,
+      "GUID": "6c31ef",
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": false,
+      "Name": "Custom_Model",
+      "Nickname": "Support Platform",
+      "Snap": true,
+      "States": [
+        null,
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "",
+            "Convex": true,
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/156903125563396461/06159F365C1E097BE2E6661AC095B7C3133310AD/",
+            "MaterialIndex": 3,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/156903125563396032/CCE1BBB37D6693647C8C823FC2D251518C6F0BD5/",
+            "NormalURL": "",
+            "TypeIndex": 0
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "764b74",
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "MeasureMovement": false,
+          "Name": "Custom_Model",
+          "Nickname": "Catacomb Command Barge 8/8 /w Tesla Cannon",
+          "Snap": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "Transform": {
+            "posX": -8.09670352935791,
+            "posY": 0.959999322891235,
+            "posZ": -10.1854486465454,
+            "rotX": -2.55503437074367e-06,
+            "rotY": 270.013885498047,
+            "rotZ": 8.88586043856776e-07,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Value": 0
+        }
+      ],
+      "Sticky": true,
+      "Tags": [
+        "OPR_MAP"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": -5.20115900039673,
+        "posY": 0.960000038146973,
+        "posZ": 5.33887100219727,
+        "rotX": 7.63819318905234e-09,
+        "rotY": 180.00569152832,
+        "rotZ": -1.11487437948199e-07,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0
+    }
+  ],
+  "Transport Tank": [
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 0.999999821186066,
+        "g": 0.992160260677338,
+        "r": 0.999999821186066
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://pastebin.com/raw.php?i=7e2HKDbN",
+        "Convex": true,
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/100601335413217529/19623B2A2D84EF2ECA59BBB96A2A7CBA542F0133/",
+        "MaterialIndex": 3,
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/100601335413243696/39AE104E819CE086033423F73C76761A127A0346/",
+        "NormalURL": "",
+        "TypeIndex": 0
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": true,
+      "GridProjection": false,
+      "GUID": "3331fb",
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": false,
+      "Name": "Custom_Model",
+      "Nickname": "Transport Tank",
+      "Snap": true,
+      "States": [
+        null,
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 0.999999821186066,
+            "g": 0.992160260677338,
+            "r": 0.999999821186066
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://pastebin.com/raw.php?i=7e2HKDbN",
+            "Convex": true,
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/100601335413217529/19623B2A2D84EF2ECA59BBB96A2A7CBA542F0133/",
+            "MaterialIndex": 3,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/100601335413243696/39AE104E819CE086033423F73C76761A127A0346/",
+            "NormalURL": "",
+            "TypeIndex": 0
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "e471fc",
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "MeasureMovement": false,
+          "Name": "Custom_Model",
+          "Nickname": "Damaged Ghost Ark 7/14",
+          "Snap": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "Transform": {
+            "posX": -25.4081802368164,
+            "posY": 0.959980726242065,
+            "posZ": 16.588207244873,
+            "rotX": -0.00056293688248843,
+            "rotY": 89.9946136474609,
+            "rotZ": 0.00170412799343467,
+            "scaleX": 1.25,
+            "scaleY": 1.25,
+            "scaleZ": 1.25
+          },
+          "Value": 0
+        },
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 0.999999821186066,
+            "g": 0.992160260677338,
+            "r": 0.999999821186066
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://pastebin.com/raw.php?i=7e2HKDbN",
+            "Convex": true,
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/100601335413217529/19623B2A2D84EF2ECA59BBB96A2A7CBA542F0133/",
+            "MaterialIndex": 3,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/100601335413243696/39AE104E819CE086033423F73C76761A127A0346/",
+            "NormalURL": "",
+            "TypeIndex": 0
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "2313a4",
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "MeasureMovement": false,
+          "Name": "Custom_Model",
+          "Nickname": "Critical Ghost Ark 3/14",
+          "Snap": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "Transform": {
+            "posX": -25.4081897735596,
+            "posY": 0.959981203079224,
+            "posZ": 16.5882053375244,
+            "rotX": -0.00055359466932714,
+            "rotY": 89.994499206543,
+            "rotZ": 0.0016947042895481,
+            "scaleX": 1.25,
+            "scaleY": 1.25,
+            "scaleZ": 1.25
+          },
+          "Value": 0
+        }
+      ],
+      "Sticky": true,
+      "Tags": [
+        "OPR_MAP"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": -14.8967351913452,
+        "posY": 0.959999918937683,
+        "posZ": 3.99406719207764,
+        "rotX": -1.43064880830934e-06,
+        "rotY": 180.001693725586,
+        "rotZ": 4.02916491282213e-08,
+        "scaleX": 1.25,
+        "scaleY": 1.25,
+        "scaleZ": 1.25
+      },
+      "Value": 0
+    }
+  ],
+  "Tripod Walker": [
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ChildObjects": [
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1043093675414914904/5BF90E2203B3A567A488BACE1647347D24BA2E71/",
+            "Convex": true,
+            "CustomShader": {
+              "FresnelStrength": 0.107142858207226,
+              "SpecularColor": {
+                "a": 1,
+                "b": 0.746323525905609,
+                "g": 0.812880337238312,
+                "r": 0.875
+              },
+              "SpecularIntensity": 0.0500000007450581,
+              "SpecularSharpness": 2
+            },
+            "DiffuseURL": "",
+            "MaterialIndex": 1,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1481072391447899232/9CDCD3F9FEF984AAF058CFCD59C0315C09646FBB/",
+            "NormalURL": "",
+            "TypeIndex": 1
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "fb3293",
+          "Hands": false,
+          "HideWhenFaceDown": false,
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "MeasureMovement": false,
+          "Name": "Custom_Model",
+          "Nickname": "canoptek doomstalker",
+          "Snap": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "Transform": {
+            "posX": 0.000157427944941446,
+            "posY": -0.12739697098732,
+            "posZ": -2.24248833546881e-05,
+            "rotX": 0.000186275443411432,
+            "rotY": 224.997421264648,
+            "rotZ": -0.000289387331577018,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Value": 0,
+          "XmlUI": ""
+        }
+      ],
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 1,
+        "g": 1,
+        "r": 1
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1043093675414914904/5BF90E2203B3A567A488BACE1647347D24BA2E71/",
+        "Convex": true,
+        "CustomShader": {
+          "FresnelStrength": 0,
+          "SpecularColor": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "SpecularIntensity": 0,
+          "SpecularSharpness": 2
+        },
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/1697254053192138718/2ABB9CC49592D86225CC5E3F8540D1789F60A8FE/",
+        "MaterialIndex": 3,
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1697254053192138236/B0D8D7E115247D5AF2A16EB8B9A2FF93DFBB01D2/",
+        "NormalURL": "",
+        "TypeIndex": 1
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": true,
+      "GridProjection": false,
+      "GUID": "4a889c",
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": false,
+      "Name": "Custom_Model",
+      "Nickname": "Tripod Walker",
+      "Snap": true,
+      "Sticky": true,
+      "Tags": [
+        "OPR_MAP"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": 0.134933337569237,
+        "posY": 1.08739709854126,
+        "posZ": 4.63680696487427,
+        "rotX": -7.38971139071509e-05,
+        "rotY": 15.0158052444458,
+        "rotZ": -0.000334303505951539,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0
+    }
+  ],
+  "Tri-Scorpion Lord": [
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ChildObjects": [
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1043093675414910691/A38AFE0E8955841404269A62127443886ED1BD53/",
+            "Convex": true,
+            "CustomShader": {
+              "FresnelStrength": 0,
+              "SpecularColor": {
+                "a": 1,
+                "b": 1,
+                "g": 1,
+                "r": 1
+              },
+              "SpecularIntensity": 0,
+              "SpecularSharpness": 2
+            },
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/1344838049812241307/9E6CE1E57959036974C67C15C35D9219498E028C/",
+            "MaterialIndex": 3,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1344838192470227569/F76178E695178BF01E5A459134F5146BFE02143C/",
+            "NormalURL": "",
+            "TypeIndex": 1
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "904f2c",
+          "Hands": false,
+          "HideWhenFaceDown": false,
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "MeasureMovement": false,
+          "Name": "Custom_Model",
+          "Nickname": "",
+          "Snap": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "Transform": {
+            "posX": -3.60580941105582e-07,
+            "posY": 0.127399444580078,
+            "posZ": -9.85208203019283e-07,
+            "rotX": 0.000375100498786196,
+            "rotY": 225.016479492188,
+            "rotZ": 0.00029956508660689,
+            "scaleX": 1.00000047683716,
+            "scaleY": 1,
+            "scaleZ": 1.00000047683716
+          },
+          "Value": 0,
+          "XmlUI": ""
+        }
+      ],
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1043093675414910691/A38AFE0E8955841404269A62127443886ED1BD53/",
+        "Convex": true,
+        "CustomShader": {
+          "FresnelStrength": 0,
+          "SpecularColor": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "SpecularIntensity": 0,
+          "SpecularSharpness": 2
+        },
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/1192839234866726249/DE2A5E5A50351E8DBA07C7F5D278E236E670EDDA/",
+        "MaterialIndex": 3,
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1043093675415147438/6B86F444AF4815CE6F0BBB1AEA644476B505AEEF/",
+        "NormalURL": "",
+        "TypeIndex": 1
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": true,
+      "GridProjection": false,
+      "GUID": "e94f8a",
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": true,
+      "Name": "Custom_Model",
+      "Nickname": "Tri-Scorpion Lord",
+      "Snap": true,
+      "Sticky": true,
+      "Tags": [
+        "OPR_MAP"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": -12.9227151870728,
+        "posY": 0.959999918937683,
+        "posZ": 12.280930519104,
+        "rotX": -4.50974198429321e-07,
+        "rotY": 0.0250241067260504,
+        "rotZ": -9.50290029777534e-07,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0
+    }
+  ],
+  "Tri-Scorpion Pistoleer": [
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ChildObjects": [
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1043093675414912009/07C16D0E28B9D401ADA5947D2BB310478ABC0F6B/",
+            "Convex": true,
+            "CustomShader": {
+              "FresnelStrength": 0,
+              "SpecularColor": {
+                "a": 1,
+                "b": 1,
+                "g": 1,
+                "r": 1
+              },
+              "SpecularIntensity": 0,
+              "SpecularSharpness": 2
+            },
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/1344838384512548926/885510EDD08BBA7C65DBD0806B063254FF6D1674/",
+            "MaterialIndex": 3,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1344838384512552538/7F9B80BDBF681676A372A264095932BC03A50D41/",
+            "NormalURL": "",
+            "TypeIndex": 1
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "9848ce",
+          "Hands": false,
+          "HideWhenFaceDown": false,
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "MeasureMovement": false,
+          "Name": "Custom_Model",
+          "Nickname": "",
+          "Snap": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "Transform": {
+            "posX": -1.62573417128442e-06,
+            "posY": 0.127390146255493,
+            "posZ": -3.87551949643239e-07,
+            "rotX": -0.000378552183974534,
+            "rotY": 345.009490966797,
+            "rotZ": 0.000404879945563152,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Value": 0,
+          "XmlUI": ""
+        }
+      ],
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1043093675414912009/07C16D0E28B9D401ADA5947D2BB310478ABC0F6B/",
+        "Convex": true,
+        "CustomShader": {
+          "FresnelStrength": 0,
+          "SpecularColor": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "SpecularIntensity": 0,
+          "SpecularSharpness": 2
+        },
+        "DiffuseURL": "",
+        "MaterialIndex": 3,
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1043093675415146694/41D3575C922A609F8FE396C7E989E17E70352812/",
+        "NormalURL": "",
+        "TypeIndex": 1
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": true,
+      "GridProjection": false,
+      "GUID": "e1d065",
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": true,
+      "Name": "Custom_Model",
+      "Nickname": "Tri-Scorpion Pistoleer",
+      "Snap": true,
+      "States": [
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ChildObjects": [
+            {
+              "AltLookAngle": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "Autoraise": true,
+              "ColorDiffuse": {
+                "a": 1,
+                "b": 1,
+                "g": 1,
+                "r": 1
+              },
+              "CustomMesh": {
+                "CastShadows": true,
+                "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1043093675414912009/07C16D0E28B9D401ADA5947D2BB310478ABC0F6B/",
+                "Convex": true,
+                "CustomShader": {
+                  "FresnelStrength": 0,
+                  "SpecularColor": {
+                    "a": 1,
+                    "b": 1,
+                    "g": 1,
+                    "r": 1
+                  },
+                  "SpecularIntensity": 0,
+                  "SpecularSharpness": 2
+                },
+                "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/1344838384512548926/885510EDD08BBA7C65DBD0806B063254FF6D1674/",
+                "MaterialIndex": 3,
+                "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1344838384512545406/707B9844E0DD05E02F8ECBFED9B61FB116613F5E/",
+                "NormalURL": "",
+                "TypeIndex": 1
+              },
+              "Description": "",
+              "DragSelectable": true,
+              "GMNotes": "",
+              "Grid": true,
+              "GridProjection": false,
+              "GUID": "bf5acb",
+              "Hands": false,
+              "HideWhenFaceDown": false,
+              "IgnoreFoW": false,
+              "LayoutGroupSortIndex": 0,
+              "Locked": false,
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "MeasureMovement": false,
+              "Name": "Custom_Model",
+              "Nickname": "",
+              "Snap": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "Transform": {
+                "posX": 5.14554869823769e-07,
+                "posY": 0.127389192581177,
+                "posZ": -2.42431070773819e-07,
+                "rotX": -0.000162241965881549,
+                "rotY": 270.023895263672,
+                "rotZ": 0.00040602168883197,
+                "scaleX": 1.00000011920929,
+                "scaleY": 1,
+                "scaleZ": 1.00000011920929
+              },
+              "Value": 0,
+              "XmlUI": ""
+            }
+          ],
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1043093675414912009/07C16D0E28B9D401ADA5947D2BB310478ABC0F6B/",
+            "Convex": true,
+            "CustomShader": {
+              "FresnelStrength": 0,
+              "SpecularColor": {
+                "a": 1,
+                "b": 1,
+                "g": 1,
+                "r": 1
+              },
+              "SpecularIntensity": 0,
+              "SpecularSharpness": 2
+            },
+            "DiffuseURL": "",
+            "MaterialIndex": 3,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1043093675415146694/41D3575C922A609F8FE396C7E989E17E70352812/",
+            "NormalURL": "",
+            "TypeIndex": 1
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "5268fb",
+          "Hands": false,
+          "HideWhenFaceDown": false,
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "MeasureMovement": true,
+          "Name": "Custom_Model",
+          "Nickname": "Tri-Scorpions",
+          "Snap": true,
+          "Sticky": true,
+          "Tags": [
+            "OPR_MAP"
+          ],
+          "Tooltip": true,
+          "Transform": {
+            "posX": -30.5260982513428,
+            "posY": 0.319469720125198,
+            "posZ": -42.8590240478516,
+            "rotX": 358.869049072266,
+            "rotY": 0.263743907213211,
+            "rotZ": 0.00802605226635933,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Value": 0
+        }
+      ],
+      "Sticky": true,
+      "Tags": [
+        "OPR_MAP"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": 1.80626583099365,
+        "posY": 1.14422070980072,
+        "posZ": 12.0749597549438,
+        "rotX": 5.12629842758179,
+        "rotY": 359.252166748047,
+        "rotZ": 350.774536132813,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0
+    }
+  ],
+  "Tri-Scorpions": [
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ChildObjects": [
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1043093675414912009/07C16D0E28B9D401ADA5947D2BB310478ABC0F6B/",
+            "Convex": true,
+            "CustomShader": {
+              "FresnelStrength": 0,
+              "SpecularColor": {
+                "a": 1,
+                "b": 1,
+                "g": 1,
+                "r": 1
+              },
+              "SpecularIntensity": 0,
+              "SpecularSharpness": 2
+            },
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/1344838384512548926/885510EDD08BBA7C65DBD0806B063254FF6D1674/",
+            "MaterialIndex": 3,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1344838384512545406/707B9844E0DD05E02F8ECBFED9B61FB116613F5E/",
+            "NormalURL": "",
+            "TypeIndex": 1
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "bf5acb",
+          "Hands": false,
+          "HideWhenFaceDown": false,
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "MeasureMovement": false,
+          "Name": "Custom_Model",
+          "Nickname": "",
+          "Snap": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "Transform": {
+            "posX": 5.14554869823769e-07,
+            "posY": 0.127389192581177,
+            "posZ": -2.42431070773819e-07,
+            "rotX": -0.000162241965881549,
+            "rotY": 270.023895263672,
+            "rotZ": 0.00040602168883197,
+            "scaleX": 1.00000011920929,
+            "scaleY": 1,
+            "scaleZ": 1.00000011920929
+          },
+          "Value": 0,
+          "XmlUI": ""
+        }
+      ],
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1043093675414912009/07C16D0E28B9D401ADA5947D2BB310478ABC0F6B/",
+        "Convex": true,
+        "CustomShader": {
+          "FresnelStrength": 0,
+          "SpecularColor": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "SpecularIntensity": 0,
+          "SpecularSharpness": 2
+        },
+        "DiffuseURL": "",
+        "MaterialIndex": 3,
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1043093675415146694/41D3575C922A609F8FE396C7E989E17E70352812/",
+        "NormalURL": "",
+        "TypeIndex": 1
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": true,
+      "GridProjection": false,
+      "GUID": "81e022",
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": true,
+      "Name": "Custom_Model",
+      "Nickname": "Tri-Scorpions",
+      "Snap": true,
+      "States": [
+        null,
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ChildObjects": [
+            {
+              "AltLookAngle": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "Autoraise": true,
+              "ColorDiffuse": {
+                "a": 1,
+                "b": 1,
+                "g": 1,
+                "r": 1
+              },
+              "CustomMesh": {
+                "CastShadows": true,
+                "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1043093675414912009/07C16D0E28B9D401ADA5947D2BB310478ABC0F6B/",
+                "Convex": true,
+                "CustomShader": {
+                  "FresnelStrength": 0,
+                  "SpecularColor": {
+                    "a": 1,
+                    "b": 1,
+                    "g": 1,
+                    "r": 1
+                  },
+                  "SpecularIntensity": 0,
+                  "SpecularSharpness": 2
+                },
+                "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/1344838384512548926/885510EDD08BBA7C65DBD0806B063254FF6D1674/",
+                "MaterialIndex": 3,
+                "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1344838384512552538/7F9B80BDBF681676A372A264095932BC03A50D41/",
+                "NormalURL": "",
+                "TypeIndex": 1
+              },
+              "Description": "",
+              "DragSelectable": true,
+              "GMNotes": "",
+              "Grid": true,
+              "GridProjection": false,
+              "GUID": "9848ce",
+              "Hands": false,
+              "HideWhenFaceDown": false,
+              "IgnoreFoW": false,
+              "LayoutGroupSortIndex": 0,
+              "Locked": false,
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "MeasureMovement": false,
+              "Name": "Custom_Model",
+              "Nickname": "",
+              "Snap": true,
+              "Sticky": true,
+              "Tooltip": true,
+              "Transform": {
+                "posX": -1.62573417128442e-06,
+                "posY": 0.127390146255493,
+                "posZ": -3.87551949643239e-07,
+                "rotX": -0.000378552183974534,
+                "rotY": 345.009490966797,
+                "rotZ": 0.000404879945563152,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Value": 0,
+              "XmlUI": ""
+            }
+          ],
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1043093675414912009/07C16D0E28B9D401ADA5947D2BB310478ABC0F6B/",
+            "Convex": true,
+            "CustomShader": {
+              "FresnelStrength": 0,
+              "SpecularColor": {
+                "a": 1,
+                "b": 1,
+                "g": 1,
+                "r": 1
+              },
+              "SpecularIntensity": 0,
+              "SpecularSharpness": 2
+            },
+            "DiffuseURL": "",
+            "MaterialIndex": 3,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1043093675415146694/41D3575C922A609F8FE396C7E989E17E70352812/",
+            "NormalURL": "",
+            "TypeIndex": 1
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "e1d065",
+          "Hands": false,
+          "HideWhenFaceDown": false,
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "MeasureMovement": true,
+          "Name": "Custom_Model",
+          "Nickname": "Skorpekh Destroyer",
+          "Snap": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "Transform": {
+            "posX": -8.23728942871094,
+            "posY": 3.53228807449341,
+            "posZ": -29.9997005462646,
+            "rotX": 0.00676657725125551,
+            "rotY": 0.0019520940259099,
+            "rotZ": 0.00589064229279757,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Value": 0
+        }
+      ],
+      "Sticky": true,
+      "Tags": [
+        "OPR_MAP"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": 0.383153676986694,
+        "posY": 0.959909915924072,
+        "posZ": 11.9455041885376,
+        "rotX": 359.991149902344,
+        "rotY": 359.893920898438,
+        "rotZ": 0.0115317171439528,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0
+    }
+  ],
+  "Warriors": [
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ChildObjects": [
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1043093675414912909/2453A883C68E3D8221CF26563E22F095A941E4EA/",
+            "Convex": true,
+            "CustomShader": {
+              "FresnelStrength": 0,
+              "SpecularColor": {
+                "a": 1,
+                "b": 1,
+                "g": 1,
+                "r": 1
+              },
+              "SpecularIntensity": 0,
+              "SpecularSharpness": 2
+            },
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/1306557296896366138/92D7B25AF6CF0F9EE9648E271B9B689F4E7EA667/",
+            "MaterialIndex": 3,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1306557296896365484/14B6D2399E75ACCA9AAD8DE7CB76A0B5D3CA8519/",
+            "NormalURL": "",
+            "TypeIndex": 1
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "d19ba4",
+          "Hands": false,
+          "HideWhenFaceDown": false,
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "MeasureMovement": false,
+          "Name": "Custom_Model",
+          "Nickname": "",
+          "Snap": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "Transform": {
+            "posX": -1.52603596426104e-09,
+            "posY": 0.127400040626526,
+            "posZ": 7.92797327786587e-10,
+            "rotX": 1.4431877559673e-07,
+            "rotY": 45.0018424987793,
+            "rotZ": 5.70338272609661e-07,
+            "scaleX": 0.515000224113464,
+            "scaleY": 0.51500004529953,
+            "scaleZ": 0.515000224113464
+          },
+          "Value": 0,
+          "XmlUI": ""
+        },
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1043093675414907254/274B3A7DDF7DE1495626704FF1644A81D055BFB7/",
+            "Convex": true,
+            "CustomShader": {
+              "FresnelStrength": 0,
+              "SpecularColor": {
+                "a": 1,
+                "b": 1,
+                "g": 1,
+                "r": 1
+              },
+              "SpecularIntensity": 0,
+              "SpecularSharpness": 2
+            },
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/1670231910713744333/AA2CBCF5B7E9A374FC6FF10E75C4278CC530557E/",
+            "MaterialIndex": 3,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1670231910713743080/E72838205BCABD1C4A44B76EA78D3E41CB554023/",
+            "NormalURL": "",
+            "TypeIndex": 1
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "9ff85e",
+          "Hands": false,
+          "HideWhenFaceDown": false,
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": true,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "MeasureMovement": false,
+          "Name": "Custom_Model",
+          "Nickname": "",
+          "Snap": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "Transform": {
+            "posX": 0.00181132089346647,
+            "posY": 0.110051691532135,
+            "posZ": -0.00310147413983941,
+            "rotX": 5.39313248282269e-07,
+            "rotY": 315.027618408203,
+            "rotZ": -3.66112345773217e-07,
+            "scaleX": 1.00000011920929,
+            "scaleY": 1,
+            "scaleZ": 1.00000011920929
+          },
+          "Value": 0,
+          "XmlUI": ""
+        }
+      ],
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1043093675414907254/274B3A7DDF7DE1495626704FF1644A81D055BFB7/",
+        "Convex": true,
+        "CustomShader": {
+          "FresnelStrength": 0.107142858207226,
+          "SpecularColor": {
+            "a": 1,
+            "b": 0.746323525905609,
+            "g": 0.812880337238312,
+            "r": 0.875
+          },
+          "SpecularIntensity": 0.0500000007450581,
+          "SpecularSharpness": 2
+        },
+        "DiffuseURL": "",
+        "MaterialIndex": 1,
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1043093675415148094/DEAAD0D4F5771EC7613627CC0D74E011905986A8/",
+        "NormalURL": "",
+        "TypeIndex": 1
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": true,
+      "GridProjection": false,
+      "GUID": "c271bf",
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": false,
+      "Name": "Custom_Model",
+      "Nickname": "Warriors",
+      "Snap": true,
+      "Sticky": true,
+      "Tags": [
+        "OPR_MAP"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": -11.2780561447144,
+        "posY": 0.959999978542328,
+        "posZ": 12.4397945404053,
+        "rotX": -1.538463294537e-07,
+        "rotY": 120.00365447998,
+        "rotZ": 2.62849630416895e-06,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0
+    }
+  ],
+  "Wraith-Shard": [
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 1,
+        "g": 1,
+        "r": 1
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/777280951077770359/79442968CF06D9774DB3F70CE904A26E66C6A342/",
+        "Convex": true,
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/777280951077755026/4E7ED1096B0D9177BE1111D9CF35D557B91ED8E1/",
+        "MaterialIndex": 1,
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/777280951077954294/98CEDB2D5DE7A928EB093741872423E3614A51D8/",
+        "NormalURL": "",
+        "TypeIndex": 0
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": true,
+      "GridProjection": false,
+      "GUID": "e7dad3",
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": false,
+      "Name": "Custom_Model",
+      "Nickname": "Wraith-Shard",
+      "Snap": true,
+      "States": [
+        null,
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/777280951077770359/79442968CF06D9774DB3F70CE904A26E66C6A342/",
+            "Convex": true,
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/777280951077755026/4E7ED1096B0D9177BE1111D9CF35D557B91ED8E1/",
+            "MaterialIndex": 1,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/777280951077954294/98CEDB2D5DE7A928EB093741872423E3614A51D8/",
+            "NormalURL": "",
+            "TypeIndex": 0
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "709a77",
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "MeasureMovement": false,
+          "Name": "Custom_Model",
+          "Nickname": "Obelisk 426pts",
+          "Snap": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "Transform": {
+            "posX": -25.4361324310303,
+            "posY": -0.0395911931991577,
+            "posZ": 41.3104438781738,
+            "rotX": 359.382781982422,
+            "rotY": 269.994598388672,
+            "rotZ": 0.392218053340912,
+            "scaleX": 1.54999959468842,
+            "scaleY": 1.54999959468842,
+            "scaleZ": 1.54999959468842
+          },
+          "Value": 0
+        },
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/777280951077770359/79442968CF06D9774DB3F70CE904A26E66C6A342/",
+            "Convex": true,
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/777280951077755026/4E7ED1096B0D9177BE1111D9CF35D557B91ED8E1/",
+            "MaterialIndex": 1,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/777280951077954294/98CEDB2D5DE7A928EB093741872423E3614A51D8/",
+            "NormalURL": "",
+            "TypeIndex": 0
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "324852",
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "MeasureMovement": false,
+          "Name": "Custom_Model",
+          "Nickname": "Obelisk 426pts",
+          "Snap": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "Transform": {
+            "posX": -25.4361324310303,
+            "posY": -0.0395912230014801,
+            "posZ": 41.3104400634766,
+            "rotX": 359.382781982422,
+            "rotY": 269.994781494141,
+            "rotZ": 0.392216056585312,
+            "scaleX": 1.54999959468842,
+            "scaleY": 1.54999959468842,
+            "scaleZ": 1.54999959468842
+          },
+          "Value": 0
+        }
+      ],
+      "Sticky": true,
+      "Tags": [
+        "OPR_MAP"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": 11.0220975875854,
+        "posY": 0.946579992771149,
+        "posZ": -3.15679550170898,
+        "rotX": -1.76417074726487e-06,
+        "rotY": 270.010467529297,
+        "rotZ": -1.71648935065605e-06,
+        "scaleX": 1.54999959468842,
+        "scaleY": 1.54999959468842,
+        "scaleZ": 1.54999959468842
+      },
+      "Value": 0
+    }
+  ],
   "_default": [
     {
       "assetbundle": "http://cloud-3.steamusercontent.com/ugc/946222093771739578/CBC341707C193AA6E6F1EAACB700A615889EC227/"
