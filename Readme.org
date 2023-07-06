@@ -2,8 +2,8 @@
 This mod for TTS takes an army listing and, using mappings of units to asset bundles, automatically creates all of the necessary instances to start playing.
 
 The goal is to be able to:
-  1. Create a list
-  2. Press a button
+  1. Create a list in https://army-forge.onepagerules.com/
+  2. Paste a link
   3. Play in TTS
 
 * Usage
