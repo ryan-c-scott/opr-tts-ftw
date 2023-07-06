@@ -13,19 +13,32 @@ The goal is to be able to:
 All unit data, based on the loadout, is placed into the description and name of the spawned objects.
 "States" are supported for multiple visual options.
 
-Other user data is stored in various TTS Notebook tabs:
+** Other user data is stored in various TTS Notebook tabs
   - MAP_URL :: A list of URLs to add to the unit mapping data
   - ARMY :: Search string for finding the name of the force to use for validation when building a mapping
   - OPR_MAP :: Json formatted data output by the mapping process (will be used as an override to the data)
+  - UNMAPPED :: A list of units missing from the current mapping for the army specified in the =ARMY= notebook
 
-Context menu items on the main object are how mapping functionality is accessed:
+** Context menu items on the main object are how mapping functionality is accessed
   - Collect Mappings :: Downloads all mapping data specified (as well as the default from the repository)
   - Generate Mappings :: Build mapping data from tagged objects (see below)
   - Clear Cache :: Clear cached web data
 
+** Specifying a Alternate Mapping Files
+Add any URLs hosting mapping json files in a TTS notebook named =MAP_URL=.
+The tool will download all of them and overlay their contents onto the =build/master.json= file hosted along with the repository.
+
 ** Creating a Mapping
 Units are matched by their names and the map built from the name of the units accessed via their context menus.
-All objects tagged with "OPR_MAP" will
+All objects tagged with =OPR_MAP= will be pulled into the mapping, including any created object states.
+
+The object has a context menu item =Generate Mappings= which will generate the mappings and put resultant JSON will be put into a notebook named =OPR_MAP=.
+However, note that there is a pretty severe size limitation on notebooks in TTS (I was surprised, too), so if your json is truncate it won't be particularly useful in this process.
+
+Additionally, the =sync.py= will also receive the mapping file if it is running and place it in =mapping/_incoming.json=.
+There is no size limitation for this.
+
+If an army name (or search term) is specified in the =ARMY= notebook, the army data will be downloaded and used to provide a list of all missing units from the current mapping in the =UNMAPPED= notebook (these will also be printed to the log).
 
 * Development
 Syncing to TTS is done by:
@@ -44,3 +57,11 @@ Get the GUID of the object by right-clicking on it and going to =scripting -> gu
   - watchdog
 
 See ~python sync.py --help~ for more options.
+
+* Planned Features
+  - More convenient overriding of mappings for a specific TTS table
+  - Ability to specify logic that can map different models/states to specific loadouts
+  - Convenient mechanism to swap between any available unit matches
+  - Firefight/AOF/Skirmish support
+  - Apacolyptic rule support (eg. auto-multibasing, etc.)
+  - Match log for basic replay
