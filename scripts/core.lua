@@ -122,21 +122,28 @@ function matchUnit(mapping, unitData)
    return matches
 end
 
-function specialRulesToString(rules, first)
+SpecialRulesSelector = {}
+function SpecialRulesSelector.onlyRules(data)
+   return data.type == "ArmyBookRule"
+end
+
+function specialRulesToString(rules, selector, first)
    local out = ""
 
    local sep = first and "" or ", "
 
    for _, data in ipairs(rules) do
-      local rating = data.rating
+      if not selector or selector(data) then
+         local rating = data.rating
 
-      out = string.format("%s%s%s%s",
-              out,
-              sep,
-              data.name,
-              (rating and rating ~= "" and string.format("(%s)", rating)) or "")
+         out = string.format("%s%s%s%s",
+                 out,
+                 sep,
+                 data.label or data.name,
+                 (rating and rating ~= "" and string.format("(%s)", rating)) or "")
 
-      sep = ", "
+         sep = ", "
+      end
    end
 
    return out
@@ -145,8 +152,16 @@ end
 function processUnitLoadout(unit)
    local out = {
       attacks = "",
-      rules = specialRulesToString(unit.specialRules, true),
+      rules = specialRulesToString(unit.specialRules, nil, true),
    }
+
+   -- Get special rules from upgrades
+   for _, upgrade in pairs(unit.selectedUpgrades) do
+      local option = upgrade.option
+      if option and option.gains then
+         out.rules = out.rules .. specialRulesToString(upgrade.option.gains, SpecialRulesSelector.onlyRules, false)
+      end
+   end
 
    local multiples = unit.combined and 2 or 1
 
@@ -154,7 +169,7 @@ function processUnitLoadout(unit)
       if entry.type == "ArmyBookWeapon" then
          local count = entry.count * multiples
          local countLabel = count > 2 and string.format("%sx", count) or ""
-         local rules = specialRulesToString(entry.specialRules, true)
+         local rules = specialRulesToString(entry.specialRules, nil, true)
          local range = entry.range and string.format("%s\" ", entry.range) or ""
 
          out.attacks = out.attacks .. string.format("%s %s (%sA%s %s)\n",
@@ -165,7 +180,7 @@ function processUnitLoadout(unit)
                  rules)
 
       elseif entry.type == "ArmyBookItem" then
-         out.rules = out.rules .. specialRulesToString(entry.content, out.rules == "")
+         out.rules = out.rules .. specialRulesToString(entry.content, nil, out.rules == "")
       end
    end
 
