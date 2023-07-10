@@ -139,7 +139,7 @@ function specialRulesToString(rules, selector, first)
          out = string.format("%s%s%s%s",
                  out,
                  sep,
-                 data.label or data.name,
+                 data.name,
                  (rating and rating ~= "" and string.format("(%s)", rating)) or "")
 
          sep = ", "
@@ -168,13 +168,13 @@ function processUnitLoadout(unit)
    for _, entry in ipairs(unit.loadout) do
       if entry.type == "ArmyBookWeapon" then
          local count = entry.count * multiples
-         local countLabel = count > 2 and string.format("%sx", count) or ""
+         local countLabel = count > 1 and string.format("%sx", count) or ""
          local rules = specialRulesToString(entry.specialRules, nil, true)
-         local range = entry.range and string.format("%s\" ", entry.range) or ""
+         local range = entry.range and (not entry.range == 0) and string.format("%s\" ", entry.range) or ""
 
          out.attacks = out.attacks .. string.format("%s %s (%sA%s %s)\n",
                  countLabel,
-                 entry.label,
+                 entry.name,
                  range,
                  entry.attacks,
                  rules)
