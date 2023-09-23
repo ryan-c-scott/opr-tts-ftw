@@ -180,9 +180,9 @@ def run_server(args):
 def run():
     parser = argparse.ArgumentParser(description="")
     parser.add_argument("-r", "--host", default="localhost")
-    parser.add_argument("-p", "--port", default=39999)
-    parser.add_argument("-l", "--listen", default=39998)
-    parser.add_argument("-w", "--webport", default=8000)
+    parser.add_argument("-p", "--port", type=int, default=39999)
+    parser.add_argument("-l", "--listen", type=int, default=39998)
+    parser.add_argument("-w", "--webport", type=int, default=8000)
     parser.add_argument("--generate")
     parser.add_argument("-g", "--guid")
 
