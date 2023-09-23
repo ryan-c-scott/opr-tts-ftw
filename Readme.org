@@ -33,7 +33,7 @@ Units are matched by their names and the map built from the name of the units ac
 All objects tagged with =OPR_MAP= will be pulled into the mapping, including any created object states.
 
 The object has a context menu item =Generate Mappings= which will generate the mappings and put resultant JSON will be put into a notebook named =OPR_MAP=.
-However, note that there is a pretty severe size limitation on notebooks in TTS (I was surprised, too), so if your json is truncate it won't be particularly useful in this process.
+However, note that there is a pretty severe size limitation on notebooks in TTS (I was surprised, too), so if your json is truncated it won't be particularly useful in this process.
 
 Additionally, the =sync.py= will also receive the mapping file if it is running and place it in =mapping/_incoming.json=.
 There is no size limitation for this.
