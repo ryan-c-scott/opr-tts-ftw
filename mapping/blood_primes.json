@@ -1,58 +1,755 @@
 {
-  "Blood Aggro Squad": [ {
-    "AltLookAngle": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "Autoraise": false,
-    "ColorDiffuse": {
-      "a": 1,
-      "b": 0.999999821186066,
-      "g": 0.992160260677338,
-      "r": 0.999999821186066
-    },
-    "CustomMesh": {
-      "CastShadows": true,
-      "ColliderURL": "http://pastebin.com/raw.php?i=qS125UrP",
-      "Convex": true,
-      "DiffuseURL": "http://i.imgur.com/Nz9nctT.jpg",
-      "MaterialIndex": 3,
-      "MeshURL": "http://cloud-3.steamusercontent.com/ugc/80340029171150091/5D9CECBB157F9470E6F496E23D5C390D037E9720/",
-      "NormalURL": "",
-      "TypeIndex": 0
-    },
-    "Description": "",
-    "DragSelectable": true,
-    "GMNotes": "",
-    "Grid": false,
-    "GridProjection": false,
-    "GUID": "79d5f4",
-    "Hands": false,
-    "HideWhenFaceDown": false,
-    "IgnoreFoW": false,
-    "LayoutGroupSortIndex": 0,
-    "Locked": false,
-    "MeasureMovement": false,
-    "Name": "Custom_Model",
-    "Nickname": "Aggro Squad",
-    "Snap": false,
-    "Sticky": false,
-    "Tags": [ "OPR_MAP" ],
-    "Tooltip": true,
-    "Transform": {
-      "posX": 11.518985748291,
-      "posY": 0.98431783914566,
-      "posZ": -6.05065155029297,
-      "rotX": 1.46320815019862E-06,
-      "rotY": 179.98161315918,
-      "rotZ": 6.69721066515194E-06,
-      "scaleX": 1,
-      "scaleY": 1,
-      "scaleZ": 1
-    },
-    "Value": 0
-  } ],
+  "Blood Aggro Squad": [
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ChildObjects": [
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1750180373835528071/337710D75B8C8EF24710E08C2BA869A2D916C8A6/",
+            "Convex": true,
+            "CustomShader": {
+              "FresnelStrength": 0,
+              "SpecularColor": {
+                "a": 1,
+                "b": 1,
+                "g": 1,
+                "r": 1
+              },
+              "SpecularIntensity": 0,
+              "SpecularSharpness": 2
+            },
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/2024977803195702929/EE2D5D10ED1488221FB83937B57B6999C953C28C/",
+            "MaterialIndex": 3,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/2024977803195701753/1AC4299ED4CA12D2D1D7A91DBBA0CF3765131CE6/",
+            "NormalURL": "",
+            "TypeIndex": 1
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "f3db05",
+          "Hands": false,
+          "HideWhenFaceDown": false,
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": true,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "MeasureMovement": true,
+          "Name": "Custom_Model",
+          "Nickname": "deathwatch aggressor flamestorm photoscan 2023-06-11 (pauldron iconography)",
+          "Snap": false,
+          "Sticky": false,
+          "Tooltip": true,
+          "Transform": {
+            "posX": 0,
+            "posY": 0.129999995231628,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Value": 0,
+          "XmlUI": ""
+        },
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1750180373835528071/337710D75B8C8EF24710E08C2BA869A2D916C8A6/",
+            "Convex": true,
+            "CustomShader": {
+              "FresnelStrength": 0,
+              "SpecularColor": {
+                "a": 1,
+                "b": 1,
+                "g": 1,
+                "r": 1
+              },
+              "SpecularIntensity": 0,
+              "SpecularSharpness": 2
+            },
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/2024977803195698010/632D92172C6EE36A540989AFE9F5517AB7BA8C9B/",
+            "MaterialIndex": 3,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/2024977803195684738/14B3EDD2F7101F1F8665AB0A1129A166A8D03A81/",
+            "NormalURL": "",
+            "TypeIndex": 1
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "0fb435",
+          "Hands": false,
+          "HideWhenFaceDown": false,
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": true,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "MeasureMovement": true,
+          "Name": "Custom_Model",
+          "Nickname": "deathwatch aggressor flamestorm photoscan 2023-06-11 (model part)",
+          "Snap": false,
+          "Sticky": false,
+          "Tooltip": true,
+          "Transform": {
+            "posX": 0,
+            "posY": 0.129999995231628,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Value": 0,
+          "XmlUI": ""
+        },
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1750180373835528071/337710D75B8C8EF24710E08C2BA869A2D916C8A6/",
+            "Convex": true,
+            "CustomShader": {
+              "FresnelStrength": 0,
+              "SpecularColor": {
+                "a": 1,
+                "b": 1,
+                "g": 1,
+                "r": 1
+              },
+              "SpecularIntensity": 0,
+              "SpecularSharpness": 2
+            },
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/2024977803195700278/EEBC6AF6A17667328BD672E08A8954C26B64C90F/",
+            "MaterialIndex": 3,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/2024977803195699495/9E4A9174F5DDE16A8066DF0472C2CA10BCDA44C7/",
+            "NormalURL": "",
+            "TypeIndex": 1
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "8a934b",
+          "Hands": false,
+          "HideWhenFaceDown": false,
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": true,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "MeasureMovement": true,
+          "Name": "Custom_Model",
+          "Nickname": "deathwatch aggressor flamestorm photoscan 2023-06-11 (basing material)",
+          "Snap": false,
+          "Sticky": false,
+          "Tooltip": true,
+          "Transform": {
+            "posX": 0,
+            "posY": 0.129999995231628,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Value": 0,
+          "XmlUI": ""
+        }
+      ],
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1751306928490949523/6F35D34B8DBC7752FB157029295629EFB018EFC6/",
+        "Convex": true,
+        "CustomShader": {
+          "FresnelStrength": 0,
+          "SpecularColor": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "SpecularIntensity": 0,
+          "SpecularSharpness": 2
+        },
+        "DiffuseURL": "",
+        "MaterialIndex": 3,
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1751306928490949523/6F35D34B8DBC7752FB157029295629EFB018EFC6/",
+        "NormalURL": "",
+        "TypeIndex": 1
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": true,
+      "GridProjection": false,
+      "GUID": "ec67f1",
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": true,
+      "Name": "Custom_Model",
+      "Nickname": "Aggressor",
+      "Snap": false,
+      "Sticky": false,
+      "Tags": [
+        "OPR_MAP"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": -2.56189560890198,
+        "posY": 0.95999413728714,
+        "posZ": -0.977270185947418,
+        "rotX": 3.07441805489361e-05,
+        "rotY": 180.000030517578,
+        "rotZ": -5.47631898371037e-05,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0
+    }
+  ],
+  "Blood Grave Prime Master": [
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ChildObjects": [
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1750180373835528071/337710D75B8C8EF24710E08C2BA869A2D916C8A6/",
+            "Convex": true,
+            "CustomShader": {
+              "FresnelStrength": 0,
+              "SpecularColor": {
+                "a": 1,
+                "b": 1,
+                "g": 1,
+                "r": 1
+              },
+              "SpecularIntensity": 0,
+              "SpecularSharpness": 2
+            },
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/2018224307164718511/09FBCBC34C6C007166F32201E9B4924888CFF24E/",
+            "MaterialIndex": 3,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/2018224307164717454/7BEF710D265FD5E3ED8514A4D7CE1326F4B9BF7A/",
+            "NormalURL": "",
+            "TypeIndex": 1
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "112377",
+          "Hands": false,
+          "HideWhenFaceDown": false,
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": true,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "MeasureMovement": true,
+          "Name": "Custom_Model",
+          "Nickname": "captain in terminator armour 2023 photoscan 2023-06-29 part 1",
+          "Snap": false,
+          "Sticky": false,
+          "Tooltip": true,
+          "Transform": {
+            "posX": 0,
+            "posY": 0.129999995231628,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Value": 0,
+          "XmlUI": ""
+        },
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1750180373835528071/337710D75B8C8EF24710E08C2BA869A2D916C8A6/",
+            "Convex": true,
+            "CustomShader": {
+              "FresnelStrength": 0,
+              "SpecularColor": {
+                "a": 1,
+                "b": 1,
+                "g": 1,
+                "r": 1
+              },
+              "SpecularIntensity": 0,
+              "SpecularSharpness": 2
+            },
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/2018224307164718511/09FBCBC34C6C007166F32201E9B4924888CFF24E/",
+            "MaterialIndex": 3,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/2018224307164721413/1800A9AB547C90EAAEE7FBDCFDBEF9D124A70406/",
+            "NormalURL": "",
+            "TypeIndex": 1
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "f4da15",
+          "Hands": false,
+          "HideWhenFaceDown": false,
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": true,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "MeasureMovement": true,
+          "Name": "Custom_Model",
+          "Nickname": "captain in terminator armour 2023 photoscan 2023-06-29 part 2",
+          "Snap": false,
+          "Sticky": false,
+          "Tooltip": true,
+          "Transform": {
+            "posX": 0,
+            "posY": 0.129999995231628,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Value": 0,
+          "XmlUI": ""
+        }
+      ],
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1751306980361033841/EC3A23AE90FD7E1A0CB1BCA28F727E3A04497AA6/",
+        "Convex": true,
+        "CustomShader": {
+          "FresnelStrength": 0,
+          "SpecularColor": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "SpecularIntensity": 0,
+          "SpecularSharpness": 2
+        },
+        "DiffuseURL": "",
+        "MaterialIndex": 3,
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1751306980361033841/EC3A23AE90FD7E1A0CB1BCA28F727E3A04497AA6/",
+        "NormalURL": "",
+        "TypeIndex": 1
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": true,
+      "GridProjection": false,
+      "GUID": "37b605",
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": true,
+      "Name": "Custom_Model",
+      "Nickname": "Captain Octavius",
+      "Snap": false,
+      "States": [
+        null,
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ChildObjects": [
+            {
+              "AltLookAngle": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "Autoraise": true,
+              "ColorDiffuse": {
+                "a": 1,
+                "b": 1,
+                "g": 1,
+                "r": 1
+              },
+              "CustomMesh": {
+                "CastShadows": true,
+                "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1750180373835528071/337710D75B8C8EF24710E08C2BA869A2D916C8A6/",
+                "Convex": true,
+                "CustomShader": {
+                  "FresnelStrength": 0,
+                  "SpecularColor": {
+                    "a": 1,
+                    "b": 1,
+                    "g": 1,
+                    "r": 1
+                  },
+                  "SpecularIntensity": 0,
+                  "SpecularSharpness": 2
+                },
+                "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/2018224307168276332/E717D411E31394167DD360DC68A3B4A7D2D2ED1E/",
+                "MaterialIndex": 3,
+                "MeshURL": "http://cloud-3.steamusercontent.com/ugc/2018224307168274967/C55588775B4CCD8A67C32DC9CD08564187605649/",
+                "NormalURL": "",
+                "TypeIndex": 1
+              },
+              "Description": "",
+              "DragSelectable": true,
+              "GMNotes": "",
+              "Grid": true,
+              "GridProjection": false,
+              "GUID": "112377",
+              "Hands": false,
+              "HideWhenFaceDown": false,
+              "IgnoreFoW": false,
+              "LayoutGroupSortIndex": 0,
+              "Locked": true,
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "MeasureMovement": true,
+              "Name": "Custom_Model",
+              "Nickname": "librarian in terminator armour 2023, low-quality photoscan 2023-06-30 (higher quality photoscan possibly coming later)",
+              "Snap": false,
+              "Sticky": false,
+              "Tooltip": true,
+              "Transform": {
+                "posX": 0,
+                "posY": 0.129999995231628,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 0,
+                "rotZ": 0,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Value": 0,
+              "XmlUI": ""
+            }
+          ],
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1751306928490949523/6F35D34B8DBC7752FB157029295629EFB018EFC6/",
+            "Convex": true,
+            "CustomShader": {
+              "FresnelStrength": 0,
+              "SpecularColor": {
+                "a": 1,
+                "b": 1,
+                "g": 1,
+                "r": 1
+              },
+              "SpecularIntensity": 0,
+              "SpecularSharpness": 2
+            },
+            "DiffuseURL": "",
+            "MaterialIndex": 3,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1751306928490949523/6F35D34B8DBC7752FB157029295629EFB018EFC6/",
+            "NormalURL": "",
+            "TypeIndex": 1
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "396bab",
+          "Hands": false,
+          "HideWhenFaceDown": false,
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "MeasureMovement": true,
+          "Name": "Custom_Model",
+          "Nickname": "Librarian Tantus",
+          "Snap": false,
+          "Sticky": false,
+          "Tooltip": true,
+          "Transform": {
+            "posX": -59.9400367736816,
+            "posY": 1.55743980407715,
+            "posZ": -25.9199981689453,
+            "rotX": 0.0168778896331787,
+            "rotY": 179.999740600586,
+            "rotZ": 0.0799003913998604,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Value": 0
+        }
+      ],
+      "Sticky": false,
+      "Tags": [
+        "OPR_MAP"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": -0.131800875067711,
+        "posY": 0.95999276638031,
+        "posZ": -0.167295262217522,
+        "rotX": -1.68256337929051e-05,
+        "rotY": 180,
+        "rotZ": 5.50739641766995e-05,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0
+    }
+  ],
+  "Blood Infernal Squad": [
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ChildObjects": [
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1750180373835528071/337710D75B8C8EF24710E08C2BA869A2D916C8A6/",
+            "Convex": true,
+            "CustomShader": {
+              "FresnelStrength": 0,
+              "SpecularColor": {
+                "a": 1,
+                "b": 1,
+                "g": 1,
+                "r": 1
+              },
+              "SpecularIntensity": 0,
+              "SpecularSharpness": 2
+            },
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/2018224307169351335/D042814B08DE8CDD291F50D93C3C949F3CBB6462/",
+            "MaterialIndex": 3,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/2018224307169349913/DC6806C27782598F68F34127C3669B9B34050182/",
+            "NormalURL": "",
+            "TypeIndex": 1
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "f45f80",
+          "Hands": false,
+          "HideWhenFaceDown": false,
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": true,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "MeasureMovement": true,
+          "Name": "Custom_Model",
+          "Nickname": "Infernus marines non-sarge, low-quality photoscan 2023-06-30 (higher quality photoscan possibly coming later)",
+          "Snap": false,
+          "Sticky": false,
+          "Tooltip": true,
+          "Transform": {
+            "posX": 0,
+            "posY": 0.129999995231628,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Value": 0,
+          "XmlUI": ""
+        }
+      ],
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1750180373835500024/860E82C9E02DBB67AA510CB8DBBF19EC29DE1D58/",
+        "Convex": true,
+        "CustomShader": {
+          "FresnelStrength": 0,
+          "SpecularColor": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "SpecularIntensity": 0,
+          "SpecularSharpness": 2
+        },
+        "DiffuseURL": "",
+        "MaterialIndex": 3,
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1750180373835500024/860E82C9E02DBB67AA510CB8DBBF19EC29DE1D58/",
+        "NormalURL": "",
+        "TypeIndex": 1
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": true,
+      "GridProjection": false,
+      "GUID": "64508f",
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": true,
+      "Name": "Custom_Model",
+      "Nickname": "Infernus Marine",
+      "Snap": false,
+      "Sticky": false,
+      "Tags": [
+        "OPR_MAP"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": -5.80176782608032,
+        "posY": 0.959994673728943,
+        "posZ": -0.97730553150177,
+        "rotX": -3.21264960803092e-05,
+        "rotY": 105.000022888184,
+        "rotZ": 0.000106346771644894,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0
+    }
+  ],
   "Blood Anti-Grav APC": [ {
     "AltLookAngle": {
       "x": 0,
