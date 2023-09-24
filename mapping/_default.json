@@ -1,7 +1,103 @@
 {
-  "_default": [
-    {
-    "assetbundle": "http://cloud-3.steamusercontent.com/ugc/946222093771739578/CBC341707C193AA6E6F1EAACB700A615889EC227/"
-  }
-  ]
+  "_default": [ {
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "Autoraise": true,
+    "ColorDiffuse": {
+      "a": 1,
+      "b": 1,
+      "g": 1,
+      "r": 1
+    },
+    "CustomAssetbundle": {
+      "AssetbundleSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/868491143102751299/C360C2CB6147DD3C65C912B8EBDD9D5E8C4E8128/",
+      "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/868491143102764622/914A1D491F58F39D3CD2AB5C3A8349B8C2F0C46C/",
+      "LoopingEffectIndex": 0,
+      "MaterialIndex": 0,
+      "TypeIndex": 1
+    },
+    "Description": "",
+    "DragSelectable": true,
+    "GMNotes": "",
+    "Grid": true,
+    "GridProjection": false,
+    "GUID": "bcbd33",
+    "Hands": false,
+    "HideWhenFaceDown": false,
+    "IgnoreFoW": false,
+    "LayoutGroupSortIndex": 0,
+    "Locked": false,
+    "MeasureMovement": false,
+    "Name": "Custom_Assetbundle",
+    "Nickname": "Blood Assault Squad",
+    "Snap": true,
+    "Sticky": true,
+    "Tags": [ "OPR_MAP" ],
+    "Tooltip": true,
+    "Transform": {
+      "posX": 4.55948686599731,
+      "posY": 0.990166485309601,
+      "posZ": -4.73438262939453,
+      "rotX": 4.10381016990868E-06,
+      "rotY": 224.999862670898,
+      "rotZ": 3.98336578655289E-06,
+      "scaleX": 0.425000488758087,
+      "scaleY": 0.425000488758087,
+      "scaleZ": 0.425000488758087
+    },
+    "Value": 0
+  }, {
+    "AltLookAngle": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "Autoraise": true,
+    "ColorDiffuse": {
+      "a": 1,
+      "b": 1,
+      "g": 1,
+      "r": 1
+    },
+    "CustomAssetbundle": {
+      "AssetbundleSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/868491143102751299/C360C2CB6147DD3C65C912B8EBDD9D5E8C4E8128/",
+      "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/868491143102760245/E2831CECF9376D89672D34BFA474DBBD5C7C9BBD/",
+      "LoopingEffectIndex": 0,
+      "MaterialIndex": 0,
+      "TypeIndex": 1
+    },
+    "Description": "",
+    "DragSelectable": true,
+    "GMNotes": "",
+    "Grid": true,
+    "GridProjection": false,
+    "GUID": "36f5d8",
+    "Hands": false,
+    "HideWhenFaceDown": false,
+    "IgnoreFoW": false,
+    "LayoutGroupSortIndex": 0,
+    "Locked": false,
+    "MeasureMovement": true,
+    "Name": "Custom_Assetbundle",
+    "Nickname": "Blood Assault Squad",
+    "Snap": true,
+    "Sticky": true,
+    "Tags": [ "OPR_MAP" ],
+    "Tooltip": true,
+    "Transform": {
+      "posX": 4.69133043289185,
+      "posY": 0.990166485309601,
+      "posZ": -15.3025321960449,
+      "rotX": -1.90936475519266E-06,
+      "rotY": 209.993286132813,
+      "rotZ": -1.35881703045015E-06,
+      "scaleX": 0.425000488758087,
+      "scaleY": 0.425000488758087,
+      "scaleZ": 0.425000488758087
+    },
+    "Value": 0
+  } ]
 }
