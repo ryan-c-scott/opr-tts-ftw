@@ -116,7 +116,11 @@ function copyPos(pos)
 	return Vector(pos.x, pos.y, pos.z)
 end
 
-function matchUnit(mapping, unitData)
+function matchUnit(mapping, unitData, forceDefault)
+	if forceDefault then
+		return mapping._default
+	end
+
 	local matches = mapping[unitData.name:lower()] or mapping._default
 
 	return matches
@@ -187,7 +191,7 @@ function processUnitLoadout(unit)
 	return out
 end
 
-function spawnUnit(data, color, spawnerObj, pos)
+function spawnUnit(data, color, spawnerObj, pos, forceDefault)
 	local maxX = pos.x
 	local cursor = copyPos(pos)
 	local maxSize = Vector()
@@ -196,7 +200,7 @@ function spawnUnit(data, color, spawnerObj, pos)
 	local modelCount = data.size * (data.combined and 2 or 1)
 
 	for i = 1, modelCount do
-		local modelVariants = matchUnit(_unitMapping, data)
+		local modelVariants = matchUnit(_unitMapping, data, forceDefault)
 		local model = T.clone(modelVariants[#modelVariants])
 
 		-- TODO: Refactor so all variants can be context menu items
@@ -233,6 +237,10 @@ function spawnUnit(data, color, spawnerObj, pos)
 			position = spawnerObj.positionToWorld(spawnPos),
 		})
 
+		if not obj then
+			return false
+		end
+
 		obj.setRotation(Vector(0, spawnerRotationY, 0) + obj.getRotation())
 		obj.addTag(color)
 		obj.measure_movement = true
@@ -247,7 +255,7 @@ function spawnUnit(data, color, spawnerObj, pos)
 	end
 
 	pos.x = maxX + maxSize.x * 0.5 + _unitSpacing
-	return obj, pos
+	return true, pos
 end
 
 function spawnList(data, color, obj)
@@ -259,7 +267,15 @@ function spawnList(data, color, obj)
 
 		if not combinedId or not seen[combinedId] then
 			print("		   SPAWNING ", unit.name)
-			local obj, pos = spawnUnit(unit, color, obj, pos)
+			local success, lastPos = spawnUnit(unit, color, obj, pos)
+
+			-- On spawn error, try again forcing the fallback
+			if success then
+				pos = lastPos
+			else
+				print("		   		   FAILED. Trying default")
+				success, pos = spawnUnit(unit, color, obj, pos, true)
+			end
 
 			if combinedId then
 				seen[combinedId] = true
