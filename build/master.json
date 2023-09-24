@@ -3570,44 +3570,258 @@
       "Value": 0
     }
   ],
-  "Aggro Squad": [
+  "Blood Aggro Squad": [
     {
       "AltLookAngle": {
         "x": 0,
         "y": 0,
         "z": 0
       },
-      "Autoraise": false,
+      "Autoraise": true,
+      "ChildObjects": [
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1750180373835528071/337710D75B8C8EF24710E08C2BA869A2D916C8A6/",
+            "Convex": true,
+            "CustomShader": {
+              "FresnelStrength": 0,
+              "SpecularColor": {
+                "a": 1,
+                "b": 1,
+                "g": 1,
+                "r": 1
+              },
+              "SpecularIntensity": 0,
+              "SpecularSharpness": 2
+            },
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/2024977803195702929/EE2D5D10ED1488221FB83937B57B6999C953C28C/",
+            "MaterialIndex": 3,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/2024977803195701753/1AC4299ED4CA12D2D1D7A91DBBA0CF3765131CE6/",
+            "NormalURL": "",
+            "TypeIndex": 1
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "f3db05",
+          "Hands": false,
+          "HideWhenFaceDown": false,
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": true,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "MeasureMovement": true,
+          "Name": "Custom_Model",
+          "Nickname": "deathwatch aggressor flamestorm photoscan 2023-06-11 (pauldron iconography)",
+          "Snap": false,
+          "Sticky": false,
+          "Tooltip": true,
+          "Transform": {
+            "posX": 0,
+            "posY": 0.129999995231628,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Value": 0,
+          "XmlUI": ""
+        },
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1750180373835528071/337710D75B8C8EF24710E08C2BA869A2D916C8A6/",
+            "Convex": true,
+            "CustomShader": {
+              "FresnelStrength": 0,
+              "SpecularColor": {
+                "a": 1,
+                "b": 1,
+                "g": 1,
+                "r": 1
+              },
+              "SpecularIntensity": 0,
+              "SpecularSharpness": 2
+            },
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/2024977803195698010/632D92172C6EE36A540989AFE9F5517AB7BA8C9B/",
+            "MaterialIndex": 3,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/2024977803195684738/14B3EDD2F7101F1F8665AB0A1129A166A8D03A81/",
+            "NormalURL": "",
+            "TypeIndex": 1
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "0fb435",
+          "Hands": false,
+          "HideWhenFaceDown": false,
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": true,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "MeasureMovement": true,
+          "Name": "Custom_Model",
+          "Nickname": "deathwatch aggressor flamestorm photoscan 2023-06-11 (model part)",
+          "Snap": false,
+          "Sticky": false,
+          "Tooltip": true,
+          "Transform": {
+            "posX": 0,
+            "posY": 0.129999995231628,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Value": 0,
+          "XmlUI": ""
+        },
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1750180373835528071/337710D75B8C8EF24710E08C2BA869A2D916C8A6/",
+            "Convex": true,
+            "CustomShader": {
+              "FresnelStrength": 0,
+              "SpecularColor": {
+                "a": 1,
+                "b": 1,
+                "g": 1,
+                "r": 1
+              },
+              "SpecularIntensity": 0,
+              "SpecularSharpness": 2
+            },
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/2024977803195700278/EEBC6AF6A17667328BD672E08A8954C26B64C90F/",
+            "MaterialIndex": 3,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/2024977803195699495/9E4A9174F5DDE16A8066DF0472C2CA10BCDA44C7/",
+            "NormalURL": "",
+            "TypeIndex": 1
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "8a934b",
+          "Hands": false,
+          "HideWhenFaceDown": false,
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": true,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "MeasureMovement": true,
+          "Name": "Custom_Model",
+          "Nickname": "deathwatch aggressor flamestorm photoscan 2023-06-11 (basing material)",
+          "Snap": false,
+          "Sticky": false,
+          "Tooltip": true,
+          "Transform": {
+            "posX": 0,
+            "posY": 0.129999995231628,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Value": 0,
+          "XmlUI": ""
+        }
+      ],
       "ColorDiffuse": {
         "a": 1,
-        "b": 0.999999821186066,
-        "g": 0.992160260677338,
-        "r": 0.999999821186066
+        "b": 0,
+        "g": 0,
+        "r": 0
       },
       "CustomMesh": {
         "CastShadows": true,
-        "ColliderURL": "http://pastebin.com/raw.php?i=qS125UrP",
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1751306928490949523/6F35D34B8DBC7752FB157029295629EFB018EFC6/",
         "Convex": true,
-        "DiffuseURL": "http://i.imgur.com/Nz9nctT.jpg",
+        "CustomShader": {
+          "FresnelStrength": 0,
+          "SpecularColor": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "SpecularIntensity": 0,
+          "SpecularSharpness": 2
+        },
+        "DiffuseURL": "",
         "MaterialIndex": 3,
-        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/80340029171150091/5D9CECBB157F9470E6F496E23D5C390D037E9720/",
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1751306928490949523/6F35D34B8DBC7752FB157029295629EFB018EFC6/",
         "NormalURL": "",
-        "TypeIndex": 0
+        "TypeIndex": 1
       },
       "Description": "",
       "DragSelectable": true,
       "GMNotes": "",
-      "Grid": false,
+      "Grid": true,
       "GridProjection": false,
-      "GUID": "79d5f4",
+      "GUID": "ec67f1",
       "Hands": false,
       "HideWhenFaceDown": false,
       "IgnoreFoW": false,
       "LayoutGroupSortIndex": 0,
       "Locked": false,
-      "MeasureMovement": false,
+      "MeasureMovement": true,
       "Name": "Custom_Model",
-      "Nickname": "Aggro Squad",
+      "Nickname": "Blood Aggro Squad",
       "Snap": false,
       "Sticky": false,
       "Tags": [
@@ -3615,12 +3829,491 @@
       ],
       "Tooltip": true,
       "Transform": {
-        "posX": 11.518985748291,
-        "posY": 0.98431783914566,
-        "posZ": -6.05065155029297,
-        "rotX": 1.46320815019862e-06,
-        "rotY": 179.98161315918,
-        "rotZ": 6.69721066515194e-06,
+        "posX": 6.32575273513794,
+        "posY": 0.959999859333038,
+        "posZ": -13.4638824462891,
+        "rotX": 4.42062656702547e-07,
+        "rotY": 180.000076293945,
+        "rotZ": 1.81360587703239e-06,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0
+    }
+  ],
+  "Blood Grave Prime Master": [
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ChildObjects": [
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1750180373835528071/337710D75B8C8EF24710E08C2BA869A2D916C8A6/",
+            "Convex": true,
+            "CustomShader": {
+              "FresnelStrength": 0,
+              "SpecularColor": {
+                "a": 1,
+                "b": 1,
+                "g": 1,
+                "r": 1
+              },
+              "SpecularIntensity": 0,
+              "SpecularSharpness": 2
+            },
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/2018224307164718511/09FBCBC34C6C007166F32201E9B4924888CFF24E/",
+            "MaterialIndex": 3,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/2018224307164717454/7BEF710D265FD5E3ED8514A4D7CE1326F4B9BF7A/",
+            "NormalURL": "",
+            "TypeIndex": 1
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "112377",
+          "Hands": false,
+          "HideWhenFaceDown": false,
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": true,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "MeasureMovement": true,
+          "Name": "Custom_Model",
+          "Nickname": "captain in terminator armour 2023 photoscan 2023-06-29 part 1",
+          "Snap": false,
+          "Sticky": false,
+          "Tooltip": true,
+          "Transform": {
+            "posX": 0,
+            "posY": 0.129999995231628,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Value": 0,
+          "XmlUI": ""
+        },
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1750180373835528071/337710D75B8C8EF24710E08C2BA869A2D916C8A6/",
+            "Convex": true,
+            "CustomShader": {
+              "FresnelStrength": 0,
+              "SpecularColor": {
+                "a": 1,
+                "b": 1,
+                "g": 1,
+                "r": 1
+              },
+              "SpecularIntensity": 0,
+              "SpecularSharpness": 2
+            },
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/2018224307164718511/09FBCBC34C6C007166F32201E9B4924888CFF24E/",
+            "MaterialIndex": 3,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/2018224307164721413/1800A9AB547C90EAAEE7FBDCFDBEF9D124A70406/",
+            "NormalURL": "",
+            "TypeIndex": 1
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "f4da15",
+          "Hands": false,
+          "HideWhenFaceDown": false,
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": true,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "MeasureMovement": true,
+          "Name": "Custom_Model",
+          "Nickname": "captain in terminator armour 2023 photoscan 2023-06-29 part 2",
+          "Snap": false,
+          "Sticky": false,
+          "Tooltip": true,
+          "Transform": {
+            "posX": 0,
+            "posY": 0.129999995231628,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Value": 0,
+          "XmlUI": ""
+        }
+      ],
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1751306980361033841/EC3A23AE90FD7E1A0CB1BCA28F727E3A04497AA6/",
+        "Convex": true,
+        "CustomShader": {
+          "FresnelStrength": 0,
+          "SpecularColor": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "SpecularIntensity": 0,
+          "SpecularSharpness": 2
+        },
+        "DiffuseURL": "",
+        "MaterialIndex": 3,
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1751306980361033841/EC3A23AE90FD7E1A0CB1BCA28F727E3A04497AA6/",
+        "NormalURL": "",
+        "TypeIndex": 1
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": true,
+      "GridProjection": false,
+      "GUID": "37b605",
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": true,
+      "Name": "Custom_Model",
+      "Nickname": "Blood Grave Prime Master",
+      "Snap": false,
+      "States": [
+        null,
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ChildObjects": [
+            {
+              "AltLookAngle": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "Autoraise": true,
+              "ColorDiffuse": {
+                "a": 1,
+                "b": 1,
+                "g": 1,
+                "r": 1
+              },
+              "CustomMesh": {
+                "CastShadows": true,
+                "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1750180373835528071/337710D75B8C8EF24710E08C2BA869A2D916C8A6/",
+                "Convex": true,
+                "CustomShader": {
+                  "FresnelStrength": 0,
+                  "SpecularColor": {
+                    "a": 1,
+                    "b": 1,
+                    "g": 1,
+                    "r": 1
+                  },
+                  "SpecularIntensity": 0,
+                  "SpecularSharpness": 2
+                },
+                "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/2018224307168276332/E717D411E31394167DD360DC68A3B4A7D2D2ED1E/",
+                "MaterialIndex": 3,
+                "MeshURL": "http://cloud-3.steamusercontent.com/ugc/2018224307168274967/C55588775B4CCD8A67C32DC9CD08564187605649/",
+                "NormalURL": "",
+                "TypeIndex": 1
+              },
+              "Description": "",
+              "DragSelectable": true,
+              "GMNotes": "",
+              "Grid": true,
+              "GridProjection": false,
+              "GUID": "112377",
+              "Hands": false,
+              "HideWhenFaceDown": false,
+              "IgnoreFoW": false,
+              "LayoutGroupSortIndex": 0,
+              "Locked": true,
+              "LuaScript": "",
+              "LuaScriptState": "",
+              "MeasureMovement": true,
+              "Name": "Custom_Model",
+              "Nickname": "librarian in terminator armour 2023, low-quality photoscan 2023-06-30 (higher quality photoscan possibly coming later)",
+              "Snap": false,
+              "Sticky": false,
+              "Tooltip": true,
+              "Transform": {
+                "posX": 0,
+                "posY": 0.129999995231628,
+                "posZ": 0,
+                "rotX": 0,
+                "rotY": 0,
+                "rotZ": 0,
+                "scaleX": 1,
+                "scaleY": 1,
+                "scaleZ": 1
+              },
+              "Value": 0,
+              "XmlUI": ""
+            }
+          ],
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1751306928490949523/6F35D34B8DBC7752FB157029295629EFB018EFC6/",
+            "Convex": true,
+            "CustomShader": {
+              "FresnelStrength": 0,
+              "SpecularColor": {
+                "a": 1,
+                "b": 1,
+                "g": 1,
+                "r": 1
+              },
+              "SpecularIntensity": 0,
+              "SpecularSharpness": 2
+            },
+            "DiffuseURL": "",
+            "MaterialIndex": 3,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1751306928490949523/6F35D34B8DBC7752FB157029295629EFB018EFC6/",
+            "NormalURL": "",
+            "TypeIndex": 1
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "396bab",
+          "Hands": false,
+          "HideWhenFaceDown": false,
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "MeasureMovement": true,
+          "Name": "Custom_Model",
+          "Nickname": "Librarian Tantus",
+          "Snap": false,
+          "Sticky": false,
+          "Tooltip": true,
+          "Transform": {
+            "posX": -59.9400367736816,
+            "posY": 1.55743980407715,
+            "posZ": -25.9199981689453,
+            "rotX": 0.0168778896331787,
+            "rotY": 179.999740600586,
+            "rotZ": 0.0799003913998604,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Value": 0
+        }
+      ],
+      "Sticky": false,
+      "Tags": [
+        "OPR_MAP"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": 10.1373882293701,
+        "posY": 0.96000075340271,
+        "posZ": -13.3045358657837,
+        "rotX": 8.5491148638539e-05,
+        "rotY": 180.000030517578,
+        "rotZ": -8.7668260675855e-05,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0
+    }
+  ],
+  "Blood Infernal Squad": [
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ChildObjects": [
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1750180373835528071/337710D75B8C8EF24710E08C2BA869A2D916C8A6/",
+            "Convex": true,
+            "CustomShader": {
+              "FresnelStrength": 0,
+              "SpecularColor": {
+                "a": 1,
+                "b": 1,
+                "g": 1,
+                "r": 1
+              },
+              "SpecularIntensity": 0,
+              "SpecularSharpness": 2
+            },
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/2018224307169351335/D042814B08DE8CDD291F50D93C3C949F3CBB6462/",
+            "MaterialIndex": 3,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/2018224307169349913/DC6806C27782598F68F34127C3669B9B34050182/",
+            "NormalURL": "",
+            "TypeIndex": 1
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "f45f80",
+          "Hands": false,
+          "HideWhenFaceDown": false,
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": true,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "MeasureMovement": true,
+          "Name": "Custom_Model",
+          "Nickname": "Infernus marines non-sarge, low-quality photoscan 2023-06-30 (higher quality photoscan possibly coming later)",
+          "Snap": false,
+          "Sticky": false,
+          "Tooltip": true,
+          "Transform": {
+            "posX": 0,
+            "posY": 0.129999995231628,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Value": 0,
+          "XmlUI": ""
+        }
+      ],
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1750180373835500024/860E82C9E02DBB67AA510CB8DBBF19EC29DE1D58/",
+        "Convex": true,
+        "CustomShader": {
+          "FresnelStrength": 0,
+          "SpecularColor": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "SpecularIntensity": 0,
+          "SpecularSharpness": 2
+        },
+        "DiffuseURL": "",
+        "MaterialIndex": 3,
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1750180373835500024/860E82C9E02DBB67AA510CB8DBBF19EC29DE1D58/",
+        "NormalURL": "",
+        "TypeIndex": 1
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": true,
+      "GridProjection": false,
+      "GUID": "64508f",
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": true,
+      "Name": "Custom_Model",
+      "Nickname": "Blood Infernal Squad",
+      "Snap": false,
+      "Sticky": false,
+      "Tags": [
+        "OPR_MAP"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": 3.08587193489075,
+        "posY": 0.960000276565552,
+        "posZ": -13.4639148712158,
+        "rotX": 6.2635175709147e-05,
+        "rotY": 105.000061035156,
+        "rotZ": -2.64110021817032e-05,
         "scaleX": 1,
         "scaleY": 1,
         "scaleZ": 1
@@ -12971,7 +13664,2501 @@
   ],
   "_default": [
     {
-      "assetbundle": "http://cloud-3.steamusercontent.com/ugc/946222093771739578/CBC341707C193AA6E6F1EAACB700A615889EC227/"
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 1,
+        "g": 1,
+        "r": 1
+      },
+      "CustomAssetbundle": {
+        "AssetbundleSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/868491143102751299/C360C2CB6147DD3C65C912B8EBDD9D5E8C4E8128/",
+        "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/868491143102764622/914A1D491F58F39D3CD2AB5C3A8349B8C2F0C46C/",
+        "LoopingEffectIndex": 0,
+        "MaterialIndex": 0,
+        "TypeIndex": 1
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": true,
+      "GridProjection": false,
+      "GUID": "bcbd33",
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": false,
+      "Name": "Custom_Assetbundle",
+      "Nickname": "Blood Assault Squad",
+      "Snap": true,
+      "Sticky": true,
+      "Tags": [
+        "OPR_MAP"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": 4.55948686599731,
+        "posY": 0.990166485309601,
+        "posZ": -4.73438262939453,
+        "rotX": 4.10381016990868e-06,
+        "rotY": 224.999862670898,
+        "rotZ": 3.98336578655289e-06,
+        "scaleX": 0.425000488758087,
+        "scaleY": 0.425000488758087,
+        "scaleZ": 0.425000488758087
+      },
+      "Value": 0
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 1,
+        "g": 1,
+        "r": 1
+      },
+      "CustomAssetbundle": {
+        "AssetbundleSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/868491143102751299/C360C2CB6147DD3C65C912B8EBDD9D5E8C4E8128/",
+        "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/868491143102760245/E2831CECF9376D89672D34BFA474DBBD5C7C9BBD/",
+        "LoopingEffectIndex": 0,
+        "MaterialIndex": 0,
+        "TypeIndex": 1
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": true,
+      "GridProjection": false,
+      "GUID": "36f5d8",
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": true,
+      "Name": "Custom_Assetbundle",
+      "Nickname": "Blood Assault Squad",
+      "Snap": true,
+      "Sticky": true,
+      "Tags": [
+        "OPR_MAP"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": 4.69133043289185,
+        "posY": 0.990166485309601,
+        "posZ": -15.3025321960449,
+        "rotX": -1.90936475519266e-06,
+        "rotY": 209.993286132813,
+        "rotZ": -1.35881703045015e-06,
+        "scaleX": 0.425000488758087,
+        "scaleY": 0.425000488758087,
+        "scaleZ": 0.425000488758087
+      },
+      "Value": 0
+    }
+  ],
+  "Blood Aggro Squad [b][00eeee]Q3[-] [Ffc125]D2[-][/b] [8hcok]": [
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ChildObjects": [
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1750180373835528071/337710D75B8C8EF24710E08C2BA869A2D916C8A6/",
+            "Convex": true,
+            "CustomShader": {
+              "FresnelStrength": 0,
+              "SpecularColor": {
+                "a": 1,
+                "b": 1,
+                "g": 1,
+                "r": 1
+              },
+              "SpecularIntensity": 0,
+              "SpecularSharpness": 2
+            },
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/2024977803195702929/EE2D5D10ED1488221FB83937B57B6999C953C28C/",
+            "MaterialIndex": 3,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/2024977803195701753/1AC4299ED4CA12D2D1D7A91DBBA0CF3765131CE6/",
+            "NormalURL": "",
+            "TypeIndex": 1
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "f3db05",
+          "Hands": false,
+          "HideWhenFaceDown": false,
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": true,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "MeasureMovement": true,
+          "Name": "Custom_Model",
+          "Nickname": "deathwatch aggressor flamestorm photoscan 2023-06-11 (pauldron iconography)",
+          "Snap": false,
+          "Sticky": false,
+          "Tooltip": true,
+          "Transform": {
+            "posX": 0,
+            "posY": 0.129999995231628,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Value": 0,
+          "XmlUI": ""
+        },
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1750180373835528071/337710D75B8C8EF24710E08C2BA869A2D916C8A6/",
+            "Convex": true,
+            "CustomShader": {
+              "FresnelStrength": 0,
+              "SpecularColor": {
+                "a": 1,
+                "b": 1,
+                "g": 1,
+                "r": 1
+              },
+              "SpecularIntensity": 0,
+              "SpecularSharpness": 2
+            },
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/2024977803195698010/632D92172C6EE36A540989AFE9F5517AB7BA8C9B/",
+            "MaterialIndex": 3,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/2024977803195684738/14B3EDD2F7101F1F8665AB0A1129A166A8D03A81/",
+            "NormalURL": "",
+            "TypeIndex": 1
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "0fb435",
+          "Hands": false,
+          "HideWhenFaceDown": false,
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": true,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "MeasureMovement": true,
+          "Name": "Custom_Model",
+          "Nickname": "deathwatch aggressor flamestorm photoscan 2023-06-11 (model part)",
+          "Snap": false,
+          "Sticky": false,
+          "Tooltip": true,
+          "Transform": {
+            "posX": 0,
+            "posY": 0.129999995231628,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Value": 0,
+          "XmlUI": ""
+        },
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1750180373835528071/337710D75B8C8EF24710E08C2BA869A2D916C8A6/",
+            "Convex": true,
+            "CustomShader": {
+              "FresnelStrength": 0,
+              "SpecularColor": {
+                "a": 1,
+                "b": 1,
+                "g": 1,
+                "r": 1
+              },
+              "SpecularIntensity": 0,
+              "SpecularSharpness": 2
+            },
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/2024977803195700278/EEBC6AF6A17667328BD672E08A8954C26B64C90F/",
+            "MaterialIndex": 3,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/2024977803195699495/9E4A9174F5DDE16A8066DF0472C2CA10BCDA44C7/",
+            "NormalURL": "",
+            "TypeIndex": 1
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "8a934b",
+          "Hands": false,
+          "HideWhenFaceDown": false,
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": true,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "MeasureMovement": true,
+          "Name": "Custom_Model",
+          "Nickname": "deathwatch aggressor flamestorm photoscan 2023-06-11 (basing material)",
+          "Snap": false,
+          "Sticky": false,
+          "Tooltip": true,
+          "Transform": {
+            "posX": 0,
+            "posY": 0.129999995231628,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Value": 0,
+          "XmlUI": ""
+        }
+      ],
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1751306928490949523/6F35D34B8DBC7752FB157029295629EFB018EFC6/",
+        "Convex": true,
+        "CustomShader": {
+          "FresnelStrength": 0,
+          "SpecularColor": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "SpecularIntensity": 0,
+          "SpecularSharpness": 2
+        },
+        "DiffuseURL": "",
+        "MaterialIndex": 3,
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1751306928490949523/6F35D34B8DBC7752FB157029295629EFB018EFC6/",
+        "NormalURL": "",
+        "TypeIndex": 1
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": true,
+      "GridProjection": false,
+      "GUID": "8dd493",
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": true,
+      "Name": "Custom_Model",
+      "Nickname": "Blood Aggro Squad [b][00eeee]Q3[-] [Ffc125]D2[-][/b] [8hcok]",
+      "Snap": false,
+      "Sticky": false,
+      "Tags": [
+        "OPR_MAP",
+        "White"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": -11.8540983200073,
+        "posY": 0.960000395774841,
+        "posZ": -5.7971305847168,
+        "rotX": 5.33858255948871e-05,
+        "rotY": 180.000137329102,
+        "rotZ": -7.3220428021159e-05,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ChildObjects": [
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1750180373835528071/337710D75B8C8EF24710E08C2BA869A2D916C8A6/",
+            "Convex": true,
+            "CustomShader": {
+              "FresnelStrength": 0,
+              "SpecularColor": {
+                "a": 1,
+                "b": 1,
+                "g": 1,
+                "r": 1
+              },
+              "SpecularIntensity": 0,
+              "SpecularSharpness": 2
+            },
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/2024977803195702929/EE2D5D10ED1488221FB83937B57B6999C953C28C/",
+            "MaterialIndex": 3,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/2024977803195701753/1AC4299ED4CA12D2D1D7A91DBBA0CF3765131CE6/",
+            "NormalURL": "",
+            "TypeIndex": 1
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "f3db05",
+          "Hands": false,
+          "HideWhenFaceDown": false,
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": true,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "MeasureMovement": true,
+          "Name": "Custom_Model",
+          "Nickname": "deathwatch aggressor flamestorm photoscan 2023-06-11 (pauldron iconography)",
+          "Snap": false,
+          "Sticky": false,
+          "Tooltip": true,
+          "Transform": {
+            "posX": 0,
+            "posY": 0.129999995231628,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Value": 0,
+          "XmlUI": ""
+        },
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1750180373835528071/337710D75B8C8EF24710E08C2BA869A2D916C8A6/",
+            "Convex": true,
+            "CustomShader": {
+              "FresnelStrength": 0,
+              "SpecularColor": {
+                "a": 1,
+                "b": 1,
+                "g": 1,
+                "r": 1
+              },
+              "SpecularIntensity": 0,
+              "SpecularSharpness": 2
+            },
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/2024977803195698010/632D92172C6EE36A540989AFE9F5517AB7BA8C9B/",
+            "MaterialIndex": 3,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/2024977803195684738/14B3EDD2F7101F1F8665AB0A1129A166A8D03A81/",
+            "NormalURL": "",
+            "TypeIndex": 1
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "0fb435",
+          "Hands": false,
+          "HideWhenFaceDown": false,
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": true,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "MeasureMovement": true,
+          "Name": "Custom_Model",
+          "Nickname": "deathwatch aggressor flamestorm photoscan 2023-06-11 (model part)",
+          "Snap": false,
+          "Sticky": false,
+          "Tooltip": true,
+          "Transform": {
+            "posX": 0,
+            "posY": 0.129999995231628,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Value": 0,
+          "XmlUI": ""
+        },
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1750180373835528071/337710D75B8C8EF24710E08C2BA869A2D916C8A6/",
+            "Convex": true,
+            "CustomShader": {
+              "FresnelStrength": 0,
+              "SpecularColor": {
+                "a": 1,
+                "b": 1,
+                "g": 1,
+                "r": 1
+              },
+              "SpecularIntensity": 0,
+              "SpecularSharpness": 2
+            },
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/2024977803195700278/EEBC6AF6A17667328BD672E08A8954C26B64C90F/",
+            "MaterialIndex": 3,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/2024977803195699495/9E4A9174F5DDE16A8066DF0472C2CA10BCDA44C7/",
+            "NormalURL": "",
+            "TypeIndex": 1
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "8a934b",
+          "Hands": false,
+          "HideWhenFaceDown": false,
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": true,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "MeasureMovement": true,
+          "Name": "Custom_Model",
+          "Nickname": "deathwatch aggressor flamestorm photoscan 2023-06-11 (basing material)",
+          "Snap": false,
+          "Sticky": false,
+          "Tooltip": true,
+          "Transform": {
+            "posX": 0,
+            "posY": 0.129999995231628,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Value": 0,
+          "XmlUI": ""
+        }
+      ],
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1751306928490949523/6F35D34B8DBC7752FB157029295629EFB018EFC6/",
+        "Convex": true,
+        "CustomShader": {
+          "FresnelStrength": 0,
+          "SpecularColor": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "SpecularIntensity": 0,
+          "SpecularSharpness": 2
+        },
+        "DiffuseURL": "",
+        "MaterialIndex": 3,
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1751306928490949523/6F35D34B8DBC7752FB157029295629EFB018EFC6/",
+        "NormalURL": "",
+        "TypeIndex": 1
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": true,
+      "GridProjection": false,
+      "GUID": "da00cd",
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": true,
+      "Name": "Custom_Model",
+      "Nickname": "Blood Aggro Squad [b][00eeee]Q3[-] [Ffc125]D2[-][/b] [8hcok]",
+      "Snap": false,
+      "Sticky": false,
+      "Tags": [
+        "OPR_MAP",
+        "White"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": -9.49189186096191,
+        "posY": 0.960001111030579,
+        "posZ": -5.79713344573975,
+        "rotX": 6.91851309966296e-05,
+        "rotY": 180.000137329102,
+        "rotZ": -7.68136742408387e-05,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ChildObjects": [
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1750180373835528071/337710D75B8C8EF24710E08C2BA869A2D916C8A6/",
+            "Convex": true,
+            "CustomShader": {
+              "FresnelStrength": 0,
+              "SpecularColor": {
+                "a": 1,
+                "b": 1,
+                "g": 1,
+                "r": 1
+              },
+              "SpecularIntensity": 0,
+              "SpecularSharpness": 2
+            },
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/2024977803195702929/EE2D5D10ED1488221FB83937B57B6999C953C28C/",
+            "MaterialIndex": 3,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/2024977803195701753/1AC4299ED4CA12D2D1D7A91DBBA0CF3765131CE6/",
+            "NormalURL": "",
+            "TypeIndex": 1
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "f3db05",
+          "Hands": false,
+          "HideWhenFaceDown": false,
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": true,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "MeasureMovement": true,
+          "Name": "Custom_Model",
+          "Nickname": "deathwatch aggressor flamestorm photoscan 2023-06-11 (pauldron iconography)",
+          "Snap": false,
+          "Sticky": false,
+          "Tooltip": true,
+          "Transform": {
+            "posX": 0,
+            "posY": 0.129999995231628,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Value": 0,
+          "XmlUI": ""
+        },
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1750180373835528071/337710D75B8C8EF24710E08C2BA869A2D916C8A6/",
+            "Convex": true,
+            "CustomShader": {
+              "FresnelStrength": 0,
+              "SpecularColor": {
+                "a": 1,
+                "b": 1,
+                "g": 1,
+                "r": 1
+              },
+              "SpecularIntensity": 0,
+              "SpecularSharpness": 2
+            },
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/2024977803195698010/632D92172C6EE36A540989AFE9F5517AB7BA8C9B/",
+            "MaterialIndex": 3,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/2024977803195684738/14B3EDD2F7101F1F8665AB0A1129A166A8D03A81/",
+            "NormalURL": "",
+            "TypeIndex": 1
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "0fb435",
+          "Hands": false,
+          "HideWhenFaceDown": false,
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": true,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "MeasureMovement": true,
+          "Name": "Custom_Model",
+          "Nickname": "deathwatch aggressor flamestorm photoscan 2023-06-11 (model part)",
+          "Snap": false,
+          "Sticky": false,
+          "Tooltip": true,
+          "Transform": {
+            "posX": 0,
+            "posY": 0.129999995231628,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Value": 0,
+          "XmlUI": ""
+        },
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1750180373835528071/337710D75B8C8EF24710E08C2BA869A2D916C8A6/",
+            "Convex": true,
+            "CustomShader": {
+              "FresnelStrength": 0,
+              "SpecularColor": {
+                "a": 1,
+                "b": 1,
+                "g": 1,
+                "r": 1
+              },
+              "SpecularIntensity": 0,
+              "SpecularSharpness": 2
+            },
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/2024977803195700278/EEBC6AF6A17667328BD672E08A8954C26B64C90F/",
+            "MaterialIndex": 3,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/2024977803195699495/9E4A9174F5DDE16A8066DF0472C2CA10BCDA44C7/",
+            "NormalURL": "",
+            "TypeIndex": 1
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "8a934b",
+          "Hands": false,
+          "HideWhenFaceDown": false,
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": true,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "MeasureMovement": true,
+          "Name": "Custom_Model",
+          "Nickname": "deathwatch aggressor flamestorm photoscan 2023-06-11 (basing material)",
+          "Snap": false,
+          "Sticky": false,
+          "Tooltip": true,
+          "Transform": {
+            "posX": 0,
+            "posY": 0.129999995231628,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Value": 0,
+          "XmlUI": ""
+        }
+      ],
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1751306928490949523/6F35D34B8DBC7752FB157029295629EFB018EFC6/",
+        "Convex": true,
+        "CustomShader": {
+          "FresnelStrength": 0,
+          "SpecularColor": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "SpecularIntensity": 0,
+          "SpecularSharpness": 2
+        },
+        "DiffuseURL": "",
+        "MaterialIndex": 3,
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1751306928490949523/6F35D34B8DBC7752FB157029295629EFB018EFC6/",
+        "NormalURL": "",
+        "TypeIndex": 1
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": true,
+      "GridProjection": false,
+      "GUID": "bc26bb",
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": true,
+      "Name": "Custom_Model",
+      "Nickname": "Blood Aggro Squad [b][00eeee]Q3[-] [Ffc125]D2[-][/b] [8hcok]",
+      "Snap": false,
+      "Sticky": false,
+      "Tags": [
+        "OPR_MAP",
+        "White"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": -7.12968492507935,
+        "posY": 0.960001230239868,
+        "posZ": -5.79713582992554,
+        "rotX": 0.000110240202047862,
+        "rotY": 180.000137329102,
+        "rotZ": -8.82863751030527e-05,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0
+    }
+  ],
+  "Blood Eradication Squad [b][00eeee]Q3[-] [Ffc125]D2[-][/b] [JUTp4]": [
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 1,
+        "g": 1,
+        "r": 1
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/769481154129224734/FD9B5B517EC312815DE05C75E360C4E90D0B3A9A/",
+        "Convex": true,
+        "CustomShader": {
+          "FresnelStrength": 0,
+          "SpecularColor": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "SpecularIntensity": 0,
+          "SpecularSharpness": 2
+        },
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/1749066801653303846/CFD7A1C2AC09F37B981A78298D8DD3C0EC0FF626/",
+        "MaterialIndex": 3,
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1749066801656220768/422D790EF861B324112DF099098B3FB28D1A67EA/",
+        "NormalURL": "",
+        "TypeIndex": 1
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": true,
+      "GridProjection": false,
+      "GUID": "61c937",
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": true,
+      "Name": "Custom_Model",
+      "Nickname": "Blood Eradication Squad [b][00eeee]Q3[-] [Ffc125]D2[-][/b] [JUTp4]",
+      "Snap": true,
+      "Sticky": true,
+      "Tags": [
+        "OPR_MAP",
+        "White"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": 18.5235023498535,
+        "posY": 0.959999859333038,
+        "posZ": -5.79716444015503,
+        "rotX": 1.35511186272197e-07,
+        "rotY": 179.980239868164,
+        "rotZ": 4.07777882571736e-08,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 1,
+        "g": 1,
+        "r": 1
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/769481154129224734/FD9B5B517EC312815DE05C75E360C4E90D0B3A9A/",
+        "Convex": true,
+        "CustomShader": {
+          "FresnelStrength": 0,
+          "SpecularColor": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "SpecularIntensity": 0,
+          "SpecularSharpness": 2
+        },
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/1749066801653303846/CFD7A1C2AC09F37B981A78298D8DD3C0EC0FF626/",
+        "MaterialIndex": 3,
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1749066801656220768/422D790EF861B324112DF099098B3FB28D1A67EA/",
+        "NormalURL": "",
+        "TypeIndex": 1
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": true,
+      "GridProjection": false,
+      "GUID": "c9d1f2",
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": true,
+      "Name": "Custom_Model",
+      "Nickname": "Blood Eradication Squad [b][00eeee]Q3[-] [Ffc125]D2[-][/b] [JUTp4]",
+      "Snap": true,
+      "Sticky": true,
+      "Tags": [
+        "OPR_MAP",
+        "White"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": 20.885705947876,
+        "posY": 0.959999620914459,
+        "posZ": -5.79716682434082,
+        "rotX": -2.12156942325237e-06,
+        "rotY": 179.980239868164,
+        "rotZ": -2.37991386597969e-07,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 1,
+        "g": 1,
+        "r": 1
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/769481154129224734/FD9B5B517EC312815DE05C75E360C4E90D0B3A9A/",
+        "Convex": true,
+        "CustomShader": {
+          "FresnelStrength": 0,
+          "SpecularColor": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "SpecularIntensity": 0,
+          "SpecularSharpness": 2
+        },
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/1749066801653303846/CFD7A1C2AC09F37B981A78298D8DD3C0EC0FF626/",
+        "MaterialIndex": 3,
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1749066801656220768/422D790EF861B324112DF099098B3FB28D1A67EA/",
+        "NormalURL": "",
+        "TypeIndex": 1
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": true,
+      "GridProjection": false,
+      "GUID": "fcedf5",
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": true,
+      "Name": "Custom_Model",
+      "Nickname": "Blood Eradication Squad [b][00eeee]Q3[-] [Ffc125]D2[-][/b] [JUTp4]",
+      "Snap": true,
+      "Sticky": true,
+      "Tags": [
+        "OPR_MAP",
+        "White"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": 23.2479076385498,
+        "posY": 0.959999740123749,
+        "posZ": -5.79716968536377,
+        "rotX": 3.06176076492193e-07,
+        "rotY": 179.980239868164,
+        "rotZ": 3.45015649827474e-07,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0
+    }
+  ],
+  "Blood Heavy Prime Brothers [b][00eeee]Q3[-] [Ffc125]D2[-][/b] [4kZ59]": [
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ChildObjects": [
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1043093675414910691/A38AFE0E8955841404269A62127443886ED1BD53/",
+            "Convex": true,
+            "CustomShader": {
+              "FresnelStrength": 0.107142858207226,
+              "SpecularColor": {
+                "a": 1,
+                "b": 0.746323525905609,
+                "g": 0.812880337238312,
+                "r": 0.875
+              },
+              "SpecularIntensity": 0.0500000007450581,
+              "SpecularSharpness": 2
+            },
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/1192839234866726249/DE2A5E5A50351E8DBA07C7F5D278E236E670EDDA/",
+            "MaterialIndex": 1,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1043093675415147438/6B86F444AF4815CE6F0BBB1AEA644476B505AEEF/",
+            "NormalURL": "",
+            "TypeIndex": 1
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "0c94a1",
+          "Hands": false,
+          "HideWhenFaceDown": false,
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "MeasureMovement": false,
+          "Name": "Custom_Model",
+          "Nickname": "heavy interc heavy bolter",
+          "Snap": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "Transform": {
+            "posX": -1.36614107759669e-05,
+            "posY": -0.127393126487732,
+            "posZ": -4.22463926952332e-07,
+            "rotX": 0.000399827637011185,
+            "rotY": 270.018981933594,
+            "rotZ": -1.69996530985372e-06,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Value": 0,
+          "XmlUI": ""
+        }
+      ],
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 1,
+        "g": 1,
+        "r": 1
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1043093675414910691/A38AFE0E8955841404269A62127443886ED1BD53/",
+        "Convex": true,
+        "CustomShader": {
+          "FresnelStrength": 0,
+          "SpecularColor": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "SpecularIntensity": 0,
+          "SpecularSharpness": 2
+        },
+        "DiffuseURL": "https://i.imgur.com/JQehNWQ.jpghttps://i.imgur.com/JQehNWQ.jpg",
+        "MaterialIndex": 3,
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1774952891096929688/1C92626BCD619A74863DB9F01B69E6C276C5041D/",
+        "NormalURL": "",
+        "TypeIndex": 1
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": true,
+      "GridProjection": false,
+      "GUID": "7e5490",
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": true,
+      "Name": "Custom_Model",
+      "Nickname": "Blood Heavy Prime Brothers [b][00eeee]Q3[-] [Ffc125]D2[-][/b] [4kZ59]",
+      "Snap": true,
+      "Sticky": true,
+      "Tags": [
+        "OPR_MAP",
+        "White"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": 10.6558303833008,
+        "posY": 1.08739280700684,
+        "posZ": -5.79715538024902,
+        "rotX": -8.25120878289454e-06,
+        "rotY": 120.020492553711,
+        "rotZ": -0.000410953362006694,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ChildObjects": [
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1043093675414910691/A38AFE0E8955841404269A62127443886ED1BD53/",
+            "Convex": true,
+            "CustomShader": {
+              "FresnelStrength": 0.107142858207226,
+              "SpecularColor": {
+                "a": 1,
+                "b": 0.746323525905609,
+                "g": 0.812880337238312,
+                "r": 0.875
+              },
+              "SpecularIntensity": 0.0500000007450581,
+              "SpecularSharpness": 2
+            },
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/1192839234866726249/DE2A5E5A50351E8DBA07C7F5D278E236E670EDDA/",
+            "MaterialIndex": 1,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1043093675415147438/6B86F444AF4815CE6F0BBB1AEA644476B505AEEF/",
+            "NormalURL": "",
+            "TypeIndex": 1
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "0c94a1",
+          "Hands": false,
+          "HideWhenFaceDown": false,
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "MeasureMovement": false,
+          "Name": "Custom_Model",
+          "Nickname": "heavy interc heavy bolter",
+          "Snap": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "Transform": {
+            "posX": -1.36614107759669e-05,
+            "posY": -0.127393126487732,
+            "posZ": -4.22463926952332e-07,
+            "rotX": 0.000399827637011185,
+            "rotY": 270.018981933594,
+            "rotZ": -1.69996530985372e-06,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Value": 0,
+          "XmlUI": ""
+        }
+      ],
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 1,
+        "g": 1,
+        "r": 1
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1043093675414910691/A38AFE0E8955841404269A62127443886ED1BD53/",
+        "Convex": true,
+        "CustomShader": {
+          "FresnelStrength": 0,
+          "SpecularColor": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "SpecularIntensity": 0,
+          "SpecularSharpness": 2
+        },
+        "DiffuseURL": "https://i.imgur.com/JQehNWQ.jpghttps://i.imgur.com/JQehNWQ.jpg",
+        "MaterialIndex": 3,
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1774952891096929688/1C92626BCD619A74863DB9F01B69E6C276C5041D/",
+        "NormalURL": "",
+        "TypeIndex": 1
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": true,
+      "GridProjection": false,
+      "GUID": "bff878",
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": true,
+      "Name": "Custom_Model",
+      "Nickname": "Blood Heavy Prime Brothers [b][00eeee]Q3[-] [Ffc125]D2[-][/b] [4kZ59]",
+      "Snap": true,
+      "Sticky": true,
+      "Tags": [
+        "OPR_MAP",
+        "White"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": 13.0028991699219,
+        "posY": 1.0873931646347,
+        "posZ": -5.79715824127197,
+        "rotX": -1.95817136727783e-07,
+        "rotY": 120.020492553711,
+        "rotZ": -0.000394333939766511,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ChildObjects": [
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1043093675414910691/A38AFE0E8955841404269A62127443886ED1BD53/",
+            "Convex": true,
+            "CustomShader": {
+              "FresnelStrength": 0.107142858207226,
+              "SpecularColor": {
+                "a": 1,
+                "b": 0.746323525905609,
+                "g": 0.812880337238312,
+                "r": 0.875
+              },
+              "SpecularIntensity": 0.0500000007450581,
+              "SpecularSharpness": 2
+            },
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/1192839234866726249/DE2A5E5A50351E8DBA07C7F5D278E236E670EDDA/",
+            "MaterialIndex": 1,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1043093675415147438/6B86F444AF4815CE6F0BBB1AEA644476B505AEEF/",
+            "NormalURL": "",
+            "TypeIndex": 1
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "0c94a1",
+          "Hands": false,
+          "HideWhenFaceDown": false,
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "MeasureMovement": false,
+          "Name": "Custom_Model",
+          "Nickname": "heavy interc heavy bolter",
+          "Snap": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "Transform": {
+            "posX": -1.36614107759669e-05,
+            "posY": -0.127393126487732,
+            "posZ": -4.22463926952332e-07,
+            "rotX": 0.000399827637011185,
+            "rotY": 270.018981933594,
+            "rotZ": -1.69996530985372e-06,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Value": 0,
+          "XmlUI": ""
+        }
+      ],
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 1,
+        "g": 1,
+        "r": 1
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1043093675414910691/A38AFE0E8955841404269A62127443886ED1BD53/",
+        "Convex": true,
+        "CustomShader": {
+          "FresnelStrength": 0,
+          "SpecularColor": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "SpecularIntensity": 0,
+          "SpecularSharpness": 2
+        },
+        "DiffuseURL": "https://i.imgur.com/JQehNWQ.jpghttps://i.imgur.com/JQehNWQ.jpg",
+        "MaterialIndex": 3,
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1774952891096929688/1C92626BCD619A74863DB9F01B69E6C276C5041D/",
+        "NormalURL": "",
+        "TypeIndex": 1
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": true,
+      "GridProjection": false,
+      "GUID": "d3c6d2",
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": true,
+      "Name": "Custom_Model",
+      "Nickname": "Blood Heavy Prime Brothers [b][00eeee]Q3[-] [Ffc125]D2[-][/b] [4kZ59]",
+      "Snap": true,
+      "Sticky": true,
+      "Tags": [
+        "OPR_MAP",
+        "White"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": 15.349967956543,
+        "posY": 1.08739292621613,
+        "posZ": -5.79716110229492,
+        "rotX": -6.19897809883696e-06,
+        "rotY": 120.020492553711,
+        "rotZ": -0.000410497596021742,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0
+    }
+  ],
+  "Blood Hover Squad [b][00eeee]Q3[-] [Ffc125]D2[-][/b] [aynsJ]": [
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ChildObjects": [
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "CustomAssetbundle": {
+            "AssetbundleSecondaryURL": "",
+            "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/1796348738162758268/E44D5C7933D6B7660D5EDA64B79888644920FDD2/",
+            "LoopingEffectIndex": 0,
+            "MaterialIndex": 3,
+            "TypeIndex": 1
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "42ab10",
+          "Hands": false,
+          "HideWhenFaceDown": false,
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "MeasureMovement": false,
+          "Name": "Custom_Assetbundle",
+          "Nickname": "",
+          "Snap": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "Transform": {
+            "posX": -4.44114584752242e-06,
+            "posY": 0.12739622592926,
+            "posZ": 1.18720504360681e-06,
+            "rotX": 0.000585807720199227,
+            "rotY": 75.1569366455078,
+            "rotZ": -0.000154640438267961,
+            "scaleX": 0.949999988079071,
+            "scaleY": 0.950000047683716,
+            "scaleZ": 0.949999988079071
+          },
+          "Value": 0,
+          "XmlUI": ""
+        }
+      ],
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1043093675414910691/A38AFE0E8955841404269A62127443886ED1BD53/",
+        "Convex": true,
+        "CustomShader": {
+          "FresnelStrength": 0.107142858207226,
+          "SpecularColor": {
+            "a": 1,
+            "b": 0.746323525905609,
+            "g": 0.812880337238312,
+            "r": 0.875
+          },
+          "SpecularIntensity": 0.0500000007450581,
+          "SpecularSharpness": 2
+        },
+        "DiffuseURL": "",
+        "MaterialIndex": 1,
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1043093675415147438/6B86F444AF4815CE6F0BBB1AEA644476B505AEEF/",
+        "NormalURL": "",
+        "TypeIndex": 1
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": true,
+      "GridProjection": false,
+      "GUID": "c7381a",
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": true,
+      "Name": "Custom_Model",
+      "Nickname": "Blood Hover Squad [b][00eeee]Q3[-] [Ffc125]D2[-][/b] [aynsJ]",
+      "Snap": true,
+      "Sticky": true,
+      "Tags": [
+        "OPR_MAP",
+        "White"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": 2.77582907676697,
+        "posY": 0.959999918937683,
+        "posZ": -5.79714727401733,
+        "rotX": -1.16502508262784e-06,
+        "rotY": 0.00451816990971565,
+        "rotZ": 4.92795948048297e-07,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ChildObjects": [
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "CustomAssetbundle": {
+            "AssetbundleSecondaryURL": "",
+            "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/1796348738162758268/E44D5C7933D6B7660D5EDA64B79888644920FDD2/",
+            "LoopingEffectIndex": 0,
+            "MaterialIndex": 3,
+            "TypeIndex": 1
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "42ab10",
+          "Hands": false,
+          "HideWhenFaceDown": false,
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "MeasureMovement": false,
+          "Name": "Custom_Assetbundle",
+          "Nickname": "",
+          "Snap": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "Transform": {
+            "posX": -4.44114584752242e-06,
+            "posY": 0.12739622592926,
+            "posZ": 1.18720504360681e-06,
+            "rotX": 0.000585807720199227,
+            "rotY": 75.1569366455078,
+            "rotZ": -0.000154640438267961,
+            "scaleX": 0.949999988079071,
+            "scaleY": 0.950000047683716,
+            "scaleZ": 0.949999988079071
+          },
+          "Value": 0,
+          "XmlUI": ""
+        }
+      ],
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1043093675414910691/A38AFE0E8955841404269A62127443886ED1BD53/",
+        "Convex": true,
+        "CustomShader": {
+          "FresnelStrength": 0.107142858207226,
+          "SpecularColor": {
+            "a": 1,
+            "b": 0.746323525905609,
+            "g": 0.812880337238312,
+            "r": 0.875
+          },
+          "SpecularIntensity": 0.0500000007450581,
+          "SpecularSharpness": 2
+        },
+        "DiffuseURL": "",
+        "MaterialIndex": 1,
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1043093675415147438/6B86F444AF4815CE6F0BBB1AEA644476B505AEEF/",
+        "NormalURL": "",
+        "TypeIndex": 1
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": true,
+      "GridProjection": false,
+      "GUID": "76d2eb",
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": true,
+      "Name": "Custom_Model",
+      "Nickname": "Blood Hover Squad [b][00eeee]Q3[-] [Ffc125]D2[-][/b] [aynsJ]",
+      "Snap": true,
+      "Sticky": true,
+      "Tags": [
+        "OPR_MAP",
+        "White"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": 5.12783050537109,
+        "posY": 0.960001111030579,
+        "posZ": -5.79715013504028,
+        "rotX": -0.000117733376100659,
+        "rotY": 0.00451987748965621,
+        "rotZ": -2.47483731072862e-05,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ChildObjects": [
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "CustomAssetbundle": {
+            "AssetbundleSecondaryURL": "",
+            "AssetbundleURL": "http://cloud-3.steamusercontent.com/ugc/1796348738162758268/E44D5C7933D6B7660D5EDA64B79888644920FDD2/",
+            "LoopingEffectIndex": 0,
+            "MaterialIndex": 3,
+            "TypeIndex": 1
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "42ab10",
+          "Hands": false,
+          "HideWhenFaceDown": false,
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "MeasureMovement": false,
+          "Name": "Custom_Assetbundle",
+          "Nickname": "",
+          "Snap": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "Transform": {
+            "posX": -4.44114584752242e-06,
+            "posY": 0.12739622592926,
+            "posZ": 1.18720504360681e-06,
+            "rotX": 0.000585807720199227,
+            "rotY": 75.1569366455078,
+            "rotZ": -0.000154640438267961,
+            "scaleX": 0.949999988079071,
+            "scaleY": 0.950000047683716,
+            "scaleZ": 0.949999988079071
+          },
+          "Value": 0,
+          "XmlUI": ""
+        }
+      ],
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1043093675414910691/A38AFE0E8955841404269A62127443886ED1BD53/",
+        "Convex": true,
+        "CustomShader": {
+          "FresnelStrength": 0.107142858207226,
+          "SpecularColor": {
+            "a": 1,
+            "b": 0.746323525905609,
+            "g": 0.812880337238312,
+            "r": 0.875
+          },
+          "SpecularIntensity": 0.0500000007450581,
+          "SpecularSharpness": 2
+        },
+        "DiffuseURL": "",
+        "MaterialIndex": 1,
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1043093675415147438/6B86F444AF4815CE6F0BBB1AEA644476B505AEEF/",
+        "NormalURL": "",
+        "TypeIndex": 1
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": true,
+      "GridProjection": false,
+      "GUID": "afcc2b",
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": true,
+      "Name": "Custom_Model",
+      "Nickname": "Blood Hover Squad [b][00eeee]Q3[-] [Ffc125]D2[-][/b] [aynsJ]",
+      "Snap": true,
+      "Sticky": true,
+      "Tags": [
+        "OPR_MAP",
+        "White"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": 7.47982978820801,
+        "posY": 0.960002422332764,
+        "posZ": -5.79715251922607,
+        "rotX": -0.000174341344973072,
+        "rotY": 0.00451133958995342,
+        "rotZ": -0.000107252031739336,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0
+    }
+  ],
+  "Blood Infernal Squad [b][00eeee]Q3[-] [Ffc125]D2[-][/b] [wGR-Q]": [
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ChildObjects": [
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1750180373835528071/337710D75B8C8EF24710E08C2BA869A2D916C8A6/",
+            "Convex": true,
+            "CustomShader": {
+              "FresnelStrength": 0,
+              "SpecularColor": {
+                "a": 1,
+                "b": 1,
+                "g": 1,
+                "r": 1
+              },
+              "SpecularIntensity": 0,
+              "SpecularSharpness": 2
+            },
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/2018224307169351335/D042814B08DE8CDD291F50D93C3C949F3CBB6462/",
+            "MaterialIndex": 3,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/2018224307169349913/DC6806C27782598F68F34127C3669B9B34050182/",
+            "NormalURL": "",
+            "TypeIndex": 1
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "f45f80",
+          "Hands": false,
+          "HideWhenFaceDown": false,
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": true,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "MeasureMovement": true,
+          "Name": "Custom_Model",
+          "Nickname": "Infernus marines non-sarge, low-quality photoscan 2023-06-30 (higher quality photoscan possibly coming later)",
+          "Snap": false,
+          "Sticky": false,
+          "Tooltip": true,
+          "Transform": {
+            "posX": 0,
+            "posY": 0.129999995231628,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Value": 0,
+          "XmlUI": ""
+        }
+      ],
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1750180373835500024/860E82C9E02DBB67AA510CB8DBBF19EC29DE1D58/",
+        "Convex": true,
+        "CustomShader": {
+          "FresnelStrength": 0,
+          "SpecularColor": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "SpecularIntensity": 0,
+          "SpecularSharpness": 2
+        },
+        "DiffuseURL": "",
+        "MaterialIndex": 3,
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1750180373835500024/860E82C9E02DBB67AA510CB8DBBF19EC29DE1D58/",
+        "NormalURL": "",
+        "TypeIndex": 1
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": true,
+      "GridProjection": false,
+      "GUID": "3bf6d9",
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": true,
+      "Name": "Custom_Model",
+      "Nickname": "Blood Infernal Squad [b][00eeee]Q3[-] [Ffc125]D2[-][/b] [wGR-Q]",
+      "Snap": false,
+      "Sticky": false,
+      "Tags": [
+        "OPR_MAP",
+        "White"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": 26.4290103912354,
+        "posY": 0.960000157356262,
+        "posZ": -5.79717302322388,
+        "rotX": 2.96487812079249e-08,
+        "rotY": 105.000122070313,
+        "rotZ": 2.53908325476004e-07,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ChildObjects": [
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1750180373835528071/337710D75B8C8EF24710E08C2BA869A2D916C8A6/",
+            "Convex": true,
+            "CustomShader": {
+              "FresnelStrength": 0,
+              "SpecularColor": {
+                "a": 1,
+                "b": 1,
+                "g": 1,
+                "r": 1
+              },
+              "SpecularIntensity": 0,
+              "SpecularSharpness": 2
+            },
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/2018224307169351335/D042814B08DE8CDD291F50D93C3C949F3CBB6462/",
+            "MaterialIndex": 3,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/2018224307169349913/DC6806C27782598F68F34127C3669B9B34050182/",
+            "NormalURL": "",
+            "TypeIndex": 1
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "f45f80",
+          "Hands": false,
+          "HideWhenFaceDown": false,
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": true,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "MeasureMovement": true,
+          "Name": "Custom_Model",
+          "Nickname": "Infernus marines non-sarge, low-quality photoscan 2023-06-30 (higher quality photoscan possibly coming later)",
+          "Snap": false,
+          "Sticky": false,
+          "Tooltip": true,
+          "Transform": {
+            "posX": 0,
+            "posY": 0.129999995231628,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Value": 0,
+          "XmlUI": ""
+        }
+      ],
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1750180373835500024/860E82C9E02DBB67AA510CB8DBBF19EC29DE1D58/",
+        "Convex": true,
+        "CustomShader": {
+          "FresnelStrength": 0,
+          "SpecularColor": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "SpecularIntensity": 0,
+          "SpecularSharpness": 2
+        },
+        "DiffuseURL": "",
+        "MaterialIndex": 3,
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1750180373835500024/860E82C9E02DBB67AA510CB8DBBF19EC29DE1D58/",
+        "NormalURL": "",
+        "TypeIndex": 1
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": true,
+      "GridProjection": false,
+      "GUID": "3eb360",
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": true,
+      "Name": "Custom_Model",
+      "Nickname": "Blood Infernal Squad [b][00eeee]Q3[-] [Ffc125]D2[-][/b] [wGR-Q]",
+      "Snap": false,
+      "Sticky": false,
+      "Tags": [
+        "OPR_MAP",
+        "White"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": 27.7255363464355,
+        "posY": 0.987300395965576,
+        "posZ": -5.7668890953064,
+        "rotX": 357.449340820313,
+        "rotY": 107.865463256836,
+        "rotZ": 359.161987304688,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ChildObjects": [
+        {
+          "AltLookAngle": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Autoraise": true,
+          "ColorDiffuse": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "CustomMesh": {
+            "CastShadows": true,
+            "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1750180373835528071/337710D75B8C8EF24710E08C2BA869A2D916C8A6/",
+            "Convex": true,
+            "CustomShader": {
+              "FresnelStrength": 0,
+              "SpecularColor": {
+                "a": 1,
+                "b": 1,
+                "g": 1,
+                "r": 1
+              },
+              "SpecularIntensity": 0,
+              "SpecularSharpness": 2
+            },
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/2018224307169351335/D042814B08DE8CDD291F50D93C3C949F3CBB6462/",
+            "MaterialIndex": 3,
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/2018224307169349913/DC6806C27782598F68F34127C3669B9B34050182/",
+            "NormalURL": "",
+            "TypeIndex": 1
+          },
+          "Description": "",
+          "DragSelectable": true,
+          "GMNotes": "",
+          "Grid": true,
+          "GridProjection": false,
+          "GUID": "f45f80",
+          "Hands": false,
+          "HideWhenFaceDown": false,
+          "IgnoreFoW": false,
+          "LayoutGroupSortIndex": 0,
+          "Locked": true,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "MeasureMovement": true,
+          "Name": "Custom_Model",
+          "Nickname": "Infernus marines non-sarge, low-quality photoscan 2023-06-30 (higher quality photoscan possibly coming later)",
+          "Snap": false,
+          "Sticky": false,
+          "Tooltip": true,
+          "Transform": {
+            "posX": 0,
+            "posY": 0.129999995231628,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Value": 0,
+          "XmlUI": ""
+        }
+      ],
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1750180373835500024/860E82C9E02DBB67AA510CB8DBBF19EC29DE1D58/",
+        "Convex": true,
+        "CustomShader": {
+          "FresnelStrength": 0,
+          "SpecularColor": {
+            "a": 1,
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "SpecularIntensity": 0,
+          "SpecularSharpness": 2
+        },
+        "DiffuseURL": "",
+        "MaterialIndex": 3,
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1750180373835500024/860E82C9E02DBB67AA510CB8DBBF19EC29DE1D58/",
+        "NormalURL": "",
+        "TypeIndex": 1
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": true,
+      "GridProjection": false,
+      "GUID": "763335",
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": true,
+      "Name": "Custom_Model",
+      "Nickname": "Blood Infernal Squad [b][00eeee]Q3[-] [Ffc125]D2[-][/b] [wGR-Q]",
+      "Snap": false,
+      "Sticky": false,
+      "Tags": [
+        "OPR_MAP",
+        "White"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": 30.1839637756348,
+        "posY": 3.62151861190796,
+        "posZ": -5.75515079498291,
+        "rotX": -0.000687494699377567,
+        "rotY": 105.008255004883,
+        "rotZ": 0.00113036914262921,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0
+    }
+  ],
+  "Blood Jetpack Squad [b][00eeee]Q3[-] [Ffc125]D2[-][/b] [aQHAc]": [
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 0.999999821186066,
+        "g": 0.992160260677338,
+        "r": 0.999999821186066
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://pastebin.com/raw.php?i=KAeNs1LY",
+        "Convex": true,
+        "DiffuseURL": "http://i.imgur.com/jtMBr0f.jpg",
+        "MaterialIndex": 3,
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/80340029171207772/9BC4D0C18C5463AEED1C254F8E95F6D1FD4C32E3/",
+        "NormalURL": "",
+        "TypeIndex": 0
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": true,
+      "GridProjection": false,
+      "GUID": "f013ef",
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": true,
+      "Name": "Custom_Model",
+      "Nickname": "Blood Jetpack Squad [b][00eeee]Q3[-] [Ffc125]D2[-][/b] [aQHAc]",
+      "Snap": true,
+      "Sticky": true,
+      "Tags": [
+        "OPR_MAP",
+        "White"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": -3.94858169555664,
+        "posY": 0.974351823329926,
+        "posZ": -5.79713916778564,
+        "rotX": 9.01279690879164e-06,
+        "rotY": 180.021194458008,
+        "rotZ": 6.53457937005442e-06,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 0.999999821186066,
+        "g": 0.992160260677338,
+        "r": 0.999999821186066
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://pastebin.com/raw.php?i=KAeNs1LY",
+        "Convex": true,
+        "DiffuseURL": "http://i.imgur.com/jtMBr0f.jpg",
+        "MaterialIndex": 3,
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/80340029171207772/9BC4D0C18C5463AEED1C254F8E95F6D1FD4C32E3/",
+        "NormalURL": "",
+        "TypeIndex": 0
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": true,
+      "GridProjection": false,
+      "GUID": "662388",
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": true,
+      "Name": "Custom_Model",
+      "Nickname": "Blood Jetpack Squad [b][00eeee]Q3[-] [Ffc125]D2[-][/b] [aQHAc]",
+      "Snap": true,
+      "Sticky": true,
+      "Tags": [
+        "OPR_MAP",
+        "White"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": -2.05881786346436,
+        "posY": 0.974351465702057,
+        "posZ": -5.79714155197144,
+        "rotX": -4.84252814203501e-05,
+        "rotY": 180.021194458008,
+        "rotZ": -3.78993572667241e-05,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "a": 1,
+        "b": 0.999999821186066,
+        "g": 0.992160260677338,
+        "r": 0.999999821186066
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "http://pastebin.com/raw.php?i=KAeNs1LY",
+        "Convex": true,
+        "DiffuseURL": "http://i.imgur.com/jtMBr0f.jpg",
+        "MaterialIndex": 3,
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/80340029171207772/9BC4D0C18C5463AEED1C254F8E95F6D1FD4C32E3/",
+        "NormalURL": "",
+        "TypeIndex": 0
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "Grid": true,
+      "GridProjection": false,
+      "GUID": "5d724f",
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "MeasureMovement": true,
+      "Name": "Custom_Model",
+      "Nickname": "Blood Jetpack Squad [b][00eeee]Q3[-] [Ffc125]D2[-][/b] [aQHAc]",
+      "Snap": true,
+      "Sticky": true,
+      "Tags": [
+        "OPR_MAP",
+        "White"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": -0.16905303299427,
+        "posY": 0.974351823329926,
+        "posZ": -5.79714345932007,
+        "rotX": 2.35866764342063e-06,
+        "rotY": 180.021194458008,
+        "rotZ": -3.78095478481555e-06,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0
     }
   ]
 }
